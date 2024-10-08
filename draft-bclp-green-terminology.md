@@ -191,7 +191,7 @@ Metric for DSLAM, MSAM(multiservice access node) GPON GEPON equipment:
 Equipment with line cards working at different profiles/states shall be characterized with different
 metric values for each specific profile/state.
 
-                          Pport=Peq/Nports[W/port]
+                          Pport = Peq/Nports[W/port]
 
 Where Peq is the power (in watts) of a fully equipped wireline network equipment with all its line cards
 working in a specific profile/state.
@@ -200,7 +200,7 @@ Metric for wireless access technologies
 
 The proposed energy efficiency metric at RF unit level is:
 
-                         EErfu= Eoutput/Erfu
+                         EErfu = Eoutput/Erfu
 
 Where Eoutput is daily RF output energy consumption [Wh] under different load
 Erfu is daily RF units energy consumption [Wh] under different load.
@@ -209,7 +209,7 @@ Metric for routers and Ethernet switches
 
 The proposed metric for router and Ethernet switches is:
 
-                        EER=Ti/Pw [Mbit/s/W]
+                        EER = Ti/Pw [Mbit/s/W]
 
 Where Ti is weighted throughput, Pw is is weighted power (energy consumption rate)
 
@@ -217,7 +217,7 @@ Metric for small network devices
 
 The metrics adopted for small networking devices intended for home/domestic or small office use is
 
- EER=0.35Tidle+0.5Tlowpower+0.15TMaximum/0.35Pidle+0.5Plowpower_0.15Pmaximum (Mbit/s/W)
+ EER = (0.35Tidle+0.5Tlowpower+0.15TMaximum)/(0.35Pidle+0.5Plowpower_0.15Pmaximum) (Mbit/s/W)
 
 Where throughput is maximum non drop data rate beween wide area Network and
 local area network kport in the ingress direction;
@@ -227,14 +227,14 @@ During idle power,IP pings shall be sent via the user interface.
 
 Metric for power equipment
 
-                               δ=Po/Pi
+                               δ = Po/Pi
 
 Where Po is output power, Pi is input power. This energy efficiency value is
 measured or calculated from the testing data over specified time period.
 
 Metric for cooling equipment
 
-                              η=Qt/Pi
+                              η = Qt/Pi
 
 Where η is the energy efficiency of the air conditioner
 Pi is the input power, Qt is the sum of the sensible cooling capacity and the
