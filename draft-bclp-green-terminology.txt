@@ -191,24 +191,28 @@ Table of Contents
    (ICT) goods, networks and services.  It provides specific guidance on
    energy and greenhouse gas (GHG) impacts.
 
-   ETSI TCEE ETSI Technical Committee (TC) Environment Engineering (EE)
-   is working together with ITU-T SG5 to develop technically aligned
-   standards on energy efficiency and environment aspect.  These
-   standards include energy efficiency, power feeding solution, circular
-   economy and network efficiency KPI and eco-design requirement for
-   ICT, with the aim to build an international eco-environmental
-   standardization.  ETSI ES 203 106 defines the energy consumption
-   metrics and measurement methods for router and Ethernet switch
-   equipment.  It specifies the methodology and the test conditions to
-   measure the power consumption of router and switch equipment and is
-   also applicable to Core, edge and access routers.
+   ETSI TCEE
 
-   3GPP SA5 3GPP SA5 has, in Release 17, extended its scope from RAN
-   only to the whole 5G system and worked on Energy Efficiency (EE) and
-   Energy saving (ES) of mobile networks.  EE Key Performance Indicators
-   (KPI) have been defined for the 5G core network and network slices.
-   As for RAN, their Energy Efficiency is defined by their performance
-   divided by their Energy Consumption (EC), where the definition of the
+   ETSI Technical Committee (TC) Environment Engineering (EE) is working
+   together with ITU-T SG5 to develop technically aligned standards on
+   energy efficiency and environment aspect.  These standards include
+   energy efficiency, power feeding solution, circular economy and
+   network efficiency KPI and eco-design requirement for ICT, with the
+   aim to build an international eco-environmental standardization.
+   ETSI ES 203 106 defines the energy consumption metrics and
+   measurement methods for router and Ethernet switch equipment.  It
+   specifies the methodology and the test conditions to measure the
+   power consumption of router and switch equipment and is also
+   applicable to Core, edge and access routers.
+
+   3GPP SA5
+
+   3GPP SA5 has, in Release 17, extended its scope from RAN only to the
+   whole 5G system and worked on Energy Efficiency (EE) and Energy
+   saving (ES) of mobile networks.  EE Key Performance Indicators (KPI)
+   have been defined for the 5G core network and network slices.  As for
+   RAN, their Energy Efficiency is defined by their performance divided
+   by their Energy Consumption (EC), where the definition of the
    performance depends on the type of network entity it applies to.
    From this, SA5 work aimed at defining the best metrics for each of
    them, and their measurement method.  During Rel-18, WG SA5 works with
