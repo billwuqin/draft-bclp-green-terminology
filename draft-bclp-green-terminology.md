@@ -106,34 +106,35 @@ an RFC.  Some of the definitions in this document come from many earlier IETF do
 come from documents beyond the IETF.
 
 # Terms and Definitions
-
+{::boilerplate bcp14-tagged}
 The following terms are defined in this document:
-Energy Efficiency
-   The concept of energy efficiency refers to the ability to use available of energy to achieve a specific benefit
+
+Energy Efficiency:
+:   The concept of energy efficiency refers to the ability to use available of energy to achieve a specific benefit
 in a resource conserved manner and at low cost. The energy efficiency is ratio between the useful output and input
 of an energy conversion process of network devices.
 
-Energy Efficiency metrics
-   A set of metrics that are used for evaluation of energy consumption and network performance characterize the
+Energy Efficiency metrics:
+:   A set of metrics that are used for evaluation of energy consumption and network performance characterize the
 effectiveness of energy management strategy.
 
-Energy Efficiency Ratio
-The ratio of total throughput (system capacity) to the total power consumed (bits/Joule). It is the throughput forwarded
+Energy Efficiency Ratio:
+:  The ratio of total throughput (system capacity) to the total power consumed (bits/Joule). It is the throughput forwarded
 by 1 watt and it is introduced in {{?I-D.cprjgf-bmwg-powerbench}}.  A higher EER corresponds to a better the energy efficiency.
 
-Power Usage Effectiveness
-The metric used to measure data center energy efficiency. It is calculated by the ratio between the total energy
+Power Usage Effectiveness:
+:  The metric used to measure data center energy efficiency. It is calculated by the ratio between the total energy
 consumed by the data center and the energy needed for IT equipment.
 
-Network level Energy Efficiency
-Network level metrics are used to evaluate the energy efficiency of an entire network or part of it.
+Network level Energy Efficiency:
+:  Network level metrics are used to evaluate the energy efficiency of an entire network or part of it.
 
-Device level Energy Efficiency
-Equipment/system level metrics are mostly used to compare Network equipment of the same functionality and place in
+Device level Energy Efficiency:
+:  Equipment/system level metrics are mostly used to compare Network equipment of the same functionality and place in
 a network. They evaluate the overall energy efficiency performance at the equipment/system level
 
-Component Level Energy Efficiency
-Component-level metrics can be used in the design, development and manufacture of energy efficient equipment. They
+Component Level Energy Efficiency:
+:  Component-level metrics can be used in the design, development and manufacture of energy efficient equipment. They
 regard equipment as an "open box" and evaluate the energy efficiency performance of its individual components.
 Measuring and understanding the energy efficiency or energy consumption of each component within the equipment
 helps to identify the “hot spots” and key components in a system with regard to energy saving.
@@ -183,39 +184,56 @@ energy saving scenarios are also investigated.
 
 ## Energy efficiency Metrics and Measurement Method
 
-Metric for DSLAM, MSAM(multiservice access node) GPON GEPON equipment
+Metric for DSLAM, MSAM(multiservice access node) GPON GEPON equipment:
+
 Equipment with line cards working at different profiles/states shall be characterized with different
 metric values for each specific profile/state.
+
 Pport=Peq/Nports[W/port]
-Where Peq is the power (in watts) of a fully equipped wireline network equipment with all its line cards working in a specific profile/state.
+
+Where Peq is the power (in watts) of a fully equipped wireline network equipment with all its line cards
+working in a specific profile/state.
 
 Metric for wireless access technologies
+
 The proposed energy efficiency metric at RF unit level is:
+
 EErfu= Eoutput/Erfu
+
 Where Eoutput is daily RF output energy consumption [Wh] under different load
 Erfu is daily RF units energy consumption [Wh] under different load.
 
 Metric for routers and Ethernet switches
+
 The proposed metric for router and Ethernet switches is:
+
  EER=Ti/Pw [Mbit/s/W]
+ 
 Where Ti is weighted throughput, Pw is is weighted power (energy consumption rate)
 
 Metric for small network devices
+
 The metrics adopted for small networking devices intended for home/domestic or small office use is
+
  EER=0.35Tidle+0.5Tlowpower+0.15TMaximum/0.35Pidle+0.5Plowpower_0.15Pmaximum (Mbit/s/W)
+
 Where throughput is maximum non drop data rate beween wide area Network and
 local area network kport in the ingress direction;
 Line rate/speed is maximum possible number of transmitted/received bits.
-Power shall be averaged over 5 minutes, taking measurements every 30 seconds. During idle power,
-IP pings shall be sent via the user interface.
+Power shall be averaged over 5 minutes, taking measurements every 30 seconds. 
+During idle power,IP pings shall be sent via the user interface.
 
 Metric for power equipment
+
 δ=Po/Pi
+
 where Po is output power, Pi is input power. This energy efficiency value is
 measured or calculated from the testing data over specified time period.
 
 Metric for cooling equipment
+
 η=Qt/Pi
+
 where η is the energy efficiency of the air conditioner
 Pi is the input power, Qt is the sum of the sensible cooling capacity and the
 latent cooling capacity.
@@ -223,7 +241,6 @@ latent cooling capacity.
 # Security Considerations
 
 Security is not discussed in this document.
-
 
 --- back
 
