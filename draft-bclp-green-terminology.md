@@ -26,6 +26,10 @@ author:
     organization: Huawei
     email: bill.wu@huawei.com
  -
+    fullname: Marisol Palmero
+    organization: Cisco
+    email: mpalmero@cisco.com
+ -
     fullname: Mohamed Boucadair
     organization: Orange
     email: mohamed.boucadair@orange.com
@@ -33,10 +37,6 @@ author:
     fullname: Luis M. Contreras
     organization: Telefonica
     email: luismiguel.contrerasmurillo@telefonica.com
- -
-    fullname: Marisol Palmero
-    organization: Cisco
-    email: mpalmero@cisco.com
 
 normative:
 
