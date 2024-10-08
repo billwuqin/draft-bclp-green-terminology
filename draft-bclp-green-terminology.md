@@ -47,32 +47,32 @@ informative:
    target: https://www.etsi.org/deliver/etsi_es/203100_203199/203136/01.02.00_50/es_203136v010200m.pdf
    date: 2017
 
-  L.1310:
+ L.1310:
    title: Energy efficiency metrics and measurement methods for telecommunication equipment
    target: https://www.itu.int/rec/T-REC-L.1310-202409-P
    date: 2024
 
-  L.1315:
+ L.1315:
    title: Standardization terms and trends in energy efficiency
    target: https://www.itu.int/rec/T-REC-L.1315-201705-I
    date: 2017
 
-  L.1316:
+ L.1316:
    title: Energy efficiency framework
    target: https://www.itu.int/rec/T-REC-L.1316-201911-I
    date: 2019
 
-  L.1320:
+ L.1320:
    title: Energy efficiency metrics and measurement for power and cooling equipment for telecommunications and data centres
    target: https://www.itu.int/rec/T-REC-L.1320-201403-I
    date: 2014
 
-  L.1331:
+ L.1331:
    title: Assessment of mobile network energy efficiency
    target: https://www.itu.int/rec/T-REC-L.1331-202009-S
    date: 2020
 
-  L.1410:
+ L.1410:
    title: Methodology for environmental life cycle assessments of information and communication technology goods, networks and services
    target: https://www.itu.int/rec/T-REC-L.1410-201412-I
    date: 2014
