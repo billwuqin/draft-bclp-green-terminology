@@ -81,6 +81,7 @@ Table of Contents
      3.2.  Energy efficiency Metrics and Measurement Method
    4.  Security Considerations
    5.  IANA Considerations
+   6.  Informative References
    Acknowledgments
    Authors' Addresses
 
@@ -126,9 +127,9 @@ Table of Contents
 
    Energy Efficiency Ratio The ratio of total throughput (system
    capacity) to the total power consumed (bits/Joule).  It is the
-   throughput forwarded by 1 watt and it is introduced in [ETSI-ES-
-   203-136].  A higher EER corresponds to a better the energy
-   efficiency.
+   throughput forwarded by 1 watt and it is introduced in
+   [I-D.cprjgf-bmwg-powerbench].  A higher EER corresponds to a better
+   the energy efficiency.
 
    Power Usage Effectiveness The metric used to measure data center
    energy efficiency.  It is calculated by the ratio between the total
@@ -241,6 +242,46 @@ Table of Contents
 5.  IANA Considerations
 
    This document has no IANA actions.
+
+6.  Informative References
+
+   [ETSI-ES-203-136]
+              "Environmental Engineering (EE); Measurement methods for
+              energy efficiency of router and switch equipment", 2017,
+              <https://www.etsi.org/deliver/
+              etsi_es/203100_203199/203136/01.02.00_50/
+              es_203136v010200m.pdf>.
+
+   [I-D.cprjgf-bmwg-powerbench]
+              Pignataro, C., Jacob, R., Fioccola, G., and Q. Wu,
+              "Characterization and Benchmarking Methodology for Power
+              in Networking Devices", Work in Progress, Internet-Draft,
+              draft-cprjgf-bmwg-powerbench-02, 6 July 2024,
+              <https://datatracker.ietf.org/doc/html/draft-cprjgf-bmwg-
+              powerbench-02>.
+
+   [L.1310]   "Energy efficiency metrics and measurement methods for
+              telecommunication equipment", 2024,
+              <https://www.itu.int/rec/T-REC-L.1310-202409-P>.
+
+   [L.1315]   "Standardization terms and trends in energy efficiency",
+              2017, <https://www.itu.int/rec/T-REC-L.1315-201705-I>.
+
+   [L.1316]   "Energy efficiency framework", 2019,
+              <https://www.itu.int/rec/T-REC-L.1316-201911-I>.
+
+   [L.1320]   "Energy efficiency metrics and measurement for power and
+              cooling equipment for telecommunications and data
+              centres", 2014,
+              <https://www.itu.int/rec/T-REC-L.1320-201403-I>.
+
+   [L.1331]   "Assessment of mobile network energy efficiency", 2020,
+              <https://www.itu.int/rec/T-REC-L.1331-202009-S>.
+
+   [L.1410]   "Methodology for environmental life cycle assessments of
+              information and communication technology goods, networks
+              and services", 2014,
+              <https://www.itu.int/rec/T-REC-L.1410-201412-I>.
 
 Acknowledgments
 
