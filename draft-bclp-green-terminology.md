@@ -107,8 +107,6 @@ come from documents beyond the IETF.
 
 # Terms and Definitions
 
-{::boilerplate bcp14-tagged}
-
 The following terms are defined in this document:
 
 Energy Efficiency:
