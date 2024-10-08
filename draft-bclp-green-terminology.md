@@ -164,6 +164,7 @@ specific guidance on energy and greenhouse gas (GHG) impacts.
 
 
 ETSI TCEE
+
 ETSI Technical Committee (TC) Environment Engineering (EE) is working together with ITU-T SG5 to develop technically
 aligned standards on energy efficiency and environment aspect. These standards include energy efficiency, power
 feeding solution, circular economy and network efficiency KPI and eco-design requirement for ICT, with the aim to
@@ -173,6 +174,7 @@ measure the power consumption of router and switch equipment and is also applica
 
 
 3GPP SA5
+
 3GPP SA5 has, in Release 17, extended its scope from RAN only to the whole 5G system and worked on Energy Efficiency
 (EE) and Energy saving (ES) of mobile networks. EE Key Performance Indicators (KPI) have been defined for the 5G core
 network and network slices.
