@@ -40,7 +40,7 @@ author:
     fullname: Luis M. Contreras
     organization: Telefonica
     email: luismiguel.contrerasmurillo@telefonica.com
-  
+
 normative:
 
 informative:
@@ -49,7 +49,7 @@ informative:
 --- abstract
 
 Energy efficient network management involves deploying and managing network infrastructures to optimize energy
-use on network devices while improving overall network utilization. 
+use on network devices while improving overall network utilization.
 
 This document provides a glossary of terms used in the IETF when discussing energy efficiency Network management.
 The purpose is to help frame discussions of energy efficiency in the various areas of the IETF and to help
