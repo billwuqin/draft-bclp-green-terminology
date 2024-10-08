@@ -33,6 +33,10 @@ author:
     fullname: Luis M. Contreras
     organization: Telefonica
     email: luismiguel.contrerasmurillo@telefonica.com
+ -
+    fullname: Marisol Palmero
+    organization: Cisco
+    email: mpalmero@cisco.com
 
 normative:
 
