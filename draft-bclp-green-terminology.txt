@@ -238,7 +238,7 @@ Table of Contents
    network equipment with all its line cards working in a specific
    profile/state.
 
-   Metric for wireless access technologies
+   Metric for wireless access technologies:
 
    The proposed energy efficiency metric at RF unit level is:
 
@@ -248,7 +248,7 @@ Table of Contents
    different load Erfu is daily RF units energy consumption [Wh] under
    different load.
 
-   Metric for routers and Ethernet switches
+   Metric for routers and Ethernet switches:
 
    The proposed metric for router and Ethernet switches is:
 
@@ -257,7 +257,7 @@ Table of Contents
    Where Ti is weighted throughput, Pw is is weighted power (energy
    consumption rate)
 
-   Metric for small network devices
+   Metric for small network devices:
 
    The metrics adopted for small networking devices intended for home/
    domestic or small office use is
@@ -272,7 +272,7 @@ Table of Contents
    seconds.  During idle power,IP pings shall be sent via the user
    interface.
 
-   Metric for power equipment
+   Metric for power equipment:
 
                               δ = Po/Pi
 
@@ -280,7 +280,7 @@ Table of Contents
    value is measured or calculated from the testing data over specified
    time period.
 
-   Metric for cooling equipment
+   Metric for cooling equipment:
 
                              η = Qt/Pi
 
