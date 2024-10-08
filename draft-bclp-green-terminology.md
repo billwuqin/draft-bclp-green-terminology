@@ -40,8 +40,6 @@ author:
 
 normative:
 
-informative:
-
  ETSI-ES-203-136:
    title: Environmental Engineering (EE); Measurement methods for energy efficiency of router and switch equipment
    target: https://www.etsi.org/deliver/etsi_es/203100_203199/203136/01.02.00_50/es_203136v010200m.pdf
@@ -185,21 +183,31 @@ energy saving scenarios are also investigated.
 
 ## Energy efficiency Metrics and Measurement Method
 
+Metric for DSLAM, MSAM(multiservice access node) GPON GEPON equipment
+Equipment with line cards working at different profiles/states shall be characterized with different
+metric values for each specific profile/state.
+Pport=Peq/Nports[W/port]
+Where Peq is the power (in watts) of a fully equipped wireline network equipment with all its line cards working in a specific profile/state.
+
 Metric for wireless access technologies
-EERFU= Eoutput/ERPU
-Where Eoutput is daily RF output energy consumption under different load
-ERFU is daily RF units energy consumption under different load.
+The proposed energy efficiency metric at RF unit level is:
+EErfu= Eoutput/Erfu
+Where Eoutput is daily RF output energy consumption [Wh] under different load
+Erfu is daily RF units energy consumption [Wh] under different load.
 
 Metric for routers and Ethernet switches
+The proposed metric for router and Ethernet switches is:
  EER=Ti/Pw [Mbit/s/W]
-Where Ti is NDR throughput, Pw is weighted power
+Where Ti is weighted throughput, Pw is is weighted power (energy consumption rate)
 
 Metric for small network devices
- EER=0.35Tidle+0.5Tlowpower+-.15TMaximum/
-     0.35Pidle+0.5Plowpower_0.15Pmaximum
+The metrics adopted for small networking devices intended for home/domestic or small office use is
+ EER=0.35Tidle+0.5Tlowpower+0.15TMaximum/0.35Pidle+0.5Plowpower_0.15Pmaximum (Mbit/s/W)
 Where throughput is maximum non drop data rate beween wide area Network and
 local area network kport in the ingress direction;
 Line rate/speed is maximum possible number of transmitted/received bits.
+Power shall be averaged over 5 minutes, taking measurements every 30 seconds. During idle power,
+IP pings shall be sent via the user interface.
 
 Metric for power equipment
 δ=Po/Pi
@@ -208,18 +216,13 @@ measured or calculated from the testing data over specified time period.
 
 Metric for cooling equipment
 η=Qt/Pi
-whereηis the energy efficiency of the air conditioner
-Pi is the input power,Qt is the sum of the sensible cooling capacity and the
+where η is the energy efficiency of the air conditioner
+Pi is the input power, Qt is the sum of the sensible cooling capacity and the
 latent cooling capacity.
 
 # Security Considerations
 
-TODO Security
-
-
-# IANA Considerations
-
-This document has no IANA actions.
+Security is not discussed in this document.
 
 
 --- back
