@@ -225,14 +225,14 @@ During idle power,IP pings shall be sent via the user interface.
 
 Metric for power equipment
 
-                       δ=Po/Pi
+                               δ=Po/Pi
 
 Where Po is output power, Pi is input power. This energy efficiency value is
 measured or calculated from the testing data over specified time period.
 
 Metric for cooling equipment
 
-                       η=Qt/Pi
+                              η=Qt/Pi
 
 Where η is the energy efficiency of the air conditioner
 Pi is the input power, Qt is the sum of the sensible cooling capacity and the
