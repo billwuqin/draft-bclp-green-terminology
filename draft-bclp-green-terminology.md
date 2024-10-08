@@ -208,7 +208,7 @@ Metric for routers and Ethernet switches
 The proposed metric for router and Ethernet switches is:
 
  EER=Ti/Pw [Mbit/s/W]
- 
+
 Where Ti is weighted throughput, Pw is is weighted power (energy consumption rate)
 
 Metric for small network devices
@@ -220,7 +220,7 @@ The metrics adopted for small networking devices intended for home/domestic or s
 Where throughput is maximum non drop data rate beween wide area Network and
 local area network kport in the ingress direction;
 Line rate/speed is maximum possible number of transmitted/received bits.
-Power shall be averaged over 5 minutes, taking measurements every 30 seconds. 
+Power shall be averaged over 5 minutes, taking measurements every 30 seconds.
 During idle power,IP pings shall be sent via the user interface.
 
 Metric for power equipment
