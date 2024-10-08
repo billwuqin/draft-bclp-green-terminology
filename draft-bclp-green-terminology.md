@@ -77,12 +77,14 @@ normative:
 
 --- abstract
 
-Energy efficient network management involves deploying and managing network infrastructures to optimize energy
-use on network devices while improving overall network utilization.
+Energy efficient network management is primary meant to enhance conventional
+network management with energy-related management capabilities
+to optimize the overall energy consumption at the level of a network. To that aim,
+specific features and capabilities are required to control (and thus optimize)
+the energy use of involved network devices, and their components.
 
-This document provides a glossary of terms used in the IETF when discussing energy efficiency Network management.
-The purpose is to help frame discussions of energy efficiency in the various areas of the IETF and to help
-introduce the main concepts to IETF participants.
+This document defines a set of terms used within the IETF when discussing energy efficiency in network management.
+Such reference document helps framing discussion and agreeing upon a set of main concepts in this area.
 
 --- middle
 
