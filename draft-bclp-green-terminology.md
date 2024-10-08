@@ -43,10 +43,10 @@ normative:
 informative:
 
  ETSI-ES-203-136:
-   title: Environmental Engineering (EE); Measurement methods for energy efficiency of router and switch equipment 
+   title: Environmental Engineering (EE); Measurement methods for energy efficiency of router and switch equipment
    target: https://www.etsi.org/deliver/etsi_es/203100_203199/203136/01.02.00_50/es_203136v010200m.pdf
    date: 2017
-   
+
   L.1310:
    title: Energy efficiency metrics and measurement methods for telecommunication equipment
    target: https://www.itu.int/rec/T-REC-L.1310-202409-P
@@ -56,7 +56,7 @@ informative:
    title: Standardization terms and trends in energy efficiency
    target: https://www.itu.int/rec/T-REC-L.1315-201705-I
    date: 2017
-   
+
   L.1316:
    title: Energy efficiency framework
    target: https://www.itu.int/rec/T-REC-L.1316-201911-I
@@ -76,7 +76,7 @@ informative:
    title: Methodology for environmental life cycle assessments of information and communication technology goods, networks and services
    target: https://www.itu.int/rec/T-REC-L.1410-201412-I
    date: 2014
- 
+
 --- abstract
 
 Energy efficient network management involves deploying and managing network infrastructures to optimize energy
