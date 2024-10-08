@@ -5,12 +5,12 @@
 Getting Ready for Energy-Efficient Networking                     C. Liu
 Internet-Draft                                                     Q. Wu
 Intended status: Informational                                    Huawei
-Expires: 11 April 2025                                      M. Boucadair
+Expires: 11 April 2025                                        M. Palmero
+                                                                   Cisco
+                                                            M. Boucadair
                                                                   Orange
                                                          L. M. Contreras
                                                               Telefonica
-                                                              M. Palmero
-                                                                   Cisco
                                                           8 October 2024
 
 
@@ -357,6 +357,11 @@ Authors' Addresses
    Email: bill.wu@huawei.com
 
 
+   Marisol Palmero
+   Cisco
+   Email: mpalmero@cisco.com
+
+
    Mohamed Boucadair
    Orange
    Email: mohamed.boucadair@orange.com
@@ -365,8 +370,3 @@ Authors' Addresses
    Luis M. Contreras
    Telefonica
    Email: luismiguel.contrerasmurillo@telefonica.com
-
-
-   Marisol Palmero
-   Cisco
-   Email: mpalmero@cisco.com
