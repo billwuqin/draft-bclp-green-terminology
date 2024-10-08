@@ -15,13 +15,6 @@ keyword:
  - Energy Efficient
  - Energy Saving
  - Energy Management
-venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
 
 author:
  -
@@ -32,11 +25,11 @@ author:
     fullname: Qin Wu
     organization: Huawei
     email: bill.wu@huawei.com
-  -
+ -
     fullname: Mohamed Boucadair
     organization: Orange
     email: mohamed.boucadair@orange.com
-  -
+ -
     fullname: Luis M. Contreras
     organization: Telefonica
     email: luismiguel.contrerasmurillo@telefonica.com
