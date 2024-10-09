@@ -146,7 +146,7 @@ helps to identify the “hot spots” and key components in a system with regard
 
 ## Energy efficiency Metrics and Measurement Method
 
-Metric for DSLAM, MSAN, GPON, GEPON equipment:
+Metrics for DSLAM, MSAN, GPON, and GEPON equipment:
 
 Equipment with line cards working at different profiles/states shall be characterized with different
 metric values for each specific profile/state.
