@@ -78,7 +78,7 @@ Table of Contents
 
    1.  Introduction
    2.  Terms and Definitions
-     2.1.  Energy efficiency Metrics and Measurement Method
+     2.1.  Energy Efficiency Metrics and Measurement Methods
    3.  Security Considerations
    4.  Informative References
    Appendix A.  Standards Bodies and Standards
@@ -159,7 +159,7 @@ Table of Contents
       identify the “hot spots” and key components in a system with
       regard to energy saving.
 
-2.1.  Energy efficiency Metrics and Measurement Method
+2.1.  Energy Efficiency Metrics and Measurement Methods
 
    Metrics for DSLAM, MSAN, GPON, and GEPON equipment:
 
