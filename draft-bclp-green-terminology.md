@@ -124,17 +124,17 @@ DSLAM:
 EER
 : Energy Efficiency Ratio
 
-MSAN:
-:  Multiservice Access Node
-
 GPON:
 :  Gigabit-capable Passive Optical Network
 
 GEPON:
 : Gigabit Ethernet Passive Optical Network
 
+MSAN:
+:  Multiservice Access Node
+
 PUE:
-: Power Usage Effectiveness 
+: Power Usage Effectiveness
 
 ## Definitions
 
@@ -196,7 +196,7 @@ may be used to identify key components in a system with regard to energy saving.
 
 Metrics for DSLAM, MSAN, GPON, and GEPON equipment:
 
-Equipment with line cards working at different profiles/states shall be characterized with different
+Equipment with line cards working at different profiles/states are characterized with different
 metric values for each specific profile/state.
 
                           Pport = Peq/Nports[W/port]
