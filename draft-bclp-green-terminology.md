@@ -38,7 +38,7 @@ author:
     organization: Telefonica
     email: luismiguel.contrerasmurillo@telefonica.com
 
-normative:
+informative:
 
  ETSI-ES-203-136:
    title: Environmental Engineering (EE); Measurement methods for energy efficiency of router and switch equipment
@@ -69,6 +69,11 @@ normative:
    title: Assessment of mobile network energy efficiency
    target: https://www.itu.int/rec/T-REC-L.1331-202009-S
    date: 2020
+
+ L.1333:
+   title: Carbon data intensity for network energy performance monitoring
+   target: https://handle.itu.int/11.1002/1000/15028
+   date: 2022
 
  L.1410:
    title: Methodology for environmental life cycle assessments of information and communication technology goods, networks and services
@@ -213,7 +218,7 @@ ITU-T SG5 is also responsible for other standards that might be of interest to p
 and network operators. For example:
 
 * {{L.1331}} specifies assessment of mobile network energy efficiency.
-* {{L.1333}} specifies the correlation between the carbon intensity indicator and energy efficiency metric. The carbon KPI defined in L.1333
+* {{L.1333}} specifies the correlation between the carbon intensity indicator and energy efficiency metric. The carbon KPI defined in {{L.1333}}
 refers to the energy efficiency metric defined in ITU-T L.1331.
 * {{L.1410}} focuses on the assessment of the environmental impact of information and communication technology (ICT) goods, networks and services. It provides
 specific guidance on energy and greenhouse gas (GHG) impacts.
