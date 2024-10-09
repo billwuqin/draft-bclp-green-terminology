@@ -1341,7 +1341,7 @@ may be used to identify key components in a system with regard to energy saving.
       <h2 id="name-energy-efficiency-metrics-a">
 <a href="#section-3" class="section-number selfRef">3. </a><a href="#name-energy-efficiency-metrics-a" class="section-name selfRef">Energy Efficiency Metrics and Measurement Methods</a>
       </h2>
-<p id="section-3-1">Metric for DSLAM, MSAN,GPON, GEPON equipment:<a href="#section-3-1" class="pilcrow">¶</a></p>
+<p id="section-3-1">Metrics for DSLAM, MSAN, GPON, and GEPON equipment:<a href="#section-3-1" class="pilcrow">¶</a></p>
 <p id="section-3-2">Equipment with line cards working at different profiles/states shall be characterized with different
 metric values for each specific profile/state.<a href="#section-3-2" class="pilcrow">¶</a></p>
 <div class="alignLeft art-text artwork" id="section-3-3">
@@ -1367,32 +1367,44 @@ Erfu is daily RF units energy consumption [Wh] under different load.<a href="#se
                     EER = Ti/Pw [Mbit/s/W]
 </pre><a href="#section-3-11" class="pilcrow">¶</a>
 </div>
-<p id="section-3-12">Where Ti is weighted throughput, Pw is weighted power (energy consumption rate)<a href="#section-3-12" class="pilcrow">¶</a></p>
-<p id="section-3-13">Metric for small network devices:<a href="#section-3-13" class="pilcrow">¶</a></p>
-<p id="section-3-14">The metrics adopted for small networking devices intended for home/domestic or small office use is<a href="#section-3-14" class="pilcrow">¶</a></p>
-<p id="section-3-15">EER = (0.35Tidle+0.5Tlowpower+0.15TMaximum)/(0.35Pidle+0.5Plowpower_0.15Pmaximum) (Mbit/s/W)<a href="#section-3-15" class="pilcrow">¶</a></p>
-<p id="section-3-16">Where throughput is maximum non drop data rate beween wide area Network and
-local area network kport in the ingress direction;
+<p id="section-3-12">Where Ti is weighted throughput, Pw is weighted power (energy consumption rate). The formula is defined in <span>[<a href="#L.1310" class="cite xref">L.1310</a>]</span>.<a href="#section-3-12" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3-13">
+<pre>
+                    Ti = a*Tu1 + b*Tu2 + c*Tu3
+                    Pw = a*Pu1 + b*Pu2 + c*Pu3
+</pre><a href="#section-3-13" class="pilcrow">¶</a>
+</div>
+<p id="section-3-14">where (a, b, c) is the relative weight at different usage percentage, a+b+c=1<a href="#section-3-14" class="pilcrow">¶</a></p>
+<p id="section-3-15">(Pu1, Pu2, Pu3) is the power at different usage percentage<a href="#section-3-15" class="pilcrow">¶</a></p>
+<p id="section-3-16">(Tu1, Tu2, Tu3) is the throughput at different usage percentage<a href="#section-3-16" class="pilcrow">¶</a></p>
+<p id="section-3-17">Metrics for small network devices:<a href="#section-3-17" class="pilcrow">¶</a></p>
+<p id="section-3-18">The metrics adopted for small networking devices intended for home/domestic or small office use is<a href="#section-3-18" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3-19">
+<pre>
+                    EER = (0.35T_idle+0.5T_lowpower+0.15T_Maximum)/(0.35P_idle+0.5P_lowpower+0.15P_maximum) [Mbit/s/W]
+</pre><a href="#section-3-19" class="pilcrow">¶</a>
+</div>
+<p id="section-3-20">Where throughput is maximum non-drop data rate between ingress/egress ports.
 Line rate/speed is maximum possible number of transmitted/received bits.
 Power shall be averaged over 5 minutes, taking measurements every 30 seconds.
-During idle power,IP pings shall be sent via the user interface.<a href="#section-3-16" class="pilcrow">¶</a></p>
-<p id="section-3-17">Metric for power equipment:<a href="#section-3-17" class="pilcrow">¶</a></p>
-<div class="alignLeft art-text artwork" id="section-3-18">
+0.35, 0.5, and 0.15 are relative weights examples as defined in <span>[<a href="#L.1310" class="cite xref">L.1310</a>]</span>.<a href="#section-3-20" class="pilcrow">¶</a></p>
+<p id="section-3-21">Metric for power equipment:<a href="#section-3-21" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3-22">
 <pre>
                            δ = Po/Pi
-</pre><a href="#section-3-18" class="pilcrow">¶</a>
+</pre><a href="#section-3-22" class="pilcrow">¶</a>
 </div>
-<p id="section-3-19">Where Po is output power, Pi is input power. This energy efficiency value is
-measured or calculated from the testing data over specified time period.<a href="#section-3-19" class="pilcrow">¶</a></p>
-<p id="section-3-20">Metric for cooling equipment<a href="#section-3-20" class="pilcrow">¶</a></p>
-<div class="alignLeft art-text artwork" id="section-3-21">
+<p id="section-3-23">Where Po is output power, Pi is input power. This energy efficiency value is
+measured or calculated from the testing data over specified time period.<a href="#section-3-23" class="pilcrow">¶</a></p>
+<p id="section-3-24">Metric for cooling equipment<a href="#section-3-24" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3-25">
 <pre>
                           η = Qt/Pi
-</pre><a href="#section-3-21" class="pilcrow">¶</a>
+</pre><a href="#section-3-25" class="pilcrow">¶</a>
 </div>
-<p id="section-3-22">Where η is the energy efficiency of the air conditioner
+<p id="section-3-26">Where η is the energy efficiency of the air conditioner
 Pi is the input power, Qt is the sum of the sensible cooling capacity and the
-latent cooling capacity.<a href="#section-3-22" class="pilcrow">¶</a></p>
+latent cooling capacity.<a href="#section-3-26" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="security-considerations">
