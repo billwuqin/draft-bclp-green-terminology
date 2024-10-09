@@ -206,7 +206,6 @@ The metrics adopted for small networking devices intended for home/domestic or s
                         EER = (0.35T_idle+0.5T_lowpower+0.15T_Maximum)/(0.35P_idle+0.5P_lowpower+0.15P_maximum) [Mbit/s/W]
 
 Where throughput is maximum non-drop data rate beween Wide Area Network and
-Local Area Network ingress port;
 Line rate/speed is maximum possible number of transmitted/received bits.
 Power shall be averaged over 5 minutes, taking measurements every 30 seconds.
 0.35, 0.5, and 0.15 are relative weights examples as defined in {{L.1310}}.
