@@ -167,7 +167,7 @@ Energy Efficiency Network Management:
 Energy Efficiency metrics:
 : Refer to a set of metrics that are used for the evaluation and assessment of energy consumption of a network, device, or component. These metrics are also used for network performance purposes to characterize the effectiveness of an Energy Efficiency management strategy.
 
-Energy Efficiency:
+Energy Efficiency/Energy Efficiency Ratio (EER):
 : The energy efficiency is expressed as the ratio between the useful output and input of an energy conversion process of a network, device, or component.
 : For instance, in relation with a networking device, it can be stated as the ratio of total throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).
 : This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput forwarded by 1 watt (e.g., {{?I-D.cprjgf-bmwg-powerbench}}).
