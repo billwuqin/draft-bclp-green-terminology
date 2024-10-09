@@ -80,10 +80,10 @@ informative:
    target: https://www.itu.int/rec/T-REC-L.1410-201412-I
    date: 2014
 
-  TS28.554:
-   title: Management and orchestration; 5G end to end Key Performance Indicators (KPI)
-   target: https://www.3gpp.org/ftp/Specs/archive/28_series/28.554/28554-i70.zip
-   date: 2024
+ TS28.554:
+    title: Management and orchestration; 5G end to end Key Performance Indicators (KPI)
+    target: https://www.3gpp.org/ftp/Specs/archive/28_series/28.554/28554-i70.zip
+    date: 2024
 
 --- abstract
 
