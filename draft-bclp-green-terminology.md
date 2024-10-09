@@ -83,7 +83,7 @@ informative:
   TS28.554:
    title: Management and orchestration; 5G end to end Key Performance Indicators (KPI)
    target: https://www.3gpp.org/ftp/Specs/archive/28_series/28.554/28554-i70.zip
-   date: 2024  
+   date: 2024
 
 --- abstract
 
