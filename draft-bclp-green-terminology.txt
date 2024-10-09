@@ -3,14 +3,15 @@
 
 
 GREEN Working Group                                               C. Liu
-Internet-Draft                                                     Q. Wu
-Intended status: Informational                                    Huawei
-Expires: 12 April 2025                                        M. Palmero
-                                                                   Cisco
-                                                            M. Boucadair
-                                                                  Orange
+Internet-Draft                                                    Huawei
+Intended status: Informational                              M. Boucadair
+Expires: 12 April 2025                                            Orange
+                                                                   Q. Wu
+                                                                  Huawei
                                                          L. M. Contreras
                                                               Telefonica
+                                                              M. Palmero
+                                                                   Cisco
                                                           9 October 2024
 
 
@@ -376,21 +377,21 @@ Authors' Addresses
    Email: liuchunchi@huawei.com
 
 
-   Qin Wu
-   Huawei
-   Email: bill.wu@huawei.com
-
-
-   Marisol Palmero
-   Cisco
-   Email: mpalmero@cisco.com
-
-
    Mohamed Boucadair
    Orange
    Email: mohamed.boucadair@orange.com
 
 
+   Qin Wu
+   Huawei
+   Email: bill.wu@huawei.com
+
+
    Luis M. Contreras
    Telefonica
    Email: luismiguel.contrerasmurillo@telefonica.com
+
+
+   Marisol Palmero
+   Cisco
+   Email: mpalmero@cisco.com
