@@ -5,13 +5,13 @@
 Getting Ready for Energy-Efficient Networking                     C. Liu
 Internet-Draft                                                     Q. Wu
 Intended status: Informational                                    Huawei
-Expires: 11 April 2025                                        M. Palmero
+Expires: 12 April 2025                                        M. Palmero
                                                                    Cisco
                                                             M. Boucadair
                                                                   Orange
                                                          L. M. Contreras
                                                               Telefonica
-                                                          8 October 2024
+                                                          9 October 2024
 
 
           Terminology for Energy Efficiency Network Management
@@ -19,15 +19,17 @@ Expires: 11 April 2025                                        M. Palmero
 
 Abstract
 
-   Energy efficient network management involves deploying and managing
-   network infrastructures to optimize energy use on network devices
-   while improving overall network utilization.
+   Energy efficient network management is primary meant to enhance
+   conventional network management with energy-related management
+   capabilities to optimize the overall energy consumption at the level
+   of a network.  To that aim, specific features and capabilities are
+   required to control (and thus optimize) the energy use of involved
+   network devices, and their components.
 
-   This document provides a glossary of terms used in the IETF when
-   discussing energy efficiency Network management.  The purpose is to
-   help frame discussions of energy efficiency in the various areas of
-   the IETF and to help introduce the main concepts to IETF
-   participants.
+   This document defines a set of terms used within the IETF when
+   discussing energy efficiency in network management.  Such reference
+   document helps framing discussion and agreeing upon a set of main
+   concepts in this area.
 
 Discussion Venues
 
@@ -56,7 +58,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 April 2025.
+   This Internet-Draft will expire on 12 April 2025.
 
 Copyright Notice
 
@@ -238,7 +240,7 @@ Table of Contents
    network equipment with all its line cards working in a specific
    profile/state.
 
-   Metric for wireless access technologies:
+   Metric for wireless access technologies
 
    The proposed energy efficiency metric at RF unit level is:
 
@@ -248,7 +250,7 @@ Table of Contents
    different load Erfu is daily RF units energy consumption [Wh] under
    different load.
 
-   Metric for routers and Ethernet switches:
+   Metric for routers and Ethernet switches
 
    The proposed metric for router and Ethernet switches is:
 
@@ -257,7 +259,7 @@ Table of Contents
    Where Ti is weighted throughput, Pw is is weighted power (energy
    consumption rate)
 
-   Metric for small network devices:
+   Metric for small network devices
 
    The metrics adopted for small networking devices intended for home/
    domestic or small office use is
@@ -272,7 +274,7 @@ Table of Contents
    seconds.  During idle power,IP pings shall be sent via the user
    interface.
 
-   Metric for power equipment:
+   Metric for power equipment
 
                               δ = Po/Pi
 
@@ -280,7 +282,7 @@ Table of Contents
    value is measured or calculated from the testing data over specified
    time period.
 
-   Metric for cooling equipment:
+   Metric for cooling equipment
 
                              η = Qt/Pi
 
