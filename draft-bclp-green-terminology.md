@@ -174,7 +174,7 @@ The proposed metric for router and Ethernet switches is
 Where Ti is weighted throughput, Pw is weighted power (energy consumption rate)
 
                         Ti = a*Tu1 + b*Tu2 + c*Tu3
-                        Pi = a*Pu1 + b*Pu2 + c*Pu3
+                        Pw = a*Pu1 + b*Pu2 + c*Pu3
 
 where (a, b, c) is the relative weight at different usage percentage, a+b+c=1
 
