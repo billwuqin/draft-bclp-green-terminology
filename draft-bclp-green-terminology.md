@@ -156,24 +156,24 @@ metric values for each specific profile/state.
 Where Peq is the power (in watts) of a fully equipped wireline network equipment with all its line cards
 working in a specific profile/state.
 
-Metric for wireless access technologies
+Metric for wireless access technologies:
 
-The proposed energy efficiency metric at RF (Radio-Frequency) unit level is:
+The proposed energy efficiency metric at RF (Radio-Frequency) unit level is
 
                          EErfu = Eoutput/Erfu
 
 Where Eoutput is daily RF output energy consumption [Wh] under different load
 Erfu is daily RF units energy consumption [Wh] under different load.
 
-Metric for routers and Ethernet switches
+Metric for routers and Ethernet switches:
 
-The proposed metric for router and Ethernet switches is:
+The proposed metric for router and Ethernet switches is
 
                         EER = Ti/Pw [Mbit/s/W]
 
 Where Ti is weighted throughput, Pw is weighted power (energy consumption rate)
 
-Metric for small network devices
+Metric for small network devices:
 
 The metrics adopted for small networking devices intended for home/domestic or small office use is
 
@@ -185,7 +185,7 @@ Line rate/speed is maximum possible number of transmitted/received bits.
 Power shall be averaged over 5 minutes, taking measurements every 30 seconds.
 During idle power,IP pings shall be sent via the user interface.
 
-Metric for power equipment
+Metric for power equipment:
 
                                δ = Po/Pi
 
