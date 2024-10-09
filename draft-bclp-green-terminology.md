@@ -109,8 +109,11 @@ Some of these terms are extracted from existing IETF documents and beyond.
 
 # Terms and Definitions
 
-The following terms are defined in this document:
-
+The following terms are used in this document as defined below:
+DSLAM: Digital Subscriber Line Access Multiplexer
+MSAN:  Multiservice Access Node
+GPON:  Gigabit-capable Passive Optical Network
+GEPON: Gigabit Ethernet Passive Optical Network
 Energy Efficiency:
 :   The concept of energy efficiency refers to the ability to use available of energy to achieve a specific benefit
 in a resource conserved manner and at low cost. The energy efficiency is ratio between the useful output and input
@@ -143,7 +146,7 @@ helps to identify the “hot spots” and key components in a system with regard
 
 ## Energy efficiency Metrics and Measurement Method
 
-Metric for DSLAM, MSAN (multiservice access node) GPON GEPON equipment:
+Metric for DSLAM, MSAN,GPON, GEPON equipment:
 
 Equipment with line cards working at different profiles/states shall be characterized with different
 metric values for each specific profile/state.
