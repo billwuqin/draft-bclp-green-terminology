@@ -136,51 +136,6 @@ regard equipment as an "open box" and evaluate the energy efficiency performance
 Measuring and understanding the energy efficiency or energy consumption of each component within the equipment
 helps to identify the “hot spots” and key components in a system with regard to energy saving.
 
-# Standards Bodies and Standards
-
-This section describes some of the standards bodies and standards that appear in discussions of energy efficiency
-in the IETF.  This is an incomplete and possibly over-full list; listing too few bodies or standards can be just
-as politically dangerous as listing too many.  Note that there are many other bodies that deal with energy
-efficiency; however, few if any of them appear commonly in IETF standards work.
-
-## Standard bodies
-
-ITU-T SG5
-
-ITU-T Study Group 5 (SG5) has already worked on developing standards on energy efficiency before IETF is started.
-ITU-T SG5 has many diverse standards in the environment efficiency field. These standards include L.1310, L.1315,
-L.1316, L.1320 covering energy efficiency terminology, framework, metrics and measurement method.
-In addition, ITU-T SG5 is also is responsible for other standards that might be of interest to protocol developers
-and network operators. L.1331 specifies Assessment of mobile network energy efficiency.L.1333 specifies the
-correlation between the carbon intensity indicator and energy efficiency metric. The carbon KPI defined in L.1333
-refers to the energy efficiency metric defined in ITU-T L.1331. ITU-T L.1410 deals with the assessment of the
-environmental impact of information and communication technology (ICT) goods, networks and services. It provides
-specific guidance on energy and greenhouse gas (GHG) impacts.
-
-
-ETSI TCEE
-
-ETSI Technical Committee (TC) Environment Engineering (EE) is working together with ITU-T SG5 to develop technically
-aligned standards on energy efficiency and environment aspect. These standards include energy efficiency, power
-feeding solution, circular economy and network efficiency KPI and eco-design requirement for ICT, with the aim to
-build an international eco-environmental standardization. ETSI ES 203 106 defines the energy consumption metrics and
-measurement methods for router and Ethernet switch equipment. It specifies the methodology and the test conditions to
-measure the power consumption of router and switch equipment and is also applicable to Core, edge and access routers.
-
-
-3GPP SA5
-
-3GPP SA5 has, in Release 17, extended its scope from RAN only to the whole 5G system and worked on Energy Efficiency
-(EE) and Energy saving (ES) of mobile networks. EE Key Performance Indicators (KPI) have been defined for the 5G core
-network and network slices.
-As for RAN, their Energy Efficiency is defined by their performance divided by their Energy Consumption (EC), where
-the definition of the performance depends on the type of network entity it applies to. From this, SA5 work aimed at
-defining the best metrics for each of them, and their measurement method.
-During Rel-18, WG SA5 works with ETSI NFV to explore more accurate virtual CPU usage measurements from ETSI NFV MANO,
-Introduce additional metrics when estimating the Energy Consumption of Virtual Machines, e.g. their virtual disk or
-link usage. In addition new use cases for Energy Saving, applied to NG-RAN, 5GC and network slicing, AI/ML assisted
-energy saving scenarios are also investigated.
-
 ## Energy efficiency Metrics and Measurement Method
 
 Metric for DSLAM, MSAM(multiservice access node) GPON GEPON equipment:
@@ -242,6 +197,52 @@ latent cooling capacity.
 Security is not discussed in this document.
 
 --- back
+
+# Standards Bodies and Standards
+
+This appendix provides a list of SDOs where relevant energy efficiecny effort is ongoing.
+This appendix does not aim to be comprehensive. The appendix may be removed in future versions of the document.
+
+## ITU-T SG5
+
+ITU-T Study Group 5 (SG5) has already worked on developing standards on energy efficiency.
+ITU-T SG5 has many standards in the environment efficiency field. These standards include {{L.1310}}, {{L.1315}},
+{{L.1316}}, and {{L.1320}} covering energy efficiency terminology, framework, metrics, and measurement methods.
+
+ITU-T SG5 is also responsible for other standards that might be of interest to protocol developers
+and network operators. For example:
+
+* {{L.1331}} specifies assessment of mobile network energy efficiency.
+* {{L.1333}} specifies the correlation between the carbon intensity indicator and energy efficiency metric. The carbon KPI defined in L.1333
+refers to the energy efficiency metric defined in ITU-T L.1331.
+* {{L.1410}} focuses on the assessment of the environmental impact of information and communication technology (ICT) goods, networks and services. It provides
+specific guidance on energy and greenhouse gas (GHG) impacts.
+
+
+## ETSI TCEE
+
+ETSI Technical Committee (TC) Environment Engineering (EE) is collaborating with ITU-T SG5 to develop technically
+aligned standards on energy efficiency and environment aspect. These standards include energy efficiency, power
+feeding solution, circular economy and network efficiency KPI and eco-design requirement for ICT, with the aim to
+build an international eco-environmental standardization.
+
+{{ETSI-ES-203-136}} defines the energy consumption metrics and measurement methods for router and Ethernet switch equipment. It specifies a methodology and the test conditions to measure the power consumption of router and switch equipment and is also applicable to Core, edge, and access routers.
+
+
+## 3GPP SA5
+
+3GPP SA5 has, in Release 17, extended its scope from RAN only to the whole 5G System (5GS) and worked on Energy Efficiency
+(EE) and Energy Saving (ES) of mobile networks. EE Key Performance Indicators (KPI) have been defined for the 5G Core
+network and Network Slices.
+
+The 3GPP Energy Efficiency in the RAN is defined by the performance divided by the Energy Consumption (EC), where
+the definition of the performance depends on the type of network entity it applies to. From this, SA5 work aimed at
+defining the best metrics for each of them, and their measurement method.
+
+In Rel-18, WG SA5 works with ETSI NFV to explore more accurate virtual CPU usage measurements from ETSI NFV MANO,
+Introduce additional metrics when estimating the Energy Consumption of Virtual Machines, e.g., their virtual disk or
+link usage. In addition new use cases for Energy Saving, applied to NG-RAN, 5GC, and Network Slicing, AI/ML assisted
+energy saving scenarios are also being investigated.
 
 # Acknowledgments
 {:numbered="false"}
