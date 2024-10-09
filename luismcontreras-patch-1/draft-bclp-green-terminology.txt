@@ -163,9 +163,10 @@ Table of Contents
       network performance purposes to characterize the effectiveness of
       an Energy Efficiency management strategy.
 
-   Energy Efficiency:  The energy efficiency is expressed as the ratio
-      between the useful output and input of an energy conversion
-      process of a network, device, or component.
+   Energy Efficiency/Energy Efficiency Ratio (EER):  The energy
+      efficiency is expressed as the ratio between the useful output and
+      input of an energy conversion process of a network, device, or
+      component.
 
       For instance, in relation with a networking device, it can be
       stated as the ratio of total throughput (e.g., of a network
