@@ -109,42 +109,59 @@ Some of these terms are extracted from existing IETF documents and beyond.
 
 # Terms and Definitions
 
-The following terms are used in this document as defined below:
-DSLAM: Digital Subscriber Line Access Multiplexer
-MSAN:  Multiservice Access Node
-GPON:  Gigabit-capable Passive Optical Network
-GEPON: Gigabit Ethernet Passive Optical Network
+## Abbreviations
+
+The following abbreviations are used in the document:
+
+DSLAM:
+: Digital Subscriber Line Access Multiplexer
+
+EER
+: Energy Efficiency Ratio
+
+MSAN:
+:  Multiservice Access Node
+
+GPON:
+:  Gigabit-capable Passive Optical Network
+
+GEPON:
+: Gigabit Ethernet Passive Optical Network
+
+## Definitions
+
 Energy Efficiency:
-:   The concept of energy efficiency refers to the ability to use available of energy to achieve a specific benefit
-in a resource conserved manner and at low cost. The energy efficiency is ratio between the useful output and input
-of an energy conversion process of network devices.
+: Refers to the ability to control the use of available energy in an optimized manner (e.g.,
+in a resource conserved manner and at low cost).
+
+: The energy efficiency is a ratio between the useful output and input
+of an energy conversion process of a network, device, or component.
 
 Energy Efficiency metrics:
-:   A set of metrics that are used for evaluation of energy consumption and network performance characterize the
-effectiveness of energy management strategy.
+: Refer to a set of metrics that are used for the evaluation and assessment of energy consumption of a network, device, or component. These metrics are also used for network performance purposes to characterize the effectiveness of an Energy Efficiency management strategy.
 
-Energy Efficiency Ratio:
-:  The ratio of total throughput (system capacity) to the total power consumed (bits/Joule). It is the throughput forwarded
-by 1 watt and it is introduced in {{?I-D.cprjgf-bmwg-powerbench}}.  A higher EER corresponds to a better the energy efficiency.
+Energy Efficiency Ratio (EER):
+: Is the ratio of total throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).
+: This ratio is the throughput forwarded by 1 watt (e.g., {{?I-D.cprjgf-bmwg-powerbench}}).
+: A higher EER indicates a better energy efficiency.
 
 Power Usage Effectiveness:
-:  The metric used to measure data center energy efficiency. It is calculated by the ratio between the total energy
-consumed by the data center and the energy needed for IT equipment.
+: Refer to the metric used to measure data center energy efficiency.
+: This metric is calculated as the ratio between the total energy consumed by an infrastructure and the energy needed for a network element/component.
 
 Network level Energy Efficiency:
-:  Network level metrics are used to evaluate the energy efficiency of an entire network or part of it.
+:  Denotes the Energy Efficiency of an entire network or a subset part of it.
 
 Device level Energy Efficiency:
-:  Equipment/system level metrics are mostly used to compare Network equipment of the same functionality and place in
-a network. They evaluate the overall energy efficiency performance at the equipment/system level
+:  Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network elements providing the same functionality.
 
 Component Level Energy Efficiency:
-:  Component-level metrics can be used in the design, development and manufacture of energy efficient equipment. They
-regard equipment as an "open box" and evaluate the energy efficiency performance of its individual components.
-Measuring and understanding the energy efficiency or energy consumption of each component within the equipment
-helps to identify the “hot spots” and key components in a system with regard to energy saving.
+: Denotes the Energy Efficiency of a component of a network element. It can be used in the design, development, and manufacturing of energy efficient equipment.
+: Is useful to evaluate the energy efficiency performance of individual components of a network element.
+: Measuring and understanding the energy efficiency or energy consumption of each component within a network element
+may be used to identify key components in a system with regard to energy saving.
 
-## Energy Efficiency Metrics and Measurement Methods
+# Energy Efficiency Metrics and Measurement Methods
 
 Metrics for DSLAM, MSAN, GPON, and GEPON equipment:
 
