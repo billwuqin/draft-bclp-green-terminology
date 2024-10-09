@@ -118,20 +118,29 @@ Some of these terms are extracted from existing IETF documents and beyond.
 
 The following abbreviations are used in the document:
 
+CLEE:
+: Component Level Energy Efficiency
+
+DLEE:
+: Device Level Energy Efficiency
+
 DSLAM:
 : Digital Subscriber Line Access Multiplexer
 
 EER
 : Energy Efficiency Ratio
 
-GPON:
-:  Gigabit-capable Passive Optical Network
-
 GEPON:
 : Gigabit Ethernet Passive Optical Network
 
+GPON:
+:  Gigabit-capable Passive Optical Network
+
 MSAN:
 :  Multiservice Access Node
+
+NLEE:
+: Network Level Energy Efficiency
 
 PUE:
 : Power Usage Effectiveness
@@ -167,8 +176,8 @@ Energy Efficiency Network Management:
 : Refers to the ability to control the use of available energy in an optimized manner (e.g.,
   in a resource conserved manner and at low cost).
 
-Energy Efficiency metrics:
-: Refer to a set of metrics that are used for the evaluation and assessment of energy consumption of a network, device, or component. These metrics are also used for network performance purposes to characterize the effectiveness of an Energy Efficiency management strategy.
+Energy Efficiency Metric:
+: Refers to a metric that is used for the evaluation and assessment of energy consumption of a network, device, or component. One or more metrics can be defined. These metrics are also used for network performance purposes to characterize the effectiveness of an Energy Efficiency management strategy.
 
 Energy Efficiency/Energy Efficiency Ratio (EER):
 : The energy efficiency is expressed as the ratio between the useful output and input of an energy conversion process of a network, device, or component.
@@ -180,13 +189,13 @@ Power Usage Effectiveness (PUE):
 : Refer to the metric used to measure data center energy efficiency.
 : This metric is calculated as the ratio between the total energy consumed by an infrastructure and the energy needed for a network element/component.
 
-Network level Energy Efficiency:
+Network Level Energy Efficiency (NLEE):
 :  Denotes the Energy Efficiency of an entire network or a subset part of it.
 
-Device level Energy Efficiency:
+Device Level Energy Efficiency (DLEE):
 :  Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network elements providing the same functionality.
 
-Component Level Energy Efficiency:
+Component Level Energy Efficiency (CLEE):
 : Denotes the Energy Efficiency of a component of a network element. It can be used in the design, development, and manufacturing of energy efficient equipment.
 : Is useful to evaluate the energy efficiency performance of individual components of a network element.
 : Measuring and understanding the energy efficiency or energy consumption of each component within a network element
