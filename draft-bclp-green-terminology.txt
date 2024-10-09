@@ -85,7 +85,7 @@ Table of Contents
    5.  References
      5.1.  Normative References
      5.2.  Informative References
-   Acknowledgments
+   Appendix A.  Acknowledgments
    Authors' Addresses
 
 1.  Introduction
@@ -215,7 +215,7 @@ Table of Contents
 
 3.2.  Energy efficiency Metrics and Measurement Method
 
-   Metric for DSLAM, MSAM(multiservice access node) GPON GEPON
+   Metric for DSLAM, MSAN (multiservice access node) GPON GEPON
    equipment:
 
    Equipment with line cards working at different profiles/states shall
@@ -230,7 +230,8 @@ Table of Contents
 
    Metric for wireless access technologies
 
-   The proposed energy efficiency metric at RF unit level is:
+   The proposed energy efficiency metric at RF (Radio-Frequency) unit
+   level is:
 
                         EErfu = Eoutput/Erfu
 
@@ -244,7 +245,7 @@ Table of Contents
 
                        EER = Ti/Pw [Mbit/s/W]
 
-   Where Ti is weighted throughput, Pw is is weighted power (energy
+   Where Ti is weighted throughput, Pw is weighted power (energy
    consumption rate)
 
    Metric for small network devices
@@ -326,7 +327,7 @@ Table of Contents
               <https://datatracker.ietf.org/doc/html/draft-cprjgf-bmwg-
               powerbench-02>.
 
-Acknowledgments
+Appendix A.  Acknowledgments
 
    TODO acknowledge.
 
