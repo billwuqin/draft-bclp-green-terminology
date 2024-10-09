@@ -130,10 +130,34 @@ GEPON:
 
 ## Definitions
 
+Terms are listed so that terms that are needed to understand other terms are listed first.
+
+Energy:
+: Is generally a reference to electrical energy and is measured in kilowatt-hours (kWh) ({{?RFC7326}}).
+
+Power:
+: Refers the time rate at which energy is emitted, transferred, or
+      received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
+
+Energy Management:
+: Is a set of functions for measuring, modeling,
+      planning, and optimizing networks to ensure that the network and
+      network-attached devices use energy efficiently and appropriately
+      for the nature of the application and the cost constraints of the
+      organization ({{?RFC7326}}).
+
+Energy Monitoring:
+: Is a part of Energy Management that deals with
+      collecting or reading information from devices to aid in Energy
+      Management ({{?RFC7326}}).
+
+Energy Control:
+: Is a part of Energy Management that deals with
+      directing influence over devices ({{?RFC7326}}).
+
 Energy Efficiency:
 : Refers to the ability to control the use of available energy in an optimized manner (e.g.,
 in a resource conserved manner and at low cost).
-
 : The energy efficiency is a ratio between the useful output and input
 of an energy conversion process of a network, device, or component.
 
