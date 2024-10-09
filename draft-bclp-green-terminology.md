@@ -22,21 +22,21 @@ author:
     organization: Huawei
     email: liuchunchi@huawei.com
  -
-    fullname: Qin Wu
-    organization: Huawei
-    email: bill.wu@huawei.com
- -
-    fullname: Marisol Palmero
-    organization: Cisco
-    email: mpalmero@cisco.com
- -
     fullname: Mohamed Boucadair
     organization: Orange
     email: mohamed.boucadair@orange.com
  -
+    fullname: Qin Wu
+    organization: Huawei
+    email: bill.wu@huawei.com
+ -
     fullname: Luis M. Contreras
     organization: Telefonica
     email: luismiguel.contrerasmurillo@telefonica.com
+ -
+    fullname: Marisol Palmero
+    organization: Cisco
+    email: mpalmero@cisco.com
 
 informative:
 
@@ -135,9 +135,34 @@ GEPON:
 
 ## Definitions
 
-Energy Efficiency network management:
+Terms are listed so that terms that are needed to understand other terms are listed first.
+
+Energy:
+: Is generally a reference to electrical energy and is measured in kilowatt-hours (kWh) ({{?RFC7326}}).
+
+Power:
+: Refers the time rate at which energy is emitted, transferred, or
+      received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
+
+Energy Management:
+: Is a set of functions for measuring, modeling,
+      planning, and optimizing networks to ensure that the network and
+      network-attached devices use energy efficiently and appropriately
+      for the nature of the application and the cost constraints of the
+      organization ({{?RFC7326}}).
+
+Energy Monitoring:
+: Is a part of Energy Management that deals with
+      collecting or reading information from devices to aid in Energy
+      Management ({{?RFC7326}}).
+
+Energy Control:
+: Is a part of Energy Management that deals with
+      directing influence over devices ({{?RFC7326}}).
+
+Energy Efficiency Network Management:
 : Refers to the ability to control the use of available energy in an optimized manner (e.g.,
-in a resource conserved manner and at low cost).
+  in a resource conserved manner and at low cost).
 
 Energy Efficiency metrics:
 : Refer to a set of metrics that are used for the evaluation and assessment of energy consumption of a network, device, or component. These metrics are also used for network performance purposes to characterize the effectiveness of an Energy Efficiency management strategy.
@@ -166,7 +191,7 @@ may be used to identify key components in a system with regard to energy saving.
 
 # Energy Efficiency Metrics and Measurement Methods
 
-Metric for DSLAM, MSAN,GPON, GEPON equipment:
+Metrics for DSLAM, MSAN, GPON, and GEPON equipment:
 
 Equipment with line cards working at different profiles/states shall be characterized with different
 metric values for each specific profile/state.
@@ -191,19 +216,27 @@ The proposed metric for router and Ethernet switches is
 
                         EER = Ti/Pw [Mbit/s/W]
 
-Where Ti is weighted throughput, Pw is weighted power (energy consumption rate)
+Where Ti is weighted throughput, Pw is weighted power (energy consumption rate). The formula is defined in {{L.1310}}.
 
-Metric for small network devices:
+                        Ti = a*Tu1 + b*Tu2 + c*Tu3
+                        Pw = a*Pu1 + b*Pu2 + c*Pu3
+
+where (a, b, c) is the relative weight at different usage percentage, a+b+c=1
+
+(Pu1, Pu2, Pu3) is the power at different usage percentage
+
+(Tu1, Tu2, Tu3) is the throughput at different usage percentage
+
+Metrics for small network devices:
 
 The metrics adopted for small networking devices intended for home/domestic or small office use is
 
- EER = (0.35Tidle+0.5Tlowpower+0.15TMaximum)/(0.35Pidle+0.5Plowpower_0.15Pmaximum) (Mbit/s/W)
+                        EER = (0.35T_idle+0.5T_lowpower+0.15T_Maximum)/(0.35P_idle+0.5P_lowpower+0.15P_maximum) [Mbit/s/W]
 
-Where throughput is maximum non drop data rate beween wide area Network and
-local area network kport in the ingress direction;
+Where throughput is maximum non-drop data rate between ingress/egress ports.
 Line rate/speed is maximum possible number of transmitted/received bits.
 Power shall be averaged over 5 minutes, taking measurements every 30 seconds.
-During idle power,IP pings shall be sent via the user interface.
+0.35, 0.5, and 0.15 are relative weights examples as defined in {{L.1310}}.
 
 Metric for power equipment:
 
