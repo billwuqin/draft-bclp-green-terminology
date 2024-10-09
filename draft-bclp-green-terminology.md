@@ -183,7 +183,7 @@ energy saving scenarios are also investigated.
 
 ## Energy efficiency Metrics and Measurement Method
 
-Metric for DSLAM, MSAM(multiservice access node) GPON GEPON equipment:
+Metric for DSLAM, MSAN (multiservice access node) GPON GEPON equipment:
 
 Equipment with line cards working at different profiles/states shall be characterized with different
 metric values for each specific profile/state.
@@ -195,7 +195,7 @@ working in a specific profile/state.
 
 Metric for wireless access technologies
 
-The proposed energy efficiency metric at RF unit level is:
+The proposed energy efficiency metric at RF (Radio-Frequency) unit level is:
 
                          EErfu = Eoutput/Erfu
 
@@ -208,7 +208,7 @@ The proposed metric for router and Ethernet switches is:
 
                         EER = Ti/Pw [Mbit/s/W]
 
-Where Ti is weighted throughput, Pw is is weighted power (energy consumption rate)
+Where Ti is weighted throughput, Pw is weighted power (energy consumption rate)
 
 Metric for small network devices
 
@@ -244,6 +244,5 @@ Security is not discussed in this document.
 --- back
 
 # Acknowledgments
-{:numbered="false"}
 
 TODO acknowledge.
