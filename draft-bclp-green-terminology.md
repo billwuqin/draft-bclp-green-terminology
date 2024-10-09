@@ -112,7 +112,7 @@ Some of these terms are extracted from existing IETF documents and beyond.
 The following terms are used in this document as defined below:
 DSLAM: Digital Subscriber Line Access Multiplexer
 MSAN:  Multiservice Access Node
-GPON:  Gigabit-capable Passive Optical Network 
+GPON:  Gigabit-capable Passive Optical Network
 GEPON: Gigabit Ethernet Passive Optical Network
 Energy Efficiency:
 :   The concept of energy efficiency refers to the ability to use available of energy to achieve a specific benefit
