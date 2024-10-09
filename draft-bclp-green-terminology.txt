@@ -2,7 +2,7 @@
 
 
 
-Getting Ready for Energy-Efficient Networking                     C. Liu
+Getting Ready for Energy-Efficient Networking (GREEN) Working GroupC. Liu
 Internet-Draft                                                     Q. Wu
 Intended status: Informational                                    Huawei
 Expires: 12 April 2025                                        M. Palmero
@@ -252,7 +252,7 @@ Table of Contents
    The metrics adopted for small networking devices intended for home/
    domestic or small office use is
 
-   EER = (0.35Tidle+0.5Tlowpower+0.15TMaximum)/(0.35Pidle+0.5Plowpower+0
+   EER = (0.35Tidle+0.5Tlowpower+0.15TMaximum)/(0.35Pidle+0.5Plowpower_0
    .15Pmaximum) (Mbit/s/W)
 
    Where throughput is maximum non drop data rate beween wide area
