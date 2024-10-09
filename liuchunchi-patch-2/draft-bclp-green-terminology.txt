@@ -161,7 +161,7 @@ Table of Contents
 
 2.1.  Energy efficiency Metrics and Measurement Method
 
-   Metric for DSLAM, MSAN, GPON, GEPON equipment:
+   Metrics for DSLAM, MSAN, GPON, and GEPON equipment:
 
    Equipment with line cards working at different profiles/states shall
    be characterized with different metric values for each specific
