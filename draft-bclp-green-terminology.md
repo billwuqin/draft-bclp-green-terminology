@@ -182,7 +182,7 @@ where (a, b, c) is the relative weight at different usage percentage, a+b+c=1
 
 (Tu1, Tu2, Tu3) is the throughput at different usage percentage
 
-Metric for small network devices:
+Metrics for small network devices:
 
 The metrics adopted for small networking devices intended for home/domestic or small office use is
 
