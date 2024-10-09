@@ -90,30 +90,24 @@ Table of Contents
 
 1.  Introduction
 
-   With rising energy costs and an increasing awareness of the
-   ecological impact of running information technology equipment, Energy
-   efficiency has been seen to be a critical issue for network
-   management systems in relation to environmental impact and
-   operational cost.  Energy efficiency management functions and
-   interfaces are becoming an additional requirements for network
-   management systems.
+   With rising energy costs and increasing awareness of the ecological
+   impact of running networks, servers, and various equipment, Energy
+   Efficiency is considered by operators as a critical issue for network
+   management systems in relation to environmental impact and related
+   operational cost.  Energy Efficiency management is thus complementing
+   conventional network management.
 
-   This document provides a glossary of terms used in the IETF when
-   discussing energy efficiency Network management.  The purpose is to
-   provide a comprehensibility and consistent terminology and help with
-   Characterization of Energy Efficiency related Information, assist in
-   the development of the YANG data models at the different levels in
-   the IETF, bring clarity to the Energy efficiency related discussions
-   between different groups within IETF or across other across.
+   This document defines a set of terms used within the IETF when
+   discussing Energy Efficiency network management.  The purpose is to
+   ensure a consistent set of terminology and help with the
+   characterization of Energy Efficiency (and relevant aspects), assist
+   in the development of the YANG data models at the different levels in
+   the IETF, bring clarity to the Energy Efficiency related discussions
+   between different groups within IETF, in particular.
 
-   It will touch many aspects of energy efficiency and the vocabulary
-   associated with those topics.  It is not meant to be a complete
-   description of energy efficiency.  The definitions in this document
-   are not normative for IETF standards; however, they are useful and
-   standards may make informative reference to this document after it
-   becomes an RFC.  Some of the definitions in this document come from
-   many earlier IETF documents.  Some of other definitions come from
-   documents beyond the IETF.
+   This document does not intend to define a comprehensive list of
+   energy-related terms.  Only key terms are defined.  Some of these
+   terms are extracted from existing IETF documents and beyond.
 
 2.  Terms and Definitions
 
