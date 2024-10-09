@@ -122,11 +122,13 @@ Table of Contents
 
    EER  Energy Efficiency Ratio
 
-   MSAN:  Multiservice Access Node
-
    GPON:  Gigabit-capable Passive Optical Network
 
    GEPON:  Gigabit Ethernet Passive Optical Network
+
+   MSAN:  Multiservice Access Node
+
+   PUE:  Power Usage Effectiveness
 
 2.2.  Definitions
 
@@ -177,8 +179,8 @@ Table of Contents
 
       A higher EER indicates a better energy efficiency.
 
-   Power Usage Effectiveness:  Refer to the metric used to measure data
-      center energy efficiency.
+   Power Usage Effectiveness (PUE):  Refer to the metric used to measure
+      data center energy efficiency.
 
       This metric is calculated as the ratio between the total energy
       consumed by an infrastructure and the energy needed for a network
@@ -207,9 +209,9 @@ Table of Contents
 
    Metrics for DSLAM, MSAN, GPON, and GEPON equipment:
 
-   Equipment with line cards working at different profiles/states shall
-   be characterized with different metric values for each specific
-   profile/state.
+   Equipment with line cards working at different profiles/states are
+   characterized with different metric values for each specific profile/
+   state.
 
                          Pport = Peq/Nports[W/port]
 
