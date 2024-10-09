@@ -133,6 +133,9 @@ GPON:
 GEPON:
 : Gigabit Ethernet Passive Optical Network
 
+PUE:
+: Power Usage Effectiveness 
+
 ## Definitions
 
 Terms are listed so that terms that are needed to understand other terms are listed first.
@@ -173,7 +176,7 @@ Energy Efficiency/Energy Efficiency Ratio (EER):
 : This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput forwarded by 1 watt (e.g., {{?I-D.cprjgf-bmwg-powerbench}}).
 : A higher EER indicates a better energy efficiency.
 
-Power Usage Effectiveness:
+Power Usage Effectiveness (PUE):
 : Refer to the metric used to measure data center energy efficiency.
 : This metric is calculated as the ratio between the total energy consumed by an infrastructure and the energy needed for a network element/component.
 
