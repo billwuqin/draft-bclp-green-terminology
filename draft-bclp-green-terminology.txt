@@ -2,7 +2,7 @@
 
 
 
-Getting Ready for Energy-Efficient Networking (GREEN) Working GroupC. Liu
+GREEN Working Group                                               C. Liu
 Internet-Draft                                                     Q. Wu
 Intended status: Informational                                    Huawei
 Expires: 12 April 2025                                        M. Palmero
