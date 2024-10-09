@@ -188,7 +188,7 @@ The proposed metric for router and Ethernet switches is
 
                         EER = Ti/Pw [Mbit/s/W]
 
-Where Ti is weighted throughput, Pw is weighted power (energy consumption rate)
+Where Ti is weighted throughput, Pw is weighted power (energy consumption rate). The formula is defined in {{L.1310}}.
 
                         Ti = a*Tu1 + b*Tu2 + c*Tu3
                         Pw = a*Pu1 + b*Pu2 + c*Pu3
@@ -209,7 +209,6 @@ Where throughput is maximum non-drop data rate beween Wide Area Network and
 Local Area Network ingress port;
 Line rate/speed is maximum possible number of transmitted/received bits.
 Power shall be averaged over 5 minutes, taking measurements every 30 seconds.
-During idle power, IP pings shall be sent via the user interface.
 0.35, 0.5, and 0.15 are relative weights examples as defined in {{L.1310}}.
 
 Metric for power equipment:
