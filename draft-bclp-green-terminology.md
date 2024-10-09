@@ -80,6 +80,11 @@ informative:
    target: https://www.itu.int/rec/T-REC-L.1410-201412-I
    date: 2014
 
+ TS28.554:
+    title: Management and orchestration; 5G end to end Key Performance Indicators (KPI)
+    target: https://www.3gpp.org/ftp/Specs/archive/28_series/28.554/28554-i70.zip
+    date: 2024
+
 --- abstract
 
 Energy efficient network management is primary meant to enhance conventional
@@ -155,18 +160,17 @@ Energy Control:
 : Is a part of Energy Management that deals with
       directing influence over devices ({{?RFC7326}}).
 
-Energy Efficiency:
+Energy Efficiency Network Management:
 : Refers to the ability to control the use of available energy in an optimized manner (e.g.,
-in a resource conserved manner and at low cost).
-: The energy efficiency is a ratio between the useful output and input
-of an energy conversion process of a network, device, or component.
+  in a resource conserved manner and at low cost).
 
 Energy Efficiency metrics:
 : Refer to a set of metrics that are used for the evaluation and assessment of energy consumption of a network, device, or component. These metrics are also used for network performance purposes to characterize the effectiveness of an Energy Efficiency management strategy.
 
-Energy Efficiency Ratio (EER):
-: Is the ratio of total throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).
-: This ratio is the throughput forwarded by 1 watt (e.g., {{?I-D.cprjgf-bmwg-powerbench}}).
+Energy Efficiency/Energy Efficiency Ratio (EER):
+: The energy efficiency is expressed as the ratio between the useful output and input of an energy conversion process of a network, device, or component.
+: For instance, in relation with a networking device, it can be stated as the ratio of total throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).
+: This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput forwarded by 1 watt (e.g., {{?I-D.cprjgf-bmwg-powerbench}}).
 : A higher EER indicates a better energy efficiency.
 
 Power Usage Effectiveness:
@@ -300,6 +304,8 @@ In Rel-18, WG SA5 works with ETSI NFV to explore more accurate virtual CPU usage
 Introduce additional metrics when estimating the Energy Consumption of Virtual Machines, e.g., their virtual disk or
 link usage. In addition new use cases for Energy Saving, applied to NG-RAN, 5GC, and Network Slicing, AI/ML assisted
 energy saving scenarios are also being investigated.
+
+Specifically, {{TS28.554}} defines a number of energy efficiency KPIs, including a generic Network Slice Energy Efficiency KPI, defined as the ratio between the performance of the network slice and its energy consumption.
 
 # Acknowledgments
 
