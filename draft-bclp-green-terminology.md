@@ -22,21 +22,21 @@ author:
     organization: Huawei
     email: liuchunchi@huawei.com
  -
-    fullname: Qin Wu
-    organization: Huawei
-    email: bill.wu@huawei.com
- -
-    fullname: Marisol Palmero
-    organization: Cisco
-    email: mpalmero@cisco.com
- -
     fullname: Mohamed Boucadair
     organization: Orange
     email: mohamed.boucadair@orange.com
  -
+    fullname: Qin Wu
+    organization: Huawei
+    email: bill.wu@huawei.com
+ -
     fullname: Luis M. Contreras
     organization: Telefonica
     email: luismiguel.contrerasmurillo@telefonica.com
+ -
+    fullname: Marisol Palmero
+    organization: Cisco
+    email: mpalmero@cisco.com
 
 informative:
 
