@@ -144,7 +144,7 @@ regard equipment as an "open box" and evaluate the energy efficiency performance
 Measuring and understanding the energy efficiency or energy consumption of each component within the equipment
 helps to identify the “hot spots” and key components in a system with regard to energy saving.
 
-## Energy efficiency Metrics and Measurement Method
+## Energy Efficiency Metrics and Measurement Methods
 
 Metrics for DSLAM, MSAN, GPON, and GEPON equipment:
 
