@@ -20,14 +20,14 @@ Expires: 13 April 2025                                            Orange
 
 Abstract
 
-   Energy efficient network management is primary meant to enhance
+   Energy-efficient network management is primary meant to enhance
    conventional network management with energy-related management
    capabilities to optimize the overall energy consumption at the level
    of a network.  To that aim, specific features and capabilities are
    required to control (and thus optimize) the energy use of involved
-   network devices, and their components.
+   network element and their components.
 
-   This document defines a set of terms used within the IETF when
+   This document is defines a set of key terms used within the IETF when
    discussing energy efficiency in network management.  Such reference
    document helps framing discussion and agreeing upon a set of main
    concepts in this area.
@@ -98,24 +98,33 @@ Table of Contents
 
 1.  Introduction
 
-   With rising energy costs and increasing awareness of the ecological
-   impact of running networks, servers, and various equipment, Energy
-   Efficiency is considered by operators as a critical issue for network
-   management systems in relation to environmental impact and related
-   operational cost.  Energy Efficiency management is thus complementing
-   conventional network management.
+   With rising energy costs and increasing awareness of the
+   environmental impact of running networks, servers, and various
+   equipment, Energy Efficiency is considered by operators as a critical
+   component to be integrated in the overall Network Management systems.
+   Such integration is ambitioned to feed strategies for committing
+   environmental objectives but also mastering related operational cost.
+   Energy Efficiency management is thus complementing conventional
+   network management.
 
-   This document defines a set of terms used within the IETF when
-   discussing Energy Efficiency network management.  The purpose is to
-   ensure a consistent set of terminology and help with the
-   characterization of Energy Efficiency (and relevant aspects), assist
-   in the development of the YANG data models at the different levels in
-   the IETF, bring clarity to the Energy Efficiency related discussions
-   between different groups within IETF, in particular.
+   Section 3 defines a set of terms used within the IETF when discussing
+   Energy-efficiency networks.  The purpose is to (1) ensure consistent
+   use of a set of terms in this area, (2) help with the
+   characterization of Energy Efficiency (and relevant aspects), (3)
+   assist in the development of the YANG data models at the different
+   levels in the IETF, and (4) bring clarity to the Energy Efficiency
+   related discussions between different groups within IETF, in
+   particular.
 
    This document does not intend to define a comprehensive list of
    energy-related terms.  Only key terms are defined.  Some of these
    terms are extracted from existing IETF documents and beyond.
+
+   Also, Section 4 provides an inventory of currently used metrics to
+   assess/compute energy-related consumption, efficiency ratio, etc.
+
+   Appendix A provides a list of SDOs where relevant energy efficiency
+   effort is ongoing.
 
 2.  Abbreviations
 
@@ -393,7 +402,7 @@ Table of Contents
 Appendix A.  Standards Bodies and Standards
 
    This appendix provides a list of SDOs where relevant energy
-   efficiecny effort is ongoing.  This appendix does not aim to be
+   efficiency effort is ongoing.  This appendix does not aim to be
    comprehensive.  The appendix may be removed in future versions of the
    document.
 

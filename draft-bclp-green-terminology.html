@@ -11,12 +11,12 @@
 <meta content="Luis M. Contreras" name="author">
 <meta content="Marisol Palmero" name="author">
 <meta content="
-       Energy efficient network management is primary meant to enhance conventional
+       Energy-efficient network management is primary meant to enhance conventional
 network management with energy-related management capabilities
 to optimize the overall energy consumption at the level of a network. To that aim,
 specific features and capabilities are required to control (and thus optimize)
-the energy use of involved network devices, and their components. 
-       This document defines a set of terms used within the IETF when discussing energy efficiency in network management.
+the energy use of involved network element and their components. 
+       This document is defines a set of key terms used within the IETF when discussing energy efficiency in network management.
 Such reference document helps framing discussion and agreeing upon a set of main concepts in this area. 
     " name="description">
 <meta content="xml2rfc 3.23.2" name="generator">
@@ -1087,12 +1087,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <h1 id="title">Terminology for Energy Efficiency Network Management</h1>
 <section id="section-abstract">
       <h2 id="abstract"><a href="#abstract" class="selfRef">Abstract</a></h2>
-<p id="section-abstract-1">Energy efficient network management is primary meant to enhance conventional
+<p id="section-abstract-1">Energy-efficient network management is primary meant to enhance conventional
 network management with energy-related management capabilities
 to optimize the overall energy consumption at the level of a network. To that aim,
 specific features and capabilities are required to control (and thus optimize)
-the energy use of involved network devices, and their components.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
-<p id="section-abstract-2">This document defines a set of terms used within the IETF when discussing energy efficiency in network management.
+the energy use of involved network element and their components.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
+<p id="section-abstract-2">This document is defines a set of key terms used within the IETF when discussing energy efficiency in network management.
 Such reference document helps framing discussion and agreeing upon a set of main concepts in this area.<a href="#section-abstract-2" class="pilcrow">¶</a></p>
 </section>
 <section class="note rfcEditorRemove" id="section-note.1">
@@ -1221,15 +1221,17 @@ Such reference document helps framing discussion and agreeing upon a set of main
       <h2 id="name-introduction">
 <a href="#section-1" class="section-number selfRef">1. </a><a href="#name-introduction" class="section-name selfRef">Introduction</a>
       </h2>
-<p id="section-1-1">With rising energy costs and increasing awareness of the ecological impact of running networks, servers, and various
-equipment, Energy Efficiency is considered by operators as a critical issue for network management systems in relation to
-environmental impact and related operational cost. Energy Efficiency management is thus complementing conventional network management.<a href="#section-1-1" class="pilcrow">¶</a></p>
-<p id="section-1-2">This document defines a set of terms used within the IETF when discussing Energy Efficiency network management.
-The purpose is to ensure a consistent set of terminology and help with the characterization of Energy
-Efficiency (and relevant aspects), assist in the development of the YANG data models at the different levels in the
-IETF, bring clarity to the Energy Efficiency related discussions between different groups within IETF, in particular.<a href="#section-1-2" class="pilcrow">¶</a></p>
+<p id="section-1-1">With rising energy costs and increasing awareness of the environmental impact of running networks, servers, and various
+equipment, Energy Efficiency is considered by operators as a critical component to be integrated in the overall Network Management systems.
+Such integration is ambitioned to feed strategies for committing environmental objectives but also mastering related operational cost. Energy Efficiency management is thus complementing conventional network management.<a href="#section-1-1" class="pilcrow">¶</a></p>
+<p id="section-1-2"><a href="#sec-def" class="auto internal xref">Section 3</a> defines a set of terms used within the IETF when discussing Energy-efficiency networks.
+The purpose is to (1) ensure consistent use of a set of terms in this area, (2) help with the characterization of Energy
+Efficiency (and relevant aspects), (3) assist in the development of the YANG data models at the different levels in the
+IETF, and (4) bring clarity to the Energy Efficiency related discussions between different groups within IETF, in particular.<a href="#section-1-2" class="pilcrow">¶</a></p>
 <p id="section-1-3">This document does not intend to define a comprehensive list of energy-related terms. Only key terms are defined.
 Some of these terms are extracted from existing IETF documents and beyond.<a href="#section-1-3" class="pilcrow">¶</a></p>
+<p id="section-1-4">Also, <a href="#sec-metrics" class="auto internal xref">Section 4</a> provides an inventory of currently used metrics to assess/compute energy-related consumption, efficiency ratio, etc.<a href="#section-1-4" class="pilcrow">¶</a></p>
+<p id="section-1-5"><a href="#sec-sdos" class="auto internal xref">Appendix A</a> provides a list of SDOs where relevant energy efficiency effort is ongoing.<a href="#section-1-5" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="abbreviations">
@@ -1287,7 +1289,7 @@ Some of these terms are extracted from existing IETF documents and beyond.<a hre
 </dl>
 </section>
 </div>
-<div id="definitions">
+<div id="sec-def">
 <section id="section-3">
       <h2 id="name-definitions">
 <a href="#section-3" class="section-number selfRef">3. </a><a href="#name-definitions" class="section-name selfRef">Definitions</a>
@@ -1402,7 +1404,7 @@ may be used to identify key components in a system with regard to energy saving.
 </dl>
 </section>
 </div>
-<div id="sample-energy-efficiency-metrics-and-measurement-methods">
+<div id="sec-metrics">
 <section id="section-4">
       <h2 id="name-sample-energy-efficiency-me">
 <a href="#section-4" class="section-number selfRef">4. </a><a href="#name-sample-energy-efficiency-me" class="section-name selfRef">Sample Energy Efficiency Metrics and Measurement Methods</a>
@@ -1629,12 +1631,12 @@ The formula is defined in <span>[<a href="#L.1320" class="cite xref">L.1320</a>]
 </dl>
 </section>
 </div>
-<div id="standards-bodies-and-standards">
+<div id="sec-sdos">
 <section id="appendix-A">
       <h2 id="name-standards-bodies-and-standa">
 <a href="#appendix-A" class="section-number selfRef">Appendix A. </a><a href="#name-standards-bodies-and-standa" class="section-name selfRef">Standards Bodies and Standards</a>
       </h2>
-<p id="appendix-A-1">This appendix provides a list of SDOs where relevant energy efficiecny effort is ongoing.
+<p id="appendix-A-1">This appendix provides a list of SDOs where relevant energy efficiency effort is ongoing.
 This appendix does not aim to be comprehensive. The appendix may be removed in future versions of the document.<a href="#appendix-A-1" class="pilcrow">¶</a></p>
 <div id="itu-t-sg5">
 <section id="appendix-A.1">
