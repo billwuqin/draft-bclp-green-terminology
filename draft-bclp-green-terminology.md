@@ -249,7 +249,7 @@ Where:
 A metric for small networking devices intended for home/domestic or small office use is as follows:
 
                        EER = Ti/Pw [Mbit/s/W]
-    
+
 Where Ti is weighted throughput between wide area network (WAN) and local area network (LAN) ports
 in the ingress direction, Pw is weighted power (energy consumption rate), the formula is defined
 in {{L.1310}}
