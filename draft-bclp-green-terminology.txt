@@ -236,7 +236,7 @@ Table of Contents
 
    Where 'Peq' is the power (in watts) of a fully equipped wireline
    network equipment with all its line cards working in a specific
-   profile/state.
+   profile/state.  The formula is defined in [L.1310].
 
 4.2.  Metric for Wireless Access Technologies
 
@@ -252,6 +252,8 @@ Table of Contents
 
    *  'Erfu' is daily RF units energy consumption [Wh] under different
       load.
+
+   The formula is defined in [L.1310].
 
 4.3.  Metrics for Routers and Ethernet Switches
 
@@ -306,7 +308,8 @@ Table of Contents
    *  'Pi' is input power.
 
    This energy efficiency value is measured or calculated from the
-   testing data over a given time period.
+   testing data over a given time period.  The formula is defined in
+   [L.1320].
 
 4.6.  Metric for Cooling Equipment
 
@@ -320,6 +323,8 @@ Table of Contents
 
    *  'Qt' is the sum of the sensible cooling capacity and the latent
       cooling capacity.
+
+   The formula is defined in [L.1320].
 
 5.  Security Considerations
 
