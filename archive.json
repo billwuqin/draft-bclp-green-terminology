@@ -1,0 +1,861 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2024-10-10T01:44:10.834260+00:00",
+  "repo": "billwuqin/draft-bclp-green-terminology",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 12,
+      "id": "I_kwDOM9Apn86Zi2B8",
+      "title": "energy efficiency definition",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/12",
+      "state": "OPEN",
+      "author": "marisolpalmero",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "I temp to disagree with this part of the definition for Energy Efficiency:\r\n\u00a0\r\nEnergy Efficiency: : Refers to the ability to control the use of available energy in an optimized manner (e.g., in a resource conserved manner and at low cost).\r\n\u00a0\r\nI agree on how it is addressed in the second paragraph...\r\n\u00a0\r\nEnergy Efficiency: :  is a ratio between the useful output and input of an energy conversion process of a network, device, or component.\r\n\u00a0\r\n",
+      "createdAt": "2024-10-09T14:04:58Z",
+      "updatedAt": "2024-10-10T00:27:24Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I think this is now fixed in #11 ",
+          "createdAt": "2024-10-09T14:16:37Z",
+          "updatedAt": "2024-10-09T14:16:37Z"
+        },
+        {
+          "author": "marisolpalmero",
+          "authorAssociation": "COLLABORATOR",
+          "body": "did you commit? I still see it with the same definition?",
+          "createdAt": "2024-10-09T15:41:21Z",
+          "updatedAt": "2024-10-09T15:41:21Z"
+        },
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Here is the current entry in the main:\r\n\r\n> Energy Efficiency/Energy Efficiency Ratio (EER):\r\n> The energy efficiency is expressed as the ratio between the useful output and input of an energy conversion process of a network, device, or component.\r\n> \r\n> For instance, in relation with a networking device, it can be stated as the ratio of total throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).\r\n> \r\n> This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput forwarded by 1 watt (e.g., [[I-D.cprjgf-bmwg-powerbench](https://billwuqin.github.io/draft-bclp-green-terminology/draft-bclp-green-terminology.html#I-D.cprjgf-bmwg-powerbench)]).\r\n> \r\n> A higher EER indicates a better energy efficiency.",
+          "createdAt": "2024-10-09T16:18:27Z",
+          "updatedAt": "2024-10-09T16:18:27Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "@marisolpalmero Let us know whether the change address your comment, \r\nI think the draft is in good shape for initial submisison.",
+          "createdAt": "2024-10-10T00:27:23Z",
+          "updatedAt": "2024-10-10T00:27:23Z"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "id": "I_kwDOM9Apn86Zj3e-",
+      "title": "consistency on the use of capital letters and lower letters",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/14",
+      "state": "CLOSED",
+      "author": "marisolpalmero",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "L or l under the definition of:\r\nNetwork level Energy Efficiency\r\n\r\nDevice level Energy Efficiency\r\n\r\nComponent Level Energy Efficiency\r\n\r\n",
+      "createdAt": "2024-10-09T15:48:33Z",
+      "updatedAt": "2024-10-09T16:18:36Z",
+      "closedAt": "2024-10-09T16:18:36Z",
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOM9Apn8599QSd",
+      "title": "Tweak the abstract",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/1",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-08T14:07:20Z",
+      "updatedAt": "2024-10-09T00:27:15Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "20269afa1f5ed87ee3dc895656e82c0aae23657c",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "Tweak-the-abstract",
+      "headRefOid": "a81aab76504f1dbf85a2faf63862f33de6ea4059",
+      "closedAt": "2024-10-09T00:27:15Z",
+      "mergedAt": "2024-10-09T00:27:15Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "80f5b5ef0d80ed4f78587169394cbdbbbf168ebd"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "The changes look good.",
+          "createdAt": "2024-10-09T00:27:05Z",
+          "updatedAt": "2024-10-09T00:27:05Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 2,
+      "id": "PR_kwDOM9Apn8599Qtu",
+      "title": "no need for the boilerplate",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/2",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-08T14:08:10Z",
+      "updatedAt": "2024-10-09T00:30:58Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "20269afa1f5ed87ee3dc895656e82c0aae23657c",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "no-boilerplate",
+      "headRefOid": "3b833e6d39f3e62ccb8308ae3cd9acbf945336f7",
+      "closedAt": "2024-10-09T00:30:57Z",
+      "mergedAt": "2024-10-09T00:30:57Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "34834fc6b4242c171d8de84b704bfe4526114d5f"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "Works for me.",
+          "createdAt": "2024-10-09T00:30:52Z",
+          "updatedAt": "2024-10-09T00:30:52Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 3,
+      "id": "PR_kwDOM9Apn8599YvC",
+      "title": "tweak the intro",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/3",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-08T14:22:50Z",
+      "updatedAt": "2024-10-09T00:31:31Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "20269afa1f5ed87ee3dc895656e82c0aae23657c",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "tweak-the-intro",
+      "headRefOid": "a6c3e55cc65e1e53f8de8d47f6e66123687d4df5",
+      "closedAt": "2024-10-09T00:31:31Z",
+      "mergedAt": "2024-10-09T00:31:31Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "0427be3d97aaf476157bb8692df0e57d21346f78"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "Thanks for simplify the last paragraph.",
+          "createdAt": "2024-10-09T00:31:26Z",
+          "updatedAt": "2024-10-09T00:31:26Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 4,
+      "id": "PR_kwDOM9Apn85-ChM9",
+      "title": "abbrev fixes",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/4",
+      "state": "MERGED",
+      "author": "liuchunchi",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-09T07:46:04Z",
+      "updatedAt": "2024-10-09T08:08:10Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "38820f097c5fbf3ac72906827ef84fd31c7fc0d6",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "liuchunchi-patch-1",
+      "headRefOid": "ec4bb9212197514d91d70563b69af98ec9af96e5",
+      "closedAt": "2024-10-09T08:07:10Z",
+      "mergedAt": "2024-10-09T08:07:10Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "ba2cb6cb70749a8ea71fead18f9f6f362316874e"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn86Mc5GO",
+          "commit": {
+            "abbreviatedOid": "ec4bb92"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-09T08:05:19Z",
+          "updatedAt": "2024-10-09T08:05:20Z",
+          "comments": [
+            {
+              "originalPosition": 4,
+              "body": "I think we should add all abbreviations upfront into terminology section",
+              "createdAt": "2024-10-09T08:05:20Z",
+              "updatedAt": "2024-10-09T08:05:20Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn86Mc51T",
+          "commit": {
+            "abbreviatedOid": "ec4bb92"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-09T08:06:20Z",
+          "updatedAt": "2024-10-09T08:06:20Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "The same comment can be applied here",
+              "createdAt": "2024-10-09T08:06:20Z",
+              "updatedAt": "2024-10-09T08:06:20Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn86Mc63Y",
+          "commit": {
+            "abbreviatedOid": "ec4bb92"
+          },
+          "author": "liuchunchi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-09T08:08:10Z",
+          "updatedAt": "2024-10-09T08:08:10Z",
+          "comments": [
+            {
+              "originalPosition": 4,
+              "body": "> I think we should add all abbreviations upfront into terminology section\r\n\r\nI will add an abbreviation section upfront.",
+              "createdAt": "2024-10-09T08:08:10Z",
+              "updatedAt": "2024-10-09T08:08:10Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "PR_kwDOM9Apn85-Clme",
+      "title": "tweaks + move SDOs to an appendix",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/5",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-09T07:54:22Z",
+      "updatedAt": "2024-10-09T08:08:19Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "38820f097c5fbf3ac72906827ef84fd31c7fc0d6",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "tweaks-+-move-SDOs-to-an-appendix",
+      "headRefOid": "f2d3595387ae34d380c7f563b629b912c92d966c",
+      "closedAt": "2024-10-09T08:08:19Z",
+      "mergedAt": "2024-10-09T08:08:19Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "7cad2b52508b6f7d2253cbdf40f1a06d8ed704f3"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "Works for me",
+          "createdAt": "2024-10-09T08:08:15Z",
+          "updatedAt": "2024-10-09T08:08:15Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 6,
+      "id": "PR_kwDOM9Apn85-Cyra",
+      "title": "Add abbreviation based on Chunchi's comment",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/6",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-09T08:19:07Z",
+      "updatedAt": "2024-10-09T08:26:11Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "7cad2b52508b6f7d2253cbdf40f1a06d8ed704f3",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "billwuqin-patch-1",
+      "headRefOid": "d4e7007db537d94e3dfa6120fbdbb6ff6e3e9fb6",
+      "closedAt": "2024-10-09T08:26:11Z",
+      "mergedAt": "2024-10-09T08:26:11Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "f34e488081ac0f53f4e6aabc88c96c28f99b5149"
+      },
+      "comments": [
+        {
+          "author": "liuchunchi",
+          "authorAssociation": "COLLABORATOR",
+          "body": "LGTM",
+          "createdAt": "2024-10-09T08:24:00Z",
+          "updatedAt": "2024-10-09T08:24:00Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 7,
+      "id": "PR_kwDOM9Apn85-DD3f",
+      "title": "Inputs to the definitions",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/7",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-09T08:53:21Z",
+      "updatedAt": "2024-10-09T09:13:19Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "b8207dd2bfef077b28089f436c0fd3849a552ccf",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "Inputs-to-the-definitions",
+      "headRefOid": "e3aad39abc75288b1f692ede2564c064cdbf64c0",
+      "closedAt": "2024-10-09T09:13:19Z",
+      "mergedAt": "2024-10-09T09:13:19Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "2203e2d286772ad893eb6ca8b2363831c2c39a05"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "Good input.",
+          "createdAt": "2024-10-09T09:13:15Z",
+          "updatedAt": "2024-10-09T09:13:15Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 8,
+      "id": "PR_kwDOM9Apn85-DIoi",
+      "title": "explaining formulas and params",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/8",
+      "state": "MERGED",
+      "author": "liuchunchi",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-09T09:02:39Z",
+      "updatedAt": "2024-10-09T11:49:54Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "2203e2d286772ad893eb6ca8b2363831c2c39a05",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "liuchunchi-patch-2",
+      "headRefOid": "c9e276e4230c135449c690838fe9746994562220",
+      "closedAt": "2024-10-09T11:49:54Z",
+      "mergedAt": "2024-10-09T11:49:54Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "396d741a3b7c25c4b8535880f1a1afea8ba0d819"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn86MduoP",
+          "commit": {
+            "abbreviatedOid": "a4d0ac0"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2024-10-09T09:32:24Z",
+          "updatedAt": "2024-10-09T09:35:11Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\nMetrics for DSLAM, MSAN, GPON, and GEPON equipment:\r\n```",
+              "createdAt": "2024-10-09T09:32:24Z",
+              "updatedAt": "2024-10-09T09:35:11Z"
+            },
+            {
+              "originalPosition": 2,
+              "body": "```suggestion\r\n## Energy Efficiency Metrics and Measurement Methods\r\n```",
+              "createdAt": "2024-10-09T09:32:35Z",
+              "updatedAt": "2024-10-09T09:35:11Z"
+            },
+            {
+              "originalPosition": 5,
+              "body": "Consider adding a reference",
+              "createdAt": "2024-10-09T09:33:09Z",
+              "updatedAt": "2024-10-09T09:35:11Z"
+            },
+            {
+              "originalPosition": 22,
+              "body": "```suggestion\r\nMetrics for small network devices:\r\n```",
+              "createdAt": "2024-10-09T09:33:19Z",
+              "updatedAt": "2024-10-09T09:35:11Z"
+            },
+            {
+              "originalPosition": 24,
+              "body": "\"adopted\": consider adding a reference or clarify this was adopted by whom.",
+              "createdAt": "2024-10-09T09:33:57Z",
+              "updatedAt": "2024-10-09T09:35:11Z"
+            },
+            {
+              "originalPosition": 36,
+              "body": "```suggestion\r\nDuring idle power, IP pings shall be sent via the user interface.\r\n```\r\n\r\nWhy this is mentioned here?",
+              "createdAt": "2024-10-09T09:34:30Z",
+              "updatedAt": "2024-10-09T09:35:11Z"
+            },
+            {
+              "originalPosition": 37,
+              "body": "```suggestion\r\n0.35, 0.5, and 0.15 are relative weights examples as defined in {{L.1310}}.\r\n```",
+              "createdAt": "2024-10-09T09:35:02Z",
+              "updatedAt": "2024-10-09T09:35:11Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn86Md9NA",
+          "commit": {
+            "abbreviatedOid": "0018cfc"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-09T09:57:04Z",
+          "updatedAt": "2024-10-09T09:57:04Z",
+          "comments": [
+            {
+              "originalPosition": 36,
+              "body": "I also suggest to remove this sentence since it is not mandatory to have this context information.",
+              "createdAt": "2024-10-09T09:57:04Z",
+              "updatedAt": "2024-10-09T09:57:04Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn86MeABQ",
+          "commit": {
+            "abbreviatedOid": "a4d0ac0"
+          },
+          "author": "liuchunchi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-09T10:01:55Z",
+          "updatedAt": "2024-10-09T10:01:55Z",
+          "comments": [
+            {
+              "originalPosition": 36,
+              "body": "removed for out of context",
+              "createdAt": "2024-10-09T10:01:55Z",
+              "updatedAt": "2024-10-09T10:01:55Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn86MeAj2",
+          "commit": {
+            "abbreviatedOid": "a4d0ac0"
+          },
+          "author": "liuchunchi",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-09T10:02:53Z",
+          "updatedAt": "2024-10-09T10:02:54Z",
+          "comments": [
+            {
+              "originalPosition": 24,
+              "body": "these definitions are from {{L.1310}}, added references. ",
+              "createdAt": "2024-10-09T10:02:53Z",
+              "updatedAt": "2024-10-09T10:02:54Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn86Me3lv",
+          "commit": {
+            "abbreviatedOid": "a4d0ac0"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-09T11:45:20Z",
+          "updatedAt": "2024-10-09T11:45:21Z",
+          "comments": [
+            {
+              "originalPosition": 24,
+              "body": "works for me.",
+              "createdAt": "2024-10-09T11:45:20Z",
+              "updatedAt": "2024-10-09T11:45:21Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn86Me3Sp",
+          "commit": {
+            "abbreviatedOid": "607edf3"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2024-10-09T11:44:42Z",
+          "updatedAt": "2024-10-09T11:45:35Z",
+          "comments": [
+            {
+              "originalPosition": 35,
+              "body": "```suggestion\r\nWhere throughput is maximum non-drop data rate between ingress/egress ports.\r\n```",
+              "createdAt": "2024-10-09T11:44:42Z",
+              "updatedAt": "2024-10-09T11:45:35Z"
+            },
+            {
+              "originalPosition": 35,
+              "body": "WAN/LAN taxonomy does not apply for core devices.",
+              "createdAt": "2024-10-09T11:45:08Z",
+              "updatedAt": "2024-10-09T11:45:35Z"
+            },
+            {
+              "originalPosition": 36,
+              "body": "```suggestion\r\n```",
+              "createdAt": "2024-10-09T11:45:16Z",
+              "updatedAt": "2024-10-09T11:45:35Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn86Me5aC",
+          "commit": {
+            "abbreviatedOid": "c9e276e"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-10-09T11:49:02Z",
+          "updatedAt": "2024-10-09T11:49:02Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOM9Apn86Me5gd",
+          "commit": {
+            "abbreviatedOid": "c9e276e"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-10-09T11:49:14Z",
+          "updatedAt": "2024-10-09T11:49:14Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "id": "PR_kwDOM9Apn85-E4gU",
+      "title": "interleave ops/vendor",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/9",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-09T12:45:30Z",
+      "updatedAt": "2024-10-09T14:13:05Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "396d741a3b7c25c4b8535880f1a1afea8ba0d819",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "boucadair-patch-1",
+      "headRefOid": "7267fdbd575f5d38f2d98c9305dc168f5c1bb2f2",
+      "closedAt": "2024-10-09T14:13:05Z",
+      "mergedAt": "2024-10-09T14:13:05Z",
+      "mergedBy": "boucadair",
+      "mergeCommit": {
+        "oid": "5df987eda63ccbc510d56f3c9c200f041a2ea652"
+      },
+      "comments": [
+        {
+          "author": "luismcontreras",
+          "authorAssociation": "COLLABORATOR",
+          "body": "No opinion from my side",
+          "createdAt": "2024-10-09T13:45:51Z",
+          "updatedAt": "2024-10-09T13:45:51Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 10,
+      "id": "PR_kwDOM9Apn85-FAjj",
+      "title": "Add more terms",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/10",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-09T12:57:56Z",
+      "updatedAt": "2024-10-09T14:13:24Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "396d741a3b7c25c4b8535880f1a1afea8ba0d819",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "more-terms",
+      "headRefOid": "73b1ed3891bd600d28f0f09759fa524c9c55f4e1",
+      "closedAt": "2024-10-09T14:13:24Z",
+      "mergedAt": "2024-10-09T14:13:24Z",
+      "mergedBy": "boucadair",
+      "mergeCommit": {
+        "oid": "0bb56be762d52033ea4b7dbdc31e740273389138"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 11,
+      "id": "PR_kwDOM9Apn85-FcRu",
+      "title": "Update draft-bclp-green-terminology.md",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/11",
+      "state": "MERGED",
+      "author": "luismcontreras",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Proposed changes to definitions (energy efficiency network management, and energy efficiency) and additions to 3GPP part in Annex",
+      "createdAt": "2024-10-09T13:48:19Z",
+      "updatedAt": "2024-10-09T14:20:41Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "0bb56be762d52033ea4b7dbdc31e740273389138",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "luismcontreras-patch-1",
+      "headRefOid": "70c520612d637f8feb451dfba99c7b79ed20e6ce",
+      "closedAt": "2024-10-09T14:20:41Z",
+      "mergedAt": "2024-10-09T14:20:41Z",
+      "mergedBy": "boucadair",
+      "mergeCommit": {
+        "oid": "86d009f2064c2ba4ce5c98f19902e9788ca9e2db"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn86MgY0A",
+          "commit": {
+            "abbreviatedOid": "89a35f3"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-09T14:15:09Z",
+          "updatedAt": "2024-10-09T14:15:10Z",
+          "comments": [
+            {
+              "originalPosition": 30,
+              "body": "```suggestion\r\nEnergy Efficiency/Energy Efficiency Ratio (EER):\r\n```",
+              "createdAt": "2024-10-09T14:15:09Z",
+              "updatedAt": "2024-10-09T14:15:10Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn86MgZFj",
+          "commit": {
+            "abbreviatedOid": "89a35f3"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2024-10-09T14:15:33Z",
+          "updatedAt": "2024-10-09T14:15:34Z",
+          "comments": [
+            {
+              "originalPosition": 30,
+              "body": "better to leave EER as standalone def entry in -00",
+              "createdAt": "2024-10-09T14:15:34Z",
+              "updatedAt": "2024-10-09T14:15:34Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn86MgbG0",
+          "commit": {
+            "abbreviatedOid": "70c5206"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-10-09T14:18:32Z",
+          "updatedAt": "2024-10-09T14:18:32Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "PR_kwDOM9Apn85-GamY",
+      "title": "Update draft-bclp-green-terminology.md",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/13",
+      "state": "MERGED",
+      "author": "marisolpalmero",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "PUE abbrevation added",
+      "createdAt": "2024-10-09T15:45:33Z",
+      "updatedAt": "2024-10-09T16:10:36Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "86d009f2064c2ba4ce5c98f19902e9788ca9e2db",
+      "headRepository": "marisolpalmero/draft-bclp-green-terminology",
+      "headRefName": "main",
+      "headRefOid": "b5096f41c024b03ccde436a9f2ddf53ba73c5cb6",
+      "closedAt": "2024-10-09T16:10:35Z",
+      "mergedAt": "2024-10-09T16:10:35Z",
+      "mergedBy": "boucadair",
+      "mergeCommit": {
+        "oid": "05d9b4aa2576e6eb258bf113562148500e4dc761"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn86MhjuV",
+          "commit": {
+            "abbreviatedOid": "a68c982"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2024-10-09T16:10:28Z",
+          "updatedAt": "2024-10-09T16:10:28Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "id": "PR_kwDOM9Apn85-Go4o",
+      "title": "consistency",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/15",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-09T16:15:38Z",
+      "updatedAt": "2024-10-09T16:18:35Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "05d9b4aa2576e6eb258bf113562148500e4dc761",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "consistency",
+      "headRefOid": "7fc577e7a1af4558c879ba5197a89e1fd6be52db",
+      "closedAt": "2024-10-09T16:18:35Z",
+      "mergedAt": "2024-10-09T16:18:35Z",
+      "mergedBy": "boucadair",
+      "mergeCommit": {
+        "oid": "f0fbc34b4964e74482a897b28d5512fba09e9917"
+      },
+      "comments": [],
+      "reviews": []
+    }
+  ]
+}
