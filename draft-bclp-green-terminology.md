@@ -189,10 +189,10 @@ Power Usage Effectiveness (PUE):
 : This metric is calculated as the ratio between the total energy consumed by an infrastructure and the energy needed for a network element/component.
 
 Network Level Energy Efficiency (NLEE):
-:  Denotes the Energy Efficiency of an entire network or a subset part of it (e.g., access network).
+: Denotes the Energy Efficiency of an entire network or a subset part of it (e.g., access network).
 
 Device Level Energy Efficiency (DLEE):
-:  Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network elements providing the same functionality or a target to optiize the configuration of a a network element.
+: Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network elements providing the same functionality or a target to optiize the configuration of a a network element.
 
 Component Level Energy Efficiency (CLEE):
 : Denotes the Energy Efficiency of a component of a network element. It can be used in the design, development, and manufacturing of energy efficient a network elements.
@@ -214,7 +214,7 @@ metric values for each specific profile/state.
                           Pport = Peq/Nports[W/port]
 
 Where 'Peq' is the power (in watts) of a fully equipped wireline network equipment with all its line cards
-working in a specific profile/state.
+working in a specific profile/state. The formula is defined in {{L.1310}}.
 
 ## Metric for Wireless Access Technologies
 
@@ -226,6 +226,8 @@ Where:
 
 * 'Eoutput' is daily RF output energy consumption [Wh] under different load.
 * 'Erfu' is daily RF units energy consumption [Wh] under different load.
+
+The formula is defined in {{L.1310}}.
 
 ## Metrics for Routers and Ethernet Switches
 
@@ -272,6 +274,7 @@ Where:
 * 'Pi' is input power.
 
 This energy efficiency value is measured or calculated from the testing data over a given time period.
+The formula is defined in {{L.1320}}.
 
 ## Metric for Cooling Equipment
 
@@ -282,6 +285,8 @@ Where:
 * 'η' is the energy efficiency of the air conditioner.
 * 'Pi' is the input power.
 * 'Qt' is the sum of the sensible cooling capacity and the latent cooling capacity.
+
+The formula is defined in {{L.1320}}.
 
 # Security Considerations
 
