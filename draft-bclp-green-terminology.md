@@ -260,9 +260,9 @@ in {{L.1310}}
 		      Pw = 0.35P_idle+0.5P_lowpower+0.15P_maximum
 
 where:
-* (0.35,0.5,0.15)is the relative weight at different usage percentage
-* (P_idle, P_lowpower, P_maximum) is the power at different usage percentage
-* (T_idle, T_lowpower,T_maximum) is the throughput at different usage percentage
+* (0.35,0.5,0.15) is the relative weight at different usage percentage.
+* (P_idle, P_lowpower, P_maximum) is the power at different usage percentage.
+* (T_idle, T_lowpower,T_maximum) is the throughput at different usage percentage.
 
 ## Metric for Power Equipment
 
