@@ -114,6 +114,8 @@ Some of these terms are extracted from existing IETF documents and beyond.
 
 Also, {{sec-metrics}} provides an inventory of currently used metrics to assess/compute energy-related consumption, efficiency ratio, etc.
 
+{{sec-sdos}} provides a list of SDOs where relevant energy efficiency effort is ongoing.
+
 # Abbreviations
 
 The following abbreviations are used in the document:
@@ -245,9 +247,9 @@ Where 'Ti' is weighted throughput, 'Pw' is weighted power (energy consumption ra
 Where:
 
 * 'a'/'b'/'c' are the relative weight at different usage percentage with  `a+b+c=1`.
-  
+
 * 'Pu1'/'Pu2'/'Pu3' are the power at different usage percentage.
-  
+
 * 'Tu1'/'Tu2'/'Tu3' are the throughput at different usage percentage.
 
 ## Metrics for Small Network Devices
@@ -266,9 +268,9 @@ in {{L.1310}}
 where:
 
 * (0.35,0.5,0.15) is the relative weight at different usage percentage.
-  
+
 * 'P_idle'/'P_lowpower'/'P_maximum' is the power at different usage percentage.
-  
+
 * 'T_idle'/'T_lowpower'/'T_maximum' is the throughput at different usage percentage.
 
 ## Metric for Power Equipment
@@ -278,6 +280,7 @@ where:
 Where:
 
 * 'Po' is output power.
+
 * 'Pi' is input power.
 
 This energy efficiency value is measured or calculated from the testing data over a given time period.
@@ -290,7 +293,9 @@ The formula is defined in {{L.1320}}.
 Where:
 
 * 'η' is the energy efficiency of the air conditioner.
+
 * 'Pi' is the input power.
+
 * 'Qt' is the sum of the sensible cooling capacity and the latent cooling capacity.
 
 The formula is defined in {{L.1320}}.
@@ -301,9 +306,9 @@ Security is not discussed in this document.
 
 --- back
 
-# Standards Bodies and Standards
+# Standards Bodies and Standards {#sec-sdos}
 
-This appendix provides a list of SDOs where relevant energy efficiecny effort is ongoing.
+This appendix provides a list of SDOs where relevant energy efficiency effort is ongoing.
 This appendix does not aim to be comprehensive. The appendix may be removed in future versions of the document.
 
 ## ITU-T SG5
