@@ -112,9 +112,7 @@ IETF, bring clarity to the Energy Efficiency related discussions between differe
 This document does not intend to define a comprehensive list of energy-related terms. Only key terms are defined.
 Some of these terms are extracted from existing IETF documents and beyond.
 
-# Terms and Definitions
-
-## Abbreviations
+# Abbreviations
 
 The following abbreviations are used in the document:
 
@@ -145,7 +143,7 @@ NLEE:
 PUE:
 : Power Usage Effectiveness
 
-## Definitions
+# Definitions
 
 Terms are listed so that terms that are needed to understand other terms are listed first.
 
@@ -171,10 +169,11 @@ Energy Monitoring:
 Energy Control:
 : Is a part of Energy Management that deals with
       directing influence over devices ({{?RFC7326}}).
+: This control can span a network or a subset of it.
 
 Energy Efficiency Network Management:
 : Refers to the ability to control the use of available energy in an optimized manner (e.g.,
-  in a resource conserved manner and at low cost).
+  in a resource conserved manner and at low cost) in a network.
 
 Energy Efficiency Metric:
 : Refers to a metric that is used for the evaluation and assessment of energy consumption of a network, device, or component. One or more metrics can be defined. These metrics are also used for network performance purposes to characterize the effectiveness of an Energy Efficiency management strategy.
@@ -186,84 +185,98 @@ Energy Efficiency/Energy Efficiency Ratio (EER):
 : A higher EER indicates a better energy efficiency.
 
 Power Usage Effectiveness (PUE):
-: Refer to the metric used to measure data center energy efficiency.
+: Refer to the metric used to measure the energy efficiency of an infrastructure.
 : This metric is calculated as the ratio between the total energy consumed by an infrastructure and the energy needed for a network element/component.
 
 Network Level Energy Efficiency (NLEE):
-:  Denotes the Energy Efficiency of an entire network or a subset part of it.
+:  Denotes the Energy Efficiency of an entire network or a subset part of it (e.g., access network).
 
 Device Level Energy Efficiency (DLEE):
-:  Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network elements providing the same functionality.
+:  Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network elements providing the same functionality or a target to optiize the configuration of a a network element.
 
 Component Level Energy Efficiency (CLEE):
-: Denotes the Energy Efficiency of a component of a network element. It can be used in the design, development, and manufacturing of energy efficient equipment.
+: Denotes the Energy Efficiency of a component of a network element. It can be used in the design, development, and manufacturing of energy efficient a network elements.
 : Is useful to evaluate the energy efficiency performance of individual components of a network element.
 : Measuring and understanding the energy efficiency or energy consumption of each component within a network element
 may be used to identify key components in a system with regard to energy saving.
 
-# Energy Efficiency Metrics and Measurement Methods
+# Sample Energy Efficiency Metrics and Measurement Methods
 
-Metrics for DSLAM, MSAN, GPON, and GEPON equipment:
+This section lists some metrics that are adopted by other SDOs.
+
+> DISCUSS: Should we maintian this section?
+
+## Metrics for DSLAM, MSAN, GPON, and GEPON Equipment
 
 Equipment with line cards working at different profiles/states are characterized with different
 metric values for each specific profile/state.
 
                           Pport = Peq/Nports[W/port]
 
-Where Peq is the power (in watts) of a fully equipped wireline network equipment with all its line cards
+Where 'Peq' is the power (in watts) of a fully equipped wireline network equipment with all its line cards
 working in a specific profile/state.
 
-Metric for wireless access technologies:
+## Metric for Wireless Access Technologies
 
-The proposed energy efficiency metric at RF (Radio-Frequency) unit level is
+The energy efficiency metric at Radio Frequency (RF) unit level is as follows:
 
                          EErfu = Eoutput/Erfu
 
-Where Eoutput is daily RF output energy consumption [Wh] under different load
-Erfu is daily RF units energy consumption [Wh] under different load.
+Where:
 
-Metric for routers and Ethernet switches:
+* 'Eoutput' is daily RF output energy consumption [Wh] under different load.
+* 'Erfu' is daily RF units energy consumption [Wh] under different load.
 
-The proposed metric for router and Ethernet switches is
+## Metrics for Routers and Ethernet Switches
+
+The metric for routers and Ethernet switches is as follows:
 
                         EER = Ti/Pw [Mbit/s/W]
 
-Where Ti is weighted throughput, Pw is weighted power (energy consumption rate). The formula is defined in {{L.1310}}.
+Where 'Ti' is weighted throughput, 'Pw' is weighted power (energy consumption rate). The formula is defined in {{L.1310}}.
 
                         Ti = a*Tu1 + b*Tu2 + c*Tu3
                         Pw = a*Pu1 + b*Pu2 + c*Pu3
 
-where (a, b, c) is the relative weight at different usage percentage, a+b+c=1
+Where:
 
-(Pu1, Pu2, Pu3) is the power at different usage percentage
+* 'a'/'b'/'c' are the relative weight at different usage percentage with  `a+b+c=1`.
+* 'Pu1'/'Pu2'/'Pu3' are the power at different usage percentage.
+* 'Tu1'/'Tu2'/'Tu3' are the throughput at different usage percentage.
 
-(Tu1, Tu2, Tu3) is the throughput at different usage percentage
+## Metrics for Small Network Devices
 
-Metrics for small network devices:
-
-The metrics adopted for small networking devices intended for home/domestic or small office use is
+A metric for small networking devices intended for home/domestic or small office use is as follows:
 
                         EER = (0.35T_idle+0.5T_lowpower+0.15T_Maximum)/(0.35P_idle+0.5P_lowpower+0.15P_maximum) [Mbit/s/W]
 
-Where throughput is maximum non-drop data rate between ingress/egress ports.
-Line rate/speed is maximum possible number of transmitted/received bits.
-Power shall be averaged over 5 minutes, taking measurements every 30 seconds.
-0.35, 0.5, and 0.15 are relative weights examples as defined in {{L.1310}}.
+Where:
 
-Metric for power equipment:
+* Throughput is maximum non-drop data rate between ingress/egress ports.
+* Line rate/speed is maximum possible number of transmitted/received bits.
+* Power shall be averaged over 5 minutes, taking measurements every 30 seconds.
+* 0.35, 0.5, and 0.15 are relative weights examples as defined in {{L.1310}}.
+
+## Metric for Power Equipment
 
                                δ = Po/Pi
 
-Where Po is output power, Pi is input power. This energy efficiency value is
-measured or calculated from the testing data over specified time period.
+Where:
 
-Metric for cooling equipment
+* 'Po' is output power.
+* 'Pi' is input power.
+
+This energy efficiency value is measured or calculated from the testing data over a given time period.
+
+## Metric for Cooling Equipment
 
                               η = Qt/Pi
 
-Where η is the energy efficiency of the air conditioner
-Pi is the input power, Qt is the sum of the sensible cooling capacity and the
-latent cooling capacity.
+Where:
+
+* 'η' is the energy efficiency of the air conditioner.
+* 'Pi' is the input power.
+* 'Qt' is the sum of the sensible cooling capacity and the latent cooling capacity.
 
 # Security Considerations
 
