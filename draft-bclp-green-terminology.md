@@ -248,14 +248,19 @@ Where:
 
 A metric for small networking devices intended for home/domestic or small office use is as follows:
 
-                        EER = (0.35T_idle+0.5T_lowpower+0.15T_Maximum)/(0.35P_idle+0.5P_lowpower+0.15P_maximum) [Mbit/s/W]
+                       EER = Ti/Pw [Mbit/s/W]
 
-Where:
+Where Ti is weighted throughput between wide area network (WAN) and local area network (LAN) ports
+in the ingress direction, Pw is weighted power (energy consumption rate), the formula is defined
+in {{L.1310}}
 
-* Throughput is maximum non-drop data rate between ingress/egress ports.
-* Line rate/speed is maximum possible number of transmitted/received bits.
-* Power shall be averaged over 5 minutes, taking measurements every 30 seconds.
-* 0.35, 0.5, and 0.15 are relative weights examples as defined in {{L.1310}}.
+                      Ti = 0.35T_idle+0.5*T_lowpower+0.15*T_maximum
+		      Pw = 0.35P_idle+0.5P_lowpower+0.15P_maximum
+
+where:
+* (0.35,0.5,0.15)is the relative weight at different usage percentage
+* (P_idle, P_lowpower, P_maximum) is the power at different usage percentage
+* (T_idle, T_lowpower,T_maximum) is the throughput at different usage percentage
 
 ## Metric for Power Equipment
 
