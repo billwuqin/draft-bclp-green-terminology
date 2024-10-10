@@ -87,30 +87,32 @@ informative:
 
 --- abstract
 
-Energy efficient network management is primary meant to enhance conventional
+Energy-efficient network management is primary meant to enhance conventional
 network management with energy-related management capabilities
 to optimize the overall energy consumption at the level of a network. To that aim,
 specific features and capabilities are required to control (and thus optimize)
-the energy use of involved network devices, and their components.
+the energy use of involved network element and their components.
 
-This document defines a set of terms used within the IETF when discussing energy efficiency in network management.
+This document is defines a set of key terms used within the IETF when discussing energy efficiency in network management.
 Such reference document helps framing discussion and agreeing upon a set of main concepts in this area.
 
 --- middle
 
 # Introduction
 
-With rising energy costs and increasing awareness of the ecological impact of running networks, servers, and various
-equipment, Energy Efficiency is considered by operators as a critical issue for network management systems in relation to
-environmental impact and related operational cost. Energy Efficiency management is thus complementing conventional network management.
+With rising energy costs and increasing awareness of the environmental impact of running networks, servers, and various
+equipment, Energy Efficiency is considered by operators as a critical component to be integrated in the overall Network Management systems.
+Such integration is ambitioned to feed strategies for committing environmental objectives but also mastering related operational cost. Energy Efficiency management is thus complementing conventional network management.
 
-This document defines a set of terms used within the IETF when discussing Energy Efficiency network management.
-The purpose is to ensure a consistent set of terminology and help with the characterization of Energy
-Efficiency (and relevant aspects), assist in the development of the YANG data models at the different levels in the
-IETF, bring clarity to the Energy Efficiency related discussions between different groups within IETF, in particular.
+{{sec-def}} defines a set of terms used within the IETF when discussing Energy-efficiency networks.
+The purpose is to (1) ensure consistent use of a set of terms in this area, (2) help with the characterization of Energy
+Efficiency (and relevant aspects), (3) assist in the development of the YANG data models at the different levels in the
+IETF, and (4) bring clarity to the Energy Efficiency related discussions between different groups within IETF, in particular.
 
 This document does not intend to define a comprehensive list of energy-related terms. Only key terms are defined.
 Some of these terms are extracted from existing IETF documents and beyond.
+
+Also, {{sec-metrics}} provides an inventory of currently used metrics to assess/compute energy-related consumption, efficiency ratio, etc.
 
 # Abbreviations
 
@@ -143,7 +145,7 @@ NLEE:
 PUE:
 : Power Usage Effectiveness
 
-# Definitions
+# Definitions {#sec-def}
 
 Terms are listed so that terms that are needed to understand other terms are listed first.
 
@@ -200,7 +202,7 @@ Component Level Energy Efficiency (CLEE):
 : Measuring and understanding the energy efficiency or energy consumption of each component within a network element
 may be used to identify key components in a system with regard to energy saving.
 
-# Sample Energy Efficiency Metrics and Measurement Methods
+# Sample Energy Efficiency Metrics and Measurement Methods {#sec-metrics}
 
 This section lists some metrics that are adopted by other SDOs.
 
@@ -243,7 +245,9 @@ Where 'Ti' is weighted throughput, 'Pw' is weighted power (energy consumption ra
 Where:
 
 * 'a'/'b'/'c' are the relative weight at different usage percentage with  `a+b+c=1`.
+  
 * 'Pu1'/'Pu2'/'Pu3' are the power at different usage percentage.
+  
 * 'Tu1'/'Tu2'/'Tu3' are the throughput at different usage percentage.
 
 ## Metrics for Small Network Devices
@@ -261,8 +265,10 @@ in {{L.1310}}
 
 where:
 
-*  (0.35,0.5,0.15) is the relative weight at different usage percentage.
+* (0.35,0.5,0.15) is the relative weight at different usage percentage.
+  
 * 'P_idle'/'P_lowpower'/'P_maximum' is the power at different usage percentage.
+  
 * 'T_idle'/'T_lowpower'/'T_maximum' is the throughput at different usage percentage.
 
 ## Metric for Power Equipment
