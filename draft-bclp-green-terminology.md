@@ -255,7 +255,7 @@ in the ingress direction, Pw is weighted power (energy consumption rate), the fo
 in {{L.1310}}
 
                       Ti = 0.35T_idle+0.5*T_lowpower+0.15*T_maximum
-			                   Pw = 0.35P_idle+0.5P_lowpower+0.15P_maximum
+		      Pw = 0.35P_idle+0.5P_lowpower+0.15P_maximum
 
 where:
 * (0.35,0.5,0.15)is the relative weight at different usage percentage
