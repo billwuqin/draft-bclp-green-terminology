@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-10T01:44:10.834260+00:00",
+  "timestamp": "2024-10-13T01:50:20.755456+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -55,15 +55,15 @@
       "id": "I_kwDOM9Apn86Zi2B8",
       "title": "energy efficiency definition",
       "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/12",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "marisolpalmero",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "I temp to disagree with this part of the definition for Energy Efficiency:\r\n\u00a0\r\nEnergy Efficiency: : Refers to the ability to control the use of available energy in an optimized manner (e.g., in a resource conserved manner and at low cost).\r\n\u00a0\r\nI agree on how it is addressed in the second paragraph...\r\n\u00a0\r\nEnergy Efficiency: :  is a ratio between the useful output and input of an energy conversion process of a network, device, or component.\r\n\u00a0\r\n",
       "createdAt": "2024-10-09T14:04:58Z",
-      "updatedAt": "2024-10-10T00:27:24Z",
-      "closedAt": null,
+      "updatedAt": "2024-10-11T05:01:57Z",
+      "closedAt": "2024-10-11T05:01:57Z",
       "comments": [
         {
           "author": "boucadair",
@@ -92,6 +92,27 @@
           "body": "@marisolpalmero Let us know whether the change address your comment, \r\nI think the draft is in good shape for initial submisison.",
           "createdAt": "2024-10-10T00:27:23Z",
           "updatedAt": "2024-10-10T00:27:23Z"
+        },
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "@billwuqin, I think we are almost  there for -00. We still need some quick fixes (see my PR) + add references for each metric. Once done, we can submit the text. Thanks",
+          "createdAt": "2024-10-10T05:25:02Z",
+          "updatedAt": "2024-10-10T05:25:02Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "@boucadair PR has been incorporated in and references have been added, see https://github.com/billwuqin/draft-bclp-green-terminology/commit/b1ea497cede88c796317e19c3e100181a7ad2a73",
+          "createdAt": "2024-10-10T06:51:17Z",
+          "updatedAt": "2024-10-10T06:51:17Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "@boucadair @marisolpalmero @luismcontreras https://datatracker.ietf.org/doc/draft-bclp-green-terminology/, 00 version has been submitted now. Thanks all. ",
+          "createdAt": "2024-10-10T07:54:17Z",
+          "updatedAt": "2024-10-10T07:54:17Z"
         }
       ]
     },
@@ -110,6 +131,68 @@
       "updatedAt": "2024-10-09T16:18:36Z",
       "closedAt": "2024-10-09T16:18:36Z",
       "comments": []
+    },
+    {
+      "number": 17,
+      "id": "I_kwDOM9Apn86Zo6wT",
+      "title": "description needs to match the formula",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/17",
+      "state": "CLOSED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "https://github.com/billwuqin/draft-bclp-green-terminology/blob/f0fbc34b4964e74482a897b28d5512fba09e9917/draft-bclp-green-terminology.md?plain=1#L244C1-L251C76\r\n\r\nThere is a disconnect between the notations and the description. ",
+      "createdAt": "2024-10-10T05:23:05Z",
+      "updatedAt": "2024-10-10T07:16:08Z",
+      "closedAt": "2024-10-10T07:16:08Z",
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "I think the formula calculation is similar to one for router and ethernet switches, I propose to make the following change:\r\n                EER = Ti/Pw [Mbit/s/W]\r\nWhere Ti is weighted throughput between wide area network (WAN) and local area network (LAN) ports in the ingress direction, Pw is weighted power (energy consumption rate), the formula is defined in {{L.1310}}\r\n               Ti = 0.35T_idle+0.5*T_lowpower+0.15*T_maximum\r\n\t\t\t   Pw = 0.35P_idle+0.5P_lowpower+0.15P_maximum\r\nwhere (0.35,0.5,0.15)is the relative weight at different usage percentage\r\n(P_idle, P_lowpower, P_maximum) is the power at different usage percentage\r\n(T_idle, T_lowpower,T_maximum) is the throughput at different usage percentage",
+          "createdAt": "2024-10-10T06:20:36Z",
+          "updatedAt": "2024-10-10T06:20:36Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "Implement in https://github.com/billwuqin/draft-bclp-green-terminology/commit/53cbba9aa2d5607d494abed1d6e0220fb665880a",
+          "createdAt": "2024-10-10T06:39:42Z",
+          "updatedAt": "2024-10-10T06:39:42Z"
+        },
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Looks better. Thanks @billwuqin. ",
+          "createdAt": "2024-10-10T07:16:08Z",
+          "updatedAt": "2024-10-10T07:16:08Z"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "id": "I_kwDOM9Apn86ZukZO",
+      "title": "Throughput vs NDR",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/20",
+      "state": "OPEN",
+      "author": "marisolpalmero",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "In ATIS TEER/ ETSI/ITU, it is not used the formula Ti = a*Tu1 + b*Tu2 + c*Tu3 for the traffic. It is used non-drop-rate\r\n\r\nL.1310: title: Energy efficiency metrics and measurement methods for telecommunication equipment target: https://www.itu.int/rec/T-REC-L.1310-202409-P date: 2024\r\n",
+      "createdAt": "2024-10-10T14:59:01Z",
+      "updatedAt": "2024-10-11T05:01:41Z",
+      "closedAt": null,
+      "comments": [
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I also see NDR was removed from https://datatracker.ietf.org/doc/html/[draft-ietf-bmwg-mlrsearch-07](https://datatracker.ietf.org/doc/html/draft-ietf-bmwg-mlrsearch-07).  It uses Throughput  as well.\r\n\r\n",
+          "createdAt": "2024-10-11T05:01:40Z",
+          "updatedAt": "2024-10-11T05:01:40Z"
+        }
+      ]
     }
   ],
   "pulls": [
@@ -855,6 +938,98 @@
         "oid": "f0fbc34b4964e74482a897b28d5512fba09e9917"
       },
       "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 16,
+      "id": "PR_kwDOM9Apn85-KcHK",
+      "title": "fixes+restructure+cleanup",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/16",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "* Restructure to have the definition as a separate section\r\n* delete mentions of data center as that is specific\r\n* added a note whether we should maintain the metrics. This is OK for -00\r\n*..",
+      "createdAt": "2024-10-10T05:17:38Z",
+      "updatedAt": "2024-10-10T05:51:25Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "f0fbc34b4964e74482a897b28d5512fba09e9917",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "fixes+restructure",
+      "headRefOid": "88e5de49e3e277fe80dc8e4e2ce901d373ce4c4d",
+      "closedAt": "2024-10-10T05:51:25Z",
+      "mergedAt": "2024-10-10T05:51:25Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "b765bf27b66bcc17c6a1aa9eadbe087140896689"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 18,
+      "id": "PR_kwDOM9Apn85-Kz_R",
+      "title": "fix formula calculation to make notation consistent with description",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/18",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-10T06:26:05Z",
+      "updatedAt": "2024-10-10T06:38:22Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "b765bf27b66bcc17c6a1aa9eadbe087140896689",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "billwuqin-patch-2",
+      "headRefOid": "189ca0bf71794f0036b0a3ff4f6ba44986ab27b3",
+      "closedAt": "2024-10-10T06:38:21Z",
+      "mergedAt": "2024-10-10T06:38:21Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "53cbba9aa2d5607d494abed1d6e0220fb665880a"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 19,
+      "id": "PR_kwDOM9Apn85-LLty",
+      "title": "some further tweaks + cross ref sections",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/19",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-10T07:15:46Z",
+      "updatedAt": "2024-10-10T07:25:00Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "80ecbfafa84356616c91631040017ac2b8d295c5",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "some-further-tweaks-+-cross-ref-sections",
+      "headRefOid": "bead5178126f0b32a18628f2f1bb8ace408fa2d4",
+      "closedAt": "2024-10-10T07:25:00Z",
+      "mergedAt": "2024-10-10T07:25:00Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "5a0d3af1845eaf505144d5e1aa32767ad4c76ced"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "All looks good.",
+          "createdAt": "2024-10-10T07:24:54Z",
+          "updatedAt": "2024-10-10T07:24:54Z"
+        }
+      ],
       "reviews": []
     }
   ]
