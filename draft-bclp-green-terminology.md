@@ -141,6 +141,9 @@ GPON:
 MSAN:
 :  Multiservice Access Node
 
+NDR:
+:  None-Drop Rate
+
 NLEE:
 : Network Level Energy Efficiency
 
@@ -239,9 +242,8 @@ The metric for routers and Ethernet switches is as follows:
 
                         EER = Ti/Pw [Mbit/s/W]
 
-Where 'Ti' is weighted throughput, 'Pw' is weighted power (energy consumption rate). The formula is defined in {{L.1310}}.
+Where 'Ti' is NDR throughput, 'Pw' is weighted power (energy consumption rate). The formula is defined in {{L.1310}}.
 
-                        Ti = a*Tu1 + b*Tu2 + c*Tu3
                         Pw = a*Pu1 + b*Pu2 + c*Pu3
 
 Where:
@@ -249,8 +251,6 @@ Where:
 * 'a'/'b'/'c' are the relative weight at different usage percentage with  `a+b+c=1`.
 
 * 'Pu1'/'Pu2'/'Pu3' are the power at different usage percentage.
-
-* 'Tu1'/'Tu2'/'Tu3' are the throughput at different usage percentage.
 
 ## Metrics for Small Network Devices
 
