@@ -1040,7 +1040,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Liu, et al.</td>
-<td class="center">Expires 13 April 2025</td>
+<td class="center">Expires 20 April 2025</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1053,12 +1053,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-bclp-green-terminology-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2024-10-10" class="published">10 October 2024</time>
+<time datetime="2024-10-17" class="published">17 October 2024</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2025-04-13">13 April 2025</time></dd>
+<dd class="expires"><time datetime="2025-04-20">20 April 2025</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1125,7 +1125,7 @@ Such reference document helps framing discussion and agreeing upon a set of main
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 13 April 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 20 April 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1276,14 +1276,19 @@ Some of these terms are extracted from existing IETF documents and beyond.<a hre
           <p id="section-2-2.14.1">Multiservice Access Node<a href="#section-2-2.14.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-2-2.15">NLEE:</dt>
+<dt id="section-2-2.15">NDR:</dt>
         <dd style="margin-left: 1.5em" id="section-2-2.16">
-          <p id="section-2-2.16.1">Network Level Energy Efficiency<a href="#section-2-2.16.1" class="pilcrow">¶</a></p>
+          <p id="section-2-2.16.1">None-Drop Rate<a href="#section-2-2.16.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-2-2.17">PUE:</dt>
+<dt id="section-2-2.17">NLEE:</dt>
         <dd style="margin-left: 1.5em" id="section-2-2.18">
-          <p id="section-2-2.18.1">Power Usage Effectiveness<a href="#section-2-2.18.1" class="pilcrow">¶</a></p>
+          <p id="section-2-2.18.1">Network Level Energy Efficiency<a href="#section-2-2.18.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-2-2.19">PUE:</dt>
+        <dd style="margin-left: 1.5em" id="section-2-2.20">
+          <p id="section-2-2.20.1">Power Usage Effectiveness<a href="#section-2-2.20.1" class="pilcrow">¶</a></p>
 </dd>
       <dd class="break"></dd>
 </dl>
@@ -1465,10 +1470,9 @@ working in a specific profile/state. The formula is defined in <span>[<a href="#
                     EER = Ti/Pw [Mbit/s/W]
 </pre><a href="#section-4.3-2" class="pilcrow">¶</a>
 </div>
-<p id="section-4.3-3">Where 'Ti' is weighted throughput, 'Pw' is weighted power (energy consumption rate). The formula is defined in <span>[<a href="#L.1310" class="cite xref">L.1310</a>]</span>.<a href="#section-4.3-3" class="pilcrow">¶</a></p>
+<p id="section-4.3-3">Where 'Ti' is NDR throughput, 'Pw' is weighted power (energy consumption rate). The formula is defined in <span>[<a href="#L.1310" class="cite xref">L.1310</a>]</span>.<a href="#section-4.3-3" class="pilcrow">¶</a></p>
 <div class="alignLeft art-text artwork" id="section-4.3-4">
 <pre>
-                    Ti = a*Tu1 + b*Tu2 + c*Tu3
                     Pw = a*Pu1 + b*Pu2 + c*Pu3
 </pre><a href="#section-4.3-4" class="pilcrow">¶</a>
 </div>
@@ -1479,9 +1483,6 @@ working in a specific profile/state. The formula is defined in <span>[<a href="#
 </li>
           <li class="normal" id="section-4.3-6.2">
             <p id="section-4.3-6.2.1">'Pu1'/'Pu2'/'Pu3' are the power at different usage percentage.<a href="#section-4.3-6.2.1" class="pilcrow">¶</a></p>
-</li>
-          <li class="normal" id="section-4.3-6.3">
-            <p id="section-4.3-6.3.1">'Tu1'/'Tu2'/'Tu3' are the throughput at different usage percentage.<a href="#section-4.3-6.3.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 </section>
@@ -1497,25 +1498,24 @@ working in a specific profile/state. The formula is defined in <span>[<a href="#
                    EER = Ti/Pw [Mbit/s/W]
 </pre><a href="#section-4.4-2" class="pilcrow">¶</a>
 </div>
-<p id="section-4.4-3">Where Ti is weighted throughput between wide area network (WAN) and local area network (LAN) ports
-in the ingress direction, Pw is weighted power (energy consumption rate), the formula is defined
-in <span>[<a href="#L.1310" class="cite xref">L.1310</a>]</span>.<a href="#section-4.4-3" class="pilcrow">¶</a></p>
+<p id="section-4.4-3">Where Ti is NDR throughput between wide area network (WAN) and local area network (LAN) ports
+in the ingress direction, Pw is the average power during Full load, Idle load and Low power, the formula is defined in <span>[<a href="#L.1310" class="cite xref">L.1310</a>]</span>.<a href="#section-4.4-3" class="pilcrow">¶</a></p>
 <div class="alignLeft art-text artwork" id="section-4.4-4">
 <pre>
-                  Ti = 0.35T_idle+0.5*T_lowpower+0.15*T_maximum
+                  Ti = 0.35T_idle+0.5T_lowpower+0.15T_maximum
                   Pw = 0.35P_idle+0.5P_lowpower+0.15P_maximum
 </pre><a href="#section-4.4-4" class="pilcrow">¶</a>
 </div>
 <p id="section-4.4-5">where:<a href="#section-4.4-5" class="pilcrow">¶</a></p>
 <ul class="normal">
 <li class="normal" id="section-4.4-6.1">
-            <p id="section-4.4-6.1.1">(0.35,0.5,0.15) is the relative weight at different usage percentage.<a href="#section-4.4-6.1.1" class="pilcrow">¶</a></p>
+            <p id="section-4.4-6.1.1">(0.35,0.5,0.15) is the relative weight at different usage mode.<a href="#section-4.4-6.1.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-4.4-6.2">
-            <p id="section-4.4-6.2.1">'P_idle'/'P_lowpower'/'P_maximum' is the power at different usage percentage.<a href="#section-4.4-6.2.1" class="pilcrow">¶</a></p>
+            <p id="section-4.4-6.2.1">'P_idle'/'P_lowpower'/'P_maximum' is the average power at different usage mode.<a href="#section-4.4-6.2.1" class="pilcrow">¶</a></p>
 </li>
           <li class="normal" id="section-4.4-6.3">
-            <p id="section-4.4-6.3.1">'T_idle'/'T_lowpower'/'T_maximum' is the throughput at different usage percentage.<a href="#section-4.4-6.3.1" class="pilcrow">¶</a></p>
+            <p id="section-4.4-6.3.1">'T_idle'/'T_lowpower'/'T_maximum' is NDR throughput at different usage mode.<a href="#section-4.4-6.3.1" class="pilcrow">¶</a></p>
 </li>
         </ul>
 </section>
