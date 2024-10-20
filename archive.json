@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-17T01:44:41.087281+00:00",
+  "timestamp": "2024-10-20T01:52:28.927828+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -175,15 +175,15 @@
       "id": "I_kwDOM9Apn86ZukZO",
       "title": "Throughput vs NDR",
       "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/20",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "marisolpalmero",
       "authorAssociation": "COLLABORATOR",
       "assignees": [],
       "labels": [],
       "body": "In ATIS TEER/ ETSI/ITU, it is not used the formula Ti = a*Tu1 + b*Tu2 + c*Tu3 for the traffic. It is used non-drop-rate\r\n\r\nL.1310: title: Energy efficiency metrics and measurement methods for telecommunication equipment target: https://www.itu.int/rec/T-REC-L.1310-202409-P date: 2024\r\n",
       "createdAt": "2024-10-10T14:59:01Z",
-      "updatedAt": "2024-10-11T05:01:41Z",
-      "closedAt": null,
+      "updatedAt": "2024-10-17T09:53:53Z",
+      "closedAt": "2024-10-17T09:53:32Z",
       "comments": [
         {
           "author": "boucadair",
@@ -191,8 +191,45 @@
           "body": "I also see NDR was removed from https://datatracker.ietf.org/doc/html/[draft-ietf-bmwg-mlrsearch-07](https://datatracker.ietf.org/doc/html/draft-ietf-bmwg-mlrsearch-07).  It uses Throughput  as well.\r\n\r\n",
           "createdAt": "2024-10-11T05:01:40Z",
           "updatedAt": "2024-10-11T05:01:40Z"
+        },
+        {
+          "author": "williamchern",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "Generally, there are three places where the EER and throughput are defined.\r\nATIS ATIS0600015.03: NDR throughput used\r\nITU-T L.1310: in the newest revise, NDR throughput replaced weighted throughput.\r\nSo Ti in EER should use NDR throughput.\r\n\r\n",
+          "createdAt": "2024-10-17T07:55:59Z",
+          "updatedAt": "2024-10-17T08:11:39Z"
+        },
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "#22 ",
+          "createdAt": "2024-10-17T09:53:33Z",
+          "updatedAt": "2024-10-17T09:53:33Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "Addressed in https://github.com/billwuqin/draft-bclp-green-terminology/commit/bef1e5ffc7e18fe1ef4583b722de6cef0f5ef68d, thanks WilliamChern",
+          "createdAt": "2024-10-17T09:53:52Z",
+          "updatedAt": "2024-10-17T09:53:52Z"
         }
       ]
+    },
+    {
+      "number": 23,
+      "id": "I_kwDOM9Apn86aoLPE",
+      "title": "Do we need to introduce capability discovery related terminology and definitions?",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/23",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-17T09:54:56Z",
+      "updatedAt": "2024-10-17T09:54:56Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -1028,6 +1065,68 @@
           "body": "All looks good.",
           "createdAt": "2024-10-10T07:24:54Z",
           "updatedAt": "2024-10-10T07:24:54Z"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "number": 21,
+      "id": "PR_kwDOM9Apn85-8FeB",
+      "title": "Update draft-bclp-green-terminology.md",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/21",
+      "state": "CLOSED",
+      "author": "williamchern",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "update the EER term definition to comply with the newest ITU-T L.1310. Also adding the abbr of NDR.",
+      "createdAt": "2024-10-17T09:13:14Z",
+      "updatedAt": "2024-10-17T09:37:17Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "5a0d3af1845eaf505144d5e1aa32767ad4c76ced",
+      "headRepository": "williamchern/draft-bclp-green-terminology",
+      "headRefName": "main",
+      "headRefOid": "b117b3031820139fc1762015798c954fb8cd8794",
+      "closedAt": "2024-10-17T09:37:17Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 22,
+      "id": "PR_kwDOM9Apn85-8SiI",
+      "title": "metrics to routers and small network devices modified to the newest version of ITU-T L.1310",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/22",
+      "state": "MERGED",
+      "author": "williamchern",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2024-10-17T09:39:03Z",
+      "updatedAt": "2024-10-17T09:52:16Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "5a0d3af1845eaf505144d5e1aa32767ad4c76ced",
+      "headRepository": "williamchern/draft-bclp-green-terminology",
+      "headRefName": "main",
+      "headRefOid": "b117b3031820139fc1762015798c954fb8cd8794",
+      "closedAt": "2024-10-17T09:52:11Z",
+      "mergedAt": "2024-10-17T09:52:11Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "bef1e5ffc7e18fe1ef4583b722de6cef0f5ef68d"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "The changes look good.",
+          "createdAt": "2024-10-17T09:52:14Z",
+          "updatedAt": "2024-10-17T09:52:14Z"
         }
       ],
       "reviews": []
