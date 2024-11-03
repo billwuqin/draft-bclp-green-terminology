@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2024-10-31T01:46:59.082945+00:00",
+  "timestamp": "2024-11-03T01:51:23.939673+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -228,6 +228,22 @@
       "body": "",
       "createdAt": "2024-10-17T09:54:56Z",
       "updatedAt": "2024-10-17T09:54:56Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 24,
+      "id": "I_kwDOM9Apn86cso0_",
+      "title": "Potential new term for post-IETF121 version - Energy Consumption",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/24",
+      "state": "OPEN",
+      "author": "luismcontreras",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "As described in my mail (01/11): \"Maybe for the future versions (I will open an issue on this). We should may consider the term of Energy Consumption as basis for the Energy Efficiency. That is, identify what we are considered as included in the consumption that we are making more efficient (for instance, are we considering the cooling? Maybe not, so probably is good to define in any case what consumption is considering for obtaining the efficiency on it).\"\r\n\r\nTo be discussed.",
+      "createdAt": "2024-11-01T12:30:41Z",
+      "updatedAt": "2024-11-01T12:30:41Z",
       "closedAt": null,
       "comments": []
     }
