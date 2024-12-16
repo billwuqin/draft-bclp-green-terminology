@@ -299,6 +299,20 @@ Where:
 
 The formula is defined in {{L.1320}}.
 
+# Sample Energy Efficiency Scenarios {#sec-scenarios}
+
+This section lists some typical energy efficiency scenarios that are adopted by other SDOs.
+
+## Tidal Network
+
+In tidal network, traffic volume undergoes significant fluctuations at different times. Take, for instance, a campus network, where thousands of individuals go to classrooms and libraries during the daytime and retire to the dormitories at night. This results in a regular oscillation of network traffic across various locations within the campus.
+
+In the context of a tidal network scenario, energy-saving methods may include the deactivation of some or all components of network nodes. These activities have the potential to alter network topology and impact data routing in a variety of ways.  Ports on network nodes can be selectively disabled or enabled based on traffic patterns, thereby reducing the energy consumption of nodes during periods of low network traffic.
+
+## Low Link Utilization
+
+Define mechanisms to reduce power consumption during periods of low link utilization for the various PHYs, where energy-saving methods may include Energy Efficient Ethernet (EEE), changing a port rate, etc.
+
 # Security Considerations
 
 Security is not discussed in this document.
