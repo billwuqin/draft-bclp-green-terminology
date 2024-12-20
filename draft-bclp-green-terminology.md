@@ -161,6 +161,12 @@ Power:
 : Refers the time rate at which energy is emitted, transferred, or
       received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
 
+Energy Consumption:
+: It is used to describe the transformation of input energy into the functional unit and waste within telecommunication systems.
+
+Power Consumption:
+: The power consumed by a device needed to achieve an intended application performance.
+
 Energy Management:
 : Is a set of functions for measuring, modeling,
       planning, and optimizing networks to ensure that the network and
@@ -178,6 +184,10 @@ Energy Control:
       directing influence over devices ({{?RFC7326}}).
 : This control can span a network or a subset of it.
 
+Energy Efficiency Ethernet (EEE):
+: The EEE capability combines the IEEE 802.3 Media Access Control (MAC) Sublayer with a
+family of Physical Layers defined to support operation in the Low Power Idle (LPI) mode. When the LPI mode is enabled, systems on both sides of the link can save power during periods of low link utilization.
+
 Energy Efficiency Network Management:
 : Refers to the ability to control the use of available energy in an optimized manner (e.g.,
   in a resource conserved manner and at low cost) in a network.
@@ -190,6 +200,9 @@ Energy Efficiency/Energy Efficiency Ratio (EER):
 : For instance, in relation with a networking device, it can be stated as the ratio of total throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).
 : This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput forwarded by 1 watt (e.g., {{?I-D.cprjgf-bmwg-powerbench}}).
 : A higher EER indicates a better energy efficiency.
+
+Energy Saving Feature:
+: A feature which contributes to decreasing energy consumption as compared to the case when the feature is not implemented.
 
 Power Usage Effectiveness (PUE):
 : Refer to the metric used to measure the energy efficiency of an infrastructure.
@@ -206,6 +219,9 @@ Component Level Energy Efficiency (CLEE):
 : Is useful to evaluate the energy efficiency performance of individual components of a network element.
 : Measuring and understanding the energy efficiency or energy consumption of each component within a network element
 may be used to identify key components in a system with regard to energy saving.
+
+Site Energy Efficiency (SEE): 
+: It's used to determine the energy efficiency of a telecommunication site. A site generally includes rectifiers, cooling, storage, security and IT equipment. For datacentres, the "Total site energy" more globally includes building load, powering equipment (e.g. switchgear, uninterruptible power supply (UPS), battery backup), cooling equipment (e.g. chillers, Computer Room Air Conditioning unit (CRAC)) and IT equipment energy. 
 
 # Sample Energy Efficiency Metrics and Measurement Methods {#sec-metrics}
 
@@ -298,20 +314,6 @@ Where:
 * 'Qt' is the sum of the sensible cooling capacity and the latent cooling capacity.
 
 The formula is defined in {{L.1320}}.
-
-# Sample Energy Efficiency Scenarios {#sec-scenarios}
-
-This section lists some typical energy efficiency scenarios that are adopted by other SDOs.
-
-## Tidal Network
-
-In tidal network, traffic volume undergoes significant fluctuations at different times. Take, for instance, a campus network, where thousands of individuals go to classrooms and libraries during the daytime and retire to the dormitories at night. This results in a regular oscillation of network traffic across various locations within the campus.
-
-In the context of a tidal network scenario, energy-saving methods may include the deactivation of some or all components of network nodes. These activities have the potential to alter network topology and impact data routing in a variety of ways.  Ports on network nodes can be selectively disabled or enabled based on traffic patterns, thereby reducing the energy consumption of nodes during periods of low network traffic.
-
-## Low Link Utilization
-
-Define mechanisms to reduce power consumption during periods of low link utilization for the various PHYs, where energy-saving methods may include Energy Efficient Ethernet (EEE), changing a port rate, etc.
 
 # Security Considerations
 
