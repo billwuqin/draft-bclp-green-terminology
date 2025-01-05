@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-01-02T01:43:54.373215+00:00",
+  "timestamp": "2025-01-05T01:51:56.900211+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -218,7 +218,7 @@
     {
       "number": 23,
       "id": "I_kwDOM9Apn86aoLPE",
-      "title": "Do we need to introduce capability discovery related terminology and definitions?",
+      "title": "Do we need to introduce capability related terminologies and definitions?",
       "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/23",
       "state": "OPEN",
       "author": "billwuqin",
@@ -227,9 +227,17 @@
       "labels": [],
       "body": "",
       "createdAt": "2024-10-17T09:54:56Z",
-      "updatedAt": "2024-10-17T09:54:56Z",
+      "updatedAt": "2025-01-02T02:13:25Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "I think we might consider to break down capability into:\r\n1. Device Level Capability, e.g., energy saving capability, local management, network wide management, etc\r\n2. Component Level Capability, port on or off or speed change, fan speed adjustment\r\n3. Power interface Setting Capability: who provide power, who consume, temperature setting, voltage, ampere setting, etc",
+          "createdAt": "2025-01-02T02:13:24Z",
+          "updatedAt": "2025-01-02T02:13:24Z"
+        }
+      ]
     },
     {
       "number": 24,
@@ -283,9 +291,31 @@
       "labels": [],
       "body": "After double check on the following standards, \r\n- ITU-T L.1330\r\n- ETSI ES 203 228 V1.4.1 (2022-04) \r\n- IEEE 802.3az-2003\r\nI suggest to add the following definitions as mentioned in the above standards.\r\n- power consumption; \r\n- energy consumption; \r\n- energy saving features; \r\n- energy-efficiency ethernet;\r\n- site energy effciency;\r\nIf some of these terms are agreed to be added, I can provide a pull request for them, thanks.",
       "createdAt": "2024-12-20T09:30:52Z",
-      "updatedAt": "2024-12-20T09:30:52Z",
+      "updatedAt": "2025-01-02T02:04:57Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "Leave these terms aside, I review https://datatracker.ietf.org/doc/draft-pignataro-green-enviro-sust-terminology/, a set of terms are relevant as follows:\r\n1.Energy, power, and their measurement\r\n2.Energy efficiency (EE)\r\n3.Energy proportionality \r\n4.Energy savings / conservation (ES) \r\nI think the first 2 terms have already been covered, for Energy proportionality, try to understand how it is different from energy efficiency, PUE, can we use it to measure the ratio between energy consmption by linecard and energy consumption of the whole network device?\r\nFor Energy saving or Energy Conservation, I think it is the effect of implementing the enegy efficiency strategy.\r\n@boucadair ",
+          "createdAt": "2025-01-02T01:46:19Z",
+          "updatedAt": "2025-01-02T01:46:43Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "> After double check on the following standards,\r\n> \r\n> * ITU-T L.1330\r\n> * ETSI ES 203 228 V1.4.1 (2022-04)\r\n> * IEEE 802.3az-2003\r\n>   I suggest to add the following definitions as mentioned in the above standards.\r\n> * power consumption;\r\n> * energy consumption;\r\n> * energy saving features;\r\n> * energy-efficiency ethernet;\r\n> * site energy effciency;\r\n>   If some of these terms are agreed to be added, I can provide a pull request for them, thanks.\r\n\r\nAre these terms core terms, my impression many of these terms are specific to a certain technologies or scenarios? \r\nEnergy saving features is useful, but it seems defintions is not self contained, relies on some context information.",
+          "createdAt": "2025-01-02T01:54:50Z",
+          "updatedAt": "2025-01-02T01:54:50Z"
+        },
+        {
+          "author": "williamchern",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "I agree, Energy saving features relies on the context, and  EEE is certain technology, I thought that well-known technology for energy saving is good to be clarified here. \r\nAnyway, the term of \"site energy efficiency\" though coming from wireless related  ETSI standard, but it shares the same context for all network devices like optical and datacom devices, etc.",
+          "createdAt": "2025-01-02T02:04:56Z",
+          "updatedAt": "2025-01-02T02:04:56Z"
+        }
+      ]
     }
   ],
   "pulls": [
