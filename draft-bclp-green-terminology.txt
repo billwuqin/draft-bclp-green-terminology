@@ -5,14 +5,14 @@
 GREEN Working Group                                               C. Liu
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 20 April 2025                                            Orange
+Expires: 4 November 2025                                          Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                                    Cisco
-                                                         17 October 2024
+                                                              3 May 2025
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,11 +59,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 April 2025.
+   This Internet-Draft will expire on 4 November 2025.
 
 Copyright Notice
 
-   Copyright (c) 2024 IETF Trust and the persons identified as the
+   Copyright (c) 2025 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -216,7 +216,7 @@ Table of Contents
    Device Level Energy Efficiency (DLEE):  Denotes the Energy Efficiency
       of a network element.  It can be used, e.g., to compare network
       elements providing the same functionality or a target to optiize
-      the configuration of a a network element.
+      the configuration of a network element.
 
    Component Level Energy Efficiency (CLEE):  Denotes the Energy
       Efficiency of a component of a network element.  It can be used in
@@ -235,7 +235,7 @@ Table of Contents
 
    This section lists some metrics that are adopted by other SDOs.
 
-      DISCUSS: Should we maintian this section?
+      DISCUSS: Should we maintain this section?
 
 4.1.  Metrics for DSLAM, MSAN, GPON, and GEPON Equipment
 
@@ -355,9 +355,9 @@ Table of Contents
               Pignataro, C., Jacob, R., Fioccola, G., and Q. Wu,
               "Characterization and Benchmarking Methodology for Power
               in Networking Devices", Work in Progress, Internet-Draft,
-              draft-cprjgf-bmwg-powerbench-02, 6 July 2024,
+              draft-cprjgf-bmwg-powerbench-04, 30 January 2025,
               <https://datatracker.ietf.org/doc/html/draft-cprjgf-bmwg-
-              powerbench-02>.
+              powerbench-04>.
 
    [L.1310]   "Energy efficiency metrics and measurement methods for
               telecommunication equipment", 2024,
