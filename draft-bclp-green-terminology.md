@@ -182,7 +182,7 @@ Energy Control:
 : This control can span a network or a subset of it.
 
 Energy Efficiency:
-: Refers to provide a useful output with as little energy as possible, 
+: Refers to provide a useful output with as little energy as possible,
   eliminating energy waste.  Switching to more efficient power supplies
   and silicon or developing more efficient transmission or signal
   processing algorithms improves Energy efficiency.  Developing energy
