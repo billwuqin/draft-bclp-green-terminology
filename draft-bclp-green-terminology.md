@@ -183,35 +183,45 @@ Energy Efficiency Network Management:
   in a resource conserved manner and at low cost) in a network.
 
 Energy Efficiency Metric:
-: Refers to a metric that is used for the evaluation and assessment of energy consumption of a network, device, or component. One or more metrics can be defined. These metrics are also used for network performance purposes to characterize the effectiveness of an Energy Efficiency management strategy.
+: Refers to a metric that is used for the evaluation and assessment of energy consumption of
+  a network, device, or component. One or more metrics can be defined. These metrics are also
+  used for network performance purposes to characterize the effectiveness of an Energy
+  Efficiency management strategy.
 
 Energy Efficiency/Energy Efficiency Ratio (EER):
-: The energy efficiency is expressed as the ratio between the useful output and input of an energy conversion process of a network, device, or component.
-: For instance, in relation with a networking device, it can be stated as the ratio of total throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).
-: This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput forwarded by 1 watt (e.g., {{?I-D.cprjgf-bmwg-powerbench}}).
+: The energy efficiency is expressed as the ratio between the useful output and input of an
+  energy conversion process of a network, device, or component.
+: For instance, in relation with a networking device, it can be stated as the ratio of total
+  throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).
+: This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput forwarded by 1 watt
+  (e.g., {{?I-D.cprjgf-bmwg-powerbench}}).
 : A higher EER indicates a better energy efficiency.
 
 Power Usage Effectiveness (PUE):
 : Refer to the metric used to measure the energy efficiency of an infrastructure.
-: This metric is calculated as the ratio between the total energy consumed by an infrastructure and the energy needed for a network element/component.
+: This metric is calculated as the ratio between the total energy consumed by an infrastructure
+  and the energy needed for a network element/component.
 
 Network Level Energy Efficiency (NLEE):
 : Denotes the Energy Efficiency of an entire network or a subset part of it (e.g., access network).
 
 Device Level Energy Efficiency (DLEE):
-: Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network elements providing the same functionality or a target to optiize the configuration of a a network element.
+: Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network
+  elements providing the same functionality or a target to optiize the configuration of a
+  network element.
 
 Component Level Energy Efficiency (CLEE):
-: Denotes the Energy Efficiency of a component of a network element. It can be used in the design, development, and manufacturing of energy efficient a network elements.
+: Denotes the Energy Efficiency of a component of a network element. It can be used in the design,
+  development, and manufacturing of energy efficient a network elements.
 : Is useful to evaluate the energy efficiency performance of individual components of a network element.
-: Measuring and understanding the energy efficiency or energy consumption of each component within a network element
-may be used to identify key components in a system with regard to energy saving.
+: Measuring and understanding the energy efficiency or energy consumption of each component within
+  a network element may be used to identify key components in a system with regard to energy saving.
 
 # Sample Energy Efficiency Metrics and Measurement Methods {#sec-metrics}
 
 This section lists some metrics that are adopted by other SDOs.
 
-> DISCUSS: Should we maintian this section?
+> DISCUSS: Should we maintain this section?
 
 ## Metrics for DSLAM, MSAN, GPON, and GEPON Equipment
 
@@ -320,10 +330,10 @@ ITU-T SG5 is also responsible for other standards that might be of interest to p
 and network operators. For example:
 
 * {{L.1331}} specifies assessment of mobile network energy efficiency.
-* {{L.1333}} specifies the correlation between the carbon intensity indicator and energy efficiency metric. The carbon KPI defined in {{L.1333}}
-refers to the energy efficiency metric defined in ITU-T L.1331.
-* {{L.1410}} focuses on the assessment of the environmental impact of information and communication technology (ICT) goods, networks and services. It provides
-specific guidance on energy and greenhouse gas (GHG) impacts.
+* {{L.1333}} specifies the correlation between the carbon intensity indicator and energy efficiency metric. The
+   carbon KPI defined in {{L.1333}} refers to the energy efficiency metric defined in ITU-T L.1331.
+* {{L.1410}} focuses on the assessment of the environmental impact of information and communication technology (ICT)
+  goods, networks and services. It provides specific guidance on energy and greenhouse gas (GHG) impacts.
 
 
 ## ETSI TCEE
@@ -333,7 +343,9 @@ aligned standards on energy efficiency and environment aspect. These standards i
 feeding solution, circular economy and network efficiency KPI and eco-design requirement for ICT, with the aim to
 build an international eco-environmental standardization.
 
-{{ETSI-ES-203-136}} defines the energy consumption metrics and measurement methods for router and Ethernet switch equipment. It specifies a methodology and the test conditions to measure the power consumption of router and switch equipment and is also applicable to Core, edge, and access routers.
+{{ETSI-ES-203-136}} defines the energy consumption metrics and measurement methods for router and Ethernet switch
+equipment. It specifies a methodology and the test conditions to measure the power consumption of router and switch
+equipment and is also applicable to Core, edge, and access routers.
 
 
 ## 3GPP SA5
@@ -351,7 +363,8 @@ Introduce additional metrics when estimating the Energy Consumption of Virtual M
 link usage. In addition new use cases for Energy Saving, applied to NG-RAN, 5GC, and Network Slicing, AI/ML assisted
 energy saving scenarios are also being investigated.
 
-Specifically, {{TS28.554}} defines a number of energy efficiency KPIs, including a generic Network Slice Energy Efficiency KPI, defined as the ratio between the performance of the network slice and its energy consumption.
+Specifically, {{TS28.554}} defines a number of energy efficiency KPIs, including a generic Network Slice Energy Efficiency
+KPI, defined as the ratio between the performance of the network slice and its energy consumption.
 
 # Acknowledgments
 
