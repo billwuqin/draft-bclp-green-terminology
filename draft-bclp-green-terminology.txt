@@ -252,6 +252,14 @@ Table of Contents
       to identify key components in a system with regard to energy
       saving.
 
+   Energy Efficiency Capabilities:  Network Capabilities to optimize
+      energy usage in network components, devices, and across the
+      network through configurable static attributes, e.g., powe saving
+      capable attribute which can be applied to both component level and
+      device level, or power setting attributes which specify who
+      provide power, who consume, temperature setting, voltage, ampere
+      setting.
+
 4.  Sample Energy Efficiency Metrics and Measurement Methods
 
    This section lists some metrics that are adopted by other SDOs.
