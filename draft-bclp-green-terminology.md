@@ -101,18 +101,21 @@ Such reference document helps framing discussion and agreeing upon a set of main
 # Introduction
 
 With rising energy costs and increasing awareness of the environmental impact of running networks, servers, and various
-equipment, Energy Efficiency is considered by operators as a critical component to be integrated in the overall Network Management systems.
-Such integration is ambitioned to feed strategies for committing environmental objectives but also mastering related operational cost. Energy Efficiency management is thus complementing conventional network management.
+equipment, Energy Efficiency is considered by operators as a critical component to be integrated in the overall Network
+Management systems. Such integration is ambitioned to feed strategies for committing environmental objectives but also
+mastering related operational cost. Energy Efficiency management is thus complementing conventional network management.
 
 {{sec-def}} defines a set of terms used within the IETF when discussing Energy-efficiency networks.
 The purpose is to (1) ensure consistent use of a set of terms in this area, (2) help with the characterization of Energy
 Efficiency (and relevant aspects), (3) assist in the development of the YANG data models at the different levels in the
-IETF, and (4) bring clarity to the Energy Efficiency related discussions between different groups within IETF, in particular.
+IETF, and (4) bring clarity to the Energy Efficiency related discussions between different groups within IETF, in
+particular.
 
 This document does not intend to define a comprehensive list of energy-related terms. Only key terms are defined.
 Some of these terms are extracted from existing IETF documents and beyond.
 
-Also, {{sec-metrics}} provides an inventory of currently used metrics to assess/compute energy-related consumption, efficiency ratio, etc.
+Also, {{sec-metrics}} provides an inventory of currently used metrics to assess/compute energy-related consumption,
+efficiency ratio, etc.
 
 {{sec-sdos}} provides a list of SDOs where relevant energy efficiency effort is ongoing.
 
@@ -177,6 +180,27 @@ Energy Control:
 : Is a part of Energy Management that deals with
       directing influence over devices ({{?RFC7326}}).
 : This control can span a network or a subset of it.
+
+Energy Efficiency:
+: Refers to provide a useful output with as little energy as possible, 
+  eliminating energy waste.  Switching to more efficient power supplies
+  and silicon or developing more efficient transmission or signal
+  processing algorithms improves Energy efficiency.  Developing energy
+  efficiency metrics for internetworking and associated measurement methodologies
+  and conditions as well as consistently collecting this data over time
+  are essential to demonstrating EE improvements.  An example of a common
+  outcome-oriented metric is energy consumption per data volume or traffic unit.
+
+Energy Proportionality
+:is the correlation between energy used and the associated useful
+ output.  For internetworking this is generally interpreted as the
+ proportionality of traffic or traffic throughput and energy used.
+ This concept is broadly applicable to networking infrastructure,
+ data center, and other communication architectures.  It is not a
+ given that there is a one-to-one correlation between traffic and
+ energy use, notably due to the materially significant idle power
+ use by devices, as well as the overall network capacity being
+ allocated to serve at times of highest traffic utilization.
 
 Energy Efficiency Network Management:
 : Refers to the ability to control the use of available energy in an optimized manner (e.g.,
