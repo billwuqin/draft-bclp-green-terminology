@@ -241,6 +241,12 @@ Component Level Energy Efficiency (CLEE):
 : Measuring and understanding the energy efficiency or energy consumption of each component within
   a network element may be used to identify key components in a system with regard to energy saving.
 
+Energy Efficiency Capabilities:
+: 	Network Capabilities to optimize energy usage in network components, devices, and across the network
+   through configurable static attributes, e.g., powe saving capable attribute which can be applied to
+   both component level and device level, or power setting attributes which specify who provide power,
+   who consume, temperature setting, voltage, ampere setting.
+
 # Sample Energy Efficiency Metrics and Measurement Methods {#sec-metrics}
 
 This section lists some metrics that are adopted by other SDOs.
