@@ -182,25 +182,12 @@ Energy Control:
 : This control can span a network or a subset of it.
 
 Energy Efficiency:
-: Refers to provide a useful output with as little energy as possible,
-  eliminating energy waste.  Switching to more efficient power supplies
-  and silicon or developing more efficient transmission or signal
-  processing algorithms improves Energy efficiency.  Developing energy
-  efficiency metrics for internetworking and associated measurement methodologies
-  and conditions as well as consistently collecting this data over time
-  are essential to demonstrating EE improvements.  An example of a common
-  outcome-oriented metric is energy consumption per data volume or traffic unit.
-
-Energy Proportionality
-:is the correlation between energy used and the associated useful
- output.  For internetworking this is generally interpreted as the
- proportionality of traffic or traffic throughput and energy used.
- This concept is broadly applicable to networking infrastructure,
- data center, and other communication architectures.  It is not a
- given that there is a one-to-one correlation between traffic and
- energy use, notably due to the materially significant idle power
- use by devices, as well as the overall network capacity being
- allocated to serve at times of highest traffic utilization.
+: Refers to optimize energy usage in network components, devices, and across the network
+  to provide a useful output with as little energy as possible, eliminating the energy waste.
+  Examples to improve Energy efficiency include but not limited to deactivation of some or
+  all components of network nodes during low-traffic periods or adjusting speed of the interface
+  based on network traffic load change or switching to more efficient power supplies and silicon
+  or developing more efficient transmission or signal processing algorithms.
 
 Energy Efficiency Network Management:
 : Refers to the ability to control the use of available energy in an optimized manner (e.g.,
@@ -210,7 +197,21 @@ Energy Efficiency Metric:
 : Refers to a metric that is used for the evaluation and assessment of energy consumption of
   a network, device, or component. One or more metrics can be defined. These metrics are also
   used for network performance purposes to characterize the effectiveness of an Energy
-  Efficiency management strategy.
+  Efficiency management strategy. Note that developing energy efficiency metrics for internetworking
+  and associated measurement methodologies and conditions as well as consistently collecting this
+  data over time are essential to demonstrating EE improvements.  An example of a common
+  outcome-oriented metric is energy consumption per data volume or traffic unit.
+
+Energy Proportionality
+:is the correlation between energy used and the associated useful
+ output.  For internetworking this is generally interpreted as the
+ proportionality of traffic or traffic throughput and energy used.
+ This concept is broadly applicable to networking infrastructure,
+ data center, and other communication architectures.  Note that there
+ might not a one-to-one correlation between traffic and
+ energy use, notably due to the materially significant idle power
+ use by devices, as well as the overall network capacity being
+ allocated to serve at times of highest traffic utilization.
 
 Energy Efficiency/Energy Efficiency Ratio (EER):
 : The energy efficiency is expressed as the ratio between the useful output and input of an
