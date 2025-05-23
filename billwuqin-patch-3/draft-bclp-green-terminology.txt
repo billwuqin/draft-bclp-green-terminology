@@ -5,14 +5,14 @@
 GREEN Working Group                                               C. Liu
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 25 October 2025                                          Orange
+Expires: 24 November 2025                                         Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                                    Cisco
-                                                           23 April 2025
+                                                             23 May 2025
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 October 2025.
+   This Internet-Draft will expire on 24 November 2025.
 
 Copyright Notice
 
@@ -177,6 +177,16 @@ Table of Contents
 
       This control can span a network or a subset of it.
 
+   Energy Efficiency:  Refers to optimize energy usage in network
+      components, devices, and across the network to provide a useful
+      output with as little energy as possible, eliminating the energy
+      waste.  Examples to improve Energy efficiency include but not
+      limited to deactivation of some or all components of network nodes
+      during low-traffic periods or adjusting speed of the interface
+      based on network traffic load change or switching to more
+      efficient power supplies and silicon or developing more efficient
+      transmission or signal processing algorithms.
+
    Energy Efficiency Network Management:  Refers to the ability to
       control the use of available energy in an optimized manner (e.g.,
       in a resource conserved manner and at low cost) in a network.
@@ -186,7 +196,22 @@ Table of Contents
       device, or component.  One or more metrics can be defined.  These
       metrics are also used for network performance purposes to
       characterize the effectiveness of an Energy Efficiency management
-      strategy.
+      strategy.  Note that developing energy efficiency metrics for
+      internetworking and associated measurement methodologies and
+      conditions as well as consistently collecting this data over time
+      are essential to demonstrating EE improvements.  An example of a
+      common outcome-oriented metric is energy consumption per data
+      volume or traffic unit.
+
+   Energy Proportionality :is the correlation between energy used and
+   the associated useful output.  For internetworking this is generally
+   interpreted as the proportionality of traffic or traffic throughput
+   and energy used.  This concept is broadly applicable to networking
+   infrastructure, data center, and other communication architectures.
+   Note that there might not a one-to-one correlation between traffic
+   and energy use, notably due to the materially significant idle power
+   use by devices, as well as the overall network capacity being
+   allocated to serve at times of highest traffic utilization.
 
    Energy Efficiency/Energy Efficiency Ratio (EER):  The energy
       efficiency is expressed as the ratio between the useful output and
@@ -216,7 +241,7 @@ Table of Contents
    Device Level Energy Efficiency (DLEE):  Denotes the Energy Efficiency
       of a network element.  It can be used, e.g., to compare network
       elements providing the same functionality or a target to optiize
-      the configuration of a a network element.
+      the configuration of a network element.
 
    Component Level Energy Efficiency (CLEE):  Denotes the Energy
       Efficiency of a component of a network element.  It can be used in
@@ -231,11 +256,19 @@ Table of Contents
       to identify key components in a system with regard to energy
       saving.
 
+   Energy Efficiency Capabilities:  Network Capabilities to optimize
+      energy usage in network components, devices, and across the
+      network through configurable static attributes, e.g., powe saving
+      capable attribute which can be applied to both component level and
+      device level, or power setting attributes which specify who
+      provide power, who consume, temperature setting, voltage, ampere
+      setting.
+
 4.  Sample Energy Efficiency Metrics and Measurement Methods
 
    This section lists some metrics that are adopted by other SDOs.
 
-      DISCUSS: Should we maintian this section?
+      DISCUSS: Should we maintain this section?
 
 4.1.  Metrics for DSLAM, MSAN, GPON, and GEPON Equipment
 
