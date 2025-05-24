@@ -199,7 +199,7 @@ Energy Efficiency Metric:
   used for network performance purposes to characterize the effectiveness of an Energy
   Efficiency management strategy. Note that developing energy efficiency metrics for internetworking
   and associated measurement methodologies and conditions as well as consistently collecting this
-  data over time are essential to demonstrating EE improvements.  An example of a common
+  data over time are essential to demonstrating Energy Efficiency improvements.  An example of a common
   outcome-oriented metric is energy consumption per data volume or traffic unit.
 
 Energy Proportionality
