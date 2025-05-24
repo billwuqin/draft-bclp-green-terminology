@@ -207,7 +207,7 @@ Energy Proportionality
  output.  For internetworking this is generally interpreted as the
  proportionality of traffic or traffic throughput and energy used.
  This concept is broadly applicable to networking infrastructure,
- data center, and other communication architectures.  Note that there
+ data center, and other communication architectures.  There
  might not a one-to-one correlation between traffic and
  energy use, notably due to the materially significant idle power
  use by devices, as well as the overall network capacity being
