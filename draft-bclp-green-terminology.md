@@ -190,7 +190,7 @@ Energy Efficiency:
   or developing more efficient transmission or signal processing algorithms.
 
 Energy Efficiency Network Management:
-: Refers to the ability to control the use of available energy in an optimized manner (e.g.,
+: Refers to the ability to manage (including control) the use of available energy in an optimized manner (e.g.,
   in a resource conserved manner and at low cost) in a network.
 
 Energy Efficiency Metric:
