@@ -210,10 +210,10 @@ Table of Contents
    interpreted as the proportionality of traffic or traffic throughput
    and energy used.  This concept is broadly applicable to networking
    infrastructure, data center, and other communication architectures.
-   Note that there might not a one-to-one correlation between traffic
-   and energy use, notably due to the materially significant idle power
-   use by devices, as well as the overall network capacity being
-   allocated to serve at times of highest traffic utilization.
+   There might not a one-to-one correlation between traffic and energy
+   use, notably due to the materially significant idle power use by
+   devices, as well as the overall network capacity being allocated to
+   serve at times of highest traffic utilization.
 
    Energy Efficiency/Energy Efficiency Ratio (EER):  The energy
       efficiency is expressed as the ratio between the useful output and
