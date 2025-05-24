@@ -183,7 +183,7 @@ Energy Control:
 
 Energy Efficiency:
 : Refers to optimize energy usage in network components, devices, and across the network
-  to provide a useful output with as little energy as possible, eliminating the energy waste.
+  to minimize energy use as possible, eliminating thus energy waste.
   Examples to improve Energy efficiency include, but not limited to, deactivation of some or
   all components of network nodes during specific periods (e.g., periods with low-traffic) or adjusting interface speed of an interface
   based on network traffic load change, or switching to more efficient power supplies and silicon
