@@ -201,9 +201,9 @@ Table of Contents
       that developing energy efficiency metrics for internetworking and
       associated measurement methodologies and conditions as well as
       consistently collecting this data over time are essential to
-      demonstrating EE improvements.  An example of a common outcome-
-      oriented metric is energy consumption per data volume or traffic
-      unit.
+      demonstrating Energy Efficiency improvements.  An example of a
+      common outcome-oriented metric is energy consumption per data
+      volume or traffic unit.
 
    Energy Proportionality :is the correlation between energy used and
    the associated useful output.  For internetworking this is generally
