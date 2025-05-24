@@ -194,7 +194,7 @@ Energy Efficiency Network Management:
   in a resource conserved manner and at low cost) in a network.
 
 Energy Efficiency Metric:
-: Refers to a metric that is used for the evaluation and assessment of energy consumption of
+: Refers to a metric that is used for the assessment of energy consumption of
   a network, device, or component. One or more metrics can be defined. These metrics are also
   used for network performance purposes to characterize the effectiveness of an Energy
   Efficiency management strategy. Note that developing energy efficiency metrics for internetworking
