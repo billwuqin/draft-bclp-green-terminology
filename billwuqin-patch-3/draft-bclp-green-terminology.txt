@@ -178,15 +178,14 @@ Table of Contents
       This control can span a network or a subset of it.
 
    Energy Efficiency:  Refers to optimize energy usage in network
-      components, devices, and across the network to provide a useful
-      output with as little energy as possible, eliminating the energy
-      waste.  Examples to improve Energy efficiency include, but not
-      limited to, deactivation of some or all components of network
-      nodes during specific periods (e.g., periods with low-traffic) or
-      adjusting interface speed of an interface based on network traffic
-      load change, or switching to more efficient power supplies and
-      silicon or developing more efficient transmission or signal
-      processing algorithms.
+      components, devices, and across the network to minimize energy use
+      as possible, eliminating thus energy waste.  Examples to improve
+      Energy efficiency include, but not limited to, deactivation of
+      some or all components of network nodes during specific periods
+      (e.g., periods with low-traffic) or adjusting interface speed of
+      an interface based on network traffic load change, or switching to
+      more efficient power supplies and silicon or developing more
+      efficient transmission or signal processing algorithms.
 
    Energy Efficiency Network Management:  Refers to the ability to
       manage (including control) the use of available energy in an
