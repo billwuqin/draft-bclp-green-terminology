@@ -5,14 +5,14 @@
 GREEN Working Group                                               C. Liu
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 24 November 2025                                         Orange
+Expires: 25 November 2025                                         Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                                    Cisco
-                                                             23 May 2025
+                                                             24 May 2025
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 November 2025.
+   This Internet-Draft will expire on 25 November 2025.
 
 Copyright Notice
 
@@ -180,12 +180,12 @@ Table of Contents
    Energy Efficiency:  Refers to optimize energy usage in network
       components, devices, and across the network to provide a useful
       output with as little energy as possible, eliminating the energy
-      waste.  Examples to improve Energy efficiency include but not
-      limited to deactivation of some or all components of network nodes
-      during low-traffic periods or adjusting speed of the interface
-      based on network traffic load change or switching to more
-      efficient power supplies and silicon or developing more efficient
-      transmission or signal processing algorithms.
+      waste.  Examples to improve Energy efficiency include, but not
+      limited to, deactivation of some or all components of network
+      nodes during low-traffic periods or adjusting speed of the
+      interface based on network traffic load change or switching to
+      more efficient power supplies and silicon or developing more
+      efficient transmission or signal processing algorithms.
 
    Energy Efficiency Network Management:  Refers to the ability to
       control the use of available energy in an optimized manner (e.g.,
