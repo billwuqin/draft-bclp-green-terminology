@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-03-30T02:00:17.621824+00:00",
+  "timestamp": "2025-05-25T02:10:22.375083+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -316,6 +316,22 @@
           "updatedAt": "2025-01-02T02:04:56Z"
         }
       ]
+    },
+    {
+      "number": 29,
+      "id": "I_kwDOM9Apn864Dfbl",
+      "title": "Energy Management vs Energy Efficiency Network Management",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/29",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "One of comments raised by Benoit on the list make me rethink the relationship between Energy management and Energy Efficiency network management , see two defintions quoted in the draft:\n\"\n**Energy Management**:\nIs a set of functions for measuring, modeling, planning, and optimizing networks to ensure that the network and network-attached devices use energy efficiently and appropriately for the nature of the application and the cost constraints of the organization ([RFC7326]).\n\n**Energy Efficiency Network Management**:\n: Refers to the ability to manage (including control) the use of\n  available energy in an optimized manner (e.g.,in a resource conserved manner and at low cost) in a network.\n\"\nHow enegy efficiency network management is different from Energy management? \nI think first, Energy management defintion doesn't consider inventory and discovery function, second, unlike energy management, energy effficiency management is to set a clear goal for energy efficiency and use energy efficiency metric to assess energy consumption of a network so that the management system can manage the use of avaialbe energy in an optmized manner in the network.\n\nTwo options we have:\n1. Consolidate Energy efficiency network management definition with Energy Management defintion\n2. If we choose to keep both, we need to make sure Energy Efficiency network management is built on  top of Energy Management defintion",
+      "createdAt": "2025-05-24T02:47:09Z",
+      "updatedAt": "2025-05-24T02:47:09Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -1250,6 +1266,101 @@
         }
       ],
       "reviews": []
+    },
+    {
+      "number": 28,
+      "id": "PR_kwDOM9Apn86XXJyd",
+      "title": "Update draft-bclp-green-terminology.md",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/28",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Polish the definition of Energy Efficiency",
+      "createdAt": "2025-05-23T10:10:14Z",
+      "updatedAt": "2025-05-24T02:18:01Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "97e19c2037775c55242000042fe59fa1ad51c846",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "billwuqin-patch-3",
+      "headRefOid": "7a313bf4503e63c459c645de15a2633a6ccf1c83",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn86quYOO",
+          "commit": {
+            "abbreviatedOid": "6d6fa8b"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2025-05-23T12:43:41Z",
+          "updatedAt": "2025-05-23T12:47:44Z",
+          "comments": [
+            {
+              "originalPosition": 12,
+              "body": "```suggestion\r\n  to minimize energy use as possible, eliminating thus energy waste.\r\n```",
+              "createdAt": "2025-05-23T12:43:41Z",
+              "updatedAt": "2025-05-23T12:47:44Z"
+            },
+            {
+              "originalPosition": 13,
+              "body": "```suggestion\r\n  Examples to improve Energy efficiency include, but not limited to, deactivation of some or\r\n```",
+              "createdAt": "2025-05-23T12:43:58Z",
+              "updatedAt": "2025-05-23T12:47:44Z"
+            },
+            {
+              "originalPosition": 14,
+              "body": "```suggestion\r\n  all components of network nodes during specific periods (e.g., periods with low-traffic) or adjusting interface speed of an interface\r\n```",
+              "createdAt": "2025-05-23T12:44:57Z",
+              "updatedAt": "2025-05-23T12:47:44Z"
+            },
+            {
+              "originalPosition": 15,
+              "body": "```suggestion\r\n  based on network traffic load change, or switching to more efficient power supplies and silicon\r\n```",
+              "createdAt": "2025-05-23T12:45:12Z",
+              "updatedAt": "2025-05-23T12:47:44Z"
+            },
+            {
+              "originalPosition": 19,
+              "body": "```suggestion\r\n: Refers to the ability to manage (including control) the use of available energy in an optimized manner (e.g.,\r\n```",
+              "createdAt": "2025-05-23T12:45:53Z",
+              "updatedAt": "2025-05-23T12:47:44Z"
+            },
+            {
+              "originalPosition": 23,
+              "body": "```suggestion\r\n: Refers to a metric that is used for the assessment of energy consumption of\r\n```",
+              "createdAt": "2025-05-23T12:46:08Z",
+              "updatedAt": "2025-05-23T12:47:44Z"
+            },
+            {
+              "originalPosition": 28,
+              "body": "```suggestion\r\n  data over time are essential to demonstrating Energy Efficiency improvements.  An example of a common\r\n```",
+              "createdAt": "2025-05-23T12:46:58Z",
+              "updatedAt": "2025-05-23T12:47:44Z"
+            },
+            {
+              "originalPosition": 38,
+              "body": "```suggestion\r\n data center, and other communication architectures.  There\r\n```",
+              "createdAt": "2025-05-23T12:47:10Z",
+              "updatedAt": "2025-05-23T12:47:44Z"
+            },
+            {
+              "originalPosition": 26,
+              "body": "```suggestion\r\n  Efficiency management strategy. Developing energy efficiency metrics for internetworking\r\n```",
+              "createdAt": "2025-05-23T12:47:33Z",
+              "updatedAt": "2025-05-23T12:47:44Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
