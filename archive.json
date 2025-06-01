@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-05-25T02:10:22.375083+00:00",
+  "timestamp": "2025-06-01T02:27:06.902843+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -329,9 +329,17 @@
       "labels": [],
       "body": "One of comments raised by Benoit on the list make me rethink the relationship between Energy management and Energy Efficiency network management , see two defintions quoted in the draft:\n\"\n**Energy Management**:\nIs a set of functions for measuring, modeling, planning, and optimizing networks to ensure that the network and network-attached devices use energy efficiently and appropriately for the nature of the application and the cost constraints of the organization ([RFC7326]).\n\n**Energy Efficiency Network Management**:\n: Refers to the ability to manage (including control) the use of\n  available energy in an optimized manner (e.g.,in a resource conserved manner and at low cost) in a network.\n\"\nHow enegy efficiency network management is different from Energy management? \nI think first, Energy management defintion doesn't consider inventory and discovery function, second, unlike energy management, energy effficiency management is to set a clear goal for energy efficiency and use energy efficiency metric to assess energy consumption of a network so that the management system can manage the use of avaialbe energy in an optmized manner in the network.\n\nTwo options we have:\n1. Consolidate Energy efficiency network management definition with Energy Management defintion\n2. If we choose to keep both, we need to make sure Energy Efficiency network management is built on  top of Energy Management defintion",
       "createdAt": "2025-05-24T02:47:09Z",
-      "updatedAt": "2025-05-24T02:47:09Z",
+      "updatedAt": "2025-05-29T11:47:43Z",
       "closedAt": null,
-      "comments": []
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "One solution proposed by China Unicom is:\nhttps://mailarchive.ietf.org/arch/msg/green/uSl1paEO6mgMT73jBwX9xD2wsy4/",
+          "createdAt": "2025-05-29T11:47:42Z",
+          "updatedAt": "2025-05-29T11:47:42Z"
+        }
+      ]
     }
   ],
   "pulls": [
