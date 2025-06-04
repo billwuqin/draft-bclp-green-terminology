@@ -162,24 +162,43 @@ Energy:
 
 Power:
 : Refers the time rate at which energy is emitted, transferred, or
-      received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
+  received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
 
 Energy Management:
 : Is a set of functions for measuring, modeling,
-      planning, and optimizing networks to ensure that the network and
-      network-attached devices use energy efficiently and appropriately
-      for the nature of the application and the cost constraints of the
-      organization ({{?RFC7326}}).
+  planning, and optimizing networks to ensure that the network and
+  network-attached devices use energy efficiently and appropriately
+  for the nature of the application and the cost constraints of the
+  organization ({{?RFC7326}}).
 
 Energy Monitoring:
 : Is a part of Energy Management that deals with
-      collecting or reading information from devices to aid in Energy
-      Management ({{?RFC7326}}).
+  collecting or reading information from devices to aid in Energy
+  Management ({{?RFC7326}}).
 
 Energy Control:
 : Is a part of Energy Management that deals with
-      directing influence over devices ({{?RFC7326}}).
+  directing influence over devices ({{?RFC7326}}).
 : This control can span a network or a subset of it.
+
+Energy Efficiency Management:
+: Refer to a set of processes used to discover a inventory of capabilities,
+use specific metrics to monitor, report and assess energy consumption of the network,
+and control the use of available energy in an optimized manner in the
+network to ensure that the network and network-attached devices use energy in
+a resource conserved manner and at low cost for the nature of the
+application and the cost constraints of the organization while achieving the
+network’s functional and performance requirements by improving overall network
+utilization.
+ 
+Energy Efficiency Observability:
+Is a part of Energy Efficiency Management that deals with collecting, reporting or
+reading metrics information from devices and evaluating the effectiveness of
+energy-aware policies to aid in Energy Efficiency Management.
+ 
+Energy Efficiency Control:
+Is a part of Energy Efficiency Management that deals with directing influence over
+devices.
 
 Energy Efficiency:
 : Refers to provide a useful output with as little energy as possible,
@@ -201,10 +220,6 @@ Energy Proportionality
  energy use, notably due to the materially significant idle power
  use by devices, as well as the overall network capacity being
  allocated to serve at times of highest traffic utilization.
-
-Energy Efficiency Network Management:
-: Refers to the ability to control the use of available energy in an optimized manner (e.g.,
-  in a resource conserved manner and at low cost) in a network.
 
 Energy Efficiency Metric:
 : Refers to a metric that is used for the evaluation and assessment of energy consumption of
