@@ -31,12 +31,12 @@ Such reference document helps framing discussion and agreeing upon a set of main
     google-i18n-address 3.1.1
     intervaltree 3.1.0
     Jinja2 3.1.6
-    lxml 5.3.0
-    platformdirs 4.3.7
+    lxml 5.3.1
+    platformdirs 4.3.8
     pycountry 24.6.1
     PyYAML 6.0.2
     requests 2.32.3
-    setuptools 70.3.0
+    setuptools 80.9.0
     wcwidth 0.2.13
 -->
 <link href="draft-bclp-green-terminology.xml" rel="alternate" type="application/rfc+xml">
@@ -1056,11 +1056,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">Energy Efficiency Terminology</td>
-<td class="right">May 2025</td>
+<td class="right">June 2025</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Liu, et al.</td>
-<td class="center">Expires 4 November 2025</td>
+<td class="center">Expires 6 December 2025</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1073,12 +1073,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-bclp-green-terminology-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2025-05-03" class="published">3 May 2025</time>
+<time datetime="2025-06-04" class="published">4 June 2025</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2025-11-04">4 November 2025</time></dd>
+<dd class="expires"><time datetime="2025-12-06">6 December 2025</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1145,7 +1145,7 @@ Such reference document helps framing discussion and agreeing upon a set of main
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 4 November 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 6 December 2025.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1332,29 +1332,29 @@ efficiency ratio, etc.<a href="#section-1-4" class="pilcrow">¶</a></p>
 <dt id="section-3-2.3">Power:</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.4">
           <p id="section-3-2.4.1">Refers the time rate at which energy is emitted, transferred, or
-    received; power is usually expressed in watts (joules per second) (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.4.1" class="pilcrow">¶</a></p>
+received; power is usually expressed in watts (joules per second) (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.4.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-2.5">Energy Management:</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.6">
           <p id="section-3-2.6.1">Is a set of functions for measuring, modeling,
-    planning, and optimizing networks to ensure that the network and
-    network-attached devices use energy efficiently and appropriately
-    for the nature of the application and the cost constraints of the
-    organization (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.6.1" class="pilcrow">¶</a></p>
+planning, and optimizing networks to ensure that the network and
+network-attached devices use energy efficiently and appropriately
+for the nature of the application and the cost constraints of the
+organization (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.6.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-2.7">Energy Monitoring:</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.8">
           <p id="section-3-2.8.1">Is a part of Energy Management that deals with
-    collecting or reading information from devices to aid in Energy
-    Management (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.8.1" class="pilcrow">¶</a></p>
+collecting or reading information from devices to aid in Energy
+Management (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.8.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-2.9">Energy Control:</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.10">
           <p id="section-3-2.10.1">Is a part of Energy Management that deals with
-    directing influence over devices (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.10.1" class="pilcrow">¶</a></p>
+directing influence over devices (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.10.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-2.11"></dt>
@@ -1386,89 +1386,83 @@ outcome-oriented metric is energy consumption per data volume or traffic unit.<a
  use by devices, as well as the overall network capacity being
  allocated to serve at times of highest traffic utilization.<a href="#section-3-3" class="pilcrow">¶</a></p>
 <span class="break"></span><dl class="dlParallel" id="section-3-4">
-        <dt id="section-3-4.1">Energy Efficiency Network Management:</dt>
+        <dt id="section-3-4.1">Energy Efficiency Metric:</dt>
         <dd style="margin-left: 1.5em" id="section-3-4.2">
-          <p id="section-3-4.2.1">Refers to the ability to control the use of available energy in an optimized manner (e.g.,
-in a resource conserved manner and at low cost) in a network.<a href="#section-3-4.2.1" class="pilcrow">¶</a></p>
-</dd>
-        <dd class="break"></dd>
-<dt id="section-3-4.3">Energy Efficiency Metric:</dt>
-        <dd style="margin-left: 1.5em" id="section-3-4.4">
-          <p id="section-3-4.4.1">Refers to a metric that is used for the evaluation and assessment of energy consumption of
+          <p id="section-3-4.2.1">Refers to a metric that is used for the evaluation and assessment of energy consumption of
 a network, device, or component. One or more metrics can be defined. These metrics are also
 used for network performance purposes to characterize the effectiveness of an Energy
-Efficiency management strategy.<a href="#section-3-4.4.1" class="pilcrow">¶</a></p>
+Efficiency management strategy.<a href="#section-3-4.2.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-4.5">Energy Efficiency/Energy Efficiency Ratio (EER):</dt>
+<dt id="section-3-4.3">Energy Efficiency/Energy Efficiency Ratio (EER):</dt>
+        <dd style="margin-left: 1.5em" id="section-3-4.4">
+          <p id="section-3-4.4.1">The energy efficiency is expressed as the ratio between the useful output and input of an
+energy conversion process of a network, device, or component.<a href="#section-3-4.4.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-3-4.5"></dt>
         <dd style="margin-left: 1.5em" id="section-3-4.6">
-          <p id="section-3-4.6.1">The energy efficiency is expressed as the ratio between the useful output and input of an
-energy conversion process of a network, device, or component.<a href="#section-3-4.6.1" class="pilcrow">¶</a></p>
+          <p id="section-3-4.6.1">For instance, in relation with a networking device, it can be stated as the ratio of total
+throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).<a href="#section-3-4.6.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-4.7"></dt>
         <dd style="margin-left: 1.5em" id="section-3-4.8">
-          <p id="section-3-4.8.1">For instance, in relation with a networking device, it can be stated as the ratio of total
-throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).<a href="#section-3-4.8.1" class="pilcrow">¶</a></p>
+          <p id="section-3-4.8.1">This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput forwarded by 1 watt
+(e.g., <span>[<a href="#I-D.cprjgf-bmwg-powerbench" class="cite xref">I-D.cprjgf-bmwg-powerbench</a>]</span>).<a href="#section-3-4.8.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-4.9"></dt>
         <dd style="margin-left: 1.5em" id="section-3-4.10">
-          <p id="section-3-4.10.1">This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput forwarded by 1 watt
-(e.g., <span>[<a href="#I-D.cprjgf-bmwg-powerbench" class="cite xref">I-D.cprjgf-bmwg-powerbench</a>]</span>).<a href="#section-3-4.10.1" class="pilcrow">¶</a></p>
+          <p id="section-3-4.10.1">A higher EER indicates a better energy efficiency.<a href="#section-3-4.10.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-4.11"></dt>
+<dt id="section-3-4.11">Power Usage Effectiveness (PUE):</dt>
         <dd style="margin-left: 1.5em" id="section-3-4.12">
-          <p id="section-3-4.12.1">A higher EER indicates a better energy efficiency.<a href="#section-3-4.12.1" class="pilcrow">¶</a></p>
+          <p id="section-3-4.12.1">Refer to the metric used to measure the energy efficiency of an infrastructure.<a href="#section-3-4.12.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-4.13">Power Usage Effectiveness (PUE):</dt>
+<dt id="section-3-4.13"></dt>
         <dd style="margin-left: 1.5em" id="section-3-4.14">
-          <p id="section-3-4.14.1">Refer to the metric used to measure the energy efficiency of an infrastructure.<a href="#section-3-4.14.1" class="pilcrow">¶</a></p>
+          <p id="section-3-4.14.1">This metric is calculated as the ratio between the total energy consumed by an infrastructure
+and the energy needed for a network element/component.<a href="#section-3-4.14.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-4.15"></dt>
+<dt id="section-3-4.15">Network Level Energy Efficiency (NLEE):</dt>
         <dd style="margin-left: 1.5em" id="section-3-4.16">
-          <p id="section-3-4.16.1">This metric is calculated as the ratio between the total energy consumed by an infrastructure
-and the energy needed for a network element/component.<a href="#section-3-4.16.1" class="pilcrow">¶</a></p>
+          <p id="section-3-4.16.1">Denotes the Energy Efficiency of an entire network or a subset part of it (e.g., access network).<a href="#section-3-4.16.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-4.17">Network Level Energy Efficiency (NLEE):</dt>
+<dt id="section-3-4.17">Device Level Energy Efficiency (DLEE):</dt>
         <dd style="margin-left: 1.5em" id="section-3-4.18">
-          <p id="section-3-4.18.1">Denotes the Energy Efficiency of an entire network or a subset part of it (e.g., access network).<a href="#section-3-4.18.1" class="pilcrow">¶</a></p>
-</dd>
-        <dd class="break"></dd>
-<dt id="section-3-4.19">Device Level Energy Efficiency (DLEE):</dt>
-        <dd style="margin-left: 1.5em" id="section-3-4.20">
-          <p id="section-3-4.20.1">Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network
+          <p id="section-3-4.18.1">Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network
 elements providing the same functionality or a target to optiize the configuration of a
-network element.<a href="#section-3-4.20.1" class="pilcrow">¶</a></p>
+network element.<a href="#section-3-4.18.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-4.21">Component Level Energy Efficiency (CLEE):</dt>
+<dt id="section-3-4.19">Component Level Energy Efficiency (CLEE):</dt>
+        <dd style="margin-left: 1.5em" id="section-3-4.20">
+          <p id="section-3-4.20.1">Denotes the Energy Efficiency of a component of a network element. It can be used in the design,
+development, and manufacturing of energy efficient a network elements.<a href="#section-3-4.20.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-3-4.21"></dt>
         <dd style="margin-left: 1.5em" id="section-3-4.22">
-          <p id="section-3-4.22.1">Denotes the Energy Efficiency of a component of a network element. It can be used in the design,
-development, and manufacturing of energy efficient a network elements.<a href="#section-3-4.22.1" class="pilcrow">¶</a></p>
+          <p id="section-3-4.22.1">Is useful to evaluate the energy efficiency performance of individual components of a network element.<a href="#section-3-4.22.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-4.23"></dt>
         <dd style="margin-left: 1.5em" id="section-3-4.24">
-          <p id="section-3-4.24.1">Is useful to evaluate the energy efficiency performance of individual components of a network element.<a href="#section-3-4.24.1" class="pilcrow">¶</a></p>
+          <p id="section-3-4.24.1">Measuring and understanding the energy efficiency or energy consumption of each component within
+a network element may be used to identify key components in a system with regard to energy saving.<a href="#section-3-4.24.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-4.25"></dt>
+<dt id="section-3-4.25">Energy Efficiency Capabilities:</dt>
         <dd style="margin-left: 1.5em" id="section-3-4.26">
-          <p id="section-3-4.26.1">Measuring and understanding the energy efficiency or energy consumption of each component within
-a network element may be used to identify key components in a system with regard to energy saving.<a href="#section-3-4.26.1" class="pilcrow">¶</a></p>
-</dd>
-        <dd class="break"></dd>
-<dt id="section-3-4.27">Energy Efficiency Capabilities:</dt>
-        <dd style="margin-left: 1.5em" id="section-3-4.28">
-          <p id="section-3-4.28.1">Network Capabilities to optimize energy usage in network components, devices, and across the network
+          <p id="section-3-4.26.1">Network Capabilities to optimize energy usage in network components, devices, and across the network
    through configurable static attributes, e.g., powe saving capable attribute which can be applied to
    both component level and device level, or power setting attributes which specify who provide power,
-   who consume, temperature setting, voltage, ampere setting.<a href="#section-3-4.28.1" class="pilcrow">¶</a></p>
+   who consume, temperature setting, voltage, ampere setting.<a href="#section-3-4.26.1" class="pilcrow">¶</a></p>
 </dd>
       <dd class="break"></dd>
 </dl>
