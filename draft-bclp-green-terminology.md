@@ -181,25 +181,6 @@ Energy Control:
   directing influence over devices ({{?RFC7326}}).
 : This control can span a network or a subset of it.
 
-Energy Efficiency Management:
-: Refer to a set of processes used to discover a inventory of capabilities,
-use specific metrics to monitor, report and assess energy consumption of the network,
-and control the use of available energy in an optimized manner in the
-network to ensure that the network and network-attached devices use energy in
-a resource conserved manner and at low cost for the nature of the
-application and the cost constraints of the organization while achieving the
-network’s functional and performance requirements by improving overall network
-utilization.
- 
-Energy Efficiency Observability:
-Is a part of Energy Efficiency Management that deals with collecting, reporting or
-reading metrics information from devices and evaluating the effectiveness of
-energy-aware policies to aid in Energy Efficiency Management.
- 
-Energy Efficiency Control:
-Is a part of Energy Efficiency Management that deals with directing influence over
-devices.
-
 Energy Efficiency:
 : Refers to provide a useful output with as little energy as possible,
   eliminating energy waste.  Switching to more efficient power supplies
