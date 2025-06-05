@@ -177,16 +177,16 @@ Table of Contents
 
       This control can span a network or a subset of it.
 
-   Energy Efficiency:  Refer to provide a useful output with as little
-      energy as possible, eliminating energy waste.  Switching to more
-      efficient power supplies and silicon or developing more efficient
-      transmission or signal processing algorithms improves Energy
-      efficiency.  Developing energy efficiency metrics for
-      internetworking and associated measurement methodologies and
-      conditions as well as consistently collecting this data over time
-      are essential to demonstrating EE improvements.  An example of a
-      common outcome-oriented metric is energy consumption per data
-      volume or traffic unit.
+   Energy Efficiency:  Refers to the concept of providing a useful
+      output with as little energy as possible, eliminating energy
+      waste.  Switching to more efficient power supplies and silicon or
+      developing more efficient transmission or signal processing
+      algorithms improves Energy efficiency.  Developing energy
+      efficiency metrics for internetworking and associated measurement
+      methodologies and conditions as well as consistently collecting
+      this data over time are essential to demonstrating EE
+      improvements.  An example of a common outcome-oriented metric is
+      energy consumption per data volume or traffic unit.
 
    Energy Efficiency Management:  Refer to a set of processes used to
       discover a inventory of capabilities, use specific metrics to
