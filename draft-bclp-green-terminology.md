@@ -192,7 +192,7 @@ Energy Efficiency:
   outcome-oriented metric is energy consumption per data volume or traffic unit.
 
 Energy Efficiency Management:
-: Refer to a set of processes used to discover a inventory of capabilities,
+: Refers to a set of processes used to maintain an inventory of capabilities,
 use specific metrics to measure, report and assess energy consumption of the network,
 and control the use of available energy in an optimized manner in the
 network to ensure that the network and network-attached devices use energy in
