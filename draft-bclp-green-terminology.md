@@ -214,7 +214,10 @@ Energy Efficiency Metric:
 : Refer to a metric that is used for the evaluation and assessment of energy consumption of
   a network, device, or component. One or more metrics can be defined. These metrics are also
   used for network performance purposes to characterize the effectiveness of an Energy
-  Efficiency management strategy.
+  Efficiency management strategy. Developing energy efficiency metrics for internetworking
+  and associated measurement methodologies and conditions as well as consistently collecting this
+  data over time are essential to demonstrating Energy Efficiency improvements.  An example of
+  a common outcome-oriented metric is energy consumption per data volume or traffic unit.
 
 Energy Proportionality
 : Is the correlation between energy used and the associated useful
