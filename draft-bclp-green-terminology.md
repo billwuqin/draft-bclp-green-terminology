@@ -199,7 +199,7 @@ The overall goal is to ensure that the network and underlying devices use energy
 a resource conserved manner and at low cost for the nature of the
 the services it provides and the cost constraints while achieving the
 network’s functional and performance requirements (e.g.;, improving overall network
-utilization.
+utilization).
 
 Energy Efficiency Observability:
 : Is a part of Energy Efficiency Management that deals with collecting, reporting or
