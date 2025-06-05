@@ -207,7 +207,7 @@ reading metrics information from devices and evaluating the effectiveness of
 energy-aware policies to aid in Energy Efficiency Management.
 
 Energy Efficiency Control:
-: Is a part of Energy Efficiency Management that deals with directing influence over
+: Is part of Energy Efficiency Management that deals with directing influence over
 devices.
 
 Energy Efficiency Metric:
