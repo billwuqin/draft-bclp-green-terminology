@@ -206,7 +206,7 @@ Table of Contents
    Energy Efficiency Control:  Is part of Energy Efficiency Management
       that deals with directing influence over devices.
 
-   Energy Efficiency Metric:  Refer to a metric that is used for the
+   Energy Efficiency Metric:  Refers to a metric that is used for the
       evaluation and assessment of energy consumption of a network,
       device, or component.  One or more metrics can be defined.  These
       metrics are also used for network performance purposes to
