@@ -211,7 +211,7 @@ Energy Efficiency Control:
 devices.
 
 Energy Efficiency Metric:
-: Refer to a metric that is used for the evaluation and assessment of energy consumption of
+: Refers to a metric that is used for the evaluation and assessment of energy consumption of
   a network, device, or component. One or more metrics can be defined. These metrics are also
   used for network performance purposes to characterize the effectiveness of an Energy
   Efficiency management strategy. Developing energy efficiency metrics for internetworking
