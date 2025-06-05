@@ -198,7 +198,7 @@ and control the use of available energy in an optimized manner.
 The overall goal is to ensure that the network and underlying devices use energy in
 a resource conserved manner and at low cost for the nature of the
 the services it provides and the cost constraints while achieving the
-network’s functional and performance requirements (e.g.;, improving overall network
+network’s functional and performance requirements (e.g., improving overall network
 utilization).
 
 Energy Efficiency Observability:
