@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-01T02:27:06.902843+00:00",
+  "timestamp": "2025-06-05T02:03:00.710403+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -1369,6 +1369,32 @@
           ]
         }
       ]
+    },
+    {
+      "number": 30,
+      "id": "PR_kwDOM9Apn86ZBiFF",
+      "title": "Add 3 new terms related to energy efficiency",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/30",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-06-04T13:19:38Z",
+      "updatedAt": "2025-06-04T13:21:12Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "3eb16db64bd5da94286d36a762292afc168f4847",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "billwuqin-patch-4",
+      "headRefOid": "5778163c6223520a914201cd7f13ed105682638f",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
     }
   ]
 }
