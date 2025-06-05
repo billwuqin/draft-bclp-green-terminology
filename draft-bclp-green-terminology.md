@@ -162,23 +162,23 @@ Energy:
 
 Power:
 : Refers the time rate at which energy is emitted, transferred, or
-      received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
+  received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
 
 Energy Management:
 : Is a set of functions for measuring, modeling,
-      planning, and optimizing networks to ensure that the network and
-      network-attached devices use energy efficiently and appropriately
-      for the nature of the application and the cost constraints of the
-      organization ({{?RFC7326}}).
+  planning, and optimizing networks to ensure that the network and
+  network-attached devices use energy efficiently and appropriately
+  for the nature of the application and the cost constraints of the
+  organization ({{?RFC7326}}).
 
 Energy Monitoring:
 : Is a part of Energy Management that deals with
-      collecting or reading information from devices to aid in Energy
-      Management ({{?RFC7326}}).
+  collecting or reading information from devices to aid in Energy
+  Management ({{?RFC7326}}).
 
 Energy Control:
 : Is a part of Energy Management that deals with
-      directing influence over devices ({{?RFC7326}}).
+  directing influence over devices ({{?RFC7326}}).
 : This control can span a network or a subset of it.
 
 Energy Efficiency:
