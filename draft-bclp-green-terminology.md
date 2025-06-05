@@ -202,7 +202,7 @@ network’s functional and performance requirements (e.g.;, improving overall ne
 utilization).
 
 Energy Efficiency Observability:
-: Is a part of Energy Efficiency Management that deals with collecting, reporting or
+: Is part of Energy Efficiency Management that deals with collecting, reporting, and
 reading metrics information from devices and evaluating the effectiveness of
 energy-aware policies to aid in Energy Efficiency Management.
 
