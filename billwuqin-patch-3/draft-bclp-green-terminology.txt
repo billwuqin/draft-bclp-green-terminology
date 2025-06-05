@@ -5,14 +5,14 @@
 GREEN Working Group                                               C. Liu
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 25 November 2025                                         Orange
+Expires: 7 December 2025                                          Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                                    Cisco
-                                                             24 May 2025
+                                                             5 June 2025
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 25 November 2025.
+   This Internet-Draft will expire on 7 December 2025.
 
 Copyright Notice
 
