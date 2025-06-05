@@ -194,7 +194,7 @@ Energy Efficiency:
 Energy Efficiency Management:
 : Refers to a set of processes used to maintain an inventory of capabilities,
 use specific metrics to measure, report and assess energy consumption of the network,
-and control the use of available energy in an optimized manner in the
+and control the use of available energy in an optimized manner.
 network to ensure that the network and network-attached devices use energy in
 a resource conserved manner and at low cost for the nature of the
 application and the cost constraints of the organization while achieving the
