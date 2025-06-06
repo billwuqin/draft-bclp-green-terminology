@@ -5,14 +5,14 @@
 GREEN Working Group                                               C. Liu
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 6 December 2025                                          Orange
+Expires: 8 December 2025                                          Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                                    Cisco
-                                                             4 June 2025
+                                                             6 June 2025
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 6 December 2025.
+   This Internet-Draft will expire on 8 December 2025.
 
 Copyright Notice
 
@@ -188,15 +188,16 @@ Table of Contents
       common outcome-oriented metric is energy consumption per data
       volume or traffic unit.
 
-   Energy Proportionality :is the correlation between energy used and
-   the associated useful output.  For internetworking this is generally
-   interpreted as the proportionality of traffic or traffic throughput
-   and energy used.  This concept is broadly applicable to networking
-   infrastructure, data center, and other communication architectures.
-   It is not a given that there is a one-to-one correlation between
-   traffic and energy use, notably due to the materially significant
-   idle power use by devices, as well as the overall network capacity
-   being allocated to serve at times of highest traffic utilization.
+   Energy Proportionality  Is the correlation between energy used and
+      the associated useful output.  For internetworking this is
+      generally interpreted as the proportionality of traffic or traffic
+      throughput and energy used.  This concept is broadly applicable to
+      networking infrastructure, data center, and other communication
+      architectures.  It is not a given that there is a one-to-one
+      correlation between traffic and energy use, notably due to the
+      materially significant idle power use by devices, as well as the
+      overall network capacity being allocated to serve at times of
+      highest traffic utilization.
 
    Energy Efficiency Metric:  Refers to a metric that is used for the
       evaluation and assessment of energy consumption of a network,
