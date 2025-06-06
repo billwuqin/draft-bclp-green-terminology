@@ -337,7 +337,7 @@ The formula is defined in {{L.1320}}.
 
 # Operations and Manageability Considerations
 
-This document defines terminolgy that is mant to ensure consistency among various efforts and deployment levels. No other operations or manageability requirements are introduced by this document.
+This document defines terminolgy that is meant to ensure consistency among various efforts and deployment levels. No other operations or manageability requirements are introduced by this document.
 
 # Security Considerations
 
