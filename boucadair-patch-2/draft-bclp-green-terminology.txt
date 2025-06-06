@@ -1,0 +1,531 @@
+
+
+
+
+GREEN Working Group                                               C. Liu
+Internet-Draft                                                    Huawei
+Intended status: Informational                              M. Boucadair
+Expires: 8 December 2025                                          Orange
+                                                                   Q. Wu
+                                                                  Huawei
+                                                         L. M. Contreras
+                                                              Telefonica
+                                                              M. Palmero
+                                                                   Cisco
+                                                             6 June 2025
+
+
+          Terminology for Energy Efficiency Network Management
+                  draft-bclp-green-terminology-latest
+
+Abstract
+
+   Energy-efficient network management is primary meant to enhance
+   conventional network management with energy-related management
+   capabilities to optimize the overall energy consumption at the level
+   of a network.  To that aim, specific features and capabilities are
+   required to control (and thus optimize) the energy use of involved
+   network element and their components.
+
+   This document is defines a set of key terms used within the IETF when
+   discussing energy efficiency in network management.  Such reference
+   document helps framing discussion and agreeing upon a set of main
+   concepts in this area.
+
+Discussion Venues
+
+   This note is to be removed before publishing as an RFC.
+
+   Discussion of this document takes place on the Getting Ready for
+   Energy-Efficient Networking Working Group mailing list
+   (green@ietf.org), which is archived at
+   https://mailarchive.ietf.org/arch/browse/green/.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/billwuqin/draft-bclp-green-terminology.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 8 December 2025.
+
+Copyright Notice
+
+   Copyright (c) 2025 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Introduction
+   2.  Abbreviations
+   3.  Definitions
+   4.  Sample Energy Efficiency Metrics and Measurement Methods
+     4.1.  Metrics for DSLAM, MSAN, GPON, and GEPON Equipment
+     4.2.  Metric for Wireless Access Technologies
+     4.3.  Metrics for Routers and Ethernet Switches
+     4.4.  Metrics for Small Network Devices
+     4.5.  Metric for Power Equipment
+     4.6.  Metric for Cooling Equipment
+   5.  Operations and Manageability Considerations
+   6.  Security Considerations
+   7.  Informative References
+   Appendix A.  Standards Bodies and Standards
+     A.1.  ITU-T SG5
+     A.2.  ETSI TCEE
+     A.3.  3GPP SA5
+   Appendix B.  Acknowledgments
+   Authors' Addresses
+
+1.  Introduction
+
+   With rising energy costs and increasing awareness of the
+   environmental impact of running networks, servers, and various
+   equipment, Energy Efficiency is considered by operators as a critical
+   component to be integrated in the overall Network Management systems.
+   Such integration is ambitioned to feed strategies for committing
+   environmental objectives but also mastering related operational cost.
+   Energy Efficiency management is thus complementing conventional
+   network management.
+
+   Section 3 defines a set of terms used within the IETF when discussing
+   Energy-efficiency networks.  The purpose is to (1) ensure consistent
+   use of a set of terms in this area, (2) help with the
+   characterization of Energy Efficiency (and relevant aspects), (3)
+   assist in the development of the YANG data models at the different
+   levels in the IETF, and (4) bring clarity to the Energy Efficiency
+   related discussions between different groups within IETF, in
+   particular.
+
+   This document does not intend to define a comprehensive list of
+   energy-related terms.  Only key terms are defined.  Some of these
+   terms are extracted from existing IETF documents and beyond.
+
+   Also, Section 4 provides an inventory of currently used metrics to
+   assess/compute energy-related consumption, efficiency ratio, etc.
+
+   Appendix A provides a list of SDOs where relevant energy efficiency
+   effort is ongoing.
+
+2.  Abbreviations
+
+   The following abbreviations are used in the document:
+
+   CLEE:  Component Level Energy Efficiency
+
+   DLEE:  Device Level Energy Efficiency
+
+   DSLAM:  Digital Subscriber Line Access Multiplexer
+
+   EER  Energy Efficiency Ratio
+
+   GEPON:  Gigabit Ethernet Passive Optical Network
+
+   GPON:  Gigabit-capable Passive Optical Network
+
+   MSAN:  Multiservice Access Node
+
+   NDR:  None-Drop Rate
+
+   NLEE:  Network Level Energy Efficiency
+
+   PUE:  Power Usage Effectiveness
+
+3.  Definitions
+
+   Terms are listed so that terms that are needed to understand other
+   terms are listed first.
+
+   Energy:  Is generally a reference to electrical energy and is
+      measured in kilowatt-hours (kWh) ([RFC7326]).
+
+   Power:  Refers the time rate at which energy is emitted, transferred,
+      or received; power is usually expressed in watts (joules per
+      second) ([RFC7326]).
+
+   Energy Management:  Is a set of functions for measuring, modeling,
+      planning, and optimizing networks to ensure that the network and
+      network-attached devices use energy efficiently and appropriately
+      for the nature of the application and the cost constraints of the
+      organization ([RFC7326]).
+
+   Energy Monitoring:  Is a part of Energy Management that deals with
+      collecting or reading information from devices to aid in Energy
+      Management ([RFC7326]).
+
+   Energy Control:  Is a part of Energy Management that deals with
+      directing influence over devices ([RFC7326]).
+
+      This control can span a network or a subset of it.
+
+   Energy Efficiency:  Refers to provide a useful output with as little
+      energy as possible, eliminating energy waste.  Switching to more
+      efficient power supplies and silicon or developing more efficient
+      transmission or signal processing algorithms improves Energy
+      efficiency.  Developing energy efficiency metrics for
+      internetworking and associated measurement methodologies and
+      conditions as well as consistently collecting this data over time
+      are essential to demonstrating EE improvements.  An example of a
+      common outcome-oriented metric is energy consumption per data
+      volume or traffic unit.
+
+   Energy Proportionality  Is the correlation between energy used and
+      the associated useful output.  For internetworking this is
+      generally interpreted as the proportionality of traffic or traffic
+      throughput and energy used.  This concept is broadly applicable to
+      networking infrastructure, data center, and other communication
+      architectures.  It is not a given that there is a one-to-one
+      correlation between traffic and energy use, notably due to the
+      materially significant idle power use by devices, as well as the
+      overall network capacity being allocated to serve at times of
+      highest traffic utilization.
+
+   Energy Efficiency Metric:  Refers to a metric that is used for the
+      evaluation and assessment of energy consumption of a network,
+      device, or component.  One or more metrics can be defined.  These
+      metrics are also used for network performance purposes to
+      characterize the effectiveness of an Energy Efficiency management
+      strategy.
+
+   Energy Efficiency/Energy Efficiency Ratio (EER):  The energy
+      efficiency is expressed as the ratio between the useful output and
+      input of an energy conversion process of a network, device, or
+      component.
+
+      For instance, in relation with a networking device, it can be
+      stated as the ratio of total throughput (e.g., of a network
+      element capacity) to the total power consumed (bits/Joule).
+
+      This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput
+      forwarded by 1 watt (e.g., [I-D.cprjgf-bmwg-powerbench]).
+
+      A higher EER indicates a better energy efficiency.
+
+   Power Usage Effectiveness (PUE):  Refer to the metric used to measure
+      the energy efficiency of an infrastructure.
+
+      This metric is calculated as the ratio between the total energy
+      consumed by an infrastructure and the energy needed for a network
+      element/component.
+
+   Network Level Energy Efficiency (NLEE):  Denotes the Energy
+      Efficiency of an entire network or a subset part of it (e.g.,
+      access network).
+
+   Device Level Energy Efficiency (DLEE):  Denotes the Energy Efficiency
+      of a network element.  It can be used, e.g., to compare network
+      elements providing the same functionality or a target to optiize
+      the configuration of a network element.
+
+   Component Level Energy Efficiency (CLEE):  Denotes the Energy
+      Efficiency of a component of a network element.  It can be used in
+      the design, development, and manufacturing of energy efficient a
+      network elements.
+
+      Is useful to evaluate the energy efficiency performance of
+      individual components of a network element.
+
+      Measuring and understanding the energy efficiency or energy
+      consumption of each component within a network element may be used
+      to identify key components in a system with regard to energy
+      saving.
+
+   Energy Efficiency Capabilities:  Network Capabilities to optimize
+      energy usage in network components, devices, and across the
+      network through configurable static attributes, e.g., powe saving
+      capable attribute which can be applied to both component level and
+      device level, or power setting attributes which specify who
+      provide power, who consume, temperature setting, voltage, ampere
+      setting.
+
+4.  Sample Energy Efficiency Metrics and Measurement Methods
+
+   This section lists some metrics that are adopted by other SDOs.
+
+      DISCUSS: Should we maintain this section?
+
+4.1.  Metrics for DSLAM, MSAN, GPON, and GEPON Equipment
+
+   Equipment with line cards working at different profiles/states are
+   characterized with different metric values for each specific profile/
+   state.
+
+                         Pport = Peq/Nports[W/port]
+
+   Where 'Peq' is the power (in watts) of a fully equipped wireline
+   network equipment with all its line cards working in a specific
+   profile/state.  The formula is defined in [L.1310].
+
+4.2.  Metric for Wireless Access Technologies
+
+   The energy efficiency metric at Radio Frequency (RF) unit level is as
+   follows:
+
+                        EErfu = Eoutput/Erfu
+
+   Where:
+
+   *  'Eoutput' is daily RF output energy consumption [Wh] under
+      different load.
+
+   *  'Erfu' is daily RF units energy consumption [Wh] under different
+      load.
+
+   The formula is defined in [L.1310].
+
+4.3.  Metrics for Routers and Ethernet Switches
+
+   The metric for routers and Ethernet switches is as follows:
+
+                       EER = Ti/Pw [Mbit/s/W]
+
+   Where 'Ti' is NDR throughput, 'Pw' is weighted power (energy
+   consumption rate).  The formula is defined in [L.1310].
+
+                       Pw = a*Pu1 + b*Pu2 + c*Pu3
+
+   Where:
+
+   *  'a'/'b'/'c' are the relative weight at different usage percentage
+      with a+b+c=1.
+
+   *  'Pu1'/'Pu2'/'Pu3' are the power at different usage percentage.
+
+4.4.  Metrics for Small Network Devices
+
+   A metric for small networking devices intended for home/domestic or
+   small office use is as follows:
+
+                      EER = Ti/Pw [Mbit/s/W]
+
+   Where Ti is NDR throughput between wide area network (WAN) and local
+   area network (LAN) ports in the ingress direction, Pw is the average
+   power during Full load, Idle load and Low power, the formula is
+   defined in [L.1310].
+
+                     Ti = 0.35T_idle+0.5T_lowpower+0.15T_maximum
+                     Pw = 0.35P_idle+0.5P_lowpower+0.15P_maximum
+
+   where:
+
+   *  (0.35,0.5,0.15) is the relative weight at different usage mode.
+
+   *  'P_idle'/'P_lowpower'/'P_maximum' is the average power at
+      different usage mode.
+
+   *  'T_idle'/'T_lowpower'/'T_maximum' is NDR throughput at different
+      usage mode.
+
+4.5.  Metric for Power Equipment
+
+                              δ = Po/Pi
+
+   Where:
+
+   *  'Po' is output power.
+
+   *  'Pi' is input power.
+
+   This energy efficiency value is measured or calculated from the
+   testing data over a given time period.  The formula is defined in
+   [L.1320].
+
+4.6.  Metric for Cooling Equipment
+
+                             η = Qt/Pi
+
+   Where:
+
+   *  'η' is the energy efficiency of the air conditioner.
+
+   *  'Pi' is the input power.
+
+   *  'Qt' is the sum of the sensible cooling capacity and the latent
+      cooling capacity.
+
+   The formula is defined in [L.1320].
+
+5.  Operations and Manageability Considerations
+
+   This document defines terminolgy that is mant to ensure consistency
+   among various efforts and deployment levels.  No other operations or
+   manageability requirements are introduced by this document.
+
+6.  Security Considerations
+
+   Security is not discussed in this document.
+
+7.  Informative References
+
+   [ETSI-ES-203-136]
+              "Environmental Engineering (EE); Measurement methods for
+              energy efficiency of router and switch equipment", 2017,
+              <https://www.etsi.org/deliver/
+              etsi_es/203100_203199/203136/01.02.00_50/
+              es_203136v010200m.pdf>.
+
+   [I-D.cprjgf-bmwg-powerbench]
+              Pignataro, C., Jacob, R., Fioccola, G., and Q. Wu,
+              "Characterization and Benchmarking Methodology for Power
+              in Networking Devices", Work in Progress, Internet-Draft,
+              draft-cprjgf-bmwg-powerbench-04, 30 January 2025,
+              <https://datatracker.ietf.org/doc/html/draft-cprjgf-bmwg-
+              powerbench-04>.
+
+   [L.1310]   "Energy efficiency metrics and measurement methods for
+              telecommunication equipment", 2024,
+              <https://www.itu.int/rec/T-REC-L.1310-202409-P>.
+
+   [L.1315]   "Standardization terms and trends in energy efficiency",
+              2017, <https://www.itu.int/rec/T-REC-L.1315-201705-I>.
+
+   [L.1316]   "Energy efficiency framework", 2019,
+              <https://www.itu.int/rec/T-REC-L.1316-201911-I>.
+
+   [L.1320]   "Energy efficiency metrics and measurement for power and
+              cooling equipment for telecommunications and data
+              centres", 2014,
+              <https://www.itu.int/rec/T-REC-L.1320-201403-I>.
+
+   [L.1331]   "Assessment of mobile network energy efficiency", 2020,
+              <https://www.itu.int/rec/T-REC-L.1331-202009-S>.
+
+   [L.1333]   "Carbon data intensity for network energy performance
+              monitoring", 2022,
+              <https://handle.itu.int/11.1002/1000/15028>.
+
+   [L.1410]   "Methodology for environmental life cycle assessments of
+              information and communication technology goods, networks
+              and services", 2014,
+              <https://www.itu.int/rec/T-REC-L.1410-201412-I>.
+
+   [RFC7326]  Parello, J., Claise, B., Schoening, B., and J. Quittek,
+              "Energy Management Framework", RFC 7326,
+              DOI 10.17487/RFC7326, September 2014,
+              <https://www.rfc-editor.org/rfc/rfc7326>.
+
+   [TS28.554] "Management and orchestration; 5G end to end Key
+              Performance Indicators (KPI)", 2024,
+              <https://www.3gpp.org/ftp/Specs/
+              archive/28_series/28.554/28554-i70.zip>.
+
+Appendix A.  Standards Bodies and Standards
+
+   This appendix provides a list of SDOs where relevant energy
+   efficiency effort is ongoing.  This appendix does not aim to be
+   comprehensive.  The appendix may be removed in future versions of the
+   document.
+
+A.1.  ITU-T SG5
+
+   ITU-T Study Group 5 (SG5) has already worked on developing standards
+   on energy efficiency.  ITU-T SG5 has many standards in the
+   environment efficiency field.  These standards include [L.1310],
+   [L.1315], [L.1316], and [L.1320] covering energy efficiency
+   terminology, framework, metrics, and measurement methods.
+
+   ITU-T SG5 is also responsible for other standards that might be of
+   interest to protocol developers and network operators.  For example:
+
+   *  [L.1331] specifies assessment of mobile network energy efficiency.
+
+   *  [L.1333] specifies the correlation between the carbon intensity
+      indicator and energy efficiency metric.  The carbon KPI defined in
+      [L.1333] refers to the energy efficiency metric defined in ITU-T
+      L.1331.
+
+   *  [L.1410] focuses on the assessment of the environmental impact of
+      information and communication technology (ICT) goods, networks and
+      services.  It provides specific guidance on energy and greenhouse
+      gas (GHG) impacts.
+
+A.2.  ETSI TCEE
+
+   ETSI Technical Committee (TC) Environment Engineering (EE) is
+   collaborating with ITU-T SG5 to develop technically aligned standards
+   on energy efficiency and environment aspect.  These standards include
+   energy efficiency, power feeding solution, circular economy and
+   network efficiency KPI and eco-design requirement for ICT, with the
+   aim to build an international eco-environmental standardization.
+
+   [ETSI-ES-203-136] defines the energy consumption metrics and
+   measurement methods for router and Ethernet switch equipment.  It
+   specifies a methodology and the test conditions to measure the power
+   consumption of router and switch equipment and is also applicable to
+   Core, edge, and access routers.
+
+A.3.  3GPP SA5
+
+   3GPP SA5 has, in Release 17, extended its scope from RAN only to the
+   whole 5G System (5GS) and worked on Energy Efficiency (EE) and Energy
+   Saving (ES) of mobile networks.  EE Key Performance Indicators (KPI)
+   have been defined for the 5G Core network and Network Slices.
+
+   The 3GPP Energy Efficiency in the RAN is defined by the performance
+   divided by the Energy Consumption (EC), where the definition of the
+   performance depends on the type of network entity it applies to.
+   From this, SA5 work aimed at defining the best metrics for each of
+   them, and their measurement method.
+
+   In Rel-18, WG SA5 works with ETSI NFV to explore more accurate
+   virtual CPU usage measurements from ETSI NFV MANO, Introduce
+   additional metrics when estimating the Energy Consumption of Virtual
+   Machines, e.g., their virtual disk or link usage.  In addition new
+   use cases for Energy Saving, applied to NG-RAN, 5GC, and Network
+   Slicing, AI/ML assisted energy saving scenarios are also being
+   investigated.
+
+   Specifically, [TS28.554] defines a number of energy efficiency KPIs,
+   including a generic Network Slice Energy Efficiency KPI, defined as
+   the ratio between the performance of the network slice and its energy
+   consumption.
+
+Appendix B.  Acknowledgments
+
+   TODO acknowledge.
+
+Authors' Addresses
+
+   Chunchi Liu
+   Huawei
+   Email: liuchunchi@huawei.com
+
+
+   Mohamed Boucadair
+   Orange
+   Email: mohamed.boucadair@orange.com
+
+
+   Qin Wu
+   Huawei
+   Email: bill.wu@huawei.com
+
+
+   Luis M. Contreras
+   Telefonica
+   Email: luismiguel.contrerasmurillo@telefonica.com
+
+
+   Marisol Palmero
+   Cisco
+   Email: mpalmero@cisco.com
