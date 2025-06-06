@@ -87,8 +87,9 @@ Table of Contents
      4.4.  Metrics for Small Network Devices
      4.5.  Metric for Power Equipment
      4.6.  Metric for Cooling Equipment
-   5.  Security Considerations
-   6.  Informative References
+   5.  Operations and Manageability Considerations
+   6.  Security Considerations
+   7.  Informative References
    Appendix A.  Standards Bodies and Standards
      A.1.  ITU-T SG5
      A.2.  ETSI TCEE
@@ -364,11 +365,17 @@ Table of Contents
 
    The formula is defined in [L.1320].
 
-5.  Security Considerations
+5.  Operations and Manageability Considerations
+
+   This document defines terminolgy that is mant to ensure consistency
+   among various efforts and deployment levels.  No other operations or
+   manageability requirements are introduced by this document.
+
+6.  Security Considerations
 
    Security is not discussed in this document.
 
-6.  Informative References
+7.  Informative References
 
    [ETSI-ES-203-136]
               "Environmental Engineering (EE); Measurement methods for
