@@ -192,7 +192,7 @@ Energy Efficiency:
   outcome-oriented metric is energy consumption per data volume or traffic unit.
 
 Energy Proportionality
-:is the correlation between energy used and the associated useful
+: Is the correlation between energy used and the associated useful
  output.  For internetworking this is generally interpreted as the
  proportionality of traffic or traffic throughput and energy used.
  This concept is broadly applicable to networking infrastructure,
