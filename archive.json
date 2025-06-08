@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-05T02:03:00.710403+00:00",
+  "timestamp": "2025-06-08T02:18:23.779590+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -1287,13 +1287,13 @@
       "labels": [],
       "body": "Polish the definition of Energy Efficiency",
       "createdAt": "2025-05-23T10:10:14Z",
-      "updatedAt": "2025-05-24T02:18:01Z",
+      "updatedAt": "2025-06-05T15:45:30Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
-      "baseRefOid": "97e19c2037775c55242000042fe59fa1ad51c846",
+      "baseRefOid": "3eb16db64bd5da94286d36a762292afc168f4847",
       "headRepository": "billwuqin/draft-bclp-green-terminology",
       "headRefName": "billwuqin-patch-3",
-      "headRefOid": "7a313bf4503e63c459c645de15a2633a6ccf1c83",
+      "headRefOid": "912fa99ee4691ff299b1b09697e1a937b22555e5",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
@@ -1367,6 +1367,19 @@
               "updatedAt": "2025-05-23T12:47:44Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn86s550W",
+          "commit": {
+            "abbreviatedOid": "912fa99"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-06-05T15:45:30Z",
+          "updatedAt": "2025-06-05T15:45:30Z",
+          "comments": []
         }
       ]
     },
@@ -1382,17 +1395,120 @@
       "labels": [],
       "body": "",
       "createdAt": "2025-06-04T13:19:38Z",
-      "updatedAt": "2025-06-04T13:21:12Z",
+      "updatedAt": "2025-06-05T23:49:20Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "3eb16db64bd5da94286d36a762292afc168f4847",
       "headRepository": "billwuqin/draft-bclp-green-terminology",
       "headRefName": "billwuqin-patch-4",
-      "headRefOid": "5778163c6223520a914201cd7f13ed105682638f",
+      "headRefOid": "a576691f6b249595d520d81bc2cbaeca94486bb3",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn86s51Ly",
+          "commit": {
+            "abbreviatedOid": "7ebb1b6"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "Thanks",
+          "createdAt": "2025-06-05T15:39:00Z",
+          "updatedAt": "2025-06-05T15:45:02Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\n: Refers to the concept of providing a useful output with as little energy as possible,\r\n```",
+              "createdAt": "2025-06-05T15:39:00Z",
+              "updatedAt": "2025-06-05T15:45:02Z"
+            },
+            {
+              "originalPosition": 14,
+              "body": "```suggestion\r\n: Refers to a set of processes used to maintain an inventory of capabilities,\r\n```",
+              "createdAt": "2025-06-05T15:39:12Z",
+              "updatedAt": "2025-06-05T15:45:02Z"
+            },
+            {
+              "originalPosition": 16,
+              "body": "```suggestion\r\nand control the use of available energy in an optimized manner.\r\n```",
+              "createdAt": "2025-06-05T15:41:41Z",
+              "updatedAt": "2025-06-05T15:45:02Z"
+            },
+            {
+              "originalPosition": 17,
+              "body": "```suggestion\r\nThe overall goal is to ensure that the network and underlying devices use energy in\r\n```",
+              "createdAt": "2025-06-05T15:42:06Z",
+              "updatedAt": "2025-06-05T15:45:02Z"
+            },
+            {
+              "originalPosition": 19,
+              "body": "```suggestion\r\nthe services it provides and the cost constraints while achieving the\r\n```",
+              "createdAt": "2025-06-05T15:43:03Z",
+              "updatedAt": "2025-06-05T15:45:02Z"
+            },
+            {
+              "originalPosition": 20,
+              "body": "```suggestion\r\nnetwork\u2019s functional and performance requirements (e.g.;, improving overall network\r\n```",
+              "createdAt": "2025-06-05T15:43:18Z",
+              "updatedAt": "2025-06-05T15:45:02Z"
+            },
+            {
+              "originalPosition": 21,
+              "body": "```suggestion\r\nutilization).\r\n```",
+              "createdAt": "2025-06-05T15:43:26Z",
+              "updatedAt": "2025-06-05T15:45:02Z"
+            },
+            {
+              "originalPosition": 24,
+              "body": "```suggestion\r\n: Is part of Energy Efficiency Management that deals with collecting, reporting, and\r\n```",
+              "createdAt": "2025-06-05T15:43:50Z",
+              "updatedAt": "2025-06-05T15:45:02Z"
+            },
+            {
+              "originalPosition": 29,
+              "body": "```suggestion\r\n: Is part of Energy Efficiency Management that deals with directing influence over\r\n```",
+              "createdAt": "2025-06-05T15:44:24Z",
+              "updatedAt": "2025-06-05T15:45:02Z"
+            },
+            {
+              "originalPosition": 33,
+              "body": "```suggestion\r\n: Refers to a metric that is used for the evaluation and assessment of energy consumption of\r\n```",
+              "createdAt": "2025-06-05T15:44:39Z",
+              "updatedAt": "2025-06-05T15:45:02Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "id": "PR_kwDOM9Apn86ZVqkW",
+      "title": "add OPS Cons section",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/31",
+      "state": "MERGED",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-06-06T06:23:41Z",
+      "updatedAt": "2025-06-06T10:47:17Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "37f45efc7dfbeb5de9b1466dc06fe90a24dc7f33",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "boucadair-patch-2",
+      "headRefOid": "9e96b2a7a8c0364e4e2a9c27c7f266b2492fd57c",
+      "closedAt": "2025-06-06T10:47:16Z",
+      "mergedAt": "2025-06-06T10:47:16Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "2eaac8a1ea6a2cd2350abe1150e025bc756f200e"
+      },
       "comments": [],
       "reviews": []
     }
