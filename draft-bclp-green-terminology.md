@@ -190,10 +190,6 @@ Energy Efficiency:
   to more efficient power supplies and silicon or developing more efficient transmission or signal
   processing algorithms.
 
-Energy Efficiency Network Management:
-: Refers to the ability to manage (including control) the use of available energy in an optimized manner (e.g.,
-  in a resource conserved manner and at low cost) in a network.
-
 Energy Efficiency Metric:
 : Refers to a metric that is used for the assessment of energy consumption of
   a network, device, or component. One or more metrics can be defined. These metrics are also
