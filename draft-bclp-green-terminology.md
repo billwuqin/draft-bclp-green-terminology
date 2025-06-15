@@ -182,14 +182,25 @@ Energy Control:
 : This control can span a network or a subset of it.
 
 Energy Efficiency:
-: Refers to the concept of providing a useful output with as little energy as possible,
-  eliminating energy waste.  Switching to more efficient power supplies
-  and silicon or developing more efficient transmission or signal
-  processing algorithms improves Energy efficiency.  Developing energy
-  efficiency metrics for internetworking and associated measurement methodologies
-  and conditions as well as consistently collecting this data over time
-  are essential to demonstrating EE improvements.  An example of a common
-  outcome-oriented metric is energy consumption per data volume or traffic unit.
+: Refers to optimize energy usage in network components, devices, and across the network
+  to minimize energy use as possible, eliminating thus energy waste.
+  Examples to improve Energy efficiency include, but not limited to, deactivation of some or
+  all components of network nodes during specific periods (e.g., periods with low-traffic) or
+  adjusting interface speed of an interface based on network traffic load change, or switching
+  to more efficient power supplies and silicon or developing more efficient transmission or signal
+  processing algorithms.
+
+Energy Efficiency Network Management:
+: Refers to the ability to manage (including control) the use of available energy in an optimized manner (e.g.,
+  in a resource conserved manner and at low cost) in a network.
+
+Energy Efficiency Metric:
+: Refers to a metric that is used for the assessment of energy consumption of
+  a network, device, or component. One or more metrics can be defined. These metrics are also
+  used for network performance purposes to characterize the effectiveness of an Energy
+  Efficiency management strategy. Developing energy efficiency metrics for internetworking
+  and associated measurement methodologies and conditions as well as consistently collecting this
+  data over time are essential to demonstrating Energy Efficiency improvements.  An example of a common
 
 Energy Efficiency Management:
 : Refers to a set of processes used to maintain an inventory of capabilities,
@@ -224,8 +235,8 @@ Energy Proportionality
  output.  For internetworking this is generally interpreted as the
  proportionality of traffic or traffic throughput and energy used.
  This concept is broadly applicable to networking infrastructure,
- data center, and other communication architectures.  It is not a
- given that there is a one-to-one correlation between traffic and
+ data center, and other communication architectures.  There
+ might not a one-to-one correlation between traffic and
  energy use, notably due to the materially significant idle power
  use by devices, as well as the overall network capacity being
  allocated to serve at times of highest traffic utilization.
@@ -356,6 +367,10 @@ Where:
 * 'Qt' is the sum of the sensible cooling capacity and the latent cooling capacity.
 
 The formula is defined in {{L.1320}}.
+
+# Operations and Manageability Considerations
+
+This document defines terminolgy that is meant to ensure consistency among various efforts and deployment levels. No other operations or manageability requirements are introduced by this document.
 
 # Security Considerations
 
