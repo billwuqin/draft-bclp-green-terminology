@@ -197,6 +197,7 @@ Energy Efficiency Metric:
   Efficiency management strategy. Developing energy efficiency metrics for internetworking
   and associated measurement methodologies and conditions as well as consistently collecting this
   data over time are essential to demonstrating Energy Efficiency improvements.  An example of a common
+ outcome-oriented metric is energy consumption per data volume or traffic unit.
 
 Energy Efficiency Management:
 : Refers to a set of processes used to maintain an inventory of capabilities,
