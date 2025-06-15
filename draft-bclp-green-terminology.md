@@ -190,14 +190,6 @@ Energy Efficiency:
   to more efficient power supplies and silicon or developing more efficient transmission or signal
   processing algorithms.
 
-Energy Efficiency Metric:
-: Refers to a metric that is used for the assessment of energy consumption of
-  a network, device, or component. One or more metrics can be defined. These metrics are also
-  used for network performance purposes to characterize the effectiveness of an Energy
-  Efficiency management strategy. Developing energy efficiency metrics for internetworking
-  and associated measurement methodologies and conditions as well as consistently collecting this
-  data over time are essential to demonstrating Energy Efficiency improvements.  An example of a common
- outcome-oriented metric is energy consumption per data volume or traffic unit.
 
 Energy Efficiency Management:
 : Refers to a set of processes used to maintain an inventory of capabilities,
@@ -225,7 +217,7 @@ Energy Efficiency Capabilities:
    who consume, who is the meter, temperature setting, voltage, ampere setting).
 
 Energy Efficiency Metric:
-: Refers to a metric that is used for the evaluation and assessment of energy consumption of
+: Refers to a metric that is used for the assessment of energy consumption of
   a network, device, or component. One or more metrics can be defined. These metrics are also
   used for network performance purposes to characterize the effectiveness of an Energy
   Efficiency management strategy. Developing energy efficiency metrics for internetworking
@@ -426,6 +418,17 @@ energy saving scenarios are also being investigated.
 
 Specifically, {{TS28.554}} defines a number of energy efficiency KPIs, including a generic Network Slice Energy Efficiency
 KPI, defined as the ratio between the performance of the network slice and its energy consumption.
+
+# Changes between Revisions
+
+   v01 - v02
+
+   * Add one new section on Operations and Manageability Considerations;
+
+   * Add three new energy efficiency related terms based on comments raised during the interim meeting;
+
+   * Update 4 existing terms such as energy efficiency defintion, energy efficiency metric, energy efficiency capabilities
+     energy proportionality based on comments raised on the list.
 
 # Acknowledgments
 
