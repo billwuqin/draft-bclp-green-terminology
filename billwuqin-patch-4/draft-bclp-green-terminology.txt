@@ -5,14 +5,14 @@
 GREEN Working Group                                               C. Liu
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 7 December 2025                                          Orange
+Expires: 17 December 2025                                         Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                                    Cisco
-                                                             5 June 2025
+                                                            15 June 2025
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 December 2025.
+   This Internet-Draft will expire on 17 December 2025.
 
 Copyright Notice
 
@@ -87,8 +87,9 @@ Table of Contents
      4.4.  Metrics for Small Network Devices
      4.5.  Metric for Power Equipment
      4.6.  Metric for Cooling Equipment
-   5.  Security Considerations
-   6.  Informative References
+   5.  Operations and Manageability Considerations
+   6.  Security Considerations
+   7.  Informative References
    Appendix A.  Standards Bodies and Standards
      A.1.  ITU-T SG5
      A.2.  ETSI TCEE
@@ -177,16 +178,31 @@ Table of Contents
 
       This control can span a network or a subset of it.
 
-   Energy Efficiency:  Refers to the concept of providing a useful
-      output with as little energy as possible, eliminating energy
-      waste.  Switching to more efficient power supplies and silicon or
-      developing more efficient transmission or signal processing
-      algorithms improves Energy efficiency.  Developing energy
-      efficiency metrics for internetworking and associated measurement
-      methodologies and conditions as well as consistently collecting
-      this data over time are essential to demonstrating EE
-      improvements.  An example of a common outcome-oriented metric is
-      energy consumption per data volume or traffic unit.
+   Energy Efficiency:  Refers to optimize energy usage in network
+      components, devices, and across the network to minimize energy use
+      as possible, eliminating thus energy waste.  Examples to improve
+      Energy efficiency include, but not limited to, deactivation of
+      some or all components of network nodes during specific periods
+      (e.g., periods with low-traffic) or adjusting interface speed of
+      an interface based on network traffic load change, or switching to
+      more efficient power supplies and silicon or developing more
+      efficient transmission or signal processing algorithms.
+
+   Energy Efficiency Network Management:  Refers to the ability to
+      manage (including control) the use of available energy in an
+      optimized manner (e.g., in a resource conserved manner and at low
+      cost) in a network.
+
+   Energy Efficiency Metric:  Refers to a metric that is used for the
+      assessment of energy consumption of a network, device, or
+      component.  One or more metrics can be defined.  These metrics are
+      also used for network performance purposes to characterize the
+      effectiveness of an Energy Efficiency management strategy.
+      Developing energy efficiency metrics for internetworking and
+      associated measurement methodologies and conditions as well as
+      consistently collecting this data over time are essential to
+      demonstrating Energy Efficiency improvements.  An example of a
+      common
 
    Energy Efficiency Management:  Refers to a set of processes used to
       maintain an inventory of capabilities, use specific metrics to
@@ -223,11 +239,10 @@ Table of Contents
       generally interpreted as the proportionality of traffic or traffic
       throughput and energy used.  This concept is broadly applicable to
       networking infrastructure, data center, and other communication
-      architectures.  It is not a given that there is a one-to-one
-      correlation between traffic and energy use, notably due to the
-      materially significant idle power use by devices, as well as the
-      overall network capacity being allocated to serve at times of
-      highest traffic utilization.
+      architectures.  There might not a one-to-one correlation between
+      traffic and energy use, notably due to the materially significant
+      idle power use by devices, as well as the overall network capacity
+      being allocated to serve at times of highest traffic utilization.
 
    Energy Efficiency/Energy Efficiency Ratio (EER):  The energy
       efficiency is expressed as the ratio between the useful output and
@@ -387,11 +402,17 @@ Table of Contents
 
    The formula is defined in [L.1320].
 
-5.  Security Considerations
+5.  Operations and Manageability Considerations
+
+   This document defines terminolgy that is meant to ensure consistency
+   among various efforts and deployment levels.  No other operations or
+   manageability requirements are introduced by this document.
+
+6.  Security Considerations
 
    Security is not discussed in this document.
 
-6.  Informative References
+7.  Informative References
 
    [ETSI-ES-203-136]
               "Environmental Engineering (EE); Measurement methods for
