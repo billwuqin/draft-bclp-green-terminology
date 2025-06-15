@@ -424,7 +424,7 @@ KPI, defined as the ratio between the performance of the network slice and its e
    v01 - v02
 
    * Add one new section on Operations and Manageability Considerations;
-   
+
    * Add three new energy efficiency related terms based on comments raised during the interim meeting;
 
    * Update 4 existing terms such as energy efficiency defintion, energy efficiency metric, energy efficiency capabilities
