@@ -185,9 +185,10 @@ Energy Efficiency:
 : Refers to optimize energy usage in network components, devices, and across the network
   to minimize energy use as possible, eliminating thus energy waste.
   Examples to improve Energy efficiency include, but not limited to, deactivation of some or
-  all components of network nodes during specific periods (e.g., periods with low-traffic) or adjusting interface speed of an interface
-  based on network traffic load change, or switching to more efficient power supplies and silicon
-  or developing more efficient transmission or signal processing algorithms.
+  all components of network nodes during specific periods (e.g., periods with low-traffic) or
+  adjusting interface speed of an interface based on network traffic load change, or switching
+  to more efficient power supplies and silicon or developing more efficient transmission or signal
+  processing algorithms.
 
 Energy Efficiency Network Management:
 : Refers to the ability to manage (including control) the use of available energy in an optimized manner (e.g.,
@@ -200,7 +201,34 @@ Energy Efficiency Metric:
   Efficiency management strategy. Developing energy efficiency metrics for internetworking
   and associated measurement methodologies and conditions as well as consistently collecting this
   data over time are essential to demonstrating Energy Efficiency improvements.  An example of a common
-  outcome-oriented metric is energy consumption per data volume or traffic unit.
+
+Energy Efficiency Management:
+: Refers to a set of processes used to maintain an inventory of capabilities,
+use specific metrics to measure, report and assess energy consumption of the network,
+and control the use of available energy in an optimized manner.
+The overall goal is to ensure that the network and underlying devices use energy in
+a resource conserved manner and at low cost for the nature of the
+the services it provides and the cost constraints while achieving the
+network’s functional and performance requirements (e.g., improving overall network
+utilization).
+
+Energy Efficiency Observability:
+: Is part of Energy Efficiency Management that deals with collecting, reporting, and
+reading metrics information from devices and evaluating the effectiveness of
+energy-aware policies to aid in Energy Efficiency Management.
+
+Energy Efficiency Control:
+: Is part of Energy Efficiency Management that deals with directing influence over
+devices.
+
+Energy Efficiency Metric:
+: Refers to a metric that is used for the evaluation and assessment of energy consumption of
+  a network, device, or component. One or more metrics can be defined. These metrics are also
+  used for network performance purposes to characterize the effectiveness of an Energy
+  Efficiency management strategy. Developing energy efficiency metrics for internetworking
+  and associated measurement methodologies and conditions as well as consistently collecting this
+  data over time are essential to demonstrating Energy Efficiency improvements.  An example of
+  a common outcome-oriented metric is energy consumption per data volume or traffic unit.
 
 Energy Proportionality
 : Is the correlation between energy used and the associated useful
