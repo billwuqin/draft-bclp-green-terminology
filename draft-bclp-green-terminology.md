@@ -218,6 +218,12 @@ Energy Efficiency Control:
 : Is part of Energy Efficiency Management that deals with directing influence over
 devices.
 
+Energy Efficiency Capabilities:
+: 	Network Capabilities to optimize energy usage in network components, devices, and across the network
+   through configurable static attributes (e.g., power saving capable attribute which can be applied to
+   both component level and device level, or power setting attributes which specify who provide power,
+   who consume, who is the meter, temperature setting, voltage, ampere setting).
+
 Energy Efficiency Metric:
 : Refers to a metric that is used for the evaluation and assessment of energy consumption of
   a network, device, or component. One or more metrics can be defined. These metrics are also
@@ -267,11 +273,6 @@ Component Level Energy Efficiency (CLEE):
 : Measuring and understanding the energy efficiency or energy consumption of each component within
   a network element may be used to identify key components in a system with regard to energy saving.
 
-Energy Efficiency Capabilities:
-: 	Network Capabilities to optimize energy usage in network components, devices, and across the network
-   through configurable static attributes, e.g., powe saving capable attribute which can be applied to
-   both component level and device level, or power setting attributes which specify who provide power,
-   who consume, temperature setting, voltage, ampere setting.
 
 # Sample Energy Efficiency Metrics and Measurement Methods {#sec-metrics}
 
