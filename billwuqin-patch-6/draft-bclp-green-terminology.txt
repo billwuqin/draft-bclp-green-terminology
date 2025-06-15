@@ -220,7 +220,7 @@ Table of Contents
 
    Energy Efficiency Capabilities:  Network Capabilities to optimize
       energy usage in network components, devices, and across the
-      network through configurable static attributes, e.g., powe saving
+      network through configurable static attributes (e.g., power saving
       capable attribute which can be applied to both component level and
       device level, or power setting attributes which specify who
       provide power, who consume, who is the meter, temperature setting,
