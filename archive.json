@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-08T02:18:23.779590+00:00",
+  "timestamp": "2025-06-17T02:05:18.378109+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -220,15 +220,15 @@
       "id": "I_kwDOM9Apn86aoLPE",
       "title": "Do we need to introduce capability related terminologies and definitions?",
       "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/23",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "billwuqin",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2024-10-17T09:54:56Z",
-      "updatedAt": "2025-01-02T02:13:25Z",
-      "closedAt": null,
+      "updatedAt": "2025-06-15T03:31:41Z",
+      "closedAt": "2025-06-15T03:31:41Z",
       "comments": [
         {
           "author": "billwuqin",
@@ -236,6 +236,13 @@
           "body": "I think we might consider to break down capability into:\r\n1. Device Level Capability, e.g., energy saving capability, local management, network wide management, etc\r\n2. Component Level Capability, port on or off or speed change, fan speed adjustment\r\n3. Power interface Setting Capability: who provide power, who consume, temperature setting, voltage, ampere setting, etc",
           "createdAt": "2025-01-02T02:13:24Z",
           "updatedAt": "2025-01-02T02:13:24Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "See definition of \"Energy Efficiency Capabilities\"",
+          "createdAt": "2025-06-15T03:31:38Z",
+          "updatedAt": "2025-06-15T03:31:38Z"
         }
       ]
     },
@@ -291,7 +298,7 @@
       "labels": [],
       "body": "After double check on the following standards, \r\n- ITU-T L.1330\r\n- ETSI ES 203 228 V1.4.1 (2022-04) \r\n- IEEE 802.3az-2003\r\nI suggest to add the following definitions as mentioned in the above standards.\r\n- power consumption; \r\n- energy consumption; \r\n- energy saving features; \r\n- energy-efficiency ethernet;\r\n- site energy effciency;\r\nIf some of these terms are agreed to be added, I can provide a pull request for them, thanks.",
       "createdAt": "2024-12-20T09:30:52Z",
-      "updatedAt": "2025-01-02T02:04:57Z",
+      "updatedAt": "2025-06-15T03:33:22Z",
       "closedAt": null,
       "comments": [
         {
@@ -314,6 +321,13 @@
           "body": "I agree, Energy saving features relies on the context, and  EEE is certain technology, I thought that well-known technology for energy saving is good to be clarified here. \r\nAnyway, the term of \"site energy efficiency\" though coming from wireless related  ETSI standard, but it shares the same context for all network devices like optical and datacom devices, etc.",
           "createdAt": "2025-01-02T02:04:56Z",
           "updatedAt": "2025-01-02T02:04:56Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "site energy efficiency is 3GPP specific term.",
+          "createdAt": "2025-06-15T03:33:22Z",
+          "updatedAt": "2025-06-15T03:33:22Z"
         }
       ]
     },
@@ -322,15 +336,15 @@
       "id": "I_kwDOM9Apn864Dfbl",
       "title": "Energy Management vs Energy Efficiency Network Management",
       "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/29",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "billwuqin",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "One of comments raised by Benoit on the list make me rethink the relationship between Energy management and Energy Efficiency network management , see two defintions quoted in the draft:\n\"\n**Energy Management**:\nIs a set of functions for measuring, modeling, planning, and optimizing networks to ensure that the network and network-attached devices use energy efficiently and appropriately for the nature of the application and the cost constraints of the organization ([RFC7326]).\n\n**Energy Efficiency Network Management**:\n: Refers to the ability to manage (including control) the use of\n  available energy in an optimized manner (e.g.,in a resource conserved manner and at low cost) in a network.\n\"\nHow enegy efficiency network management is different from Energy management? \nI think first, Energy management defintion doesn't consider inventory and discovery function, second, unlike energy management, energy effficiency management is to set a clear goal for energy efficiency and use energy efficiency metric to assess energy consumption of a network so that the management system can manage the use of avaialbe energy in an optmized manner in the network.\n\nTwo options we have:\n1. Consolidate Energy efficiency network management definition with Energy Management defintion\n2. If we choose to keep both, we need to make sure Energy Efficiency network management is built on  top of Energy Management defintion",
       "createdAt": "2025-05-24T02:47:09Z",
-      "updatedAt": "2025-05-29T11:47:43Z",
-      "closedAt": null,
+      "updatedAt": "2025-06-15T03:30:01Z",
+      "closedAt": "2025-06-15T03:30:01Z",
       "comments": [
         {
           "author": "billwuqin",
@@ -338,6 +352,37 @@
           "body": "One solution proposed by China Unicom is:\nhttps://mailarchive.ietf.org/arch/msg/green/uSl1paEO6mgMT73jBwX9xD2wsy4/",
           "createdAt": "2025-05-29T11:47:42Z",
           "updatedAt": "2025-05-29T11:47:42Z"
+        },
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "Relevant to #30 ",
+          "createdAt": "2025-06-15T03:29:59Z",
+          "updatedAt": "2025-06-15T03:29:59Z"
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "id": "I_kwDOM9Apn867lVgl",
+      "title": "Align Energy Efficiency Capability definition with Framework discussion in the previous interim meeting",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/35",
+      "state": "CLOSED",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-06-15T05:29:18Z",
+      "updatedAt": "2025-06-15T05:29:49Z",
+      "closedAt": "2025-06-15T05:29:49Z",
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "#33 ",
+          "createdAt": "2025-06-15T05:29:47Z",
+          "updatedAt": "2025-06-15T05:29:47Z"
         }
       ]
     }
@@ -1280,24 +1325,26 @@
       "id": "PR_kwDOM9Apn86XXJyd",
       "title": "Update draft-bclp-green-terminology.md",
       "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/28",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "billwuqin",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Polish the definition of Energy Efficiency",
       "createdAt": "2025-05-23T10:10:14Z",
-      "updatedAt": "2025-06-05T15:45:30Z",
+      "updatedAt": "2025-06-15T03:05:56Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "3eb16db64bd5da94286d36a762292afc168f4847",
       "headRepository": "billwuqin/draft-bclp-green-terminology",
       "headRefName": "billwuqin-patch-3",
       "headRefOid": "912fa99ee4691ff299b1b09697e1a937b22555e5",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-06-15T03:05:56Z",
+      "mergedAt": "2025-06-15T03:05:56Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "874c395464a01232877bd33c727ae641914c866c"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1388,24 +1435,26 @@
       "id": "PR_kwDOM9Apn86ZBiFF",
       "title": "Add 3 new terms related to energy efficiency",
       "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/30",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "billwuqin",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-06-04T13:19:38Z",
-      "updatedAt": "2025-06-05T23:49:20Z",
+      "updatedAt": "2025-06-15T03:10:20Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
-      "baseRefOid": "3eb16db64bd5da94286d36a762292afc168f4847",
+      "baseRefOid": "874c395464a01232877bd33c727ae641914c866c",
       "headRepository": "billwuqin/draft-bclp-green-terminology",
       "headRefName": "billwuqin-patch-4",
-      "headRefOid": "a576691f6b249595d520d81bc2cbaeca94486bb3",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "headRefOid": "759e3167c9917108054c9063fe73091157f22b3a",
+      "closedAt": "2025-06-15T03:10:20Z",
+      "mergedAt": "2025-06-15T03:10:20Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "ca551c85670e9dc1e93209f11107f00e6baf86a2"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1508,6 +1557,117 @@
       "mergedBy": "billwuqin",
       "mergeCommit": {
         "oid": "2eaac8a1ea6a2cd2350abe1150e025bc756f200e"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 32,
+      "id": "PR_kwDOM9Apn86akRG3",
+      "title": "add mis-delete part for energy efficiency metric",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/32",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-06-15T03:26:51Z",
+      "updatedAt": "2025-06-15T03:27:45Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "e6f97453b3105236acb8913a11d6d2ccd37ca37c",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "billwuqin-patch-5",
+      "headRefOid": "8db86885c8be4a1d171f4784a70eb57bf1ead14c",
+      "closedAt": "2025-06-15T03:27:45Z",
+      "mergedAt": "2025-06-15T03:27:44Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "d9e56fcb8c013c0cc2187ff1663b9a93b53c7fe0"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 33,
+      "id": "PR_kwDOM9Apn86akazY",
+      "title": "Align with frame work energy efficiency capability",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/33",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-06-15T04:56:39Z",
+      "updatedAt": "2025-06-15T05:02:58Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "d9e56fcb8c013c0cc2187ff1663b9a93b53c7fe0",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "billwuqin-patch-6",
+      "headRefOid": "b59af9a1797211c691060b1c3a209822bea15a35",
+      "closedAt": "2025-06-15T05:02:58Z",
+      "mergedAt": "2025-06-15T05:02:58Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "0e19971b3b33e61f83bf03147d6167221f3a92ef"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn86ulHDi",
+          "commit": {
+            "abbreviatedOid": "9ea8204"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2025-06-15T04:59:01Z",
+          "updatedAt": "2025-06-15T04:59:20Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "```suggestion\r\n   through configurable static attributes (e.g., power saving capable attribute which can be applied to\r\n```",
+              "createdAt": "2025-06-15T04:59:01Z",
+              "updatedAt": "2025-06-15T04:59:20Z"
+            },
+            {
+              "originalPosition": 8,
+              "body": "```suggestion\r\n   who consume, who is the meter, temperature setting, voltage, ampere setting).\r\n```",
+              "createdAt": "2025-06-15T04:59:12Z",
+              "updatedAt": "2025-06-15T04:59:20Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "id": "PR_kwDOM9Apn86akeSB",
+      "title": "Add change log and delete duplicated definition for energy efficiency\u2026",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/34",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "\u2026 metric",
+      "createdAt": "2025-06-15T05:23:58Z",
+      "updatedAt": "2025-06-15T05:27:51Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "0e19971b3b33e61f83bf03147d6167221f3a92ef",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "billwuqin-patch-7",
+      "headRefOid": "39ee032eafcab2f269045941afd4677a98d291f6",
+      "closedAt": "2025-06-15T05:27:51Z",
+      "mergedAt": "2025-06-15T05:27:51Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "15b94a8d4779646e2729769db514d2dbff47e01c"
       },
       "comments": [],
       "reviews": []
