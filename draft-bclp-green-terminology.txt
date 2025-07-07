@@ -11,7 +11,7 @@ Expires: 8 January 2026                                           Orange
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
-                                                                   Cisco
+                                                              Individual
                                                              7 July 2025
 
 
@@ -529,6 +529,8 @@ Appendix B.  Changes between Revisions
 
    *  Update Energy Efficiency Capability Definition.
 
+   *  Change Marisol's affiliation.
+
    v01 - v02
 
    *  Add one new section on Operations and Manageability
@@ -571,5 +573,5 @@ Authors' Addresses
 
 
    Marisol Palmero
-   Cisco
-   Email: mpalmero@cisco.com
+   Individual
+   Email: marisol.ietf@gmail.com
