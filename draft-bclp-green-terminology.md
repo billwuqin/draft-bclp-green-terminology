@@ -422,6 +422,10 @@ KPI, defined as the ratio between the performance of the network slice and its e
 
 # Changes between Revisions
 
+   v02 - v03
+
+   * Update Energy Efficiency Capability Definition.
+
    v01 - v02
 
    * Add one new section on Operations and Manageability Considerations;
