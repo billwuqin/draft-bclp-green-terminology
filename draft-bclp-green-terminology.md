@@ -35,8 +35,8 @@ author:
     email: luismiguel.contrerasmurillo@telefonica.com
  -
     fullname: Marisol Palmero
-    organization: Cisco
-    email: mpalmero@cisco.com
+    organization: Individual
+    email: marisol.ietf@gmail.com
 
 informative:
 
@@ -425,6 +425,8 @@ KPI, defined as the ratio between the performance of the network slice and its e
    v02 - v03
 
    * Update Energy Efficiency Capability Definition.
+
+   * Change Marisol's affiliation.
 
    v01 - v02
 
