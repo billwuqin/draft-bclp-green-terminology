@@ -2,7 +2,7 @@
 
 
 
-GREEN Working Group                                               C. Liu
+GREEN Working Group                                              G. Chen
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
 Expires: 8 January 2026                                           Orange
@@ -548,13 +548,14 @@ Appendix C.  Acknowledgments
    This work has benefited from the discussions that occurred during
    GREEN interim meeting and on GREEN mailing list.  Thanks Benoit
    Claise, Gen Chen, Emile Stephan, Rob Wilton for valuable review and
-   comments.
+   comments.  Thanks Peter Liu for helping provide input to initial
+   version of the draft.
 
 Authors' Addresses
 
-   Chunchi Liu
+   Gen Chen
    Huawei
-   Email: liuchunchi@huawei.com
+   Email: chengen@huawei.com
 
 
    Mohamed Boucadair
