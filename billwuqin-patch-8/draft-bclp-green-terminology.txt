@@ -5,14 +5,14 @@
 GREEN Working Group                                               C. Liu
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 7 December 2025                                          Orange
+Expires: 8 January 2026                                           Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                                    Cisco
-                                                             5 June 2025
+                                                             7 July 2025
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 December 2025.
+   This Internet-Draft will expire on 8 January 2026.
 
 Copyright Notice
 
@@ -87,13 +87,15 @@ Table of Contents
      4.4.  Metrics for Small Network Devices
      4.5.  Metric for Power Equipment
      4.6.  Metric for Cooling Equipment
-   5.  Security Considerations
-   6.  Informative References
+   5.  Operations and Manageability Considerations
+   6.  Security Considerations
+   7.  Informative References
    Appendix A.  Standards Bodies and Standards
      A.1.  ITU-T SG5
      A.2.  ETSI TCEE
      A.3.  3GPP SA5
-   Appendix B.  Acknowledgments
+   Appendix B.  Changes between Revisions
+   Appendix C.  Acknowledgments
    Authors' Addresses
 
 1.  Introduction
@@ -187,10 +189,32 @@ Table of Contents
       more efficient power supplies and silicon or developing more
       efficient transmission or signal processing algorithms.
 
-   Energy Efficiency Network Management:  Refers to the ability to
-      manage (including control) the use of available energy in an
-      optimized manner (e.g., in a resource conserved manner and at low
-      cost) in a network.
+   Energy Efficiency Management:  Refers to a set of processes used to
+      maintain an inventory of capabilities, use specific metrics to
+      measure, report and assess energy consumption of the network, and
+      control the use of available energy in an optimized manner.  The
+      overall goal is to ensure that the network and underlying devices
+      use energy in a resource conserved manner and at low cost for the
+      nature of the the services it provides and the cost constraints
+      while achieving the network’s functional and performance
+      requirements (e.g., improving overall network utilization).
+
+   Energy Efficiency Observability:  Is part of Energy Efficiency
+      Management that deals with collecting, reporting, and reading
+      metrics information from devices and evaluating the effectiveness
+      of energy-aware policies to aid in Energy Efficiency Management.
+
+   Energy Efficiency Control:  Is part of Energy Efficiency Management
+      that deals with directing influence over devices.
+
+   Energy Efficiency Capabilities:  Network Capabilities to optimize
+      energy usage in network components, devices, and across the
+      network through configurable static attributes (e.g., power saving
+      capable attribute which can be applied to both component level and
+      device level, or power setting attributes which specify absolute
+      power, relative power, who provide power, who consume, who is the
+      meter, measurement frequency, or temperature setting, voltage,
+      ampere setting).
 
    Energy Efficiency Metric:  Refers to a metric that is used for the
       assessment of energy consumption of a network, device, or
@@ -204,15 +228,15 @@ Table of Contents
       common outcome-oriented metric is energy consumption per data
       volume or traffic unit.
 
-   Energy Proportionality :is the correlation between energy used and
-   the associated useful output.  For internetworking this is generally
-   interpreted as the proportionality of traffic or traffic throughput
-   and energy used.  This concept is broadly applicable to networking
-   infrastructure, data center, and other communication architectures.
-   There might not a one-to-one correlation between traffic and energy
-   use, notably due to the materially significant idle power use by
-   devices, as well as the overall network capacity being allocated to
-   serve at times of highest traffic utilization.
+   Energy Proportionality  Is the correlation between energy used and
+      the associated useful output.  For internetworking this is
+      generally interpreted as the proportionality of traffic or traffic
+      throughput and energy used.  This concept is broadly applicable to
+      networking infrastructure, data center, and other communication
+      architectures.  There might not a one-to-one correlation between
+      traffic and energy use, notably due to the materially significant
+      idle power use by devices, as well as the overall network capacity
+      being allocated to serve at times of highest traffic utilization.
 
    Energy Efficiency/Energy Efficiency Ratio (EER):  The energy
       efficiency is expressed as the ratio between the useful output and
@@ -256,14 +280,6 @@ Table of Contents
       consumption of each component within a network element may be used
       to identify key components in a system with regard to energy
       saving.
-
-   Energy Efficiency Capabilities:  Network Capabilities to optimize
-      energy usage in network components, devices, and across the
-      network through configurable static attributes, e.g., powe saving
-      capable attribute which can be applied to both component level and
-      device level, or power setting attributes which specify who
-      provide power, who consume, temperature setting, voltage, ampere
-      setting.
 
 4.  Sample Energy Efficiency Metrics and Measurement Methods
 
@@ -372,11 +388,17 @@ Table of Contents
 
    The formula is defined in [L.1320].
 
-5.  Security Considerations
+5.  Operations and Manageability Considerations
+
+   This document defines terminolgy that is meant to ensure consistency
+   among various efforts and deployment levels.  No other operations or
+   manageability requirements are introduced by this document.
+
+6.  Security Considerations
 
    Security is not discussed in this document.
 
-6.  Informative References
+7.  Informative References
 
    [ETSI-ES-203-136]
               "Environmental Engineering (EE); Measurement methods for
@@ -389,9 +411,9 @@ Table of Contents
               Pignataro, C., Jacob, R., Fioccola, G., and Q. Wu,
               "Characterization and Benchmarking Methodology for Power
               in Networking Devices", Work in Progress, Internet-Draft,
-              draft-cprjgf-bmwg-powerbench-04, 30 January 2025,
+              draft-cprjgf-bmwg-powerbench-05, 7 July 2025,
               <https://datatracker.ietf.org/doc/html/draft-cprjgf-bmwg-
-              powerbench-04>.
+              powerbench-05>.
 
    [L.1310]   "Energy efficiency metrics and measurement methods for
               telecommunication equipment", 2024,
@@ -501,7 +523,21 @@ A.3.  3GPP SA5
    the ratio between the performance of the network slice and its energy
    consumption.
 
-Appendix B.  Acknowledgments
+Appendix B.  Changes between Revisions
+
+   v01 - v02
+
+   *  Add one new section on Operations and Manageability
+      Considerations;
+
+   *  Add three new energy efficiency related terms based on comments
+      raised during the interim meeting;
+
+   *  Update 4 existing terms such as energy efficiency defintion,
+      energy efficiency metric, energy efficiency capabilities energy
+      proportionality based on comments raised on the list.
+
+Appendix C.  Acknowledgments
 
    TODO acknowledge.
 
