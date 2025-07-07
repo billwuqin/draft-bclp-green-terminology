@@ -213,8 +213,9 @@ devices.
 Energy Efficiency Capabilities:
 : 	Network Capabilities to optimize energy usage in network components, devices, and across the network
    through configurable static attributes (e.g., power saving capable attribute which can be applied to
-   both component level and device level, or power setting attributes which specify who provide power,
-   who consume, who is the meter, temperature setting, voltage, ampere setting).
+   both component level and device level, or power setting attributes which specify absolute power,
+   relative power, who provide power, who consume, who is the meter, measurement frequency, or temperature
+   setting, voltage, ampere setting).
 
 Energy Efficiency Metric:
 : Refers to a metric that is used for the assessment of energy consumption of
