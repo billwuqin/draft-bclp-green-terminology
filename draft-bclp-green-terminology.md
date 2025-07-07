@@ -18,9 +18,9 @@ keyword:
 
 author:
  -
-    fullname: Chunchi Liu
+    fullname: Gen Chen
     organization: Huawei
-    email: liuchunchi@huawei.com
+    email: chengen@huawei.com
  -
     fullname: Mohamed Boucadair
     organization: Orange
@@ -440,4 +440,5 @@ KPI, defined as the ratio between the performance of the network slice and its e
 # Acknowledgments
 
 This work has benefited from the discussions that occurred during GREEN interim meeting and on GREEN mailing list.
-Thanks Benoit Claise, Gen Chen, Emile Stephan, Rob Wilton for valuable review and comments.
+Thanks Benoit Claise, Gen Chen, Emile Stephan, Rob Wilton for valuable review and comments. Thanks Peter Liu for helping 
+provide input to initial version of the draft.
