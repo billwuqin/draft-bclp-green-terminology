@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-06-17T02:05:18.378109+00:00",
+  "timestamp": "2025-07-08T02:06:40.667374+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -1668,6 +1668,62 @@
       "mergedBy": "billwuqin",
       "mergeCommit": {
         "oid": "15b94a8d4779646e2729769db514d2dbff47e01c"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 36,
+      "id": "PR_kwDOM9Apn86duWWq",
+      "title": "Energy Efficiency Capabilities Definition Update",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/36",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-07-07T10:02:57Z",
+      "updatedAt": "2025-07-07T11:17:11Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "15b94a8d4779646e2729769db514d2dbff47e01c",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "billwuqin-patch-8",
+      "headRefOid": "2b6bdcc7ae9e0deb9d8c562167b1705bf25a9566",
+      "closedAt": "2025-07-07T11:17:11Z",
+      "mergedAt": "2025-07-07T11:17:11Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "67787c9a496b1420e05fcc4640e271def959f379"
+      },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 37,
+      "id": "PR_kwDOM9Apn86dwDDt",
+      "title": "Add acknowledge section",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/37",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-07-07T12:28:02Z",
+      "updatedAt": "2025-07-07T12:28:33Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "5680d36f707fa2a333315b2b5133cb41615c97ea",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "billwuqin-patch-9",
+      "headRefOid": "3440a7e4cafd5c43cea25cb459f0b9c568348b7c",
+      "closedAt": "2025-07-07T12:28:33Z",
+      "mergedAt": "2025-07-07T12:28:33Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "8aa4da96ff2a070e21c75fe369f43e8a37a3cef7"
       },
       "comments": [],
       "reviews": []
