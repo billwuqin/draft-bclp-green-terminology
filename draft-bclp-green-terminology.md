@@ -87,13 +87,13 @@ informative:
 
 --- abstract
 
-Energy-efficient network management is primary meant to enhance conventional
+Energy-efficient network management is primarily meant to enhance conventional
 network management with energy-related management capabilities
 to optimize the overall energy consumption at the level of a network. To that aim,
 specific features and capabilities are required to control (and thus optimize)
-the energy use of involved network element and their components.
+the energy use of involved network elements and their components.
 
-This document is defines a set of key terms used within the IETF when discussing energy efficiency in network management.
+This document defines a set of key terms used within the IETF when discussing energy efficiency in network management.
 Such reference document helps framing discussion and agreeing upon a set of main concepts in this area.
 
 --- middle
@@ -102,13 +102,13 @@ Such reference document helps framing discussion and agreeing upon a set of main
 
 With rising energy costs and increasing awareness of the environmental impact of running networks, servers, and various
 equipment, Energy Efficiency is considered by operators as a critical component to be integrated in the overall Network
-Management systems. Such integration is ambitioned to feed strategies for committing environmental objectives but also
+Management systems. Such integration is ambitioned to feed strategies for achieving environmental objectives but also
 mastering related operational cost. Energy Efficiency management is thus complementing conventional network management.
 
-{{sec-def}} defines a set of terms used within the IETF when discussing Energy-efficiency networks.
+{{sec-def}} defines a set of terms used within the IETF when discussing energy-efficient networks.
 The purpose is to (1) ensure consistent use of a set of terms in this area, (2) help with the characterization of Energy
 Efficiency (and relevant aspects), (3) assist in the development of the YANG data models at the different levels in the
-IETF, and (4) bring clarity to the Energy Efficiency related discussions between different groups within IETF, in
+IETF, and (4) bring clarity to the Energy Efficiency related discussions between different groups within the IETF, in
 particular.
 
 This document does not intend to define a comprehensive list of energy-related terms. Only key terms are defined.
@@ -161,7 +161,7 @@ Energy:
 : Is generally a reference to electrical energy and is measured in kilowatt-hours (kWh) ({{?RFC7326}}).
 
 Power:
-: Refers the time rate at which energy is emitted, transferred, or
+: Refers to the time rate at which energy is emitted, transferred, or
   received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
 
 Energy Management:
@@ -182,32 +182,32 @@ Energy Control:
 : This control can span a network or a subset of it.
 
 Energy Efficiency:
-: Refers to optimize energy usage in network components, devices, and across the network
-  to minimize energy use as possible, eliminating thus energy waste.
-  Examples to improve Energy efficiency include, but not limited to, deactivation of some or
-  all components of network nodes during specific periods (e.g., periods with low-traffic) or
-  adjusting interface speed of an interface based on network traffic load change, or switching
-  to more efficient power supplies and silicon or developing more efficient transmission or signal
+: Refers to optimizing energy usage in network components, devices, and across the network
+  to minimize energy use as much as possible, thus eliminating energy waste.
+  Examples to improve Energy efficiency include, but are not limited to, deactivation of some or
+  all components of network nodes during specific periods (e.g., periods with low traffic),
+  adjusting the speed of an interface based on network traffic load changes, switching
+  to more efficient power supplies and silicon, or developing more efficient transmission or signal
   processing algorithms.
 
 
 Energy Efficiency Management:
 : Refers to a set of processes used to maintain an inventory of capabilities,
-use specific metrics to measure, report and assess energy consumption of the network,
+use specific metrics to measure, report, and assess energy consumption of the network,
 and control the use of available energy in an optimized manner.
 The overall goal is to ensure that the network and underlying devices use energy in
-a resource conserved manner and at low cost for the nature of the
+a resource-conserving manner and at low cost for the nature of the
 the services it provides and the cost constraints while achieving the
 network’s functional and performance requirements (e.g., improving overall network
 utilization).
 
 Energy Efficiency Observability:
-: Is part of Energy Efficiency Management that deals with collecting, reporting, and
+: Is a component of Energy Efficiency Management that deals with collecting, reporting, and
 reading metrics information from devices and evaluating the effectiveness of
 energy-aware policies to aid in Energy Efficiency Management.
 
 Energy Efficiency Control:
-: Is part of Energy Efficiency Management that deals with directing influence over
+: Is a component of Energy Efficiency Management that deals with directing influence over
 devices.
 
 Energy Efficiency Capabilities:
@@ -232,7 +232,7 @@ Energy Proportionality
  proportionality of traffic or traffic throughput and energy used.
  This concept is broadly applicable to networking infrastructure,
  data center, and other communication architectures.  There
- might not a one-to-one correlation between traffic and
+ might not be a one-to-one correlation between traffic and
  energy use, notably due to the materially significant idle power
  use by devices, as well as the overall network capacity being
  allocated to serve at times of highest traffic utilization.
@@ -247,7 +247,7 @@ Energy Efficiency/Energy Efficiency Ratio (EER):
 : A higher EER indicates a better energy efficiency.
 
 Power Usage Effectiveness (PUE):
-: Refer to the metric used to measure the energy efficiency of an infrastructure.
+: Refers to the metric used to measure the energy efficiency of an infrastructure.
 : This metric is calculated as the ratio between the total energy consumed by an infrastructure
   and the energy needed for a network element/component.
 
@@ -256,13 +256,13 @@ Network Level Energy Efficiency (NLEE):
 
 Device Level Energy Efficiency (DLEE):
 : Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network
-  elements providing the same functionality or a target to optiize the configuration of a
+  elements providing the same functionality or a target to optimize the configuration of a
   network element.
 
 Component Level Energy Efficiency (CLEE):
 : Denotes the Energy Efficiency of a component of a network element. It can be used in the design,
-  development, and manufacturing of energy efficient a network elements.
-: Is useful to evaluate the energy efficiency performance of individual components of a network element.
+  development, and manufacturing of energy efficient network elements.
+: CLEE is useful to evaluate the energy efficiency performance of individual components of a network element.
 : Measuring and understanding the energy efficiency or energy consumption of each component within
   a network element may be used to identify key components in a system with regard to energy saving.
 
