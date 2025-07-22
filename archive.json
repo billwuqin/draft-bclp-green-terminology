@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-08T02:06:40.667374+00:00",
+  "timestamp": "2025-07-22T02:19:01.331622+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -1725,6 +1725,58 @@
       "mergeCommit": {
         "oid": "8aa4da96ff2a070e21c75fe369f43e8a37a3cef7"
       },
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 38,
+      "id": "PR_kwDOM9Apn86f0B-7",
+      "title": "Add definition for Energy-Aware Intent to support declarative energy optimization and align with intent-based networking models (RFC 9315)",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/38",
+      "state": "OPEN",
+      "author": "shaileshprabhu95",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-07-21T09:27:09Z",
+      "updatedAt": "2025-07-21T09:27:10Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
+      "headRepository": "shaileshprabhu95/draft-bclp-green-terminology",
+      "headRefName": "energy_intent",
+      "headRefOid": "27ac7b5cee0f9b5184bb4a5885e3e2348f9e5a8a",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": []
+    },
+    {
+      "number": 39,
+      "id": "PR_kwDOM9Apn86f6IqP",
+      "title": "Small editorial changes",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/39",
+      "state": "OPEN",
+      "author": "ike-kunze",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Some small editorial changes made while reading the draft until and including Section 3.",
+      "createdAt": "2025-07-21T18:33:03Z",
+      "updatedAt": "2025-07-21T18:33:04Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
+      "headRepository": "ike-kunze/draft-bclp-green-terminology",
+      "headRefName": "editorial-changes",
+      "headRefOid": "492fd8f8df76a821d3d6059d5c185996b2a6c69f",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
       "comments": [],
       "reviews": []
     }
