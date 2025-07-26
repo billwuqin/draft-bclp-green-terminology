@@ -37,6 +37,9 @@ author:
     fullname: Marisol Palmero
     organization: Individual
     email: marisol.ietf@gmail.com
+
+contributor:
+
  -
     fullname: Shailesh Prabhu
     organization: Nokia
