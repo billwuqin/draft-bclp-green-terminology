@@ -150,6 +150,9 @@ NDR:
 NLEE:
 : Network Level Energy Efficiency
 
+PLEE:
+: Path-Level Energy Efficiency
+
 PUE:
 : Power Usage Effectiveness
 
@@ -266,6 +269,10 @@ Component Level Energy Efficiency (CLEE):
 : Measuring and understanding the energy efficiency or energy consumption of each component within
   a network element may be used to identify key components in a system with regard to energy saving.
 
+Path-Level Energy Efficiency (PLEE):
+: Denotes the energy efficiency of an end-to-end forwarding path or service chain, which may span multiple devices or network segments.
+: PLEE allows operators to compare different paths for the same service based on energy consumption and to select routes that optimize both performance and sustainability objectives.
+: This metric is essential for energy-aware traffic engineering, carbon-aware routing, and multi-domain optimization scenarios.
 
 # Sample Energy Efficiency Metrics and Measurement Methods {#sec-metrics}
 
