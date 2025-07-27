@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-22T02:19:01.331622+00:00",
+  "timestamp": "2025-07-27T02:29:17.098599+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -1740,19 +1740,40 @@
       "labels": [],
       "body": "",
       "createdAt": "2025-07-21T09:27:09Z",
-      "updatedAt": "2025-07-21T09:27:10Z",
+      "updatedAt": "2025-07-26T08:37:04Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
       "headRepository": "shaileshprabhu95/draft-bclp-green-terminology",
       "headRefName": "energy_intent",
-      "headRefOid": "27ac7b5cee0f9b5184bb4a5885e3e2348f9e5a8a",
+      "headRefOid": "5608f1c49032c1070e79cd7366bd1e2ba25ff104",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn862OzpH",
+          "commit": {
+            "abbreviatedOid": "27ac7b5"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2025-07-26T02:11:41Z",
+          "updatedAt": "2025-07-26T02:12:20Z",
+          "comments": [
+            {
+              "originalPosition": 5,
+              "body": "```suggestion\r\n: A declarative, technology-agnostic expression of an energy-related operational objective for the network. Unlike imperative configurations that specify exactly how to achieve a result, an energy-aware intent focuses on what energy behavior is desired (e.g., minimize power consumption or optimize energy-to-throughput ratios), leaving the system to determine the best enforcement method.\r\n```",
+              "createdAt": "2025-07-26T02:11:42Z",
+              "updatedAt": "2025-07-26T02:12:20Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "number": 39,
@@ -1766,13 +1787,100 @@
       "labels": [],
       "body": "Some small editorial changes made while reading the draft until and including Section 3.",
       "createdAt": "2025-07-21T18:33:03Z",
-      "updatedAt": "2025-07-21T18:33:04Z",
+      "updatedAt": "2025-07-26T02:09:24Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
       "headRepository": "ike-kunze/draft-bclp-green-terminology",
       "headRefName": "editorial-changes",
       "headRefOid": "492fd8f8df76a821d3d6059d5c185996b2a6c69f",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn862OzLn",
+          "commit": {
+            "abbreviatedOid": "492fd8f"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-07-26T02:09:24Z",
+          "updatedAt": "2025-07-26T02:09:24Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "id": "PR_kwDOM9Apn86gs-Cg",
+      "title": "Joining as co-author",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/40",
+      "state": "OPEN",
+      "author": "shaileshprabhu95",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "As a follow-up to the discussion with Qin Wu at the IETF 123, I'm raising this PR to join as a contributor of the draft.",
+      "createdAt": "2025-07-25T22:54:45Z",
+      "updatedAt": "2025-07-26T08:37:47Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
+      "headRepository": "shaileshprabhu95/draft-bclp-green-terminology",
+      "headRefName": "coauthor_shailesh",
+      "headRefOid": "50ba2558fcf304475d6be8262e699a16acf517da",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn862O0N8",
+          "commit": {
+            "abbreviatedOid": "c7bbde7"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2025-07-26T02:14:29Z",
+          "updatedAt": "2025-07-26T02:14:53Z",
+          "comments": [
+            {
+              "originalPosition": 4,
+              "body": "```suggestion\r\n\r\ncontributor:\r\n\r\n -\r\n```",
+              "createdAt": "2025-07-26T02:14:29Z",
+              "updatedAt": "2025-07-26T02:14:53Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "id": "PR_kwDOM9Apn86gv18H",
+      "title": "Adding Path-Level Energy Efficiency term",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/41",
+      "state": "OPEN",
+      "author": "shaileshprabhu95",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2025-07-26T11:28:44Z",
+      "updatedAt": "2025-07-26T11:28:45Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
+      "headRepository": "shaileshprabhu95/draft-bclp-green-terminology",
+      "headRefName": "plee_term",
+      "headRefOid": "941ac57cc3ce455ac95421389f958e5acdc0d12e",
       "closedAt": null,
       "mergedAt": null,
       "mergedBy": null,
