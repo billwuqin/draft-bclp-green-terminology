@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-27T02:29:17.098599+00:00",
+  "timestamp": "2025-07-29T02:30:51.144288+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -1740,7 +1740,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2025-07-21T09:27:09Z",
-      "updatedAt": "2025-07-26T08:37:04Z",
+      "updatedAt": "2025-07-29T01:05:36Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
@@ -1780,24 +1780,26 @@
       "id": "PR_kwDOM9Apn86f6IqP",
       "title": "Small editorial changes",
       "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/39",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "ike-kunze",
-      "authorAssociation": "NONE",
+      "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "Some small editorial changes made while reading the draft until and including Section 3.",
       "createdAt": "2025-07-21T18:33:03Z",
-      "updatedAt": "2025-07-26T02:09:24Z",
+      "updatedAt": "2025-07-29T01:05:11Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
       "headRepository": "ike-kunze/draft-bclp-green-terminology",
       "headRefName": "editorial-changes",
       "headRefOid": "492fd8f8df76a821d3d6059d5c185996b2a6c69f",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-07-29T01:05:11Z",
+      "mergedAt": "2025-07-29T01:05:11Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "bd1f3a850f306b7f4bf2b6c35fe1bfb5e43aee7b"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1811,6 +1813,19 @@
           "body": "",
           "createdAt": "2025-07-26T02:09:24Z",
           "updatedAt": "2025-07-26T02:09:24Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOM9Apn862rsCP",
+          "commit": {
+            "abbreviatedOid": "492fd8f"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "Good edit.",
+          "createdAt": "2025-07-29T01:04:20Z",
+          "updatedAt": "2025-07-29T01:04:20Z",
           "comments": []
         }
       ]
@@ -1827,7 +1842,7 @@
       "labels": [],
       "body": "As a follow-up to the discussion with Qin Wu at the IETF 123, I'm raising this PR to join as a contributor of the draft.",
       "createdAt": "2025-07-25T22:54:45Z",
-      "updatedAt": "2025-07-26T08:37:47Z",
+      "updatedAt": "2025-07-29T01:17:49Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
@@ -1874,7 +1889,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2025-07-26T11:28:44Z",
-      "updatedAt": "2025-07-26T11:28:45Z",
+      "updatedAt": "2025-07-29T01:17:18Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
@@ -1885,7 +1900,15 @@
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "According to GREEN WG Charter, Energy aware routing is not in the scope, see Quoted Charter text as follows:\r\n\"\r\nOut of Scope\r\nThe following topics are not currently within the scope of the Working Group:\r\n\r\nRouting protocols and algorithms, including those that consider energy factors.\r\n\"\r\nAre we ready to implement this?",
+          "createdAt": "2025-07-29T01:17:18Z",
+          "updatedAt": "2025-07-29T01:17:18Z"
+        }
+      ],
       "reviews": []
     }
   ]
