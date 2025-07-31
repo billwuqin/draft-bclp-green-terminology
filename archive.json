@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-07-29T02:30:51.144288+00:00",
+  "timestamp": "2025-07-31T02:21:40.372837+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -1889,7 +1889,7 @@
       "labels": [],
       "body": "",
       "createdAt": "2025-07-26T11:28:44Z",
-      "updatedAt": "2025-07-29T01:17:18Z",
+      "updatedAt": "2025-07-29T08:11:48Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
@@ -1907,6 +1907,13 @@
           "body": "According to GREEN WG Charter, Energy aware routing is not in the scope, see Quoted Charter text as follows:\r\n\"\r\nOut of Scope\r\nThe following topics are not currently within the scope of the Working Group:\r\n\r\nRouting protocols and algorithms, including those that consider energy factors.\r\n\"\r\nAre we ready to implement this?",
           "createdAt": "2025-07-29T01:17:18Z",
           "updatedAt": "2025-07-29T01:17:18Z"
+        },
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "Agree with @billwuqin that this smells more energy-inferred routing/forwarding, which is out of scope of GREEN WG.",
+          "createdAt": "2025-07-29T08:11:48Z",
+          "updatedAt": "2025-07-29T08:11:48Z"
         }
       ],
       "reviews": []
