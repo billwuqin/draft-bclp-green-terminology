@@ -38,6 +38,13 @@ author:
     organization: Individual
     email: marisol.ietf@gmail.com
 
+contributor:
+
+ -
+    fullname: Shailesh Prabhu
+    organization: Nokia
+    email: shailesh.prabhu@nokia.com
+
 informative:
 
  ETSI-ES-203-136:
