@@ -5,14 +5,14 @@
 GREEN Working Group                                              G. Chen
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 30 January 2026                                          Orange
+Expires: 5 February 2026                                          Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                               Individual
-                                                            29 July 2025
+                                                           4 August 2025
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 30 January 2026.
+   This Internet-Draft will expire on 5 February 2026.
 
 Copyright Notice
 
@@ -96,6 +96,7 @@ Table of Contents
      A.3.  3GPP SA5
    Appendix B.  Changes between Revisions
    Appendix C.  Acknowledgments
+   Contributors
    Authors' Addresses
 
 1.  Introduction
@@ -552,6 +553,13 @@ Appendix C.  Acknowledgments
    Claise, Gen Chen, Emile Stephan, Rob Wilton for valuable review and
    comments.  Thanks Peter Liu for helping provide input to initial
    version of the draft.
+
+Contributors
+
+   Shailesh Prabhu
+   Nokia
+   Email: shailesh.prabhu@nokia.com
+
 
 Authors' Addresses
 
