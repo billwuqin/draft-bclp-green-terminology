@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-05T02:24:50.277913+00:00",
+  "timestamp": "2025-08-14T02:07:12.600007+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -385,6 +385,22 @@
           "updatedAt": "2025-06-15T05:29:47Z"
         }
       ]
+    },
+    {
+      "number": 42,
+      "id": "I_kwDOM9Apn87Fhdfs",
+      "title": "Energy Aware Intent Support",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/42",
+      "state": "OPEN",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Shailesh Prabhu proposes to have Energy aware Intent support as follows:\nAdd definition for Energy-Aware Intent to support declarative energy optimization and align with intent-based networking models (RFC 9315)",
+      "createdAt": "2025-08-12T11:53:31Z",
+      "updatedAt": "2025-08-12T11:54:41Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
@@ -1738,9 +1754,9 @@
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
-      "body": "",
+      "body": "Resolves https://github.com/billwuqin/draft-bclp-green-terminology/issues/42",
       "createdAt": "2025-07-21T09:27:09Z",
-      "updatedAt": "2025-08-04T12:02:23Z",
+      "updatedAt": "2025-08-13T05:27:25Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
