@@ -160,6 +160,9 @@ NLEE:
 PUE:
 : Power Usage Effectiveness
 
+CIS:
+: Carbon Intensity per Service
+
 # Definitions {#sec-def}
 
 Terms are listed so that terms that are needed to understand other terms are listed first.
@@ -273,6 +276,10 @@ Component Level Energy Efficiency (CLEE):
 : Measuring and understanding the energy efficiency or energy consumption of each component within
   a network element may be used to identify key components in a system with regard to energy saving.
 
+Carbon Intensity per Service (CIS):
+: Denotes the carbon emissions associated with delivering a specific service or application within a network segment.
+: CIS is derived from the energy consumed by the service and the corresponding regional electricity grid’s carbon intensity.
+: This metric enables operators to measure and report the carbon footprint of individual services, supporting sustainability reporting, environmental compliance, and operational benchmarking.
 
 # Sample Energy Efficiency Metrics and Measurement Methods {#sec-metrics}
 
