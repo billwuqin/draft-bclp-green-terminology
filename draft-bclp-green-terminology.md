@@ -160,6 +160,9 @@ NLEE:
 PUE:
 : Power Usage Effectiveness
 
+SLEE:
+: Service Level Energy Efficiency
+
 # Definitions {#sec-def}
 
 Terms are listed so that terms that are needed to understand other terms are listed first.
@@ -273,6 +276,9 @@ Component Level Energy Efficiency (CLEE):
 : Measuring and understanding the energy efficiency or energy consumption of each component within
   a network element may be used to identify key components in a system with regard to energy saving.
 
+Service Level Energy Efficiency (SLEE):
+: Denotes the total energy consumption attributed to delivering a specific service or application within a network segment.
+: SLEE enables operators to measure and report the per-service energy footprint, providing valuable insights for sustainability reporting, operational benchmarking, and capacity planning.
 
 # Sample Energy Efficiency Metrics and Measurement Methods {#sec-metrics}
 
