@@ -272,7 +272,7 @@ Table of Contents
       the configuration of a network element.  Here "Device Level" is
       equivalent to "System Level", which is considered as a "single
       device" or "single entity" from the measurement and reporting
-      point of view.
+      perspective.
 
    Component Level Energy Efficiency (CLEE):  Denotes the Energy
       Efficiency of a component of a network element.  It can be used in
@@ -280,7 +280,7 @@ Table of Contents
       network elements.  Here "Component Level" is equivalent to "Sub-
       System Level", which is considered as an "abstract " or
       "incomplete specification" of a portion of a system from the
-      measurement and reporting point of view.
+      measurement and reporting perspective.
 
       CLEE is useful to evaluate the energy efficiency performance of
       individual components of a network element.
