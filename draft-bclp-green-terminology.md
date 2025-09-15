@@ -272,7 +272,7 @@ Component Level Energy Efficiency (CLEE):
   development, and manufacturing of energy efficient network elements. Here "Component Level" is
   equivalent to "Sub-System Level", which is considered as an "abstract " or "incomplete specification"
   of a portion of a system from the measurement and reporting point of view.
-  
+
 : CLEE is useful to evaluate the energy efficiency performance of individual components of a network element.
 : Measuring and understanding the energy efficiency or energy consumption of each component within
   a network element may be used to identify key components in a system with regard to energy saving.
