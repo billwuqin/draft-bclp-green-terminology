@@ -269,12 +269,18 @@ Table of Contents
    Device Level Energy Efficiency (DLEE):  Denotes the Energy Efficiency
       of a network element.  It can be used, e.g., to compare network
       elements providing the same functionality or a target to optimize
-      the configuration of a network element.
+      the configuration of a network element.  Here "Device Level" is
+      equivalent to "System Level", which is considered as a "single
+      device" or "single entity" from the measurement and reporting
+      perspective.
 
    Component Level Energy Efficiency (CLEE):  Denotes the Energy
       Efficiency of a component of a network element.  It can be used in
-      the design, development, and manufacturing of energy-efficient
-      network elements.
+      the design, development, and manufacturing of energy efficient
+      network elements.  Here "Component Level" is equivalent to "Sub-
+      System Level", which is considered as an "abstract " or
+      "incomplete specification" of a portion of a system from the
+      measurement and reporting perspective.
 
       CLEE is useful to evaluate the energy efficiency performance of
       individual components of a network element.
