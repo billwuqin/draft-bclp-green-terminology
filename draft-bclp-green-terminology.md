@@ -96,7 +96,7 @@ informative:
 
 Energy-efficient network management is primarily meant to enhance conventional
 network management with energy-related management capabilities
-to optimize the overall energy consumption at the level of a network. To that aim,
+that optimize overall network energy consumption. To that aim,
 specific features and capabilities are required to control (and thus optimize)
 the energy use of involved network elements and their components.
 
@@ -110,7 +110,7 @@ Such reference document helps framing discussion and agreeing upon a set of main
 With rising energy costs and increasing awareness of the environmental impact of running networks, servers, and various
 equipment, Energy Efficiency is considered by operators as a critical component to be integrated in the overall Network
 Management systems. Such integration is ambitioned to feed strategies for achieving environmental objectives but also
-mastering related operational cost. Energy Efficiency management is thus complementing conventional network management.
+mastering related operational cost. Energy Efficiency Management is thus complementing conventional network management.
 
 {{sec-def}} defines a set of terms used within the IETF when discussing energy-efficient networks.
 The purpose is to (1) ensure consistent use of a set of terms in this area, (2) help with the characterization of Energy
@@ -272,8 +272,9 @@ Component Level Energy Efficiency (CLEE):
   development, and manufacturing of energy efficient network elements. Here "Component Level" is
   equivalent to "Sub-System Level", which is considered as an "abstract " or "incomplete specification"
   of a portion of a system from the measurement and reporting point of view.
-
+  
 : CLEE is useful to evaluate the energy efficiency performance of individual components of a network element.
+
 : Measuring and understanding the energy efficiency or energy consumption of each component within
   a network element may be used to identify key components in a system with regard to energy saving.
 
@@ -372,7 +373,7 @@ The formula is defined in {{L.1320}}.
 
 # Operations and Manageability Considerations
 
-This document defines terminolgy that is meant to ensure consistency among various efforts and deployment levels. No other operations or manageability requirements are introduced by this document.
+This document defines terminology intended to ensure consistency among various efforts and deployment levels. No other operations or manageability requirements are introduced by this document.
 
 # Security Considerations
 
@@ -445,7 +446,7 @@ KPI, defined as the ratio between the performance of the network slice and its e
 
    * Add three new energy efficiency related terms based on comments raised during the interim meeting;
 
-   * Update 4 existing terms such as energy efficiency defintion, energy efficiency metric, energy efficiency capabilities
+   * Update 4 existing terms such as energy efficiency definition, energy efficiency metric, energy efficiency capabilities
      energy proportionality based on comments raised on the list.
 
 # Acknowledgments
