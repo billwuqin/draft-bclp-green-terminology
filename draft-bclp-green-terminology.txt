@@ -5,14 +5,14 @@
 GREEN Working Group                                              G. Chen
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 5 February 2026                                          Orange
+Expires: 19 March 2026                                            Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                               Individual
-                                                           4 August 2025
+                                                       15 September 2025
 
 
           Terminology for Energy Efficiency Network Management
@@ -22,10 +22,10 @@ Abstract
 
    Energy-efficient network management is primarily meant to enhance
    conventional network management with energy-related management
-   capabilities to optimize the overall energy consumption at the level
-   of a network.  To that aim, specific features and capabilities are
-   required to control (and thus optimize) the energy use of involved
-   network elements and their components.
+   capabilities that optimize overall network energy consumption.  To
+   that aim, specific features and capabilities are required to control
+   (and thus optimize) the energy use of involved network elements and
+   their components.
 
    This document defines a set of key terms used within the IETF when
    discussing energy efficiency in network management.  Such reference
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 5 February 2026.
+   This Internet-Draft will expire on 19 March 2026.
 
 Copyright Notice
 
@@ -107,7 +107,7 @@ Table of Contents
    component to be integrated in the overall Network Management systems.
    Such integration is ambitioned to feed strategies for achieving
    environmental objectives but also mastering related operational cost.
-   Energy Efficiency management is thus complementing conventional
+   Energy Efficiency Management is thus complementing conventional
    network management.
 
    Section 3 defines a set of terms used within the IETF when discussing
@@ -273,7 +273,7 @@ Table of Contents
 
    Component Level Energy Efficiency (CLEE):  Denotes the Energy
       Efficiency of a component of a network element.  It can be used in
-      the design, development, and manufacturing of energy efficient
+      the design, development, and manufacturing of energy-efficient
       network elements.
 
       CLEE is useful to evaluate the energy efficiency performance of
@@ -393,7 +393,7 @@ Table of Contents
 
 5.  Operations and Manageability Considerations
 
-   This document defines terminolgy that is meant to ensure consistency
+   This document defines terminology intended to ensure consistency
    among various efforts and deployment levels.  No other operations or
    manageability requirements are introduced by this document.
 
@@ -542,7 +542,7 @@ Appendix B.  Changes between Revisions
    *  Add three new energy efficiency related terms based on comments
       raised during the interim meeting;
 
-   *  Update 4 existing terms such as energy efficiency defintion,
+   *  Update 4 existing terms such as energy efficiency definition,
       energy efficiency metric, energy efficiency capabilities energy
       proportionality based on comments raised on the list.
 
