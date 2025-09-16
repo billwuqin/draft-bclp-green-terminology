@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-08-28T01:54:44.208312+00:00",
+  "timestamp": "2025-09-16T01:49:32.593374+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -1756,7 +1756,7 @@
       "labels": [],
       "body": "Resolves https://github.com/billwuqin/draft-bclp-green-terminology/issues/42",
       "createdAt": "2025-07-21T09:27:09Z",
-      "updatedAt": "2025-08-13T05:27:25Z",
+      "updatedAt": "2025-09-15T12:11:06Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
@@ -1788,6 +1788,19 @@
               "updatedAt": "2025-07-26T02:12:20Z"
             }
           ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn87ALvcz",
+          "commit": {
+            "abbreviatedOid": "ce0b136"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-15T12:11:06Z",
+          "updatedAt": "2025-09-15T12:11:06Z",
+          "comments": []
         }
       ]
     },
@@ -1948,78 +1961,249 @@
       "id": "PR_kwDOM9Apn86ldx3w",
       "title": "Adding Service-Level Energy Efficiency as a term",
       "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/43",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "shaileshprabhu95",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-08-26T18:18:26Z",
-      "updatedAt": "2025-08-27T10:56:39Z",
+      "updatedAt": "2025-09-15T12:37:55Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "cb52e36de2dc510c0b0be48d2255fc3ad178a87a",
       "headRepository": "shaileshprabhu95/draft-bclp-green-terminology",
       "headRefName": "slee_term",
-      "headRefOid": "dc3fb91ed7906a2a94a5370b0f825722767a3c7d",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
-      "comments": [],
-      "reviews": []
+      "headRefOid": "d50ec24e02518d94964b34865a5aedbb87a56597",
+      "closedAt": "2025-09-15T12:37:55Z",
+      "mergedAt": "2025-09-15T12:37:55Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "be80f53e3610a2bb512edb12f94330b606d0f077"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "Tweak some text and remove sustainable related term.",
+          "createdAt": "2025-09-15T12:37:51Z",
+          "updatedAt": "2025-09-15T12:37:51Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn87ALhIS",
+          "commit": {
+            "abbreviatedOid": "dc3fb91"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-15T11:53:24Z",
+          "updatedAt": "2025-09-15T11:53:24Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 44,
       "id": "PR_kwDOM9Apn86ld7nb",
       "title": "Adding Carbon Intensity per Service (CIS) as a term",
       "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/44",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "shaileshprabhu95",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "While Service-Level Energy Efficiency (SLEE) (in PR https://github.com/billwuqin/draft-bclp-green-terminology/pull/43) focuses on **Energy consumption per service**, this PR adds Carbon Intensity per Service (CIS) as a key term that focuses on **Carbon emissions per service**.",
       "createdAt": "2025-08-26T18:34:10Z",
-      "updatedAt": "2025-08-27T10:56:19Z",
+      "updatedAt": "2025-09-15T12:10:08Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "cb52e36de2dc510c0b0be48d2255fc3ad178a87a",
       "headRepository": "shaileshprabhu95/draft-bclp-green-terminology",
       "headRefName": "cis_term",
       "headRefOid": "c22928bfcbbf3c7c982d042b753291b612a60338",
-      "closedAt": null,
+      "closedAt": "2025-09-15T12:10:08Z",
       "mergedAt": null,
       "mergedBy": null,
       "mergeCommit": null,
-      "comments": [],
-      "reviews": []
+      "comments": [
+        {
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "body": "I'm afraid this one is beyond the scope of GREEN",
+          "createdAt": "2025-09-15T11:54:32Z",
+          "updatedAt": "2025-09-15T11:54:32Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn87ALmJR",
+          "commit": {
+            "abbreviatedOid": "c22928b"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "Agree with Med,  we should discard this PR.",
+          "createdAt": "2025-09-15T11:59:57Z",
+          "updatedAt": "2025-09-15T11:59:57Z",
+          "comments": []
+        }
+      ]
     },
     {
       "number": 45,
       "id": "PR_kwDOM9Apn86leIWP",
       "title": "Editorial review",
       "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/45",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "shaileshprabhu95",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "",
       "createdAt": "2025-08-26T18:55:27Z",
-      "updatedAt": "2025-08-26T18:55:28Z",
+      "updatedAt": "2025-09-15T11:49:04Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "cb52e36de2dc510c0b0be48d2255fc3ad178a87a",
       "headRepository": "shaileshprabhu95/draft-bclp-green-terminology",
       "headRefName": "editorial_review",
       "headRefOid": "ae5c3aca589b44d253512b7068b82c99b3aca301",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-09-15T11:49:04Z",
+      "mergedAt": "2025-09-15T11:49:04Z",
+      "mergedBy": "boucadair",
+      "mergeCommit": {
+        "oid": "10b0dcef231663035b6364e6368bcc5b3a2e843a"
+      },
+      "comments": [
+        {
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "body": "The proposed Editorial changes look good to me.",
+          "createdAt": "2025-09-15T09:44:24Z",
+          "updatedAt": "2025-09-15T09:44:24Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn87AKVx6",
+          "commit": {
+            "abbreviatedOid": "ae5c3ac"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-15T10:29:48Z",
+          "updatedAt": "2025-09-15T10:29:48Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOM9Apn87ALdb9",
+          "commit": {
+            "abbreviatedOid": "ae5c3ac"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-15T11:48:57Z",
+          "updatedAt": "2025-09-15T11:48:57Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "id": "PR_kwDOM9Apn86omuk5",
+      "title": "Update draft-bclp-green-terminology.md",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/46",
+      "state": "MERGED",
+      "author": "billwuqin",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Address Luis's comment raised in BMWG and IPPM joint session",
+      "createdAt": "2025-09-15T10:38:45Z",
+      "updatedAt": "2025-09-15T12:32:25Z",
+      "baseRepository": "billwuqin/draft-bclp-green-terminology",
+      "baseRefName": "main",
+      "baseRefOid": "10b0dcef231663035b6364e6368bcc5b3a2e843a",
+      "headRepository": "billwuqin/draft-bclp-green-terminology",
+      "headRefName": "billwuqin-patch-10",
+      "headRefOid": "9e134c698f28f7204a88da4d8ef0e602301a54f4",
+      "closedAt": "2025-09-15T12:32:25Z",
+      "mergedAt": "2025-09-15T12:32:25Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "953344573b673f455db6d01dbbdd173acd2efd53"
+      },
       "comments": [],
-      "reviews": []
+      "reviews": [
+        {
+          "id": "PRR_kwDOM9Apn87ALegT",
+          "commit": {
+            "abbreviatedOid": "c8750a5"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "CHANGES_REQUESTED",
+          "body": "",
+          "createdAt": "2025-09-15T11:50:21Z",
+          "updatedAt": "2025-09-15T11:51:08Z",
+          "comments": [
+            {
+              "originalPosition": 6,
+              "body": "```suggestion\r\n  \"single device\" or \"single entity\" from the measurement and reporting perspectives.\r\n```",
+              "createdAt": "2025-09-15T11:50:21Z",
+              "updatedAt": "2025-09-15T11:51:08Z"
+            },
+            {
+              "originalPosition": 13,
+              "body": "```suggestion\r\n  of a portion of a system from the measurement and reporting perspectives.\r\n```",
+              "createdAt": "2025-09-15T11:51:00Z",
+              "updatedAt": "2025-09-15T11:51:08Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn87ALnIK",
+          "commit": {
+            "abbreviatedOid": "c8750a5"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "state": "COMMENTED",
+          "body": "",
+          "createdAt": "2025-09-15T12:01:17Z",
+          "updatedAt": "2025-09-15T12:01:17Z",
+          "comments": [
+            {
+              "originalPosition": 13,
+              "body": "works for me.",
+              "createdAt": "2025-09-15T12:01:17Z",
+              "updatedAt": "2025-09-15T12:01:17Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOM9Apn87ALuVh",
+          "commit": {
+            "abbreviatedOid": "9e134c6"
+          },
+          "author": "boucadair",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-15T12:09:50Z",
+          "updatedAt": "2025-09-15T12:09:50Z",
+          "comments": []
+        }
+      ]
     }
   ]
 }
