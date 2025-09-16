@@ -445,6 +445,18 @@ KPI, defined as the ratio between the performance of the network slice and its e
 
 # Changes between Revisions
 
+   v03 - v04
+   * Add Shailesh Prabhu as contributor.
+
+   * Add one new definition on Service Level Energy Efficiency (SLEE).
+
+   * Add one new definition on Energy-Aware Intent.
+
+   * Update Device Level Energy Efficiency definition and Component Level Energy Efficiency, clarify
+     their relation with system level and sub-system level.
+
+   * Other Editorial changes.
+
    v02 - v03
 
    * Update Energy Efficiency Capability Definition.
