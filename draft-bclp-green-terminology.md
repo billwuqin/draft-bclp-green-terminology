@@ -256,6 +256,10 @@ Energy Efficiency/Energy Efficiency Ratio (EER):
   (e.g., {{?I-D.cprjgf-bmwg-powerbench}}).
 : A higher EER indicates a better energy efficiency.
 
+Energy-Aware Intent:
+: A declarative, technology-agnostic expression of an energy-related operational objective for the network. Unlike imperative configurations that specify exactly how to achieve a result, an energy-aware intent focuses on what energy behavior is desired (e.g., minimize power consumption or optimize energy-to-throughput ratios), leaving the system to determine the best enforcement method.
+: Energy-aware intents ({{?RFC9315}}) are interpreted by network management or orchestration systems, which translate them into actionable control logic, such as powering down interfaces, reducing link speeds. These intents enable policy-driven, automated, and potentially closed-loop energy optimization aligned with business goals.
+
 Power Usage Effectiveness (PUE):
 : Refers to the metric used to measure the energy efficiency of an infrastructure.
 : This metric is calculated as the ratio between the total energy consumed by an infrastructure
