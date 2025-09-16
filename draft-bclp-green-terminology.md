@@ -446,6 +446,7 @@ KPI, defined as the ratio between the performance of the network slice and its e
 # Changes between Revisions
 
    v03 - v04
+
    * Add Shailesh Prabhu as contributor.
 
    * Add one new definition on Service Level Energy Efficiency (SLEE).
