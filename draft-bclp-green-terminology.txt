@@ -564,7 +564,9 @@ A.3.  3GPP SA5
 
 Appendix B.  Changes between Revisions
 
-   v03 - v04 * Add Shailesh Prabhu as contributor.
+   v03 - v04
+
+   *  Add Shailesh Prabhu as contributor.
 
    *  Add one new definition on Service Level Energy Efficiency (SLEE).
 
