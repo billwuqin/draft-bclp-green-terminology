@@ -1060,7 +1060,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Chen, et al.</td>
-<td class="center">Expires 19 March 2026</td>
+<td class="center">Expires 20 March 2026</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1073,12 +1073,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-bclp-green-terminology-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2025-09-15" class="published">15 September 2025</time>
+<time datetime="2025-09-16" class="published">16 September 2025</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2026-03-19">19 March 2026</time></dd>
+<dd class="expires"><time datetime="2026-03-20">20 March 2026</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1145,7 +1145,7 @@ Such reference document helps framing discussion and agreeing upon a set of main
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 19 March 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 20 March 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1468,58 +1468,68 @@ throughput (e.g., of a network element capacity) to the total power consumed (bi
           <p id="section-3-2.34.1">A higher EER indicates a better energy efficiency.<a href="#section-3-2.34.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.35">Power Usage Effectiveness (PUE):</dt>
+<dt id="section-3-2.35">Energy-Aware Intent:</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.36">
-          <p id="section-3-2.36.1">Refers to the metric used to measure the energy efficiency of an infrastructure.<a href="#section-3-2.36.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.36.1">A declarative, technology-agnostic expression of an energy-related operational objective for the network. Unlike imperative configurations that specify exactly how to achieve a result, an energy-aware intent focuses on what energy behavior is desired (e.g., minimize power consumption or optimize energy-to-throughput ratios), leaving the system to determine the best enforcement method.<a href="#section-3-2.36.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-2.37"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.38">
-          <p id="section-3-2.38.1">This metric is calculated as the ratio between the total energy consumed by an infrastructure
-and the energy needed for a network element/component.<a href="#section-3-2.38.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.38.1">Energy-aware intents (<span>[<a href="#RFC9315" class="cite xref">RFC9315</a>]</span>) are interpreted by network management or orchestration systems, which translate them into actionable control logic, such as powering down interfaces, reducing link speeds. These intents enable policy-driven, automated, and potentially closed-loop energy optimization aligned with business goals.<a href="#section-3-2.38.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.39">Network Level Energy Efficiency (NLEE):</dt>
+<dt id="section-3-2.39">Power Usage Effectiveness (PUE):</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.40">
-          <p id="section-3-2.40.1">Denotes the Energy Efficiency of an entire network or a subset part of it (e.g., access network).<a href="#section-3-2.40.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.40.1">Refers to the metric used to measure the energy efficiency of an infrastructure.<a href="#section-3-2.40.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.41">Device Level Energy Efficiency (DLEE):</dt>
+<dt id="section-3-2.41"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.42">
-          <p id="section-3-2.42.1">Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network
+          <p id="section-3-2.42.1">This metric is calculated as the ratio between the total energy consumed by an infrastructure
+and the energy needed for a network element/component.<a href="#section-3-2.42.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-3-2.43">Network Level Energy Efficiency (NLEE):</dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.44">
+          <p id="section-3-2.44.1">Denotes the Energy Efficiency of an entire network or a subset part of it (e.g., access network).<a href="#section-3-2.44.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-3-2.45">Device Level Energy Efficiency (DLEE):</dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.46">
+          <p id="section-3-2.46.1">Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network
 elements providing the same functionality or a target to optimize the configuration of a
 network element. Here "Device Level" is equivalent to "System Level", which is considered as a
-"single device" or "single entity" from the measurement and reporting perspective.<a href="#section-3-2.42.1" class="pilcrow">¶</a></p>
+"single device" or "single entity" from the measurement and reporting perspective.<a href="#section-3-2.46.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.43">Component Level Energy Efficiency (CLEE):</dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.44">
-          <p id="section-3-2.44.1">Denotes the Energy Efficiency of a component of a network element. It can be used in the design,
+<dt id="section-3-2.47">Component Level Energy Efficiency (CLEE):</dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.48">
+          <p id="section-3-2.48.1">Denotes the Energy Efficiency of a component of a network element. It can be used in the design,
 development, and manufacturing of energy efficient network elements. Here "Component Level" is
 equivalent to "Sub-System Level", which is considered as an "abstract " or "incomplete specification"
-of a portion of a system from the measurement and reporting perspective.<a href="#section-3-2.44.1" class="pilcrow">¶</a></p>
+of a portion of a system from the measurement and reporting perspective.<a href="#section-3-2.48.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.45"></dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.46">
-          <p id="section-3-2.46.1">CLEE is useful to evaluate the energy efficiency performance of individual components of a network element.<a href="#section-3-2.46.1" class="pilcrow">¶</a></p>
-</dd>
-        <dd class="break"></dd>
-<dt id="section-3-2.47"></dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.48">
-          <p id="section-3-2.48.1">Measuring and understanding the energy efficiency or energy consumption of each component within
-a network element may be used to identify key components in a system with regard to energy saving.<a href="#section-3-2.48.1" class="pilcrow">¶</a></p>
-</dd>
-        <dd class="break"></dd>
-<dt id="section-3-2.49">Service Level Energy Efficiency (SLEE):</dt>
+<dt id="section-3-2.49"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.50">
-          <p id="section-3-2.50.1">Denotes the total energy consumption attributed to delivering a specific service or application within a network segment.<a href="#section-3-2.50.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.50.1">CLEE is useful to evaluate the energy efficiency performance of individual components of a network element.<a href="#section-3-2.50.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-2.51"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.52">
-          <p id="section-3-2.52.1">SLEE enables operators to measure and report the per-service energy footprint, providing valuable insights for operational
-benchmarking, and capacity planning.<a href="#section-3-2.52.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.52.1">Measuring and understanding the energy efficiency or energy consumption of each component within
+a network element may be used to identify key components in a system with regard to energy saving.<a href="#section-3-2.52.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-3-2.53">Service Level Energy Efficiency (SLEE):</dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.54">
+          <p id="section-3-2.54.1">Denotes the total energy consumption attributed to delivering a specific service or application within a network segment.<a href="#section-3-2.54.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-3-2.55"></dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.56">
+          <p id="section-3-2.56.1">SLEE enables operators to measure and report the per-service energy footprint, providing valuable insights for operational
+benchmarking, and capacity planning.<a href="#section-3-2.56.1" class="pilcrow">¶</a></p>
 </dd>
       <dd class="break"></dd>
 </dl>
@@ -1747,6 +1757,10 @@ The formula is defined in <span>[<a href="#L.1320" class="cite xref">L.1320</a>]
 <dt id="RFC7326">[RFC7326]</dt>
       <dd>
 <span class="refAuthor">Parello, J.</span>, <span class="refAuthor">Claise, B.</span>, <span class="refAuthor">Schoening, B.</span>, and <span class="refAuthor">J. Quittek</span>, <span class="refTitle">"Energy Management Framework"</span>, <span class="seriesInfo">RFC 7326</span>, <span class="seriesInfo">DOI 10.17487/RFC7326</span>, <time datetime="2014-09" class="refDate">September 2014</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc7326">https://www.rfc-editor.org/rfc/rfc7326</a>&gt;</span>. </dd>
+<dd class="break"></dd>
+<dt id="RFC9315">[RFC9315]</dt>
+      <dd>
+<span class="refAuthor">Clemm, A.</span>, <span class="refAuthor">Ciavaglia, L.</span>, <span class="refAuthor">Granville, L. Z.</span>, and <span class="refAuthor">J. Tantsura</span>, <span class="refTitle">"Intent-Based Networking - Concepts and Definitions"</span>, <span class="seriesInfo">RFC 9315</span>, <span class="seriesInfo">DOI 10.17487/RFC9315</span>, <time datetime="2022-10" class="refDate">October 2022</time>, <span>&lt;<a href="https://www.rfc-editor.org/rfc/rfc9315">https://www.rfc-editor.org/rfc/rfc9315</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="TS28.554">[TS28.554]</dt>
     <dd>
