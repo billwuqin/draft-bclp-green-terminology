@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-16T01:49:32.593374+00:00",
+  "timestamp": "2025-09-18T01:49:27.811394+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -391,15 +391,15 @@
       "id": "I_kwDOM9Apn87Fhdfs",
       "title": "Energy Aware Intent Support",
       "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/42",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "billwuqin",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "Shailesh Prabhu proposes to have Energy aware Intent support as follows:\nAdd definition for Energy-Aware Intent to support declarative energy optimization and align with intent-based networking models (RFC 9315)",
       "createdAt": "2025-08-12T11:53:31Z",
-      "updatedAt": "2025-08-12T11:54:41Z",
-      "closedAt": null,
+      "updatedAt": "2025-09-16T02:19:35Z",
+      "closedAt": "2025-09-16T02:19:35Z",
       "comments": []
     }
   ],
@@ -1749,24 +1749,26 @@
       "id": "PR_kwDOM9Apn86f0B-7",
       "title": "Add definition for Energy-Aware Intent to support declarative energy optimization and align with intent-based networking models (RFC 9315)",
       "url": "https://github.com/billwuqin/draft-bclp-green-terminology/pull/38",
-      "state": "OPEN",
+      "state": "MERGED",
       "author": "shaileshprabhu95",
       "authorAssociation": "CONTRIBUTOR",
       "assignees": [],
       "labels": [],
       "body": "Resolves https://github.com/billwuqin/draft-bclp-green-terminology/issues/42",
       "createdAt": "2025-07-21T09:27:09Z",
-      "updatedAt": "2025-09-15T12:11:06Z",
+      "updatedAt": "2025-09-16T02:19:34Z",
       "baseRepository": "billwuqin/draft-bclp-green-terminology",
       "baseRefName": "main",
       "baseRefOid": "b4d682b0972a9a9cd511205e4f1fb241bc225344",
       "headRepository": "shaileshprabhu95/draft-bclp-green-terminology",
       "headRefName": "energy_intent",
       "headRefOid": "ce0b1360c736a0461a7aa2e25eb80920e543ad76",
-      "closedAt": null,
-      "mergedAt": null,
-      "mergedBy": null,
-      "mergeCommit": null,
+      "closedAt": "2025-09-16T02:19:34Z",
+      "mergedAt": "2025-09-16T02:19:34Z",
+      "mergedBy": "billwuqin",
+      "mergeCommit": {
+        "oid": "16ff9768d8c898faed5e0489f6a3fcded732e3e3"
+      },
       "comments": [],
       "reviews": [
         {
@@ -1800,6 +1802,19 @@
           "body": "",
           "createdAt": "2025-09-15T12:11:06Z",
           "updatedAt": "2025-09-15T12:11:06Z",
+          "comments": []
+        },
+        {
+          "id": "PRR_kwDOM9Apn87AVam5",
+          "commit": {
+            "abbreviatedOid": "ce0b136"
+          },
+          "author": "billwuqin",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2025-09-16T02:19:20Z",
+          "updatedAt": "2025-09-16T02:19:20Z",
           "comments": []
         }
       ]
