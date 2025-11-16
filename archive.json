@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2025-09-18T01:49:27.811394+00:00",
+  "timestamp": "2025-11-16T02:07:21.069297+00:00",
   "repo": "billwuqin/draft-bclp-green-terminology",
   "labels": [
     {
@@ -400,6 +400,22 @@
       "createdAt": "2025-08-12T11:53:31Z",
       "updatedAt": "2025-09-16T02:19:35Z",
       "closedAt": "2025-09-16T02:19:35Z",
+      "comments": []
+    },
+    {
+      "number": 47,
+      "id": "I_kwDOM9Apn87YBSfR",
+      "title": "Comments from Muhammad Awais Jadoon(GREEN CFA)",
+      "url": "https://github.com/billwuqin/draft-bclp-green-terminology/issues/47",
+      "state": "OPEN",
+      "author": "boucadair",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "1.\tThe draft defines device/component/network level energy efficiency, can it be useful to define budget/capacity of each device/component? We have defined it as 'utilization' which measures how much resources e.g., energy, has been utilized.\n2.\tDo we really need to define metrics (i.e., DSLAM, GPON etc.) that are technology specific or keep it general?  \n3.\tDo we need Appendix A and also measurements methods in Section 4? \n",
+      "createdAt": "2025-11-14T06:55:42Z",
+      "updatedAt": "2025-11-14T06:55:42Z",
+      "closedAt": null,
       "comments": []
     }
   ],
