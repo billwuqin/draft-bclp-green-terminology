@@ -2,16 +2,16 @@
 
 This is the working area for the GREEN WG Internet-Draft, "Terminology for Energy Efficiency Network Management".
 
-* [Editor's Copy](https://billwuqin.github.io/draft-ietf-green-terminology/#go.draft-ietf-green-terminology.html)
+* [Editor's Copy](https://billwuqin.github.io/draft-bclp-green-terminology/#go.draft-ietf-green-terminology.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-ietf-green-terminology)
 * [Individual Draft](https://datatracker.ietf.org/doc/html/draft-ietf-green-terminology)
-* [Compare Editor's Copy to Individual Draft](https://billwuqin.github.io/draft-ietf-green-terminology/#go.draft-ietf-green-terminology.diff)
+* [Compare Editor's Copy to Individual Draft](https://billwuqin.github.io/draft-bclp-green-terminology/#go.draft-ietf-green-terminology.diff)
 
 
 ## Contributing
 
 See the
-[guidelines for contributions](https://github.com/billwuqin/draft-ietf-green-terminology/blob/main/CONTRIBUTING.md).
+[guidelines for contributions](https://github.com/billwuqin/draft-bclp-green-terminology/blob/main/CONTRIBUTING.md).
 
 Contributions can be made by creating pull requests.
 The GitHub interface supports creating pull requests using the Edit (✏) button.
