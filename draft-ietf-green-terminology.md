@@ -3,7 +3,7 @@ title: "Terminology for Energy Efficiency Network Management"
 abbrev: "Energy Efficiency Terminology"
 category: info
 
-docname: draft-bclp-green-terminology-latest
+docname: draft-ietf-green-terminology-latest
 submissiontype: IETF
 number:
 date:
