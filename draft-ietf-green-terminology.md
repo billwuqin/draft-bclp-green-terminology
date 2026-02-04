@@ -173,7 +173,7 @@ Energy:
 Energy Object:
 : Represents a piece of equipment that is part of, or attached to, a communications
 network that is monitored or controlled or that aids in the management of another device for Energy
-Management ({{?RFC7326}}).
+Management.
 
 Power:
 : Refers to the time rate at which energy is emitted, transferred, or
