@@ -171,7 +171,7 @@ Energy:
 : Is generally a reference to electrical energy and is measured in kilowatt-hours (kWh) ({{?RFC7326}}).
 
 Energy Object:
-: Represents a piece of equipment that is part of, or attached to, a communications
+: Represents an equipment that is part of, or attached to, a communications
 network that is monitored or controlled or that aids in the management of another device for Energy
 Management.
 
