@@ -187,9 +187,9 @@ Table of Contents
 
       This control can span a network or a subset of it.
 
-   Energy Saving: :A reduction in total energy consumption, typically
-   measured against a baseline or per unit of output, rather than just a
-   month-on-month decrease.
+   Energy Saving:  A reduction in total energy consumption, typically
+      measured against a baseline or per unit of output, rather than
+      just a month-on-month decrease.
 
    Energy Efficiency:  Refers to optimizing energy usage in network
       components, devices, and across the network to minimize energy use
