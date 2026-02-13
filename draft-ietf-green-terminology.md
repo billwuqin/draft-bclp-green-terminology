@@ -454,6 +454,14 @@ KPI, defined as the ratio between the performance of the network slice and its e
 
 # Changes between Revisions
 
+   v00 - v01
+
+   * Add Energy Object term.
+
+   * Update powerbench reference into WG draft.
+
+   * Generalized DSLAM, MSAM GPON GEPON equipment into Access equipment.
+
    v03 - v04
 
    * Add Shailesh Prabhu as contributor.
