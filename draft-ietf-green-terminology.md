@@ -92,7 +92,7 @@ informative:
     target: https://www.3gpp.org/ftp/Specs/archive/28_series/28.554/28554-i70.zip
     date: 2024
 
-IEC-13273-1:
+IEC.13273-1:
    title: Energy efficiency and renewable energy sources Common international terminology
    target: https://www.iso.org/obp/ui/en/#iso:std:iso-iec:13273:-1:ed-1:v1:en
    date: 2015
@@ -203,7 +203,7 @@ Energy Control:
 
 Energy Saving:
 : A reduction in total energy consumption, typically measured against a baseline
-  or per unit of output, rather than just a month-on-month decrease {{IEC-13273-1}}.
+  or per unit of output, rather than just a month-on-month decrease {{IEC.13273-1}}.
 
 Energy Efficiency:
 : Refers to optimizing energy usage in network components, devices, and across the network
