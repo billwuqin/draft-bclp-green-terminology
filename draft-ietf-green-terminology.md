@@ -301,15 +301,19 @@ This section lists some metrics that are adopted by other SDOs.
 
 > DISCUSS: Should we maintain this section?
 
-## Metrics for DSLAM, MSAN, GPON, and GEPON Equipment
+## Metrics for Access Equipment
 
-Equipment with line cards working at different profiles/states are characterized with different
+Access Equipment with line cards working at different profiles/states are characterized with different
 metric values for each specific profile/state.
 
                           Pport = Peq/Nports[W/port]
 
-Where 'Peq' is the power (in watts) of a fully equipped wireline network equipment with all its line cards
-working in a specific profile/state. The formula is defined in {{L.1310}}.
+Where:
+* 'Peq' is the power (in watts) of a fully equipped wireline network equipment with all its line cards
+working in a specific profile/state.
+
+* 'Nports' is the maximum number of ports served by the broadband network equipment under test.
+The formula is defined in {{L.1310}}.
 
 ## Metric for Wireless Access Technologies
 
