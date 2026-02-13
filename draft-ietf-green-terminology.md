@@ -93,7 +93,7 @@ informative:
     date: 2024
 
 IEC-13273-1:
-   title: Energy efficiency and renewable energy sources — Common international terminology — Part 1: Energy efficiency
+   title: Energy efficiency and renewable energy sources: Common international terminology Part 1: Energy efficiency
    target: https://www.iso.org/obp/ui/en/#iso:std:iso-iec:13273:-1:ed-1:v1:en
    date: 2015
 
