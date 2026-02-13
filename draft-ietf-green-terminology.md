@@ -309,6 +309,7 @@ metric values for each specific profile/state.
                           Pport = Peq/Nports[W/port]
 
 Where:
+
 * 'Peq' is the power (in watts) of a fully equipped wireline network equipment with all its line cards
 working in a specific profile/state.
 
