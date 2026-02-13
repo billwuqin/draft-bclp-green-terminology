@@ -334,9 +334,11 @@ Table of Contents
 
                          Pport = Peq/Nports[W/port]
 
-   Where: * 'Peq' is the power (in watts) of a fully equipped wireline
-   network equipment with all its line cards working in a specific
-   profile/state.
+   Where:
+
+   *  'Peq' is the power (in watts) of a fully equipped wireline network
+      equipment with all its line cards working in a specific profile/
+      state.
 
    *  'Nports' is the maximum number of ports served by the broadband
       network equipment under test.  The formula is defined in [L.1310].
