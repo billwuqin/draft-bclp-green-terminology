@@ -314,6 +314,7 @@ Where:
 working in a specific profile/state.
 
 * 'Nports' is the maximum number of ports served by the broadband network equipment under test.
+
 The formula is defined in {{L.1310}}.
 
 ## Metric for Wireless Access Technologies
