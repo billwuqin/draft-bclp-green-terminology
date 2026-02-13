@@ -5,14 +5,14 @@
 GREEN Working Group                                              G. Chen
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 10 August 2026                                           Orange
+Expires: 17 August 2026                                           Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                               Individual
-                                                         6 February 2026
+                                                        13 February 2026
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 10 August 2026.
+   This Internet-Draft will expire on 17 August 2026.
 
 Copyright Notice
 
@@ -258,7 +258,7 @@ Table of Contents
       element capacity) to the total power consumed (bits/Joule).
 
       This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput
-      forwarded by 1 watt (e.g., [I-D.cprjgf-bmwg-powerbench]).
+      forwarded by 1 watt (e.g., [I-D.ietf-bmwg-powerbench]).
 
       A higher EER indicates a better energy efficiency.
 
@@ -446,13 +446,13 @@ Table of Contents
               etsi_es/203100_203199/203136/01.02.00_50/
               es_203136v010200m.pdf>.
 
-   [I-D.cprjgf-bmwg-powerbench]
-              Pignataro, C., Jacob, R., Fioccola, G., and Q. Wu,
-              "Characterization and Benchmarking Methodology for Power
-              in Networking Devices", Work in Progress, Internet-Draft,
-              draft-cprjgf-bmwg-powerbench-05, 7 July 2025,
-              <https://datatracker.ietf.org/doc/html/draft-cprjgf-bmwg-
-              powerbench-05>.
+   [I-D.ietf-bmwg-powerbench]
+              Pignataro, C., Jacob, R., Fioccola, G., Wu, Q., Chen, G.,
+              and S. Prabhu, "Characterization and Benchmarking
+              Methodology for Power in Networking Devices", Work in
+              Progress, Internet-Draft, draft-ietf-bmwg-powerbench-01,
+              12 February 2026, <https://datatracker.ietf.org/doc/html/
+              draft-ietf-bmwg-powerbench-01>.
 
    [L.1310]   "Energy efficiency metrics and measurement methods for
               telecommunication equipment", 2024,
