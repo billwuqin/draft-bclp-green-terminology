@@ -81,7 +81,7 @@ Table of Contents
    2.  Abbreviations
    3.  Definitions
    4.  Sample Energy Efficiency Metrics and Measurement Methods
-     4.1.  Metrics for DSLAM, MSAN, GPON, and GEPON Equipment
+     4.1.  Metrics for Access Equipment
      4.2.  Metric for Wireless Access Technologies
      4.3.  Metrics for Routers and Ethernet Switches
      4.4.  Metrics for Small Network Devices
@@ -326,17 +326,20 @@ Table of Contents
 
       DISCUSS: Should we maintain this section?
 
-4.1.  Metrics for DSLAM, MSAN, GPON, and GEPON Equipment
+4.1.  Metrics for Access Equipment
 
-   Equipment with line cards working at different profiles/states are
-   characterized with different metric values for each specific profile/
-   state.
+   Access Equipment with line cards working at different profiles/states
+   are characterized with different metric values for each specific
+   profile/state.
 
                          Pport = Peq/Nports[W/port]
 
-   Where 'Peq' is the power (in watts) of a fully equipped wireline
+   Where: * 'Peq' is the power (in watts) of a fully equipped wireline
    network equipment with all its line cards working in a specific
-   profile/state.  The formula is defined in [L.1310].
+   profile/state.
+
+   *  'Nports' is the maximum number of ports served by the broadband
+      network equipment under test.  The formula is defined in [L.1310].
 
 4.2.  Metric for Wireless Access Technologies
 
