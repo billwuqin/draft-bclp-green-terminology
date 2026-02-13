@@ -258,7 +258,7 @@ Energy Efficiency/Energy Efficiency Ratio (EER):
 : For instance, in relation with a networking device, it can be stated as the ratio of total
   throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).
 : This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput forwarded by 1 watt
-  (e.g., {{?I-D.cprjgf-bmwg-powerbench}}).
+  (e.g., {{?I-D.ietf-bmwg-powerbench}}).
 : A higher EER indicates a better energy efficiency.
 
 Energy-Aware Intent:
