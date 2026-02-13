@@ -467,7 +467,7 @@ KPI, defined as the ratio between the performance of the network slice and its e
 
    v00 - v01
 
-   * Add Energy Object term.
+   * Add two terms including Energy Object and energy saving.
 
    * Update powerbench reference into WG draft.
 
