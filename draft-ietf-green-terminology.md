@@ -202,8 +202,8 @@ Energy Control:
 : This control can span a network or a subset of it.
 
 Energy Saving:
-:A reduction in total energy consumption, typically measured against a baseline
-or per unit of output, rather than just a month-on-month decrease.
+: A reduction in total energy consumption, typically measured against a baseline
+  or per unit of output, rather than just a month-on-month decrease {{IEC-13273-1}}.
 
 Energy Efficiency:
 : Refers to optimizing energy usage in network components, devices, and across the network
