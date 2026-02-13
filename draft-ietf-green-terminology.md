@@ -52,11 +52,6 @@ informative:
    target: https://www.etsi.org/deliver/etsi_es/203100_203199/203136/01.02.00_50/es_203136v010200m.pdf
    date: 2017
 
-IEC-13273-1:
-   title: Energy efficiency and renewable energy sources Common international terminology
-   target: https://www.iso.org/obp/ui/en/#iso:std:iso-iec:13273:-1:ed-1:v1:en
-   date: 2015
-
  L.1310:
    title: Energy efficiency metrics and measurement methods for telecommunication equipment
    target: https://www.itu.int/rec/T-REC-L.1310-202409-P
@@ -96,6 +91,11 @@ IEC-13273-1:
     title: Management and orchestration; 5G end to end Key Performance Indicators (KPI)
     target: https://www.3gpp.org/ftp/Specs/archive/28_series/28.554/28554-i70.zip
     date: 2024
+
+IEC-13273-1:
+   title: Energy efficiency and renewable energy sources Common international terminology
+   target: https://www.iso.org/obp/ui/en/#iso:std:iso-iec:13273:-1:ed-1:v1:en
+   date: 2015
 
 --- abstract
 
