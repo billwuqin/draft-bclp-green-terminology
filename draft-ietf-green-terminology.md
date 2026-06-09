@@ -184,6 +184,35 @@ Power:
 : Refers to the time rate at which energy is emitted, transferred, or
   received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
 
+Energy Management System (EnMS):
+: An Energy Management System is a combination of hardware and
+software used to administer a network, with the primary purpose of
+Energy Management.
+
+      NOTES:
+
+      1. An Energy Management System according to ISO50001 (ISO-EnMS)
+         is a set of systems or procedures upon which organizations can
+         develop and implement an energy policy, set targets and action
+         plans, and take into account legal requirements related to
+         energy use.  An ISO-EnMS allows organizations to improve energy
+         performance and demonstrate conformity to requirements,
+         standards, and/or legal requirements.
+
+      2. Example ISO-EnMS: Company A defines a set of policies and
+         procedures indicating that there should exist multiple
+         computerized systems that will poll energy measurements from
+         their meters and pricing / source data from their local
+         utility.  Company A specifies that their CFO (Chief Financial
+         Officer) should collect information and summarize it quarterly
+         to be sent to an accounting firm to produce carbon accounting
+         reporting as required by their local government.
+
+      3. For the purposes of EMAN, the definition herein is the
+         preferred meaning of an EnMS.  The definition from ISO50001
+         can be referred to as an ISO Energy Management System
+         (ISO-EnMS).
+
 Energy Management:
 : Is a set of functions for measuring, modeling,
   planning, and optimizing networks to ensure that the network and
