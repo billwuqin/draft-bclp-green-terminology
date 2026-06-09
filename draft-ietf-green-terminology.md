@@ -184,6 +184,11 @@ Power:
 : Refers to the time rate at which energy is emitted, transferred, or
   received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
 
+Power Factor:
+: Is the percent value between 0 and 1 that measures how effectively electrical power is being
+converted into useful work. This information is important for understanding the electrical
+characteristics of the energy object and for correctly interpreting the power data.
+
 Energy Management:
 : Is a set of functions for measuring, modeling,
   planning, and optimizing networks to ensure that the network and
