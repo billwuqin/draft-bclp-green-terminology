@@ -47,6 +47,32 @@ contributor:
 
 informative:
 
+ TMN:
+   title: International Telecommunication Union, "TMN management functions"
+   date: 2000-02
+   target: ITU-T Recommendation M.3400
+
+ IEEE100:
+   target: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4116785
+   title: The Authoritative Dictionary of IEEE Standards Terms
+   author:
+   org: IEEE
+   date: 2000-12-11
+
+ IEEE1621:
+   title: Standard for User Interface Elements in Power Control of Electronic
+    Devices Employed in Office/Consumer Environments, IEEE 1621
+   author:
+   org: IEEE
+   date: 2004-12
+
+ IEC60050:
+   target: http://www.iec.ch/smartgrid/standards/
+   title: Power Utility Automation
+   author:
+   org: IEC
+   date: 2000-12-11
+
  ETSI-ES-203-136:
    title: Environmental Engineering (EE); Measurement methods for energy efficiency of router and switch equipment
    target: https://www.etsi.org/deliver/etsi_es/203100_203199/203136/01.02.00_50/es_203136v010200m.pdf
@@ -183,6 +209,43 @@ Management.
 Power:
 : Refers to the time rate at which energy is emitted, transferred, or
   received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
+
+Device:
+: A device is a piece of electrical or non-electrical equipment.
+Reference: Adapted from {{IEEE100}}.
+
+Component:
+: A component is a part of electrical or non-electrical equipment
+(device).
+Reference: Adapted from {{TMN}}.
+
+Meter (Energy Meter):
+: A meter is a device intended to measure electrical energy by
+integrating power with respect to time.
+Reference: Adapted from {{IEC60050}}.
+
+Power Inlet:
+: A power inlet (or simply "inlet") is an interface at which a
+device or component receives energy from another device or
+component ({{?RFC7326}}).
+
+Power Outlet:
+: A power outlet (or simply "outlet") is an interface at which a
+device or component provides energy to another device or
+component ({{?RFC7326}}).
+
+Power Interface:
+: A Power Interface is a power inlet, outlet, or both ({{?RFC7326}}).
+
+Power State:
+: A Power State is a condition or mode of a device (or component)
+that broadly characterizes its capabilities, power, and
+responsiveness to input.
+Reference: Adapted from [IEEE1621].
+
+Power State Set:
+: A Power State Set is a collection of Power States that comprises a
+named or logical control grouping.
 
 Energy Management:
 : Is a set of functions for measuring, modeling,
