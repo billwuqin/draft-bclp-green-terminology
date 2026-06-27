@@ -187,8 +187,8 @@ Table of Contents
       [RFC7326].
 
    Power Outlet (outlet, for short):  Is an interface at which a device
-      or component provides energy to another device or component
-      ([RFC7326]).
+      (or component) provides energy to another device (or component)
+      component ([RFC7326]).
 
    Power Interface:  A Power Interface is a power inlet, outlet, or both
       ([RFC7326]).
