@@ -220,7 +220,7 @@ Component:
 Adapted from {{TMN}}.
 
 Meter (Energy Meter):
-: A meter is a device intended to measure electrical energy by
+: Is a device/component that is intended to measure electrical energy by
 integrating power with respect to time.
 Reference: Adapted from {{IEC60050}}.
 
