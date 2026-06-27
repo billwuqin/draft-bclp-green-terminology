@@ -211,7 +211,7 @@ Power:
   received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
 
 Device:
-: A device is a piece of electrical or non-electrical equipment.
+: A piece of electrical or non-electrical equipment.
 Reference: Adapted from {{IEEE100}}.
 
 Component:
