@@ -222,7 +222,7 @@ Adapted from {{TMN}}.
 Meter (Energy Meter):
 : Is a device/component that is intended to measure electrical energy by
 integrating power with respect to time.
-Reference: Adapted from {{IEC60050}}.
+Adapted from {{IEC60050}}.
 
 Power Inlet:
 : A power inlet (or simply "inlet") is an interface at which a
