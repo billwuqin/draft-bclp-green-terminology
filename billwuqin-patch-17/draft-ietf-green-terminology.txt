@@ -5,14 +5,14 @@
 GREEN Working Group                                              G. Chen
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 11 December 2026                                         Orange
+Expires: 29 December 2026                                         Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                               Individual
-                                                             9 June 2026
+                                                            27 June 2026
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 December 2026.
+   This Internet-Draft will expire on 29 December 2026.
 
 Copyright Notice
 
@@ -172,8 +172,8 @@ Table of Contents
       transferred, or received; power is usually expressed in watts
       (joules per second) ([RFC7326]).
 
-   Device:  A device is a piece of electrical or non-electrical
-      equipment.  Reference: Adapted from [IEEE100].
+   Device:  A piece of electrical or non-electrical equipment.
+      Reference: Adapted from [IEEE100].
 
    Component:  A component is a part of electrical or non-electrical
       equipment (device).  Reference: Adapted from [TMN].
