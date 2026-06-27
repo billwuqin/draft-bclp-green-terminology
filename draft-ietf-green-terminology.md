@@ -232,7 +232,7 @@ device  (or component) receives energy from another device  (or component)
 Power Outlet (outlet, for short):
 : Is an interface at which a
 device  (or component)  provides energy to another device  (or component)
-component ({{?RFC7326}}).
+{{?RFC7326}}.
 
 Power Interface:
 : A Power Interface is a power inlet, outlet, or both ({{?RFC7326}}).
