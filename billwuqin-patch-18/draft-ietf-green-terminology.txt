@@ -173,10 +173,10 @@ Table of Contents
       (joules per second) ([RFC7326]).
 
    Nameplate Power:  Is the nominal power of a device as specified by
-      the device manufacturer.  Device:
+      the device manufacturer [RFC7326].
 
-      A piece of electrical or non-electrical equipment.  Adapted from
-      [IEEE100].
+   Device:  A piece of electrical or non-electrical equipment.  Adapted
+      from [IEEE100].
 
    Component:  Is a part of electrical or non-electrical equipment
       (device).  Adapted from [TMN].
