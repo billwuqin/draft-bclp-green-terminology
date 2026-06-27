@@ -185,7 +185,7 @@ Power:
   received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
 
 Energy Management System (EnMS):
-: An Energy Management System is a combination of hardware and
+: A combination of hardware and
 software used to administer a network, with the primary purpose of
 Energy Management.
 
