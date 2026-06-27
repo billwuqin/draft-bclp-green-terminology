@@ -172,8 +172,8 @@ Table of Contents
       transferred, or received; power is usually expressed in watts
       (joules per second) ([RFC7326]).
 
-   Device:  A piece of electrical or non-electrical equipment.
-      Reference: Adapted from [IEEE100].
+   Device:  A piece of electrical or non-electrical equipment.  Adapted
+      from [IEEE100].
 
    Component:  A component is a part of electrical or non-electrical
       equipment (device).  Reference: Adapted from [TMN].
