@@ -210,6 +210,8 @@ Power:
 : Refers to the time rate at which energy is emitted, transferred, or
   received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
 
+Nameplate Power:
+: Is the nominal power of a device as specified by the device manufacturer.
 Device:
 : A piece of electrical or non-electrical equipment.
 Adapted from {{IEEE100}}.
