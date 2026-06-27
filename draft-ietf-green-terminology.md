@@ -47,6 +47,32 @@ contributor:
 
 informative:
 
+ TMN:
+   title: International Telecommunication Union, "TMN management functions"
+   date: 2000-02
+   target: ITU-T Recommendation M.3400
+
+ IEEE100:
+   target: http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4116785
+   title: The Authoritative Dictionary of IEEE Standards Terms
+   author:
+   org: IEEE
+   date: 2000-12-11
+
+ IEEE1621:
+   title: Standard for User Interface Elements in Power Control of Electronic
+    Devices Employed in Office/Consumer Environments, IEEE 1621
+   author:
+   org: IEEE
+   date: 2004-12
+
+ IEC60050:
+   target: http://www.iec.ch/smartgrid/standards/
+   title: Power Utility Automation
+   author:
+   org: IEC
+   date: 2000-12-11
+
  ETSI-ES-203-136:
    title: Environmental Engineering (EE); Measurement methods for energy efficiency of router and switch equipment
    target: https://www.etsi.org/deliver/etsi_es/203100_203199/203136/01.02.00_50/es_203136v010200m.pdf
@@ -186,6 +212,50 @@ Power:
 
 Nameplate Power:
 : Is the nominal power of a device as specified by the device manufacturer.
+Device:
+: A piece of electrical or non-electrical equipment.
+Adapted from {{IEEE100}}.
+
+Component:
+: Is a part of electrical or non-electrical equipment
+(device).
+Adapted from {{TMN}}.
+
+Meter (Energy Meter):
+: Is a device/component that is intended to measure electrical energy by
+integrating power with respect to time.
+Adapted from {{IEC60050}}.
+
+Power Inlet (inlet, for short):
+: Is an interface at which a
+device  (or component) receives energy from another device  (or component)
+{{?RFC7326}}.
+
+Power Outlet (outlet, for short):
+: Is an interface at which a
+device  (or component)  provides energy to another device  (or component)
+{{?RFC7326}}.
+
+Power Interface:
+: A Power Interface is a power inlet, outlet, or both ({{?RFC7326}}).
+
+Power State:
+: A Power State is a condition or mode of a device (or component)
+that broadly characterizes its capabilities, power, and
+responsiveness to input.
+Reference: Adapted from {{IEEE1621}}.
+
+Power State Set:
+: A Power State Set is a collection of Power States that comprises a
+named or logical control grouping.
+
+Power Factor:
+: Is the percent value between 0 and 1 that measures how effectively electrical power is being
+converted into useful work. It represents the ratio of real power (work done) to apparent power
+(total power supplied) on a scale from 0 to 1. For energy objects powered by a Direct Current (DC)'
+power source, the power factor is typically considered to be 1. This information is important for
+understanding the electrical characteristics of the energy object and for correctly interpreting the
+power data.
 
 Energy Management:
 : Is a set of functions for measuring, modeling,
@@ -193,6 +263,24 @@ Energy Management:
   network-attached devices use energy efficiently and appropriately
   for the nature of the application and the cost constraints of the
   organization ({{?RFC7326}}).
+
+Energy Management System (EnMS):
+: A combination of hardware and
+software used to administer a network, with the primary purpose of
+Energy Management.
+
+      NOTES:
+
+      1. An Energy Management System according to ISO50001 (ISO-EnMS)
+         is a set of systems or procedures upon which organizations can
+         develop and implement an energy policy, set targets and action
+         plans, and take into account legal requirements related to
+         energy use.  An ISO-EnMS allows organizations to improve energy
+         performance and demonstrate conformity to requirements,
+         standards, and/or legal requirements.
+
+      2. For the purposes of EMAN, the definition herein is the
+         preferred meaning of an EnMS.
 
 Energy Monitoring:
 : Is a part of Energy Management that deals with
