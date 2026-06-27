@@ -5,14 +5,14 @@
 GREEN Working Group                                              G. Chen
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 11 December 2026                                         Orange
+Expires: 29 December 2026                                         Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                               Individual
-                                                             9 June 2026
+                                                            27 June 2026
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 December 2026.
+   This Internet-Draft will expire on 29 December 2026.
 
 Copyright Notice
 
@@ -172,9 +172,9 @@ Table of Contents
       transferred, or received; power is usually expressed in watts
       (joules per second) ([RFC7326]).
 
-   Energy Management System (EnMS):  An Energy Management System is a
-      combination of hardware and software used to administer a network,
-      with the primary purpose of Energy Management.
+   Energy Management System (EnMS):  A combination of hardware and
+      software used to administer a network, with the primary purpose of
+      Energy Management.
 
       NOTES:
 
