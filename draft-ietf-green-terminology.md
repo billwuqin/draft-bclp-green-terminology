@@ -217,7 +217,7 @@ Adapted from {{IEEE100}}.
 Component:
 : Is a part of electrical or non-electrical equipment
 (device).
-Reference: Adapted from {{TMN}}.
+Adapted from {{TMN}}.
 
 Meter (Energy Meter):
 : A meter is a device intended to measure electrical energy by
