@@ -186,9 +186,11 @@ Power:
 
 Power Factor:
 : Is the percent value between 0 and 1 that measures how effectively electrical power is being
-converted into useful work. For energy objects powered by a power source in a data center network,
-the power factor is typically considered to be 1. This information is important for understanding
-the electrical characteristics of the energy object and for correctly interpreting the power data.
+converted into useful work. It represents the ratio of real power (work done) to apparent power
+(total power supplied) on a scale from 0 to 1. For energy objects powered by a Direct Current (DC)'
+power source, the power factor is typically considered to be 1. This information is important for
+understanding the electrical characteristics of the energy object and for correctly interpreting the
+power data.
 
 Energy Management:
 : Is a set of functions for measuring, modeling,
