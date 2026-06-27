@@ -212,7 +212,7 @@ Power:
 
 Device:
 : A piece of electrical or non-electrical equipment.
-Reference: Adapted from {{IEEE100}}.
+Adapted from {{IEEE100}}.
 
 Component:
 : A component is a part of electrical or non-electrical equipment
