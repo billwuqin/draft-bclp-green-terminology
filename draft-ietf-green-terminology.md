@@ -215,7 +215,7 @@ Device:
 Adapted from {{IEEE100}}.
 
 Component:
-: A component is a part of electrical or non-electrical equipment
+: Is a part of electrical or non-electrical equipment
 (device).
 Reference: Adapted from {{TMN}}.
 
