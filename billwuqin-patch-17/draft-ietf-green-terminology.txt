@@ -175,8 +175,8 @@ Table of Contents
    Device:  A piece of electrical or non-electrical equipment.  Adapted
       from [IEEE100].
 
-   Component:  A component is a part of electrical or non-electrical
-      equipment (device).  Reference: Adapted from [TMN].
+   Component:  Is a part of electrical or non-electrical equipment
+      (device).  Reference: Adapted from [TMN].
 
    Meter (Energy Meter):  A meter is a device intended to measure
       electrical energy by integrating power with respect to time.
