@@ -184,6 +184,9 @@ Power:
 : Refers to the time rate at which energy is emitted, transferred, or
   received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
 
+Nameplate Power:
+: Is the nominal power of a device as specified by the device manufacturer.
+
 Energy Management:
 : Is a set of functions for measuring, modeling,
   planning, and optimizing networks to ensure that the network and
