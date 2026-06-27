@@ -225,7 +225,7 @@ integrating power with respect to time.
 Adapted from {{IEC60050}}.
 
 Power Inlet (inlet, for short):
-: A power inlet (or simply "inlet") is an interface at which a
+: Is an interface at which a
 device or component receives energy from another device or
 component ({{?RFC7326}}).
 
