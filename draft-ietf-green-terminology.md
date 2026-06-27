@@ -241,7 +241,7 @@ Power State:
 : A Power State is a condition or mode of a device (or component)
 that broadly characterizes its capabilities, power, and
 responsiveness to input.
-Reference: Adapted from [IEEE1621].
+Reference: Adapted from {{IEEE1621}}.
 
 Power State Set:
 : A Power State Set is a collection of Power States that comprises a
