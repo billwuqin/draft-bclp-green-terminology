@@ -247,12 +247,38 @@ Power State Set:
 : A Power State Set is a collection of Power States that comprises a
 named or logical control grouping.
 
+Power Factor:
+: Is the percent value between 0 and 1 that measures how effectively electrical power is being
+converted into useful work. It represents the ratio of real power (work done) to apparent power
+(total power supplied) on a scale from 0 to 1. For energy objects powered by a Direct Current (DC)'
+power source, the power factor is typically considered to be 1. This information is important for
+understanding the electrical characteristics of the energy object and for correctly interpreting the
+power data.
+
 Energy Management:
 : Is a set of functions for measuring, modeling,
   planning, and optimizing networks to ensure that the network and
   network-attached devices use energy efficiently and appropriately
   for the nature of the application and the cost constraints of the
   organization ({{?RFC7326}}).
+
+Energy Management System (EnMS):
+: A combination of hardware and
+software used to administer a network, with the primary purpose of
+Energy Management.
+
+      NOTES:
+
+      1. An Energy Management System according to ISO50001 (ISO-EnMS)
+         is a set of systems or procedures upon which organizations can
+         develop and implement an energy policy, set targets and action
+         plans, and take into account legal requirements related to
+         energy use.  An ISO-EnMS allows organizations to improve energy
+         performance and demonstrate conformity to requirements,
+         standards, and/or legal requirements.
+
+      2. For the purposes of EMAN, the definition herein is the
+         preferred meaning of an EnMS.
 
 Energy Monitoring:
 : Is a part of Energy Management that deals with
