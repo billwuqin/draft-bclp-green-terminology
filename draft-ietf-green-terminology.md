@@ -200,9 +200,7 @@ Energy Management.
          standards, and/or legal requirements.
 
       2. For the purposes of EMAN, the definition herein is the
-         preferred meaning of an EnMS.  The definition from ISO50001
-         can be referred to as an ISO Energy Management System
-         (ISO-EnMS).
+         preferred meaning of an EnMS.
 
 Energy Management:
 : Is a set of functions for measuring, modeling,
