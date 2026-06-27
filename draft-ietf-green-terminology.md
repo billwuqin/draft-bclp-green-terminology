@@ -249,6 +249,10 @@ Power State Set:
 : A Power State Set is a collection of Power States that comprises a
 named or logical control grouping.
 
+Power Source:
+: is any device, component that generates, stores, or supplies electrical
+or mechanical energy to a circuit or device.
+
 Power Factor:
 : Is the percent value between 0 and 1 that measures how effectively electrical power is being
 converted into useful work. It represents the ratio of real power (work done) to apparent power
