@@ -19,24 +19,25 @@ the energy use of involved network elements and their components.
        This document defines a set of key terms used within the IETF when discussing energy efficiency in network management.
 Such reference document helps framing discussion and agreeing upon a set of main concepts in this area. 
     " name="description">
-<meta content="xml2rfc 3.31.0" name="generator">
+<meta content="xml2rfc 3.34.0" name="generator">
 <meta content="Energy Efficient" name="keyword">
 <meta content="Energy Saving" name="keyword">
 <meta content="Energy Management" name="keyword">
 <meta content="draft-ietf-green-terminology-latest" name="ietf.draft">
 <!-- Generator version information:
-  xml2rfc 3.31.0
-    Python 3.12.12
-    ConfigArgParse 1.7
+  xml2rfc 3.34.0
+    Python 3.14.5
+    ConfigArgParse 1.7.5
     google-i18n-address 3.1.1
     intervaltree 3.2.1
     Jinja2 3.1.6
-    lxml 6.0.2
-    platformdirs 4.5.1
+    lxml 6.1.1
+    natsort 8.4.0
+    platformdirs 4.10.0
     pycountry 24.6.1
     PyYAML 6.0.3
-    requests 2.32.5
-    wcwidth 0.3.0
+    requests 2.33.1
+    wcwidth 0.8.1
 -->
 <link href="draft-ietf-green-terminology.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
@@ -303,16 +304,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size-adjust: 0.5;
   color: var(--title-color);
 }
-h1#title {
-  font-size: 32px;
-  line-height: 40px;
-  clear: both;
-}
-h1#title, h1#rfcnum {
-  margin: 1.5em 0 0.2em;
-}
-h1#rfcnum + h1#title {
-  margin: 0.2em 0;
+h1 {
+  &#title {
+    font-size: 32px;
+    line-height: 40px;
+    clear: both;
+    margin: 1.5em 0 0.2em;
+  }
+  &#rfcnum {
+    margin: 1.5em 0 0.2em;
+    & + h1#title {
+      margin: 0.2em 0;
+    }
+  }
 }
 
 h1, h2, h3 {
@@ -332,10 +336,10 @@ h4, h5, h6 {
 #abstract+p {
   font-size: 18px;
   line-height: 24px;
-}
-#abstract+p code, #abstract+p samp, #abstract+p tt {
-  font-size: 16px;
-  line-height: 0;
+  & code, & samp, & tt {
+    font-size: 16px;
+    line-height: 0;
+  }
 }
 
 p {
@@ -346,59 +350,59 @@ p {
 div {
   margin: 0;
 }
-.alignRight.art-text {
-  background-color: var(--highlight-color);
-  border: 1px solid var(--line-color);
-  border-radius: 3px;
-  padding: 0.5em 1em 0;
-  margin-bottom: 0.5em;
-}
-.alignRight.art-text pre {
-  padding: 0;
-  width: auto;
-}
 .alignRight {
   margin: 1em 0;
-}
-.alignRight > *:first-child {
-  border: none;
-  margin: 0;
-  float: right;
-  clear: both;
-}
-.alignRight > *:nth-child(2) {
-  clear: both;
-  display: block;
-  border: none;
+  &.art-text {
+    background-color: var(--highlight-color);
+    border: 1px solid var(--line-color);
+    border-radius: 3px;
+    padding: 0.5em 1em 0;
+    margin-bottom: 0.5em;
+    & pre {
+      padding: 0;
+      width: auto;
+    }
+  }
+  & > *:first-child {
+    border: none;
+    margin: 0;
+    float: right;
+    clear: both;
+  }
+  & > *:nth-child(2) {
+    clear: both;
+    display: block;
+    border: none;
+  }
 }
 svg {
   display: block;
-}
-/* font-family isn't space-separated, but =~ will have to do */
-svg[font-family~="monospace" i], svg [font-family~="monospace" i] {
-  font-family: var(--font-mono);
-}
-.alignCenter.art-text {
-  background-color: var(--highlight-color);
-  border: 1px solid var(--line-color);
-  border-radius: 3px;
-  padding: 0.5em 1em 0;
-  margin-bottom: 0.5em;
-}
-.alignCenter.art-text pre {
-  padding: 0;
-  width: auto;
+  /* font-family isn't space-separated, but =~ will have to do */
+  &[font-family~="monospace" i], & [font-family~="monospace" i] {
+    font-family: var(--font-mono);
+  }
 }
 .alignCenter {
   margin: 1em 0;
-}
-.alignCenter > *:first-child {
-  border: none;
-  /* this isn't optimal, but it's an existence proof.  PrinceXML doesn't
-     support flexbox yet.
-  */
-  display: table;
-  margin: 0 auto;
+  &.art-text {
+    background-color: var(--highlight-color);
+    border: 1px solid var(--line-color);
+    border-radius: 3px;
+    padding: 0.5em 1em 0;
+    margin-bottom: 0.5em;
+    & pre {
+      padding: 0;
+      width: auto;
+    }
+  }
+  & > *:first-child {
+    border: none;
+    /* this isn't optimal, but it's an existence proof.  PrinceXML doesn't
+       support flexbox yet.
+    */
+    display: table;
+    margin: 0 auto;
+  }
 }
 
 /* lists */
@@ -436,26 +440,25 @@ dl {
     --indent: 5ch;
     & > dt {
       min-width: calc(var(--indent) - 2ch);
+      float: none;
     }
-  }
-  &.olPercent > dt {
-    float: none;
   }
 
   dl > dd > & {
     margin-top: 0.5em;
     margin-bottom: 0;
   }
-}
-dl:not(.dlNewline) > dt {
-  float: left;
-  margin-right: 2ch;
-  min-width: 8ch;
-}
-dl > dd {
-  margin-bottom: .8em;
-  margin-left: var(--indent) !important; /* stupid element overrides */
-  min-height: 2ex;
+
+  &:not(.dlNewline) > dt {
+    float: left;
+    margin-right: 2ch;
+    min-width: 8ch;
+  }
+  & > dd {
+    margin-bottom: .8em;
+    margin-left: var(--indent) !important; /* stupid element overrides */
+    min-height: 2ex;
+  }
 }
 :is(dl.compact, .dlCompact) > dd {
   margin-bottom: 0;
@@ -471,20 +474,22 @@ dl > dd {
 }
 
 /* links */
-a, a[href].selfRef:hover {
+a {
   text-decoration: none;
+  &[href] {
+    color: var(--link-color);
+    &:hover { text-decoration: underline; }
+    &.selfRef {
+      color: var(--text-color);
+      &:hover {
+        text-decoration: none;
+        background-color: var(--highlight-color);
+      }
+    }
+  }
 }
-a[href] {
-  color: var(--link-color);
-}
-a[href].selfRef, .iref + a[href].internal {
+.iref + a[href].internal {
   color: var(--text-color);
-}
-a[href]:hover {
-  text-decoration: underline;
-}
-a[href].selfRef:hover {
-  background-color: var(--highlight-color);
 }
 a.xref:is(.cite, .auto), :is(#status-of-memo, #copyright) a {
   white-space: nowrap;
@@ -520,9 +525,9 @@ img {
 figure {
   margin: 0.5em 0;
   padding: 0;
-}
-figure blockquote {
-  margin: 0.8em 0.4em 0.4em;
+  & blockquote {
+    margin: 0.8em 0.4em 0.4em;
+  }
 }
 figcaption, caption {
   font-style: italic;
@@ -532,17 +537,19 @@ figcaption, caption {
 }
 @media screen {
   /* Auto-collapse boilerplate. */
-  :is(#status-of-memo, #copyright) p {
-    margin: -2px 0;
-    max-height: 0;
-    transition: max-height 2s ease, margin 0.5s ease 0.5s;
-    overflow: hidden;
-  }
-  :is(#status-of-memo, #copyright):hover p,
-  :is(#status-of-memo, #copyright) h2:target ~ p {
-    margin: 0.5em 0;
-    max-height: 500px;
-    overflow: auto;
+  :is(#status-of-memo, #copyright) {
+    & p {
+      margin: -2px 0;
+      max-height: 0;
+      transition: max-height 2s ease, margin 0.5s ease 0.5s;
+      overflow: hidden;
+    }
+    &:hover p,
+    & h2:target ~ p {
+      margin: 0.5em 0;
+      max-height: 500px;
+      overflow: auto;
+    }
   }
   pre, svg {
     display: inline-block;
@@ -592,25 +599,17 @@ table {
   max-width: 100%;
   margin: 0 0 1em;
   border-collapse: collapse;
-}
-table.right {
-  margin-left: auto;
-}
-table.center {
-  margin-left: auto;
-  margin-right: auto;
-}
-table.left {
-  margin-right: auto;
-}
-table .text-left {
-  text-align: left;
-}
-table .text-center {
-  text-align: center;
-}
-table .text-right {
-  text-align: right;
+  &.right { margin-left: auto; }
+  &.center { margin-left: auto; margin-right: auto; }
+  &.left { margin-right: auto; }
+  & .text-left { text-align: left; }
+  & .text-center { text-align: center; }
+  & .text-right { text-align: right; }
+  & caption {
+    margin: 0;
+    padding: 3px 0 3px 1em;
+  }
+  & p { margin: 0; }
 }
 
 thead, tbody {
@@ -630,13 +629,6 @@ th {
 :is(tr:nth-child(2n+1), thead+tbody > tr:nth-child(2n)) > td {
   background-color: var(--highlight-color);
 }
-table caption {
-  margin: 0;
-  padding: 3px 0 3px 1em;
-}
-table p {
-  margin: 0;
-}
 
 /* pilcrow */
 a.pilcrow {
@@ -647,18 +639,16 @@ a.pilcrow {
     color: var(--pilcrow-weak);
     &:hover { text-decoration: none; }
   }
-}
-@media not print {
-  :hover > a.pilcrow, a.pilcrow:focus {
-    opacity: 1;
+  @media not print {
+    :hover > &, &:focus {
+      opacity: 1;
+    }
+    &[href]:hover {
+      color: var(--pilcrow-strong);
+      background-color: transparent;
+    }
   }
-  a.pilcrow[href]:hover {
-    color: var(--pilcrow-strong);
-    background-color: transparent;
-  }
-}
-@media print {
-  a.pilcrow {
+  @media print {
     display: none;
   }
 }
@@ -717,9 +707,9 @@ sub, sup {
   font-size: 0.9em;
   font-style: italic;
   margin-top: 2em;
-}
-.docInfo .prepared {
-  float: right;
+  & .prepared {
+    float: right;
+  }
 }
 
 /* table of contents */
@@ -809,23 +799,27 @@ hr.addr {
   max-width: calc(100% - 16px);
 }
 @media (min-width: 500px) {
-  #authors-addresses > section {
-    column-count: 2;
-    column-gap: 20px;
-  }
-  #authors-addresses > section > h2 {
-    column-span: all;
-  }
-  /* hack for break-inside: avoid-column */
-  #authors-addresses address {
-    display: inline-block;
-    break-inside: avoid-column;
+  #authors-addresses {
+    & > section {
+      column-count: 2;
+      column-gap: 20px;
+    }
+    & > section > h2 {
+      column-span: all;
+    }
+    /* hack for break-inside: avoid-column */
+    & address {
+      display: inline-block;
+      break-inside: avoid-column;
+    }
   }
 }
 
 /* Comments */
-.rfcEditorRemove p:first-of-type {
-  font-style: italic;
+.rfcEditorRemove {
+  & p:first-of-type {
+    font-style: italic;
+  }
 }
 .cref {
   background-color: rgba(249, 232, 105, 0.3);
@@ -836,19 +830,21 @@ hr.addr {
 }
 
 @media screen {
-  #toc nav {
-    font-family: var(--font-title);
-    font-weight: 360;
-    & > ul { margin-bottom: 2em; }
-    & ul {
-      margin: 0 0 0 4px;
-      & :is(p, li) {
-        margin: 2px 0;
+  #toc {
+    & nav {
+      font-family: var(--font-title);
+      font-weight: 360;
+      & > ul { margin-bottom: 2em; }
+      & ul {
+        margin: 0 0 0 4px;
+        & :is(p, li) {
+          margin: 2px 0;
+        }
       }
     }
-  }
-  #toc a.toplink {
-    float: right;
+    & a.toplink {
+      float: right;
+    }
   }
 }
 @media not screen {
@@ -869,54 +865,54 @@ hr.addr {
     margin: 0;
     border-bottom: 1px solid #ccc;
     opacity: 0.6;
-  }
-  #toc h2 {
-    margin: 0;
-    padding: 2px 0 2px 6px;
-    padding-right: 1em;
-    font-size: 18px;
-    line-height: 24px;
-    min-width: 190px;
-    text-align: right;
-    background-color: #444;
-    color: white;
-    cursor: pointer;
-    &::before { /* css hamburger */
-      float: right;
-      position: relative;
-      width: 1em;
-      height: 1px;
-      left: -164px;
-      margin: 8px 0 0 0;
-      background: white none repeat scroll 0 0;
-      box-shadow: 0 4px 0 0 white, 0 8px 0 0 white;
-      content: "";
+    & h2 {
+      margin: 0;
+      padding: 2px 0 2px 6px;
+      padding-right: 1em;
+      font-size: 18px;
+      line-height: 24px;
+      min-width: 190px;
+      text-align: right;
+      background-color: #444;
+      color: white;
+      cursor: pointer;
+      &::before { /* css hamburger */
+        float: right;
+        position: relative;
+        width: 1em;
+        height: 1px;
+        left: -164px;
+        margin: 8px 0 0 0;
+        background: white none repeat scroll 0 0;
+        box-shadow: 0 4px 0 0 white, 0 8px 0 0 white;
+        content: "";
+      }
     }
-  }
-  #toc nav {
-    display: none;
-    background-color: var(--background-color);
-    padding: 0.5em 1em 1em;
-    overflow: auto;
-    overscroll-behavior: contain;
-    height: calc(100vh - 48px);
-    border-left: 1px solid #ddd;
-  }
-  #toc.active {
-    opacity: 1;
-    & nav { display: block; }
-  }
-  /* Make the collapsed ToC header render white on gray also when it's a link */
-  #toc h2 a,
-  #toc h2 a:is(:link, :focus, :hover),
-  #toc a.toplink,
-  #toc a.toplink:hover {
-    color: white;
-    background-color: #444;
-    text-decoration: none;
-  }
-  #toc a.toplink {
-    margin: 2px 0.5em 0;
+    & nav {
+      display: none;
+      background-color: var(--background-color);
+      padding: 0.5em 1em 1em;
+      overflow: auto;
+      overscroll-behavior: contain;
+      height: calc(100vh - 48px);
+      border-left: 1px solid #ddd;
+    }
+    &.active {
+      opacity: 1;
+      & nav { display: block; }
+    }
+    /* Make the collapsed ToC header render white on gray also when it's a link */
+    & h2 a,
+    & h2 a:is(:link, :focus, :hover),
+    & a.toplink,
+    & a.toplink:hover {
+      color: white;
+      background-color: #444;
+      text-decoration: none;
+    }
+    & a.toplink {
+      margin: 2px 0.5em 0;
+    }
   }
 }
 
@@ -935,26 +931,26 @@ hr.addr {
     margin: 0;
     padding: 0;
     z-index: 1;
-  }
-  #toc h2 {
-    margin: 0;
-    padding: 0.25em 1em 1em 0;
-  }
-  #toc nav {
-    display: block;
-    height: calc(90vh - 84px);
-    bottom: 0;
-    padding: 0.5em 0 2em;
-    overflow: auto;
-    overscroll-behavior: contain;
-    scrollbar-width: thin;
+    & h2 {
+      margin: 0;
+      padding: 0.25em 1em 1em 0;
+    }
+    & nav {
+      display: block;
+      height: calc(90vh - 84px);
+      bottom: 0;
+      padding: 0.5em 0 2em;
+      overflow: auto;
+      overscroll-behavior: contain;
+      scrollbar-width: thin;
+    }
+    & a.toplink {
+      margin: 8px 0.5em 0;
+    }
   }
   img { /* future proofing */
     max-width: 100%;
     height: auto;
-  }
-  #toc a.toplink {
-    margin: 8px 0.5em 0;
   }
 }
 
@@ -970,12 +966,13 @@ hr.addr {
   #n-copyright-notice {
     border-bottom: none;
   }
-  #toc, #n-introduction {
-    page-break-before: always;
-  }
   #toc {
+    page-break-before: always;
     border-top: none;
     padding-top: 0;
+  }
+  #n-introduction {
+    page-break-before: always;
   }
   figure, pre, .vcard {
     page-break-inside: avoid;
@@ -1037,17 +1034,19 @@ hr.addr {
 }
 
 /* SVG Trick: a prefix match works because only black and white are allowed */
-svg :is([stroke="black"], [stroke^="#000"]) {
-  stroke: var(--text-color);
-}
-svg :is([stroke="white"], [stroke^="#fff"]) {
-  stroke: var(--background-color);
-}
-svg :is([fill="black"], [fill^="#000"], :not([fill])) {
-  fill: var(--text-color);
-}
-svg :is([fill="white"], [fill^="#fff"]) {
-  fill: var(--background-color);
+svg {
+  & :is([stroke="black"], [stroke^="#000"]) {
+    stroke: var(--text-color);
+  }
+  & :is([stroke="white"], [stroke^="#fff"]) {
+    stroke: var(--background-color);
+  }
+  & :is([fill="black"], [fill^="#000"], :not([fill])) {
+    fill: var(--text-color);
+  }
+  & :is([fill="white"], [fill^="#fff"]) {
+    fill: var(--background-color);
+  }
 }
 </style>
 
@@ -1057,11 +1056,11 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">Energy Efficiency Terminology</td>
-<td class="right">February 2026</td>
+<td class="right">June 2026</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Chen, et al.</td>
-<td class="center">Expires 17 August 2026</td>
+<td class="center">Expires 29 December 2026</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1074,12 +1073,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-ietf-green-terminology-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2026-02-13" class="published">13 February 2026</time>
+<time datetime="2026-06-27" class="published">27 June 2026</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2026-08-17">17 August 2026</time></dd>
+<dd class="expires"><time datetime="2026-12-29">29 December 2026</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1146,7 +1145,7 @@ Such reference document helps framing discussion and agreeing upon a set of main
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 17 August 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 29 December 2026.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1357,98 +1356,121 @@ Management.<a href="#section-3-2.4.1" class="pilcrow">¶</a></p>
 received; power is usually expressed in watts (joules per second) (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.6.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.7">Energy Management:</dt>
+<dt id="section-3-2.7">Energy Management System (EnMS):</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.8">
-          <p id="section-3-2.8.1">Is a set of functions for measuring, modeling,
+          <p id="section-3-2.8.1">A combination of hardware and
+software used to administer a network, with the primary purpose of
+Energy Management.<a href="#section-3-2.8.1" class="pilcrow">¶</a></p>
+<div class="alignLeft art-text artwork" id="section-3-2.8.2">
+<pre>
+NOTES:
+
+1. An Energy Management System according to ISO50001 (ISO-EnMS)
+   is a set of systems or procedures upon which organizations can
+   develop and implement an energy policy, set targets and action
+   plans, and take into account legal requirements related to
+   energy use.  An ISO-EnMS allows organizations to improve energy
+   performance and demonstrate conformity to requirements,
+   standards, and/or legal requirements.
+
+2. For the purposes of EMAN, the definition herein is the
+   preferred meaning of an EnMS.
+</pre><a href="#section-3-2.8.2" class="pilcrow">¶</a>
+</div>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-3-2.9">Energy Management:</dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.10">
+          <p id="section-3-2.10.1">Is a set of functions for measuring, modeling,
 planning, and optimizing networks to ensure that the network and
 network-attached devices use energy efficiently and appropriately
 for the nature of the application and the cost constraints of the
-organization (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.8.1" class="pilcrow">¶</a></p>
+organization (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.10.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.9">Energy Monitoring:</dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.10">
-          <p id="section-3-2.10.1">Is a part of Energy Management that deals with
-collecting or reading information from devices to aid in Energy
-Management (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.10.1" class="pilcrow">¶</a></p>
-</dd>
-        <dd class="break"></dd>
-<dt id="section-3-2.11">Energy Control:</dt>
+<dt id="section-3-2.11">Energy Monitoring:</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.12">
           <p id="section-3-2.12.1">Is a part of Energy Management that deals with
-directing influence over devices (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.12.1" class="pilcrow">¶</a></p>
+collecting or reading information from devices to aid in Energy
+Management (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.12.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.13"></dt>
+<dt id="section-3-2.13">Energy Control:</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.14">
-          <p id="section-3-2.14.1">This control can span a network or a subset of it.<a href="#section-3-2.14.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.14.1">Is a part of Energy Management that deals with
+directing influence over devices (<span>[<a href="#RFC7326" class="cite xref">RFC7326</a>]</span>).<a href="#section-3-2.14.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.15">Energy Saving:</dt>
+<dt id="section-3-2.15"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.16">
-          <p id="section-3-2.16.1">A reduction in total energy consumption, typically measured against a baseline
-or per unit of output, rather than just a month-on-month decrease.<a href="#section-3-2.16.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.16.1">This control can span a network or a subset of it.<a href="#section-3-2.16.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.17">Energy Efficiency:</dt>
+<dt id="section-3-2.17">Energy Saving:</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.18">
-          <p id="section-3-2.18.1">Refers to optimizing energy usage in network components, devices, and across the network
+          <p id="section-3-2.18.1">A reduction in total energy consumption, typically measured against a baseline
+or per unit of output, rather than just a month-on-month decrease.<a href="#section-3-2.18.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-3-2.19">Energy Efficiency:</dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.20">
+          <p id="section-3-2.20.1">Refers to optimizing energy usage in network components, devices, and across the network
 to minimize energy use as much as possible, thus eliminating energy waste.
 Examples to improve Energy efficiency include, but are not limited to, deactivation of some or
 all components of network nodes during specific periods (e.g., periods with low traffic),
 adjusting the speed of an interface based on network traffic load changes, switching
 to more efficient power supplies and silicon, or developing more efficient transmission or signal
-processing algorithms.<a href="#section-3-2.18.1" class="pilcrow">¶</a></p>
+processing algorithms.<a href="#section-3-2.20.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.19">Energy Efficiency Management:</dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.20">
-          <p id="section-3-2.20.1">Refers to a set of processes used to maintain an inventory of capabilities,
+<dt id="section-3-2.21">Energy Efficiency Management:</dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.22">
+          <p id="section-3-2.22.1">Refers to a set of processes used to maintain an inventory of capabilities,
 use specific metrics to measure, report, and assess energy consumption of the network,
 and control the use of available energy in an optimized manner.
 The overall goal is to ensure that the network and underlying devices use energy in
 a resource-conserving manner and at low cost for the nature of the
 the services it provides and the cost constraints while achieving the
 network’s functional and performance requirements (e.g., improving overall network
-utilization).<a href="#section-3-2.20.1" class="pilcrow">¶</a></p>
+utilization).<a href="#section-3-2.22.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.21">Energy Efficiency Observability:</dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.22">
-          <p id="section-3-2.22.1">Is a component of Energy Efficiency Management that deals with collecting, reporting, and
-reading metrics information from devices and evaluating the effectiveness of
-energy-aware policies to aid in Energy Efficiency Management.<a href="#section-3-2.22.1" class="pilcrow">¶</a></p>
-</dd>
-        <dd class="break"></dd>
-<dt id="section-3-2.23">Energy Efficiency Control:</dt>
+<dt id="section-3-2.23">Energy Efficiency Observability:</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.24">
-          <p id="section-3-2.24.1">Is a component of Energy Efficiency Management that deals with directing influence over
-devices.<a href="#section-3-2.24.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.24.1">Is a component of Energy Efficiency Management that deals with collecting, reporting, and
+reading metrics information from devices and evaluating the effectiveness of
+energy-aware policies to aid in Energy Efficiency Management.<a href="#section-3-2.24.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.25">Energy Efficiency Capabilities:</dt>
+<dt id="section-3-2.25">Energy Efficiency Control:</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.26">
-          <p id="section-3-2.26.1">Network Capabilities to optimize energy usage in network components, devices, and across the network
+          <p id="section-3-2.26.1">Is a component of Energy Efficiency Management that deals with directing influence over
+devices.<a href="#section-3-2.26.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-3-2.27">Energy Efficiency Capabilities:</dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.28">
+          <p id="section-3-2.28.1">Network Capabilities to optimize energy usage in network components, devices, and across the network
    through configurable static attributes (e.g., power saving capable attribute which can be applied to
    both component level and device level, or power setting attributes which specify absolute power,
    relative power, who provide power, who consume, who is the meter, measurement frequency, or temperature
-   setting, voltage, ampere setting).<a href="#section-3-2.26.1" class="pilcrow">¶</a></p>
+   setting, voltage, ampere setting).<a href="#section-3-2.28.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.27">Energy Efficiency Metric:</dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.28">
-          <p id="section-3-2.28.1">Refers to a metric that is used for the assessment of energy consumption of
+<dt id="section-3-2.29">Energy Efficiency Metric:</dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.30">
+          <p id="section-3-2.30.1">Refers to a metric that is used for the assessment of energy consumption of
 a network, device, or component. One or more metrics can be defined. These metrics are also
 used for network performance purposes to characterize the effectiveness of an Energy
 Efficiency management strategy. Developing energy efficiency metrics for internetworking
 and associated measurement methodologies and conditions as well as consistently collecting this
 data over time are essential to demonstrating Energy Efficiency improvements.  An example of
-a common outcome-oriented metric is energy consumption per data volume or traffic unit.<a href="#section-3-2.28.1" class="pilcrow">¶</a></p>
+a common outcome-oriented metric is energy consumption per data volume or traffic unit.<a href="#section-3-2.30.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.29">Energy Proportionality</dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.30">
-          <p id="section-3-2.30.1">Is the correlation between energy used and the associated useful
+<dt id="section-3-2.31">Energy Proportionality</dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.32">
+          <p id="section-3-2.32.1">Is the correlation between energy used and the associated useful
  output.  For internetworking this is generally interpreted as the
  proportionality of traffic or traffic throughput and energy used.
  This concept is broadly applicable to networking infrastructure,
@@ -1456,94 +1478,94 @@ a common outcome-oriented metric is energy consumption per data volume or traffi
  might not be a one-to-one correlation between traffic and
  energy use, notably due to the materially significant idle power
  use by devices, as well as the overall network capacity being
- allocated to serve at times of highest traffic utilization.<a href="#section-3-2.30.1" class="pilcrow">¶</a></p>
+ allocated to serve at times of highest traffic utilization.<a href="#section-3-2.32.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.31">Energy Efficiency/Energy Efficiency Ratio (EER):</dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.32">
-          <p id="section-3-2.32.1">The energy efficiency is expressed as the ratio between the useful output and input of an
-energy conversion process of a network, device, or component.<a href="#section-3-2.32.1" class="pilcrow">¶</a></p>
-</dd>
-        <dd class="break"></dd>
-<dt id="section-3-2.33"></dt>
+<dt id="section-3-2.33">Energy Efficiency/Energy Efficiency Ratio (EER):</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.34">
-          <p id="section-3-2.34.1">For instance, in relation with a networking device, it can be stated as the ratio of total
-throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).<a href="#section-3-2.34.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.34.1">The energy efficiency is expressed as the ratio between the useful output and input of an
+energy conversion process of a network, device, or component.<a href="#section-3-2.34.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-2.35"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.36">
-          <p id="section-3-2.36.1">This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput forwarded by 1 watt
-(e.g., <span>[<a href="#I-D.ietf-bmwg-powerbench" class="cite xref">I-D.ietf-bmwg-powerbench</a>]</span>).<a href="#section-3-2.36.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.36.1">For instance, in relation with a networking device, it can be stated as the ratio of total
+throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).<a href="#section-3-2.36.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-2.37"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.38">
-          <p id="section-3-2.38.1">A higher EER indicates a better energy efficiency.<a href="#section-3-2.38.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.38.1">This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput forwarded by 1 watt
+(e.g., <span>[<a href="#I-D.ietf-bmwg-powerbench" class="cite xref">I-D.ietf-bmwg-powerbench</a>]</span>).<a href="#section-3-2.38.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.39">Energy-Aware Intent:</dt>
+<dt id="section-3-2.39"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.40">
-          <p id="section-3-2.40.1">A declarative, technology-agnostic expression of an energy-related operational objective for the network. Unlike imperative configurations that specify exactly how to achieve a result, an energy-aware intent focuses on what energy behavior is desired (e.g., minimize power consumption or optimize energy-to-throughput ratios), leaving the system to determine the best enforcement method.<a href="#section-3-2.40.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.40.1">A higher EER indicates a better energy efficiency.<a href="#section-3-2.40.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.41"></dt>
+<dt id="section-3-2.41">Energy-Aware Intent:</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.42">
-          <p id="section-3-2.42.1">Energy-aware intents (<span>[<a href="#RFC9315" class="cite xref">RFC9315</a>]</span>) are interpreted by network management or orchestration systems, which translate them into actionable control logic, such as powering down interfaces, reducing link speeds. These intents enable policy-driven, automated, and potentially closed-loop energy optimization aligned with business goals.<a href="#section-3-2.42.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.42.1">A declarative, technology-agnostic expression of an energy-related operational objective for the network. Unlike imperative configurations that specify exactly how to achieve a result, an energy-aware intent focuses on what energy behavior is desired (e.g., minimize power consumption or optimize energy-to-throughput ratios), leaving the system to determine the best enforcement method.<a href="#section-3-2.42.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.43">Power Usage Effectiveness (PUE):</dt>
+<dt id="section-3-2.43"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.44">
-          <p id="section-3-2.44.1">Refers to the metric used to measure the energy efficiency of an infrastructure.<a href="#section-3-2.44.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.44.1">Energy-aware intents (<span>[<a href="#RFC9315" class="cite xref">RFC9315</a>]</span>) are interpreted by network management or orchestration systems, which translate them into actionable control logic, such as powering down interfaces, reducing link speeds. These intents enable policy-driven, automated, and potentially closed-loop energy optimization aligned with business goals.<a href="#section-3-2.44.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.45"></dt>
+<dt id="section-3-2.45">Power Usage Effectiveness (PUE):</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.46">
-          <p id="section-3-2.46.1">This metric is calculated as the ratio between the total energy consumed by an infrastructure
-and the energy needed for a network element/component.<a href="#section-3-2.46.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.46.1">Refers to the metric used to measure the energy efficiency of an infrastructure.<a href="#section-3-2.46.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.47">Network Level Energy Efficiency (NLEE):</dt>
+<dt id="section-3-2.47"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.48">
-          <p id="section-3-2.48.1">Denotes the Energy Efficiency of an entire network or a subset part of it (e.g., access network).<a href="#section-3-2.48.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.48.1">This metric is calculated as the ratio between the total energy consumed by an infrastructure
+and the energy needed for a network element/component.<a href="#section-3-2.48.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.49">Device Level Energy Efficiency (DLEE):</dt>
+<dt id="section-3-2.49">Network Level Energy Efficiency (NLEE):</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.50">
-          <p id="section-3-2.50.1">Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network
+          <p id="section-3-2.50.1">Denotes the Energy Efficiency of an entire network or a subset part of it (e.g., access network).<a href="#section-3-2.50.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-3-2.51">Device Level Energy Efficiency (DLEE):</dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.52">
+          <p id="section-3-2.52.1">Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network
 elements providing the same functionality or a target to optimize the configuration of a
 network element. Here "Device Level" is equivalent to "System Level", which is considered as a
-"single device" or "single entity" from the measurement and reporting perspective.<a href="#section-3-2.50.1" class="pilcrow">¶</a></p>
+"single device" or "single entity" from the measurement and reporting perspective.<a href="#section-3-2.52.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.51">Component Level Energy Efficiency (CLEE):</dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.52">
-          <p id="section-3-2.52.1">Denotes the Energy Efficiency of a component of a network element. It can be used in the design,
+<dt id="section-3-2.53">Component Level Energy Efficiency (CLEE):</dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.54">
+          <p id="section-3-2.54.1">Denotes the Energy Efficiency of a component of a network element. It can be used in the design,
 development, and manufacturing of energy efficient network elements. Here "Component Level" is
 equivalent to "Sub-System Level", which is considered as an "abstract " or "incomplete specification"
-of a portion of a system from the measurement and reporting perspective.<a href="#section-3-2.52.1" class="pilcrow">¶</a></p>
-</dd>
-        <dd class="break"></dd>
-<dt id="section-3-2.53"></dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.54">
-          <p id="section-3-2.54.1">CLEE is useful to evaluate the energy efficiency performance of individual components of a network element.<a href="#section-3-2.54.1" class="pilcrow">¶</a></p>
+of a portion of a system from the measurement and reporting perspective.<a href="#section-3-2.54.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-2.55"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.56">
-          <p id="section-3-2.56.1">Measuring and understanding the energy efficiency or energy consumption of each component within
-a network element may be used to identify key components in a system with regard to energy saving.<a href="#section-3-2.56.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.56.1">CLEE is useful to evaluate the energy efficiency performance of individual components of a network element.<a href="#section-3-2.56.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.57">Service Level Energy Efficiency (SLEE):</dt>
+<dt id="section-3-2.57"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.58">
-          <p id="section-3-2.58.1">Denotes the total energy consumption attributed to delivering a specific service or application within a network segment.<a href="#section-3-2.58.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.58.1">Measuring and understanding the energy efficiency or energy consumption of each component within
+a network element may be used to identify key components in a system with regard to energy saving.<a href="#section-3-2.58.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.59"></dt>
+<dt id="section-3-2.59">Service Level Energy Efficiency (SLEE):</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.60">
-          <p id="section-3-2.60.1">SLEE enables operators to measure and report the per-service energy footprint, providing valuable insights for operational
-benchmarking, and capacity planning.<a href="#section-3-2.60.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.60.1">Denotes the total energy consumption attributed to delivering a specific service or application within a network segment.<a href="#section-3-2.60.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-3-2.61"></dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.62">
+          <p id="section-3-2.62.1">SLEE enables operators to measure and report the per-service energy footprint, providing valuable insights for operational
+benchmarking, and capacity planning.<a href="#section-3-2.62.1" class="pilcrow">¶</a></p>
 </dd>
       <dd class="break"></dd>
 </dl>
