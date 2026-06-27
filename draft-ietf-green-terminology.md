@@ -227,7 +227,7 @@ Adapted from {{IEC60050}}.
 Power Inlet (inlet, for short):
 : Is an interface at which a
 device  (or component) receives energy from another device  (or component)
-component ({{?RFC7326}}).
+{{?RFC7326}}.
 
 Power Outlet:
 : A power outlet (or simply "outlet") is an interface at which a
