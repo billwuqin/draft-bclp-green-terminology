@@ -187,6 +187,23 @@ Table of Contents
       for the nature of the application and the cost constraints of the
       organization ([RFC7326]).
 
+   Energy Management System (EnMS):  A combination of hardware and
+      software used to administer a network, with the primary purpose of
+      Energy Management.
+
+      NOTES:
+
+      1. An Energy Management System according to ISO50001 (ISO-EnMS)
+         is a set of systems or procedures upon which organizations can
+         develop and implement an energy policy, set targets and action
+         plans, and take into account legal requirements related to
+         energy use.  An ISO-EnMS allows organizations to improve energy
+         performance and demonstrate conformity to requirements,
+         standards, and/or legal requirements.
+
+      2. For the purposes of EMAN, the definition herein is the
+         preferred meaning of an EnMS.
+
    Energy Monitoring:  Is a part of Energy Management that deals with
       collecting or reading information from devices to aid in Energy
       Management ([RFC7326]).
