@@ -5,14 +5,14 @@
 GREEN Working Group                                              G. Chen
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 11 December 2026                                         Orange
+Expires: 29 December 2026                                         Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                               Individual
-                                                             9 June 2026
+                                                            27 June 2026
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 December 2026.
+   This Internet-Draft will expire on 29 December 2026.
 
 Copyright Notice
 
@@ -174,11 +174,12 @@ Table of Contents
 
    Power Factor:  Is the percent value between 0 and 1 that measures how
       effectively electrical power is being converted into useful work.
-      For energy objects powered by a power source in a data center
-      network, the power factor is typically considered to be 1.  This
-      information is important for understanding the electrical
-      characteristics of the energy object and for correctly
-      interpreting the power data.
+      It represents the ratio of real power (work done) to apparent
+      power (total power supplied) on a scale from 0 to 1.  For energy
+      objects powered by a Direct Current (DC)' power source, the power
+      factor is typically considered to be 1.  This information is
+      important for understanding the electrical characteristics of the
+      energy object and for correctly interpreting the power data.
 
    Energy Management:  Is a set of functions for measuring, modeling,
       planning, and optimizing networks to ensure that the network and
