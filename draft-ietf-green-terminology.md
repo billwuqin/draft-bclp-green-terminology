@@ -212,13 +212,13 @@ Power:
 
 Nameplate Power:
 : Is the nominal power of a device as specified by the device manufacturer.
+
 Device:
 : A piece of electrical or non-electrical equipment.
 Adapted from {{IEEE100}}.
 
 Component:
-: Is a part of electrical or non-electrical equipment
-(device).
+: Is a part of electrical or non-electrical equipment (device).
 Adapted from {{TMN}}.
 
 Meter (Energy Meter):
