@@ -560,6 +560,18 @@ KPI, defined as the ratio between the performance of the network slice and its e
 
 # Changes between Revisions
 
+   v01 - v02
+
+   * Moving Power factor and EnMS from framework draft to terminology draft
+
+   * Add the Nameplate Power definition
+
+   * Add Power Source Definition
+
+   * Add remaining EnMS related terminologies to terminology draft
+
+   * Add missing external references
+
    v00 - v01
 
    * Add two terms including Energy Object and energy saving.
