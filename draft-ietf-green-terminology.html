@@ -26,18 +26,18 @@ Such reference document helps framing discussion and agreeing upon a set of main
 <meta content="draft-ietf-green-terminology-latest" name="ietf.draft">
 <!-- Generator version information:
   xml2rfc 3.34.0
-    Python 3.14.5
+    Python 3.14.7
     ConfigArgParse 1.7.5
     google-i18n-address 3.1.1
     intervaltree 3.2.1
     Jinja2 3.1.6
     lxml 6.1.1
     natsort 8.4.0
-    platformdirs 4.10.0
+    platformdirs 4.11.7
     pycountry 24.6.1
     PyYAML 6.0.3
     requests 2.33.1
-    wcwidth 0.8.1
+    wcwidth 0.8.3
 -->
 <link href="draft-ietf-green-terminology.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
@@ -73,7 +73,6 @@ Such reference document helps framing discussion and agreeing upon a set of main
   src: local('Lora Italic'), local('Lora-Italic'), url('https://martinthomson.github.io/rfc-css/fonts/lora-italic-latin-ext.woff2') format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-
 @font-face {
   font-family: 'Lora';
   font-style: italic;
@@ -122,7 +121,6 @@ Such reference document helps framing discussion and agreeing upon a set of main
   src: local('Lora Regular'), local('Lora-Regular'), url('https://martinthomson.github.io/rfc-css/fonts/lora-regular-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 @font-face {
   font-family: 'Lora';
   font-style: normal;
@@ -187,7 +185,6 @@ Such reference document helps framing discussion and agreeing upon a set of main
   font-display: swap;
   src: local('Oxygen Mono'), local('OxygenMono-Regular'), url('https://martinthomson.github.io/rfc-css/fonts/oxygenmono-regular-latin.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
 }
 
 @font-face {
@@ -1056,11 +1053,11 @@ svg {
 <thead><tr>
 <td class="left">Internet-Draft</td>
 <td class="center">Energy Efficiency Terminology</td>
-<td class="right">June 2026</td>
+<td class="right">September 2026</td>
 </tr></thead>
 <tfoot><tr>
 <td class="left">Chen, et al.</td>
-<td class="center">Expires 1 January 2027</td>
+<td class="center">Expires 17 March 2027</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1073,12 +1070,12 @@ svg {
 <dd class="internet-draft">draft-ietf-green-terminology-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2026-06-30" class="published">30 June 2026</time>
+<time datetime="2026-09-13" class="published">13 September 2026</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2027-01-01">1 January 2027</time></dd>
+<dd class="expires"><time datetime="2027-03-17">17 March 2027</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1145,7 +1142,7 @@ Such reference document helps framing discussion and agreeing upon a set of main
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 1 January 2027.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 17 March 2027.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1562,83 +1559,80 @@ energy conversion process of a network, device, or component.<a href="#section-3
         <dd class="break"></dd>
 <dt id="section-3-2.57"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.58">
-          <p id="section-3-2.58.1">For instance, in relation with a networking device, it can be stated as the ratio of total
-throughput (e.g., of a network element capacity) to the total power consumed (bits/Joule).<a href="#section-3-2.58.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.58.1">For instance, in relation with a networking device, it can be stated as the ratio of
+throughput to the weighted power consumed (bits/Joule). In this context, the throughput
+metric may be taken either as the aggregate maximum non-drop forwarding rate across all
+interfaces, or as a weighted sum of the above mentioned maximum non-drop throughputs,
+where the weights reflect the intended traffic load distribution.<a href="#section-3-2.58.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-2.59"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.60">
-          <p id="section-3-2.60.1">This ratio (i.e., Energy Efficiency Ratio, EER) is the throughput forwarded by 1 watt
-(e.g., <span>[<a href="#I-D.ietf-bmwg-powerbench" class="cite xref">I-D.ietf-bmwg-powerbench</a>]</span>).<a href="#section-3-2.60.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.60.1">A higher EER indicates a better energy efficiency.<a href="#section-3-2.60.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.61"></dt>
+<dt id="section-3-2.61">Energy-Aware Intent:</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.62">
-          <p id="section-3-2.62.1">A higher EER indicates a better energy efficiency.<a href="#section-3-2.62.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.62.1">A declarative, technology-agnostic expression of an energy-related operational objective for the network. Unlike imperative configurations that specify exactly how to achieve a result, an energy-aware intent focuses on what energy behavior is desired (e.g., minimize power consumption or optimize energy-to-throughput ratios), leaving the system to determine the best enforcement method.<a href="#section-3-2.62.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.63">Energy-Aware Intent:</dt>
+<dt id="section-3-2.63"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.64">
-          <p id="section-3-2.64.1">A declarative, technology-agnostic expression of an energy-related operational objective for the network. Unlike imperative configurations that specify exactly how to achieve a result, an energy-aware intent focuses on what energy behavior is desired (e.g., minimize power consumption or optimize energy-to-throughput ratios), leaving the system to determine the best enforcement method.<a href="#section-3-2.64.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.64.1">Energy-aware intents (<span>[<a href="#RFC9315" class="cite xref">RFC9315</a>]</span>) are interpreted by network management or orchestration systems, which translate them into actionable control logic, such as powering down interfaces, reducing link speeds. These intents enable policy-driven, automated, and potentially closed-loop energy optimization aligned with business goals.<a href="#section-3-2.64.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.65"></dt>
+<dt id="section-3-2.65">Power Usage Effectiveness (PUE):</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.66">
-          <p id="section-3-2.66.1">Energy-aware intents (<span>[<a href="#RFC9315" class="cite xref">RFC9315</a>]</span>) are interpreted by network management or orchestration systems, which translate them into actionable control logic, such as powering down interfaces, reducing link speeds. These intents enable policy-driven, automated, and potentially closed-loop energy optimization aligned with business goals.<a href="#section-3-2.66.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.66.1">Refers to the metric used to measure the energy efficiency of an infrastructure.<a href="#section-3-2.66.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.67">Power Usage Effectiveness (PUE):</dt>
+<dt id="section-3-2.67"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.68">
-          <p id="section-3-2.68.1">Refers to the metric used to measure the energy efficiency of an infrastructure.<a href="#section-3-2.68.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.68.1">This metric is calculated as the ratio between the total energy consumed by an infrastructure
+and the energy needed for a network element/component.<a href="#section-3-2.68.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.69"></dt>
+<dt id="section-3-2.69">Network Level Energy Efficiency (NLEE):</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.70">
-          <p id="section-3-2.70.1">This metric is calculated as the ratio between the total energy consumed by an infrastructure
-and the energy needed for a network element/component.<a href="#section-3-2.70.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.70.1">Denotes the Energy Efficiency of an entire network or a subset part of it (e.g., access network).<a href="#section-3-2.70.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.71">Network Level Energy Efficiency (NLEE):</dt>
+<dt id="section-3-2.71">Device Level Energy Efficiency (DLEE):</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.72">
-          <p id="section-3-2.72.1">Denotes the Energy Efficiency of an entire network or a subset part of it (e.g., access network).<a href="#section-3-2.72.1" class="pilcrow">¶</a></p>
-</dd>
-        <dd class="break"></dd>
-<dt id="section-3-2.73">Device Level Energy Efficiency (DLEE):</dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.74">
-          <p id="section-3-2.74.1">Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network
+          <p id="section-3-2.72.1">Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network
 elements providing the same functionality or a target to optimize the configuration of a
 network element. Here "Device Level" is equivalent to "System Level", which is considered as a
-"single device" or "single entity" from the measurement and reporting perspective.<a href="#section-3-2.74.1" class="pilcrow">¶</a></p>
+"single device" or "single entity" from the measurement and reporting perspective.<a href="#section-3-2.72.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.75">Component Level Energy Efficiency (CLEE):</dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.76">
-          <p id="section-3-2.76.1">Denotes the Energy Efficiency of a component of a network element. It can be used in the design,
+<dt id="section-3-2.73">Component Level Energy Efficiency (CLEE):</dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.74">
+          <p id="section-3-2.74.1">Denotes the Energy Efficiency of a component of a network element. It can be used in the design,
 development, and manufacturing of energy efficient network elements. Here "Component Level" is
 equivalent to "Sub-System Level", which is considered as an "abstract " or "incomplete specification"
-of a portion of a system from the measurement and reporting perspective.<a href="#section-3-2.76.1" class="pilcrow">¶</a></p>
+of a portion of a system from the measurement and reporting perspective.<a href="#section-3-2.74.1" class="pilcrow">¶</a></p>
+</dd>
+        <dd class="break"></dd>
+<dt id="section-3-2.75"></dt>
+        <dd style="margin-left: 1.5em" id="section-3-2.76">
+          <p id="section-3-2.76.1">CLEE is useful to evaluate the energy efficiency performance of individual components of a network element.<a href="#section-3-2.76.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
 <dt id="section-3-2.77"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.78">
-          <p id="section-3-2.78.1">CLEE is useful to evaluate the energy efficiency performance of individual components of a network element.<a href="#section-3-2.78.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.78.1">Measuring and understanding the energy efficiency or energy consumption of each component within
+a network element may be used to identify key components in a system with regard to energy saving.<a href="#section-3-2.78.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.79"></dt>
+<dt id="section-3-2.79">Service Level Energy Efficiency (SLEE):</dt>
         <dd style="margin-left: 1.5em" id="section-3-2.80">
-          <p id="section-3-2.80.1">Measuring and understanding the energy efficiency or energy consumption of each component within
-a network element may be used to identify key components in a system with regard to energy saving.<a href="#section-3-2.80.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.80.1">Denotes the total energy consumption attributed to delivering a specific service or application within a network segment.<a href="#section-3-2.80.1" class="pilcrow">¶</a></p>
 </dd>
         <dd class="break"></dd>
-<dt id="section-3-2.81">Service Level Energy Efficiency (SLEE):</dt>
+<dt id="section-3-2.81"></dt>
         <dd style="margin-left: 1.5em" id="section-3-2.82">
-          <p id="section-3-2.82.1">Denotes the total energy consumption attributed to delivering a specific service or application within a network segment.<a href="#section-3-2.82.1" class="pilcrow">¶</a></p>
-</dd>
-        <dd class="break"></dd>
-<dt id="section-3-2.83"></dt>
-        <dd style="margin-left: 1.5em" id="section-3-2.84">
-          <p id="section-3-2.84.1">SLEE enables operators to measure and report the per-service energy footprint, providing valuable insights for operational
-benchmarking, and capacity planning.<a href="#section-3-2.84.1" class="pilcrow">¶</a></p>
+          <p id="section-3-2.82.1">SLEE enables operators to measure and report the per-service energy footprint, providing valuable insights for operational
+benchmarking, and capacity planning.<a href="#section-3-2.82.1" class="pilcrow">¶</a></p>
 </dd>
       <dd class="break"></dd>
 </dl>
@@ -1839,10 +1833,6 @@ The formula is defined in <span>[<a href="#L.1320" class="cite xref">L.1320</a>]
 <dt id="ETSI-ES-203-136">[ETSI-ES-203-136]</dt>
       <dd>
 <span class="refTitle">"Environmental Engineering (EE); Measurement methods for energy efficiency of router and switch equipment"</span>, <time datetime="2017" class="refDate">2017</time>, <span>&lt;<a href="https://www.etsi.org/deliver/etsi_es/203100_203199/203136/01.02.00_50/es_203136v010200m.pdf">https://www.etsi.org/deliver/etsi_es/203100_203199/203136/01.02.00_50/es_203136v010200m.pdf</a>&gt;</span>. </dd>
-<dd class="break"></dd>
-<dt id="I-D.ietf-bmwg-powerbench">[I-D.ietf-bmwg-powerbench]</dt>
-      <dd>
-<span class="refAuthor">Pignataro, C.</span>, <span class="refAuthor">Jacob, R.</span>, <span class="refAuthor">Fioccola, G.</span>, <span class="refAuthor">Wu, Q.</span>, <span class="refAuthor">Chen, G.</span>, and <span class="refAuthor">S. Prabhu</span>, <span class="refTitle">"Characterization and Benchmarking Methodology for Power in Networking Devices"</span>, <span class="refContent">Work in Progress</span>, <span class="seriesInfo">Internet-Draft, draft-ietf-bmwg-powerbench-02</span>, <time datetime="2026-06-30" class="refDate">30 June 2026</time>, <span>&lt;<a href="https://datatracker.ietf.org/doc/html/draft-ietf-bmwg-powerbench-02">https://datatracker.ietf.org/doc/html/draft-ietf-bmwg-powerbench-02</a>&gt;</span>. </dd>
 <dd class="break"></dd>
 <dt id="IEC60050">[IEC60050]</dt>
       <dd>
