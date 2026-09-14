@@ -149,7 +149,7 @@ Efficiency (and relevant aspects), (3) assist in the development of the YANG dat
 IETF, and (4) bring clarity to the Energy Efficiency related discussions between different groups within the IETF, in
 particular.
 
-This document does not intend to define a comprehensive list of energy-related terms. Only key terms are defined.
+This document does not intend to define an exhaustive list of energy-related terms. Only key terms are defined.
 Some of these terms are extracted from existing IETF documents and beyond.
 
 Also, {{sec-metrics}} provides an inventory of currently used metrics to assess/compute energy-related consumption,
@@ -183,7 +183,7 @@ MSAN:
 :  Multiservice Access Node
 
 NDR:
-:  None-Drop Rate
+:  Non-Drop Rate
 
 NLEE:
 : Network Level Energy Efficiency
@@ -199,16 +199,16 @@ SLEE:
 Terms are listed so that terms that are needed to understand other terms are listed first.
 
 Energy:
-: Is generally a reference to electrical energy and is measured in kilowatt-hours (kWh) ({{?RFC7326}}).
+: Is generally a reference to electrical energy and is measured in kilowatt-hours (kWh) {{?RFC7326}}.
 
 Energy Object:
-: Represents an equipment that is part of, or attached to, a communications
+: Represents an equipment that is part of, or attached to, a communication
 network that is monitored or controlled or that aids in the management of another device for Energy
 Management.
 
 Power:
 : Refers to the time rate at which energy is emitted, transferred, or
-  received; power is usually expressed in watts (joules per second) ({{?RFC7326}}).
+  received. Power is usually expressed in watts (joules per second) {{?RFC7326}}.
 
 Nameplate Power:
 : Is the nominal power of a device as specified by the device manufacturer {{?RFC7326}}.
@@ -222,7 +222,7 @@ Component:
 Adapted from {{TMN}}.
 
 Meter (Energy Meter):
-: Is a device/component that is intended to measure electrical energy by
+: Is a device (or component) that is intended to measure electrical energy by
 integrating power with respect to time.
 Adapted from {{IEC60050}}.
 
@@ -237,20 +237,19 @@ device  (or component)  provides energy to another device  (or component)
 {{?RFC7326}}.
 
 Power Interface:
-: A Power Interface is a power inlet, outlet, or both ({{?RFC7326}}).
+: Is a power inlet, outlet, or both {{?RFC7326}}.
 
 Power State:
-: A Power State is a condition or mode of a device (or component)
+: Is a condition or mode of a device (or component)
 that broadly characterizes its capabilities, power, and
-responsiveness to input.
-Reference: Adapted from {{IEEE1621}}.
+responsiveness to input. Adapted from {{IEEE1621}}.
 
 Power State Set:
-: A Power State Set is a collection of Power States that comprises a
+: Is a collection of Power States that comprises a
 named or logical control grouping.
 
 Power Source:
-: is any device, component that generates, stores, or supplies electrical
+: Is any device, component that generates, stores, or supplies electrical
 or mechanical energy to a circuit or device.
 
 Power Factor:
@@ -289,11 +288,11 @@ Energy Management.
 Energy Monitoring:
 : Is a part of Energy Management that deals with
   collecting or reading information from devices to aid in Energy
-  Management ({{?RFC7326}}).
+  Management {{?RFC7326}}.
 
 Energy Control:
 : Is a part of Energy Management that deals with
-  directing influence over devices ({{?RFC7326}}).
+  directing influence over devices {{?RFC7326}}.
 : This control can span a network or a subset of it.
 
 Energy Saving:
@@ -347,10 +346,10 @@ Energy Efficiency Metric:
 
 Energy Proportionality
 : Is the correlation between energy used and the associated useful
- output.  For internetworking this is generally interpreted as the
+ output.  In networking, this is generally interpreted as the
  proportionality of traffic or traffic throughput and energy used.
- This concept is broadly applicable to networking infrastructure,
- data center, and other communication architectures.  There
+ This concept is broadly applicable to networking infrastructures,
+ data centers, and other communication architectures.  There
  might not be a one-to-one correlation between traffic and
  energy use, notably due to the materially significant idle power
  use by devices, as well as the overall network capacity being
@@ -362,13 +361,13 @@ Energy Efficiency/Energy Efficiency Ratio (EER):
 : For instance, in relation with a networking device, it can be stated as the ratio of
 throughput to the weighted power consumed (bits/Joule). In this context, the throughput
 metric may be taken either as the aggregate maximum non-drop forwarding rate across all
-interfaces, or as a weighted sum of the above mentioned maximum non-drop throughputs,
+interfaces of a networking device or as a weighted sum of the above mentioned maximum non-drop throughputs,
 where the weights reflect the intended traffic load distribution.
-: A higher EER indicates a better energy efficiency.
+: A higher EER value indicates a better energy efficiency.
 
 Energy-Aware Intent:
 : A declarative, technology-agnostic expression of an energy-related operational objective for the network. Unlike imperative configurations that specify exactly how to achieve a result, an energy-aware intent focuses on what energy behavior is desired (e.g., minimize power consumption or optimize energy-to-throughput ratios), leaving the system to determine the best enforcement method.
-: Energy-aware intents ({{?RFC9315}}) are interpreted by network management or orchestration systems, which translate them into actionable control logic, such as powering down interfaces, reducing link speeds. These intents enable policy-driven, automated, and potentially closed-loop energy optimization aligned with business goals.
+: Energy-aware intents {{?RFC9315}} are interpreted by network management or orchestration systems, which translate them into actionable control logic, such as powering down interfaces, reducing link speeds. These intents enable policy-driven, automated, and potentially closed-loop energy optimization aligned with business goals.
 
 Power Usage Effectiveness (PUE):
 : Refers to the metric used to measure the energy efficiency of an infrastructure.
@@ -381,7 +380,7 @@ Network Level Energy Efficiency (NLEE):
 Device Level Energy Efficiency (DLEE):
 : Denotes the Energy Efficiency of a network element.  It can be used, e.g., to compare network
   elements providing the same functionality or a target to optimize the configuration of a
-  network element. Here "Device Level" is equivalent to "System Level", which is considered as a
+  network element. In this context, "Device Level" is equivalent to "System Level", which is considered as a
   "single device" or "single entity" from the measurement and reporting perspective.
 
 Component Level Energy Efficiency (CLEE):
