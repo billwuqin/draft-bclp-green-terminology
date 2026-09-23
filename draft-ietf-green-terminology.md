@@ -373,7 +373,7 @@ reflect the intended traffic load distribution.
 
 Energy-Aware Intent:
 : A declarative, technology-agnostic expression of an energy-related operational objective
-for the network. Unlike imperative configurations that specify exactly how to achieve a
+for the system (network, node, etc.). Unlike imperative configurations that specify exactly how to achieve a
 result, an energy-aware intent focuses on what energy behavior is desired (e.g., minimize
 power consumption or optimize energy-to-throughput ratios), leaving the system to determine
 the best enforcement method.
