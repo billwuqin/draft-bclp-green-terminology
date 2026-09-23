@@ -377,7 +377,7 @@ for the system (network, node, etc.). Unlike imperative configurations that spec
 result, an energy-aware intent focuses on what energy behavior is desired (e.g., minimize
 power consumption or optimize energy-to-throughput ratios), leaving the system to determine
 the best enforcement method.
-: Energy-aware intents ({{?RFC9315}}) are interpreted by network management or orchestration
+: Energy-aware intents are interpreted by network management or orchestration
 systems, which translate them into actionable control logic, such as powering down interfaces,
 reducing link speeds. These intents enable policy-driven, automated, and potentially
 closed-loop energy optimization aligned with business goals.
