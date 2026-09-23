@@ -363,7 +363,7 @@ Energy Efficiency/Energy Efficiency Ratio (EER):
 throughput to the weighted power consumed (bits/Joule). In this context, the throughput
 metric may be taken either as the aggregate maximum non-drop forwarding rate across all
 interfaces, or as a weighted sum of the above mentioned maximum non-drop throughputs,
-where the weights reflect the intended traffic load distribution. 
+where the weights reflect the intended traffic load distribution.
 : A higher EER indicates a better energy efficiency.
 
 Energy-Aware Intent:
