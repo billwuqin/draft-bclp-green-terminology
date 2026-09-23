@@ -211,7 +211,12 @@ Power:
   received. Power is usually expressed in watts (joules per second) {{?RFC7326}}.
 
 Nameplate Power:
-: Is the nominal power of a device as specified by the device manufacturer {{?RFC7326}}.
+: The maximum continuous power a hardware component
+is designed to consume or deliver, as specified by the
+manufacturer. It is a rated design value, not an expected
+operating one, and does not change during operation. For any
+supported Power State, the power drawn in that state MUST NOT
+exceed the Nameplate Power of the component.
 
 Device:
 : A piece of electrical or non-electrical equipment.
