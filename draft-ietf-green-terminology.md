@@ -215,7 +215,7 @@ Nameplate Power:
 is designed to consume or deliver, as specified by the
 manufacturer. It is a rated design value, not an expected
 operating one, and does not change during operation. For any
-supported Power State, the power drawn in that state MUST NOT
+supported Power State, the power drawn in that state must not
 exceed the Nameplate Power of the component.
 
 Device:
