@@ -342,12 +342,12 @@ Table of Contents
       consumption or optimize energy-to-throughput ratios), leaving the
       system to determine the best enforcement method.
 
-      Energy-aware intents ([RFC9315]) are interpreted by network
-      management or orchestration systems, which translate them into
-      actionable control logic, such as powering down interfaces,
-      reducing link speeds.  These intents enable policy-driven,
-      automated, and potentially closed-loop energy optimization aligned
-      with business goals.
+      Energy-aware intents are interpreted by network management or
+      orchestration systems, which translate them into actionable
+      control logic, such as powering down interfaces, reducing link
+      speeds.  These intents enable policy-driven, automated, and
+      potentially closed-loop energy optimization aligned with business
+      goals.
 
    Power Usage Effectiveness (PUE):  Refers to the metric used to
       measure the energy efficiency of an infrastructure.
@@ -567,11 +567,6 @@ Table of Contents
               "Energy Management Framework", RFC 7326,
               DOI 10.17487/RFC7326, September 2014,
               <https://www.rfc-editor.org/rfc/rfc7326>.
-
-   [RFC9315]  Clemm, A., Ciavaglia, L., Granville, L. Z., and J.
-              Tantsura, "Intent-Based Networking - Concepts and
-              Definitions", RFC 9315, DOI 10.17487/RFC9315, October
-              2022, <https://www.rfc-editor.org/rfc/rfc9315>.
 
    [TMN]      "International Telecommunication Union, "TMN management
               functions"", February 2000, <ITU-T Recommendation M.3400>.
