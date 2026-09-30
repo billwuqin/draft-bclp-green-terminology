@@ -407,7 +407,7 @@ Service Level Energy Efficiency (SLEE):
 : Denotes the total energy consumption attributed to delivering a specific service or application
 within a network segment.
 : SLEE enables operators to measure and report the per-service energy footprint, providing valuable
-insights for operational benchmarking, and capacity planning.
+insights for operational benchmarking and capacity planning.
 
 # Sample Energy Efficiency Metrics and Measurement Methods {#sec-metrics}
 
