@@ -5,14 +5,14 @@
 GREEN Working Group                                              G. Chen
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 18 March 2027                                            Orange
+Expires: 3 April 2027                                             Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                               Individual
-                                                       14 September 2026
+                                                       30 September 2026
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 18 March 2027.
+   This Internet-Draft will expire on 3 April 2027.
 
 Copyright Notice
 
@@ -172,8 +172,12 @@ Table of Contents
       transferred, or received.  Power is usually expressed in watts
       (joules per second) [RFC7326].
 
-   Nameplate Power:  Is the nominal power of a device as specified by
-      the device manufacturer [RFC7326].
+   Nameplate Power:  The maximum continuous power a hardware component
+      is designed to consume or deliver, as specified by the
+      manufacturer.  It is a rated design value, not an expected
+      operating one, and does not change during operation.  For any
+      supported Power State, the power drawn in that state must not
+      exceed the Nameplate Power of the component.
 
    Device:  A piece of electrical or non-electrical equipment.  Adapted
       from [IEEE100].
