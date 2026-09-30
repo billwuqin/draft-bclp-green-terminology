@@ -5,14 +5,14 @@
 GREEN Working Group                                              G. Chen
 Internet-Draft                                                    Huawei
 Intended status: Informational                              M. Boucadair
-Expires: 27 March 2027                                            Orange
+Expires: 3 April 2027                                             Orange
                                                                    Q. Wu
                                                                   Huawei
                                                          L. M. Contreras
                                                               Telefonica
                                                               M. Palmero
                                                               Individual
-                                                       23 September 2026
+                                                       30 September 2026
 
 
           Terminology for Energy Efficiency Network Management
@@ -59,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 27 March 2027.
+   This Internet-Draft will expire on 3 April 2027.
 
 Copyright Notice
 
@@ -385,7 +385,7 @@ Table of Contents
 
       SLEE enables operators to measure and report the per-service
       energy footprint, providing valuable insights for operational
-      benchmarking, and capacity planning.
+      benchmarking and capacity planning.
 
 4.  Sample Energy Efficiency Metrics and Measurement Methods
 
