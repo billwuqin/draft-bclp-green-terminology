@@ -565,6 +565,16 @@ KPI, defined as the ratio between the performance of the network slice and its e
 
 # Changes between Revisions
 
+   v02 - v03
+
+   * Remove powerbench reference, allow powerbench draft reference this draft.
+
+   * Update Nameplate power to align with YANG data model WG draft and Capability discovery discussion.
+
+   * Clarify the throught meric calculation and weight definition.
+
+   * Other Editorial changes.
+
    v01 - v02
 
    * Moving Power factor and EnMS from framework draft to terminology draft
