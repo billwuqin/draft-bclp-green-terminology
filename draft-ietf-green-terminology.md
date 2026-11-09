@@ -258,12 +258,12 @@ Power Source:
 or mechanical energy to a circuit or device.
 
 Power Factor:
-: Is the percent value between 0 and 1 that measures how effectively electrical power is being
-converted into useful work. It represents the ratio of real power (work done) to apparent power
-(total power supplied) on a scale from 0 to 1. For energy objects powered by a Direct Current (DC)'
-power source, the power factor is typically considered to be 1. This information is important for
-understanding the electrical characteristics of the energy object and for correctly interpreting the
-power data.
+: Is the percentage value between 0% and 100% that represents the ratio of real power (work done)
+to apparent power (total power supplied). It indicates how effectively electrical power is drawn
+from the source, not how effectively it is converted into useful work, which is efficiency. For
+energy objects powered by a Direct Current (DC) power source, the power factor is considered to
+be 100%. This information is important for both understanding the electrical characteristics of the
+energy object and for correctly interpreting the power data.
 
 Energy Management:
 : Is a set of functions for measuring, modeling,
