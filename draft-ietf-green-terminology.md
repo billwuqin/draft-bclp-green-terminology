@@ -67,11 +67,8 @@ informative:
    date: 2004-12
 
  IEC60050:
-   target: http://www.iec.ch/smartgrid/standards/
-   title: Power Utility Automation
-   author:
-   org: IEC
-   date: 2000-12-11
+   title: International Electrotechnical Vocabular
+   target: http://www.electropedia.org/iev/iev.nsf/welcome?openform
 
  ETSI-ES-203-136:
    title: Environmental Engineering (EE); Measurement methods for energy efficiency of router and switch equipment
